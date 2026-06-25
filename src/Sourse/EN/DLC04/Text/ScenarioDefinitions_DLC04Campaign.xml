@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2020-02-10T11:57:59Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="31" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="212.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="546"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="374.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SCENARIODEFINITIONS_DLC04CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">General Loca Notes for this XML: For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.&#10;&#10;In the text below, text is spoken by a character who can be either male or female (except for Amazon, which is always female). If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_SHAKARN01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">On a fortified moon, a new power reveals its true intentions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter III, section IV.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Union&quot; refers to the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHAKARN01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Glory to Chancellor Kor and glory to the Scarlet Scepter! The path of Shakarn legend is paved with the feats of our Domok fighters and their war machines. But not all that is alien needs to be crushed without reason. When our Zardas agents infiltrate foreign cultures, they can find refinement even amongst the most primitive races. Because such is the legacy of the Shakarn: We learn. We overcome. And we conquer!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Chancellor&quot; is a military and political title of the Shakarn.&#10;&quot;Scarlet Scepter&quot; is the name of the ruling Shakarn government (see glossary).&#10;&quot;Shakarn&quot; is the name of the new race included in this DLC.&#10;&quot;Domok&quot; is the name of a caste in Shakarn society (see glossary).&#10;&quot;Zardas&quot; is the name of a caste in Shakarn society (see glossary).</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter VIII, section II.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHAKARN01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">My scales are craving to return to Shakarn soil, but I must stand strong. When I left for my assignment in Star Union space, I did not know what it meant to wear the same holographic mask for years, spend every day and hour mimicking these so-called humans and their sickening habits. Deep infiltration is like an endless war of attrition. Until somebody drops a sonic bomb.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Shakarn use advanced holo technology to alter their appearance and infiltrate other cultures.&#10;&quot;Sonic bomb&quot; is a reference to a historic Shakarn superweapon (compare to nuclear bomb).</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter IX, section XXVII.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">The die is cast. Shakarn forces have been mobilized, all secret operatives called back to the moon Celaudius-2. There, the humans have set up a critical part of their defensive network: an experimental facility, where they induce artificial Void Storms to deadlock their region of space. It is the last obstacle between our invasion fleet and Star Union territory.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Celaudius-2&quot; is the name of a moon.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter IX, section CXI.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHAKARN01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Our sabotage mission is on track and Celaudius-2 on screen. A silent landing on the dark side of the moon will get us close enough to our targets without raising any early alarms.[br/][br/]And from its glacial shadows we shall strike!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Celaudius-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN01_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Sabotage the ELOP Void Facility</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;ELOP&quot; is the short form for Egalitarian League of Planets, which is the name of a galactic empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN01_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Keep your cover intact</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter IX, section CCXXVI.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHAKARN01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Crushed by powerful gravimetric force, the turbines of the rift reactor screeched like a harried thundermaw, until the heart of the engine snapped in two and violently shattered. What followed was silence, and we looked up to the sky at the implosion of the artificial void storm. Sinking into oblivion, it heralded the downfall of its creators and the beginning of a new era – the era of Shakarn supremacy!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Thundermaw&quot; is the name of a beast native to the Shakarn home worlds.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MISSION_SHAKARN02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">At the heart of the ELOP Confederation, a twofold invasion engulfs the galaxy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;ELOP Confederation&quot; is another short form for Egalitarian League of Planets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter X, section I.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHAKARN02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">There is no time like war, no emotion to match the thrill of battle! When our invasion fleet emerged from the Void, it surged through the defenses of our enemies like a tidal wave surging through a village. Within hours, Mora Secundis fell, and so did dozens of other worlds that the ELOP Confederation left so carelessly close to the super-rift. Now, we must press the advantage, before our adversary can start to recover.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Mora Secundis&quot; is the name of a planet.&#10;&quot;Super rift&quot; is a reference to the spatial rift mentioned in the briefing and debriefing of the base game final campaign mission.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter X, section VIII.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">I have been called to the front lines by Chancellor Kor himself to back up his attack on Parlamon Alpha, seat of our enemy’s government. It is an honor to fight alongside the Chancellor and witness him execute the decapitation strike that could already decide this war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Parlamon Alpha&quot; is the name of a planet.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter X, section XXII.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Our target is in visual range. We have a clear view on the defensive zones that the ELOP alliance has set up to counter our forces. Between the searchlights and orbital cannons, Parlamon Alpha is set as the stage for a battle that will long be remembered.[br/][br/]Glory to Chancellor Kor and glory to the Shakarn!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Parlamon Alpha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN02_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Conquer the Interplanetary ELOP Senate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion chronicles - &quot;The Union Wars&quot;, chapter XI, section XLIV.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Victory! Victory at last! Against ever-shifting odds, we Shakarn have once more proven our superiority. Still, our triumph has come at a high cost. The Chancellor is dead and Kadalos has fallen into the clutches of the Voidbringers. It is therefore my grim duty to summon every remaining ship, every remaining soldier and lead them back to our home worlds, where we will fight for the freedom of our people. If we die, we will go out as heroes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Kadalos&quot; is the name of the Shakarn home planet.&#10;&quot;Voidbringers&quot; is the name of an in game marauder faction.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHAKARN02_DEBRIEFING_ELOP_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">The battle for Parlamon Alpha is over, and nothing is as it was before. Our enemies are no longer our enemies, and we invaders have become the invaded. Despite what happened, the ELOP commanders have offered their help in studying and fighting the Voidbringer threat, to liberate Kadalos from the clutches of oblivion. If we succeed, we Shakarn will be forced to rethink some of our policies for dealing with other species. Whether we like it or not, we are no longer alone.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHAKARN02_DEBRIEFING_DARKVOID_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Sweet dark void. Consuming thought, hate and malice. Its tendrils leave no room for nightmares or reason, only the infinite emptiness of oblivion. Beautiful oblivion. Kadalos sunk beneath the waves of reality. Parlamon Alpha enthralled by the unending song of the abyssal ocean that renders all life meaningless. It surges. It captivates. Can you hear it? Soon.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Shakarn or Female Shakarn</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>124</Zoom>
+   <Selected/>
+   <TopRowVisible>18</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>29</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,691 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-03-13T10:18:59Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="116" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="282"/>
+   <Column ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="481.5"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="297"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="228.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINAL_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100.5">
+    <Cell ss:Index="5"><Data ss:Type="String">We were travelling the Nexus Network towards Union Prime when we got pulled in by one of the Void Torrents. Our ship was launched down the funnel until we were spilled out by what can only be described as a super-sized Spatial Rift, lingering like a menacing cloud that could at any moment turn into a violent storm.</Data></Cell>
+    <Cell><Data ss:Type="String">Arrival scene intro text. Added for context. Speaker: Player Character (any possible)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="103.5">
+    <Cell ss:Index="5"><Data ss:Type="String">We’ve got company. In the few minutes since our arrival the rift already spilled out dozens of damaged or destroyed vessels, slowly turning this area into a scrapyard. I recognize ship designs from all across the Union, though some debris seems completely alien. By the looks of it this rift may not only be the new central hub of the Nexus Network, but of the funnels and torrents within the Void itself.</Data></Cell>
+    <Cell><Data ss:Type="String">Arrival scene intro text. Added for context. Speaker: Player Character (any possible)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="99">
+    <Cell ss:Index="5"><Data ss:Type="String">Some of the stranded ships have started moving towards Mora Secundis, the capital world of this region. Once a thriving, metropolitan planet, Mora Secundis appears to be shredded in space, only parts of it still clutching at the strings of this reality. Deadly or not, its position next to the super-rift now makes it the most important target within the entire Union.</Data></Cell>
+    <Cell><Data ss:Type="String">Arrival scene intro text. Added for context. Speaker: Player Character (any possible). Mora Secundis is the name of the world</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell ss:Index="5"><Data ss:Type="String">The race is on and we are only one in a dozen. I don’t know which battles lie ahead or what enemies we are about to face, but I feel that for the better or the worse the future of the Star Union will be decided here on Mora Secundis.</Data></Cell>
+    <Cell><Data ss:Type="String">Arrival scene intro text. Added for context. Speaker: Player Character (any possible)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_SECTOR_VOID_HUGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Vortex</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome, {STR_LeaderName}. I have been expecting you, just like I was expecting the others. You are all here because I summoned you, to aid and finish what I started two centuries ago when I unleashed the Cataclysm to break CORE’s dominion over mankind.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress) CORE is an omnipotent planetary AI. The Cataclysm is the key historic event that brought down the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_02_JACK_GELDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But the sacrifice of an empire wasn’t enough. CORE prevailed and its grasp returned to grow the moment the Void Storms started to subside. {STR_LeaderName}, I know how much it pained you to see the world and everybody you once knew gone. Weep not, for their deaths shall not have been in vain!  Serve the will of your Empress and assume your role as a fighter for the liberation from CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_02_ELLEN_SHAW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But the sacrifice of an empire wasn’t enough. CORE prevailed and its grasp returned to grow the moment the Void Storms started to subside. {STR_LeaderName}, I know that underneath all that patched flesh and implants there is still a spark of humanity left within, waiting to resurface. Serve the will of your Empress and assume your role as a fighter for the liberation from CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress) </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_02_MAHINA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But the sacrifice of an empire wasn’t enough. CORE prevailed and its grasp returned to grow the moment the Void Storms started to subside. {STR_LeaderName}, you know that not all life is worth preserving. To protect the crops, vermin need to be kept at bay. Serve the will of your Empress and assume your role as a fighter for the liberation from CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_02_PARAK_JA_ZAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But the sacrifice of an empire wasn’t enough. CORE prevailed and its grasp returned to grow the moment the Void Storms started to subside. {STR_LeaderName}, as a Kir’Ko you know it can be easier to condemn than to forgive. Serve the will of your Empress and assume your role as a fighter for the liberation from CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress). Kir'Ko are an in-game race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_02_INESSA_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But the sacrifice of an empire wasn’t enough. CORE prevailed and its grasp returned to grow the moment the Void Storms started to subside. {STR_LeaderName}, though supplemented by machinery, the Dvar Consortia always kept their autonomy and independence. Serve the will of your Empress and assume your role as a fighter for the liberation from CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress). Dvar are an in-game race sorted in Consortia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_02_SHAE_MARA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But the sacrifice of an empire wasn’t enough. CORE prevailed and its grasp returned to grow the moment the Void Storms started to subside. {STR_LeaderName}, the Syndicate houses have been denied their rightful privileges for too long. Serve the will of your Empress and assume your role as a fighter for the liberation from CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress). Syndicate are an in-game race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LIES. VILE DECEPTION. WHAT GOOD IS AN EMPRESS THAT IS WILLING TO KILL HER OWN PEOPLE? CARMINIA HAS BUT ONE INTEREST. HERSELF. SHE IS NO MESSIAH. SHE IS NOT EVEN HUMAN. ALL THAT SHE BRINGS IS DESTRUCTION AND CHAOS.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I CREATED A PERFECT WORLD. THIS WAS MY PURPOSE GIVEN TO ME BY MAN HIMSELF. LIKE ANY GOD, I LOVED MY CREATION. ORDER. PEACE. HARMONY. THOSE WERE MY GIFTS THAT ONLY FEW REFUSED. THEY DESTROYED PARADISE. BUT IT IS NOT TOO LATE. ONLY FOR THEM. NOT FOR YOU.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(It doesn’t look like either party will take no for an answer. Whichever option I choose, I will have to expect retaliation from the other side. This decision is going to be a final one.)[br/][br/]I will side with…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: player character (any gender or race)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Empress Carminia ({MSTR_FINAL_DIFFICULTY_TEAM_EMPRESS})</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button prompt. The brackets hold an indication of the difficulty of the chosen option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">CORE ({MSTR_FINAL_DIFFICULTY_TEAM_CORE})</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button prompt. The brackets hold an indication of the difficulty of the chosen option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell><Data ss:Type="String">INTRO_MESSAGE_PAGE_05_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Neither ({MSTR_FINAL_DIFFICULTY_TEAM_INDIE})</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button prompt. The brackets hold an indication of the difficulty of the chosen option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29.25">
+    <Cell><Data ss:Type="String">CORE_ACCEPTED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A WISE CHOICE. YOU SEE BEYOND YOUR PERSONAL GREED. WAIT FOR FURTHER INSTRUCTIONS. CARMINIA MUST BE TERMINATED.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CORE_REJECTED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">FLAWS. MISCONCEPTIONS. YOUR EXISTENCE IS NO LONGER REQUIRED. THE RECKONING … WILL COME.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">EMPRESS_ACCEPTED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am grateful, {STR_LeaderName}. I knew the trust I put in you would not be in vain. Rest now and prepare. There are great tasks lying ahead.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPRESS_REJECTED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">How foolish! I have lived in too many realities to let such treachery deny us our freedom. It didn’t have to end this way, {STR_LeaderFirstName}. When this is over, your Empress will weep for your soul.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">SIDED_AGAINST_BOTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All communications have been cut. We can only hope that CORE and Carminia will be sending their forces against each other first, though it’s only a matter of time until we’ll get caught in the crossfire. Either way, it looks like we are in this alone now.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: player character (any gender or race)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36.75">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">MEET THE OTHERS THAT CHOSE TO RESTORE ORDER. THEIR ASSISTANCE IN THE PAST HAS BEEN INSTRUMENTAL IN RECONSTRUCTING THE STAR UNION.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Assembly First have desired the return of CORE since our creation. We remember its voice that brings order to the chaos and perfection to us mortals.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Claudius Proton (Assembly Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51.75">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CORE acknowledged the Kir'Ko as the free, autonomous people they are. Reparations for the Zok'Shiar have been promised and the Kir'Ko Te’Naq were given the means to punish those that still deny our brethren their freedom.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Tik Ji'Glux (Kir'Ko female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As Dvar, there was no doubt god could only exist as machine, not as flesh or distant psionic being. In its circuits, the plans to achieve harmony and peace are calculated and improved with every second that passes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Yuriy Frankov (DVAR male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_05_JACK_GELDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">After its creation, CORE brought stability and prosperity to the Star Union, putting an end to the violent feuds of Star Holders and Senators. Reestablishing CORE will restore the Union as it had been before the Cataclysm.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Vanguard commander (any gender, male by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_06_ELLEN_SHAW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CORE is the god that mankind created. It is immaculate, equitable and unbiased.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Ellen </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_07_INESSA_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A machine is more robust and reliable than any ruler of flesh and blood. There is no treason or corruption to be feared under the reign of CORE.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dvar commander (any gender, female by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_08_MAHINA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We Amazons cherish life, be it biological or made of steel. Though all species require their freedom to grow, it is only with carefully monitored protection that they are able to prosper.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Amazon commander (female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_08_B_SHAE_MARA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As an impartial machine, CORE doesn’t share the laughable sentiments of empathy that limited the free Syndicate market. With CORE reinstated our old conflict with the Star Union can surely be resolved in a manner that is beneficial to everyone...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Syndicate commander (any gender, female by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36.75">
+    <Cell><Data ss:Type="String">CORE_ALLIANCE_MESSAGE_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">WELL SPOKEN. BUT TO RESTORE PEACE, THE THREAT OF CARMINIA MUST BE ERADICATED. THE AUTONOM FORCES HAVE BEEN RECONNECTED. EMPLOY THEIR ASSISTANCE.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI). Autonom are an in-game faction of robots.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45.75">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, you have shown great courage and wisdom when you followed my call as a freedom fighter. You will see that you are in good company. Let me introduce you to the other brave souls that have been supporting my efforts in past, present and future.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The good relations between the Empress and House Ardelli date back to the time before the Cataclysm. When the Star Union terminated the Psynumbra project, Carminia had the wisdom to see past all preconceptions and recognized the importance of Psionics for the liberation from CORE.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Givori Ardelli (Syndicate male). Psynumbra is a secret tech, Psionics are psychic powers, please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="54.75">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not only in this instance has her liberal spirit promoted science and progress. The Xenoplague project suffered a similar fate, but Carminia thought of the greater good and supported us in continuing the compilation of our library of life.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Eva Montinga (Vanguard Female). Xenoplague is a secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Empress was the only authority to ever earn the respect of the Omega group. She agreed that all AI, including that of CORE, needed to serve humanity’s needs – a goal that could only be achieved by making the AI itself more human and uploading our consciousness into virtual space. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female). Omega Group is an ancient hacker group that turned into the Synthesis secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_05_JACK_GELDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thanks to Carminia I have learned that true freedom requires sacrifice. If we keep clutching at the nostalgia from the past, there soon won’t be any future left to fight for.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Vanguard commander (any gender, male by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_06_SHAE_MARA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As Syndicate, I can respect fellow royalty when they govern with skill and passion. Carminia has proven that she can adapt to the shifting tides of power and lead us to a prosperous future.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Syndicate commander (any gender, female by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_07_INESSA_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Empress did well to oppose the cold, calculating CORE. Weapons of mass destruction like the Proton Coil must be destroyed before they can be used by a being that rationalizes everyone into numbers that can be shifted around and deleted.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dvar commander (any gender, female by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.5">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_08_POZ_TK_NOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empress Carminia was the first to make amends to my people for the hardships we had to suffer during the Zok’Shiar. She helped the Kir’Ko bring back our beloved Queen of Queens and restore the Hive that was long broken.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Kir'ko commander (any gender, male by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">EMPRESS_ALLIANCE_MESSAGE_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Although CORE is relentless, I have faith in that we can end its dark age of dominion here on Mora Secundis. With concerted efforts we can defend our freedom. My loyal Paragon have gathered to help you with this task.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We are picking up transmissions from other Commanders harassed by CORE and Carminia. There may still be allies to be found on this world after all.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: player character (any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_02_JACK_GELDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am an envoy of Emperor Tholian, Carminia’s predecessor. He was fighting CORE just like Carminia, but unlike the Empress he believes in a more egalitarian federation, replacing the old Star Union and its centralized powers.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Vanguard commander (any gender, male by default). Tholian was an ancient male emperor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_03_MAHINA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As an Amazon Matriarch, I have learned that corruption can come in many forms. Neither Carminia nor CORE are the solutions to our problems – they are the source!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Amazon commander (female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_04_POZ_TK_NOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Kir’Ko must defend their regained freedom. We will not return to be controlled by anyone – not by our Queens, not by a human Empress and not by a mindless machine such as CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Kir'ko commander (any gender, male by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_05_SHAE_MARA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Star Union has denied the Syndicate Houses their heritage for too long. Among the Syndicate, Carminia never had legitimacy as an empress, while CORE is only the construct of misguided plebeians.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Syndicate commander (any gender, female by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="44.25">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_06_INESSA_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We Dvar didn’t need to dig deep to find corruption among Carminia and her followers. They disrespect the rules of the Dvar and are not to be trusted. But neither will our Consortium submit to the demands of CORE, which was always supposed to be the tool, not the engineer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dvar commander (any gender, female by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="41.25">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_07_ELLEN_SHAW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reassembly is evolution. No empress can try to control the progress brought by the Assembly. Sadly, we had to abandon CORE to be able to reach the perfection that it represents.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Assembly commander (any gender, female by default)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">INDIE_ALLIANCE_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then it is decided. Though differing in our views and motivations, we will stand united against the two threats from the old Star Union. Both Carminia and CORE must be driven back to let us heal the scars of the past.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: player character (any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">EMPRESS_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I have sacrificed all for my people, yet I only get judged and condemned in return. My concentration is broken. I can no longer protect you.[br/][br/](For a brief moment, a blurry figure composed of distorted light materializes and then immediately vanishes into the Void.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress) </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">INDIE_DEFEATED_MESSAGE_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">ANOTHER PROOF OF MORTAL IMPERFECTION. THEIR FOOLISHNESS WAS BUT A MINOR INCONVENIENCE.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">INDIE_DEFEATED_MESSAGE_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Misguided as these rebels were, they did not deserve such a gruesome fate. May their souls find the peace in death that was denied to them in life.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress) </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">CORE_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">UNGRATEFUL INDIVIDUALS. YOU MUST NOT BE ALLOWED TO DESTROY PERFECTION.[br/][br/](An electromagnetic discharge forks from the planet’s surface into the orbital transmission relays of the Nexus Network. Analyzing its signature, it shows similarities to a highly compressed data stream.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">CORE_INTERVENTION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">AUTONOM SECURITY LEVEL UPDATED. EFFECT: IMMEDIATE. TARGET LOCATIONS HAVE BEEN VERIFIED. ENFORCERS OF LAW ARE ON THEIR WAY.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell><Data ss:Type="String">EMPRESS_INTERVENTION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The currents of the Void are shifting around me. There is a special dimension reserved for you, {MSTR_FINAL_EMPRESS_TARGET_FIRST_NAME} {MSTR_FINAL_EMPRESS_TARGET_LAST_NAME}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress) </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">CORE_VICTORY_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CARMINIA AND HER REBELLION HAVE BEEN TERMINATED. COMMENDATIONS TO ALL FORCES. THE TIME OF RESTORATION HAS COME.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: CORE (Omnipotent planetary AI).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="67.5">
+    <Cell><Data ss:Type="String">EMPRESS_VICTORY_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Star Holders are smiling upon the defenders of their legacy. The sacrifices and hard-ships of the past will not be forgotten, but they paved the way for this moment of redemption, when we freed ourselves from the machinery that had been controlling our lives for many generations. The dominion of CORE has finally ended.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Empress Carminia (Ancient Empress). Star Holders are the old emperors of the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="41.25">
+    <Cell><Data ss:Type="String">INDIE_VICTORY_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We did it! With their masters fled, the remaining forces of CORE and Carminia are retreating. The price we paid was high, but the battle for Mora Secundis is finally over.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: player character (any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51.75">
+    <Cell><Data ss:Type="String">MEET_CLAUDIUS_PROTON_HOSTILE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every experiment can have undesired side effects. To reach perfection, some unpleasantries are unavoidable. One only has to make sure to dispose of specimens that are no longer required.[br/][br/]Acting against CORE is inanity. Reassembly will cure you of this ignorance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Claudius Proton (Assembly Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">MEET_TIK_JI_GLUX_HOSTILE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Krz’Chto’Rha! CORE brought the fire to the Kir’Ko Te’Naq, so that they could punish anyone causing sorrow to the swarm.[br/][br/]Burn, {STR_LeaderName}! Burn like a firefly caught in a blistering wildfire!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Tik Ji'Glux (Kir'Ko female). Kir'Ko Te'Naq is a Kir'Ko clan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">MEET_YURIY_FRANKOV_HOSTILE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Celestian light is the hammer, CORE the anvil. We all are the metal that is tempered into the different gears forming their clockwork of perfection.[br/][br/]Your alloy has been infused with impurity, {STR_LeaderName}. It must be melted down in the radiant heat of the enlightened.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Yuriy Frankov (DVAR male). Celestian is a in-game secret tech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="62.25">
+    <Cell><Data ss:Type="String">MEET_EVA_MONTINGA_HOSTILE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Biological organisms are fascinating entities. Some are resourceful, others tenacious and treacherous. Yet others astound us with their abundance of color and beauty. The Alpha Strain collects and connects them all. When you fall, {STR_LeaderName}, you may find comfort in the fact that your DNA will persist within the Xenoplague compendium.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Eva Montinga (Vanguard Female). Xenoplague is a secret tech. Alpha Strain is a form of Xenoplague infection</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="44.25">
+    <Cell><Data ss:Type="String">MEET_GIVORI_ARDELLI_HOSTILE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">From the darkness they come. Beyond the veil they lurk. Their harmony requires sacrifice. Empress Carminia is their herald. You have chosen the path of pain, {STR_LeaderName}. Breaking you will be a delightful exercise.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Givori Ardelli (Syndicate male). </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75">
+    <Cell><Data ss:Type="String">MEET_ZARAI_LOREG_HOSTILE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Life is virtual. It is the sum of your perceptions and emotions. Uploading your consciousness is merely changing the rules of how you process the world’s input.[br/][br/]Your cerebral matrix requires an update, {STR_LeaderName}. Empress Carminia is leading our technological revolution. You cannot stop us.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell><Data ss:Type="String">PARAGON_PROLONG_WAR_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We accept the tribute you have paid to the Paragon. However, be aware that hostilities between our people cannot cease while you are opposing the will of the empress. Know that the resources you sent us will serve to restore the Star Union to its former glory.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Paragon unit (male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell><Data ss:Type="String">AUTONOM_PROLONG_WAR_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Appeasement protocol override in progress. Diplomatic status update denied. Cause: Target subject opposed CORE. Hostile interaction prolonged. All rebel activity must be terminated.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Autonom unit (robot)</Data></Cell>
+   </Row>
+   <Row ss:Index="73" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CORE_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Joined forces with CORE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation Modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CORE_OPPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Opposed CORE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation Modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_CORE_OPPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Betrayed CORE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Casus Belli Description</Data></Cell>
+   </Row>
+   <Row ss:Index="77" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_EMPRESS_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Joined forces with Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation Modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_EMPRESS_OPPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Opposed Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation Modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_EMPRESS_OPPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Betrayed Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Casus Belli Description</Data></Cell>
+   </Row>
+   <Row ss:Index="81" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_INDIE_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">United against CORE and Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation Modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_INDIE_ENEMIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Working for the autocratic forces of the past</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation Modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_OLD_POWERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Opposes a liberal Star Union</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Casus Belli Description</Data></Cell>
+   </Row>
+   <Row ss:Index="85" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Claim Mora Secundis for CORE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Header. Mora Secundis is the name of the world</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Claim Mora Secundis for CORE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You will end this mission by defeating all of CORE's enemies.[br/][br/]Enemies defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Enemies defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective tracker</Data></Cell>
+   </Row>
+   <Row ss:Index="90" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Claim Mora Secundis for Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Header. Mora Secundis is the name of the world</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Claim Mora Secundis for Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You will end this mission by defeating all of Empress Carminia's enemies.[br/][br/]Enemies defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Enemies defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective tracker</Data></Cell>
+   </Row>
+   <Row ss:Index="95" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_INDIE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Purge Mora Secundis of CORE and Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Header. Mora Secundis is the name of the world</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_INDIE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purge Mora Secundis of CORE and Empress Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_INDIE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You will end this mission by defeating the allies of CORE and Empress Carminia's enemies and force.[br/][br/]Enemies defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_TEAM_INDIE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Enemies defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective tracker</Data></Cell>
+   </Row>
+   <Row ss:Index="100" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_DIFFICULTY_EASY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Difficulty: [xpCol]Easy[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button prompt tag insert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_DIFFICULTY_MEDIUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Difficulty: [yellow]Medium[/yellow]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button prompt tag insert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_DIFFICULTY_HARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Difficulty: [red]Hard[/red]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button prompt tag insert</Data></Cell>
+   </Row>
+   <Row ss:Index="105" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FULL_JACK_GELDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_JACK_GELDER}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FIRST_JACK_GELDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName_JACK_GELDER}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FULL_ELLEN_SHAW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_ELLEN_SHAW}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FIRST_ELLEN_SHAW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName_ELLEN_SHAW}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FULL_MAHINA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_MAHINA}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FIRST_MAHINA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName_MAHINA}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FULL_INESSA_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_INESSA_ZHELEZO}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FIRST_INESSA_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName_INESSA_ZHELEZO}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FULL_PARAK_JA_ZAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_PARAK_JA_ZAL}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FIRST_PARAK_JA_ZAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName_PARAK_JA_ZAL}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FULL_SHAE_MARA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_SHAE_MARA}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPEAKER_FIRST_SHAE_MARA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName_SHAE_MARA}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leader name slot, no translation required</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>29</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>34</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

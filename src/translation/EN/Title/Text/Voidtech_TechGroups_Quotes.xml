@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <LastSaved>2019-09-04T09:26:01Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12197</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="43" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="121.71428571428571"/>
+   <Column ss:StyleID="s62" ss:Width="198"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252.85714285714286"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252.85714285714286"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252.85714285714286"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VOIDTECH_TECHGROUPS</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VOIDTECH</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VoidTech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VOIDTECH</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">No need to translate. This inserts the VOIDTECH_TECHGROUPS@VOIDTECH@DESC and VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES texts with some white space.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VOIDTECH</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[hyperlink,000003AC0000032C]Voidtech[/hyperlink] warps the laws of physics, allowing the manipulation and teleportation of matter and energy.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VOIDTECH</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FEATURES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[bulletlist][bullet][sand]Starting Unit:[/sand] [hyperlink,unitlookup0000039A0000096E]Echo Walker[/hyperlink][/bullet][bullet]Command highly mobile units that can teleport and pass through obstacles[/bullet][bullet]Create temporal clones of units[/bullet][bullet]Destabilize and decelerate enemies[/bullet][bullet]Uses the Arc and Kinetic damage channels[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Void Technology</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“The Void is the ultimate frontier. Theoretically infinite emptiness has many uses, the very least being that it’s the perfect junkyard for storing things you never want to see again… like your enemy’s limbs.”[br/]– Professor Willow Fisk, Dimensionalist</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phase Manipulator Program</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“The ability to move through this material world like a ghost leaves questions about the truthfulness of such fables. Are there subtler dimensions? Spirits? A heaven and hell? We definitely should do more research. Perhaps our new troops can provide us with test subjects.”[br/]– Alexa Romanov, CEO Voidtech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Dvar Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Unit: Phase Manipulator</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipment: Energy Blaster</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phase Manipulation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“There is no obstacle I cannot pass through with my harmonic phase modulator. Matter doesn’t matter. Who would suppose that substance is merely two waveforms in alignment?”[br/]– Tek Oylar, Voidtech Lion Patrol</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Quantum Gain</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“You won’t believe how paranoid you become once you finally glimpse the future and all the possibilities that hinge upon individual choices.”[br/]– Emperor Tholian</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vortex Instability</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;Haven’t I met you somewhere before? This is no pickup line. My instruments indicate you’re a temporal anomaly. Or am I reality’s echo?”[br/]– Rutger Norris II, Echo Walker</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Echo Walker Program</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“You never need live with regret when you can rewind time, but your age will catch up with you.”[br/]– Rutger Norris, Echo Walker</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Unit: Echo Walker</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipment: Void Blades</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Phase Echo Generation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“This power to manipulate gravity, distort time and transport instantly from one place to another could be used to create wonders untold, but it looks like, for now, we’re going to use it to destroy the next enemy.”[br/]– Raylynn Preem, Technology Ethicist</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dimensional Control</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Time is an infinite sequence of consequences. If the present is N, the next consequence is N+1, with N approaching infinity. Correlate N to N+1, N+2 and so forth. Mathematically, that’s a Phase Echo. Of course, don’t forget N-1 and all infinite prior consequences.”[br/]– Dr. Rex Purllox, Voidtech Mathematician</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male&#10;&#10;Edit: removed extra space before &quot;Correlate&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Temporal Dislocation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Who would willingly accept failure when they can make every outcome a success? By changing the fundamental interaction of time, matter and reality from a mechanical model to a probabilistic model, we roll the dice again, essentially resetting any unfavorable consequences.”[br/]– Trina Mars, Time Control Agent</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Void Tactics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Forget about meaningful relationships in the shadow of that Phase Echo generator. Half the people here aren’t native to this plane of existence. They just shift in and out of our reality. I must confess, my relationships never last, regardless of whether the generator’s active.”[br/]– Teddy Slade, Vanguard Infantryman</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rift Generation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“The rules that govern our reality are quite necessary to sustain the structural integrity of matter. Seeing as how we’re all made from matter, our new Rift Generator ships guarantee we will warp the reality of conflict in our favor.”[br/]– Captain Warren Fullmer, Voidtech Military Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Unit: Rift Generator</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vehicle: Rift Generator</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dimension Weaponization</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“We reject our gods' limits. They declared the universe bound to basic rules and interactions between matter and energy. Fortunately for us, they appear not to be paying attention. We can now do forbidden things.”[br/]– Emperor Tholian  </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male&#10;&#10;Changed &quot;God's&quot; to &quot;gods'&quot;&#10;&quot;He&quot; to &quot;They&quot;&#10;&quot;Appears&quot; to &quot;Appear&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Quantum Leap</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“True quantum networking allows all possible data transfers in one exchange. The trick to discovery now lies—not in careful research and design—but, in selecting from millions of speculative designs and determining if it’s really what we want.”[br/]– Dr. Thurgood Onahan, Quantum Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alter Reality</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC__DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“No, there is no real evidence of that rumor. They’re perfectly safe. Only conspiracy theorists believe that it was a Void Bomb that destroyed the Star Union and destabilized hyperspace.”[br/]– Dr. Quinlinn T. Ortivexis, Star Union Historian</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dimensional Mastery</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Are you ready for infinite energy? Imagine a collapsed parallel universe siphoned through a controlled rift! What will you power when energy has no cost and how will it transform this world? A new reality starts today.”[br/]– Alexa Romanov, CEO Voidtech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Dvar Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

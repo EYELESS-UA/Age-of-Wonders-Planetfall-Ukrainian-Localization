@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-09-17T09:21:05Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="114" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="225.75"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="291" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DWELLING_QUESTFORGOTTEN</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Growth are a sentient botanical species. They speak poetically, using puns and metaphors to describe things and speak romantically. They use the word &quot;symbiosis&quot; to refer to their relationships with other races and species. The &quot;Mother Node&quot; is their leader, and they refer to her in such.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">You failed because you lack faith. You cannot run faster than your strength of Essence, but your ineptitude disappoints us. Your devotion is suspect.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Default response to failed quests.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Contracts Broken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Hunt down dishonorable Pirates</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We need more Essence to sustain ourselves. Contributions are… hard to find. We signed a contract with willing volunteers: valuables for Essence. They took our supplies, but refused to grant us Essence. We must feed. We may be slow, but you are not. Hunt them. We trust you to make them keep their contract. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Their final Essence blooms within us now. Their remains will temporarily sate our hunger. You have our gratitude, and you may keep these valuables.</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Natural Order</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kill the blasphemous Growth</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Recent encounters with a rival lifeform has horrified us. Their Essence is strange. All living things are sacred, but Entropy defies Creator’s hierarchy. We hold dominion over life, and plants are its lowest form. The Growth embody Entropy’s corruption. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Their vitality was especially nourishing. Come. Sup with us. Join our sacred feast. Your deeds deserve a reward.</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Theft Corrupts Life</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kill the tomb raiders</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mortal infidels came into our place of entombment. They defaced our sacred lore. They stole holy crystals. Creator gave us commandments for our happiness. Stealing is forbidden. Those who abuse our commandments squander their lives and are unworthy of the Essence they hold. Prove your worthiness. Slay the thieves. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We are reunited with our crystalline kindred. We savor the remains of the fallen sinners. You have proven that your Essence is worthy of our generosity. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Take Dominion of the Earth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kill the Quartzites</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Essence leaks into the earth. We try to hold it in, but our graves are restless. All around us, it escapes. The ground moves and does not obey. Essence cannot be lost. We must study these Quartzites and how they retain Essence in lifeless rock. Bring us their remains. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We applaud your willingness to obey. We’ll analyze what remains. Perhaps it will lead to a better means to hold Essence. We praise thee and send blessings.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Synthetic Lust is not Life’s Purpose</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy all Pleasure-Bots</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Our procreative instinct is Creator’s most precious gift to life. It is how we become creators ourselves. These so-called pleasure-bots are an abomination. These vulgar agents of Entropy mock the precious biological dance. They decay the sacred bonds of attraction. Keep life sacred. Dispose of them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Some mock, saying it matters not. In such a declaration, they prove our point. It should matter. Cherish your biological bonds. You have proven that you are a friend to life.</Data></Cell>
+   </Row>
+   <Row ss:Index="33" ss:AutoFitHeight="0" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Void is a Lie</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Psi-Fish Liars must perish</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Liars! Mind thieves pretend to be friendly, but inwardly they are ravening wolves. They lie about their true intentions in this realm. Do not believe their lies. They will try to turn you against us. This cannot be. We judge them Entropy’s agents. Snuff them out.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Well done, Creator’s friend. You garner our trust by destroying the mind serpents. We judge you worthy of reward. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">No Other Gods</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy the apostates</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Only we hold Creator’s rightful priesthood lineage. Only we judge the divine right to Essence. A schism threatens to usurp our authority. They say we are corrupted. They refuse to sacrifice, and pretend to know a different Creator. Stop them from spreading apostasy.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Heritor/Forgotten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Well done thou good and faithful servants. You have provided the Forgotten this small boon, but Creator will reward thee with eternal glory and prestige.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Origins of Envy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy the Paragon Traitors</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Anciently, the Paragon were instrumental in profiting from our exile and destruction. A few Paragon sought our precious Essence to revitalize their decrepit minions. They covet what we sacrificed to preserve our lives. We must feed. Destroy these traitors. Prove your loyalty to us. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Never again will we languish in tombs, exiled to a grave, while they squander their life. Your faith in us will always be remembered.</Data></Cell>
+   </Row>
+   <Row ss:Index="48" ss:AutoFitHeight="0" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_09</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Thou Shalt Not Kill (Us)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_09</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy all the RPR</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Friend of life, Reapers are upon us. They were created for the sole purpose of destroying our kind, and they must not disrupt our rejoicing. In the name of all holy life, heed Creator’s bidding. In this, you are free to destroy them, for they have no life within them. We beseech you, destroy them before they kill again. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_09</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We absolve you of any guilt originating from these acts of violence. Your valiance at our behest proves you a chosen hero. We share our good will and fortune with you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_10</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Thou Shalt Not Compute</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_10</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy Automated Agents of Entropy</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">They have no Essence. They are lifeless idols that must be smashed. We judge them constructs of Entropy, mere distractions to life’s purpose. They are programmed for violence and take offense if we point out how meaningless they are. Destroy them. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_10</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Well done, Champion of Life. By smiting those lifeless idols, you demonstrate your faith and refuse Entropy’s distractions. We bless thee.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Crystal Chambers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fabricate Fresh Essence Crystals</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We hunger for the dead. The Rot sustains us, but we lose eternal Essence with each fruitless exertion. We feel it leaking away. The crystalline vessels that hold our beloved Essence degrade too rapidly. We require your strength to preserve ours by building more vessels.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Praise be to Creator for your mercy on us. We are stronger due to your vivacity. We thank you with gifts of the finest wares, and blessings from on high.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Crystal Essence Chambers </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Build a stockpile of Crystal Essence Chambers so that the Forgotten’s Essence will not leak away and be lost to them. </Data></Cell>
+   </Row>
+   <Row ss:Index="66" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Awaken the Past</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Build a Shrine to our Fallen</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER IV Unique</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We remember Entropy’s malice, how it raged in the hearts of people. Their fear dashed our kind to pieces and destroyed our precious legacy. We miss them. We yearn to never forget them. Others must know the cost of fear. They must know our loss. Build a monument in their honor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nothing is more tragic to immortals than death. Becoming lost and gone is a terrible fate. We value your effort. It does not bring them back, but perhaps it will prevent another slaughter.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Monument of Forgotten Fallen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Build a monument to the Forgotten’s dead in the days when they were hunted and destroyed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="74" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Corruptible Flesh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy the Livestock Farm</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We hunger, not for the meat of pigs, but for the Essence they squander. Destroy their fleshy forms, break down their stalls and scatter them upon the land. We will feed upon their remains. This will sate us, and we won’t require other ‘food’ sources… for now.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Savory Essence fills us with fervor. Our legions are gorged upon the fallen swine. We thank thee with this favor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Plague of Locusts </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy the Hopperhound Nest</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The consumption decreed shall be upon the locusts of the air. A nest of them so close to our chambers will only infest our tranquil tombs. Please slay the Hopperhounds and break down their nest. We will feed upon the fallen, and together we will prosper.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The land is tranquil. The Hopperhounds’ Essence restores us. The fields are free to be claimed by thy kind. Let us rejoice in the bounty of this land. Enjoy our blessing.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Crystal Clear</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroy the Quartzite Spawner</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This earth disrupts our crystalline technology. Set the land right again. Restore it to a sustainable form. We cannot abide the Quartzite Spawner. Who among you stands faithful? We wait in judgment for allies. Prove your worth to our cause, and our blessings will be bountiful. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The tranquil earth returns to our dominion. Blessed be Creator. We bless you and your kin. Take this boon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Assassinate Assassins</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Obliterate the Reaper Bunker</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER IV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Horror of horrors, Entropy’s greatest abominations stalk the lands! These constructs of enmity must not be permitted to roam freely. We demand that all who cherish life and wish to gain our blessing do everything within their power to eradicate these intruders.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">You have proven yourself our most trusted and worthy ally. We seek to reward you for destroying those wicked machines. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="95" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Historical Refreshers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Teach History to the Forgotten </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Tier II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We are at a loss after all these years sealed in seclusion. What has become of our once great Empire? Open unto us your historical databases. Give us access to your knowledge that we may become knowledgeable about the remnants of civilization that persist in this time.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Enough. We are sickened by the waste and tragic loss of life— and so many needless deaths wasted—since our exile. It is a terrible age. Nonetheless, we appreciate your candor and reward you. </Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Knowledge Archive Dump</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Research History and present it to the Forgotten in graphical slides that even ancient life-eating zealots can understand.</Data></Cell>
+   </Row>
+   <Row ss:Index="102" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Eyes of Essence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Research methods of scanning for Essence</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER IV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We smell the Essence of life all around us. We seek a way to locate Essence that will not offend our friends and allies. We must have better means to scan for Essence among the many hazards of this time. Please help us with our research so that we do not accidentally target you for siphoning. </Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We see the vibrant glow of Essence all around us. With this increased understanding, we’ll be able to detect and preserve more Essence. Enjoy our blessings.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Eyes of Essence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Research a scanner capable of detecting fine-grade sources of Essence so that the Forgotten can more easily discern from whom they siphon life.</Data></Cell>
+   </Row>
+   <Row ss:Index="109" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A Right to Die</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Research popular trends for the Forgotten</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">TIER III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We seek your aid in popularizing trends toward not wasting one’s life, but rather donating it to the Forgotten. Misery should never be extended when it can serve a much higher purpose; namely, our enrichment. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">We thank thee for your insights. Mortals worship the young and nubile, but now we are trending. Here is your payment.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Reframe Cultural Mindsets  </Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Seeking to be seen as more than just life-sucking monsters, the Forgotten wish to be portrayed in our popular culture as heroes. We can change minds by casting the Essence they take from our undesirables in a favorable light.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>97</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>103</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

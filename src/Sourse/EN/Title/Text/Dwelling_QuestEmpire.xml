@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <LastSaved>2020-01-15T09:24:27Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="110" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="240"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="312.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="210" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="312.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DWELLING_QUESTEMPIRE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">The Paragon speak with a very formal tone, upper class, elitest society. Highly educated, very sophisticated.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">How disappointing. We already took care of this matter ourselves. We no longer need your help.</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bulwark of Civilization</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The imperial guard is crumbling. The plebeians have given in to their savage nature. Help us maintain order within our last bulwark of civilization.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Paragon's Enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you for helping us. Your reward awaits you.</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implant Snatchers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Hostile Pirates</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A group of pirates are ripping implants out of Paragon bodies. These cowards often target defenseless cryo-sleepers, leaving them to die as plebeians. The implants grant us the abilities we need for the resurrection of the Star Union. Follow these thieves and kill them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Thanks to your efforts, we can sleep safely once more. All squabbling relatives can be returned to their tombs now. You have our gratitude.</Data></Cell>
+   </Row>
+   <Row ss:Index="19" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vandals on the Rampage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Paragon's Enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our great monuments and works of art attract a range of enemies. Our refined ways trigger rage in savage minds, as if smashing things they don’t understand makes the world right for them.   </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Thanks to you, the intruders are exterminated. Your reward awaits you.</Data></Cell>
+   </Row>
+   <Row ss:Index="24" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">False Prophet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the hostile Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A usurper has arisen, pretending to be the new Emperor, riling the plebs. There is only one true Emperor, and they shall return the Star Union to us. Stop this heretic and the false promises it spews from its rotten implant.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Emperor&quot; refers to the Emperor of the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Thanks to you, we have stopped a major uprising driven by a charlatan. You have our sincerest gratitude. </Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ravages of Time</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Build the Prosthetic Replacements for the Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As the last heirs of the Star Union, it is one of the many duties of the Paragon to uphold the cultural and technological legacy of our ancestors. We have witnessed the decline of the Dark Age and must commit ourselves to favor those few that show there can still be knowledgeable and civilized people in this rotten era. The question is, {STR_LeaderName}, will you be one of them?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Dark Age&quot; refers to the Cosmic Dark Age of the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">It is an act of cruelty that even in our victories we are reminded of our fading perfection. Nonetheless, you have our gratitude and that of our Prefect, {STR_LeaderName}. May you live to see the return of the old Emperors!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Prefect&quot; refers to the leader of the Paragon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prosthetic Replacements</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Paragon are slowly decaying. They need replacement body parts to replace their failing implants.[br/][br/]Complete this special production project to complete a quest given to you by the Paragon.</Data></Cell>
+   </Row>
+   <Row ss:Index="37" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Hand that Gives</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Produce Luxury Goods for the Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We were chosen to experience heaven in this life, in this reality. We have tasted the finest wines, drank from golden cups and worn the smoothest silks. These may seem like superficial things to you, but to our finely-augmented senses, anything less is torture. Our god has forsaken us. Help us raise our standard of living back to the Paragon ideal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;God&quot; refers the the Emperor of the Star Union.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">We toast to your generosity. We have found a new redeemer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Luxury Goods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Paragon were once people from the upper echelons of Star Union society. They are relying on us to provide them with some of those comforts again.</Data></Cell>
+   </Row>
+   <Row ss:Index="45" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thieves without Honor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy the Pirate Lair</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thieves! Traitors! Despicable scum! No, not you, {STR_LeaderName}. We are talking about the petty group of pirates that recently started terrorizing our settlements. They fight without honor, steal our technology and raid our citizens for their indispensable implants. Should you deal with this threat, our Prefect will make sure you are generously rewarded!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">It is most satisfying to see those miserable desecrators brought to justice. You have our gratitude!</Data></Cell>
+   </Row>
+   <Row ss:Index="50" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reclaiming Nature</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy the Wildlife Nest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">First weeds appeared in the roads. Then parks started to expand beyond their boundaries. Now wild beasts maraud our grand boulevards. We need to stop the onslaught of nature! Destroy these beast so that civilization can flourish.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">How grand it is to see civilization triumph over nature's overgrowth. Thank you for your service.</Data></Cell>
+   </Row>
+   <Row ss:Index="56" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Civilized Neighbors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Research Treatise Civilis for the Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As the last heirs of the Star Union, it is one of the many duties of the Paragon to uphold the cultural and technological legacy of our ancestors. We have witnessed the decline of the Dark Age and must commit ourselves to favor those few that show there can still be knowledgeable and civilized people in this rotten era. The question is, {STR_LeaderName}, will you be one of them?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">The first steps of your people towards the path of wisdom are like droplets of water in this desert of ignorance. There is hope for you yet, {STR_LeaderName}! Accept these gifts as a token of our support.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Treatise Civilis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A compendium of cultural, morale and philosophical topics and how to handle them.</Data></Cell>
+   </Row>
+   <Row ss:Index="63" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Groundskeeping</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Prune the Encroaching Growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There was a time when our maintenance servants kept vast and beautiful gardens. This land was a paradise. Now, it seems even the trees hate us. We desire that a particularly nasty patch of weeds be destroyed. They apparently don’t want to go, and killed our few remaining groundskeepers, continuing to infest the land with their Growth.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">It may not be the same as the grand gardens of the past, but we applaud your green thumb. Thank you for helping us weed these lands. Here’s payment for your efforts.</Data></Cell>
+   </Row>
+   <Row ss:Index="68" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Grand Hunt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Destroy the Hopperhound Lair</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is a thing of legend to find the den of some creature that terrorizes the people and plunder its lair. The old Empire considered it a most refined sport. Of course, it is not for everyone. Packs of Hopperhounds have been seen in the area, eating the citizenry. We invite you to join the Grand Hunt. Find their lair and destroy what creatures you find there.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Well done! Bravo, bravo! Such bravery. You are a great hunter. Take this, your prize for the hunt.</Data></Cell>
+   </Row>
+   <Row ss:Index="73" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ode to a Lost Age</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Build Monuments for the Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Under the rule of the great emperors, we witnessed a time of growth and prosperity. Alas, that time is almost forgotten. We have lost the tools that once built the great structures of that era, but all is not lost. {STR_LeaderName}, take up the mantle of memory. Kindle the hearts of your people the past. Awaken our dreams by building monuments to the emperors of the past.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">I see your cities... how these monuments gleam with the past. Truly the past will never be forgotten. It’s beautiful, truly marvelous! You have done a great service to the Paragon, {STR_LeaderName}. Please, accept our payment.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Monuments for the Paragon</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Building these monuments will impress the Paragon... and the Paragon are not easily impressed.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:Index="80" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Bionic Man</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Research and prototype elite Paragon Bionics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have lost technology from the past, and the means to research and develop our most elite Paragon privileges. Your colony is advancing. With our guidance, you might be able to restore technologies we once thought lost to legend. Using the following bionics, could you show us if you can upgrade these very powerful implants?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">With this new research, we can replace our old bionics with stronger, more sustainable enhancements. The Paragon thank you, {STR_LeaderName}. Your reward.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Paragon bionics</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Whether they admit it or not, the Paragon's cybernetics are old and outdated. A few upgrades will surely help them.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:Index="87" ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Think of the Children</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A popular meme from the TV show, &quot;The Simpsons&quot;.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Eliminate the Outlaws</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ruffians, outlaws, thugs! How dare they oppose the will of the Paragon? While we struggle to feed the children of our land, these robbers plunder and steal, causing the poor to suffer. There is no future in this. {STR_LeaderName}, will you rid us of their menace? Think of the children!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_LeaderName} can be either male/female.&#10;&quot;Children&quot; refers to citizens.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Good riddance. Thank you for your efforts, {STR_LeaderName}. The children of this land will sleep well tonight knowing you will protect them.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Natural Order</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the defectors</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We recall the day the Vanguard did as they’re told. Unfortunately, that is no longer the case. It seems the turmoil in the Union has led the Vanguard to think they should have a say. They even had the audacity to turn on us. They need to be brought to justice. To set an example, you see.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">A lesson in justice that our subordinates are sure to remember. You have our gratitude, {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_LeaderName} can be either male/female.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Seeing your lack of results, we took care of the matter ourselves. May your future actions be less disappointing, {STR_LeaderName}, lest we make an example out of you too.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_LeaderName} can be either male/female.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="98" ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exquisite Morality</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Research the Paragon expectations of civil life</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Behold. Here is a compendium of cultural, moral and philosophical topics and how to handle them. Come before us adorned in the trappings of moral refinement.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Aka, show the Paragon you can live up to their moral standards.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Your impeccable sensibilities are adequate to interact with our kind at this current level. There are many levels we expect you to master, but you have demonstrated a capacity to learn we haven’t seen in generations. Congratulations, here is your reward.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paragon expectations of civil life</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Learn and put into practice that demonstrates you can comfortably integrate with the Paragon’s strict moral and philosophical codes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This explains the quest.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:Index="105" ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Facelift</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Referring to cosmetic surgery.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Research holographic overlays to restore Paragon beauty</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Once our flesh was beautiful. We were gods among our children. Now our flesh rots and despite our best cellular regeneration we suffer the ghastly visage of time. We have heard, however, that the races of today make use of holographic technology that may help us restore our beauty&#160;. Research how they do what they do, and apply it to restore our youth.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">Children' refers to citizens.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">We thank you for providing us with new faces. We can now appear as we once did, even if it is all mirage. Yet, is not all life an illusion? Oh! Friend vanity, we greet you anew.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Holographic Overlays</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Restore the Paragon to their former beauty. Modify holographic overlays, thus allowing the Paragon to wear an image of their former youth and cover their ghastly decay.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.&#10;There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>87</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>89</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

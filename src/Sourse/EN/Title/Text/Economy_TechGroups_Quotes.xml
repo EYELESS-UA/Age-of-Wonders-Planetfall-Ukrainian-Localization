@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Tom Bird</LastAuthor>
+  <LastSaved>2019-11-08T09:00:59Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19965</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="117" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="230.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="122.25"/>
+   <Column ss:StyleID="s62" ss:Width="152.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="233.25"/>
+   <Column ss:StyleID="s63" ss:Width="207.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ECONOMY_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aquatic Deployment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The sea is a maiden of many moods… most of them murderous.”[br/]– Captain Peter Visser, Salty Bay Colony</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_1_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Frontier Facilities</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_1_2_ESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Our colonies require the means to protect themselves and a reason to stay. At the very least, it’s time to invest in some good old-fashioned guns and beer.”[br/]– Dollar Smith, Deneb Colony Mayor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Food Development I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Food is a governing tool. Just as fuel is essential to power a machine, food is the ruling principle of happy, strong and productive colonists.”[br/]– Tony “Rubio” Strong, Manpower &amp; Machine Motivational Consulting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Production Development I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“There’s a way to do anything. There’s also a smarter way to do anything. Trade secrets are often more about a well-trained workforce than a secret sauce.”[br/]– Tony “Rubio” Strong, Manpower &amp; Machine Motivational Consulting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Energy Development I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Electronic mechanisms employed by the empire appear to have developed a passive-aggressive attitude towards abuse. If a device is mishandled, it may drain more energy than allotted in system specs. We suspect Automaton activists to be responsible. Nonetheless, it’s good to upgrade your infrastructure.”[br/]– Tate Oreck, Productivity Conspiracist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Research Development I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_4_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“In conclusion, knowledge is power, but being well-educated has an additional benefit. No one can call you stupid… especially if you’ve researched weaponry that would vaporize them if they did.”[br/]– Dr. Millicent Rickles, Head Researcher, Lazilite Inc.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">V.O.: Vanguard Male&#10;&#10;Edit: well educated -&gt; well-educated</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Environmental Conditioning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_5_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“It’s important to imagine this patch of land without the raging hell fracture of cosmic death spewing forth pollutants from a dimension of pure agony and horror.”[br/]– Phil Dunford, Imperious IV Colony Real Estate Agency</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_6_NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Residential Development</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="99.75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_6_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“Nothing motivates productivity in a population more than mortgages. The lure of property ownership inspires in individuals the motivation to perpetually improve their property value and provides an illusion of privacy.”[br/]– Phineas Shaker, Colony Financier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aquatic Development</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“On nearly every inhabitable planet, oceans are engines of infinite mechanical energy, rhythmic sources of food and endless life, just waiting to be harnessed by someone clever enough to brave their tossing depths.”[br/]– Sammy Sellis, Sailor and Star Union Seashell Salesman</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arctic Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_2_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“There is something out there hiding in the ice, moving, shifting, watching and learning. Take heed. There is power to be had here. It is so much more than a frozen wasteland.”[br/]– Natali Budler, Arctic Artificer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">V.O.: Dvar Female&#10;&#10;Edit: Artic -&gt; Arctic</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadian Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Even the richest Arcadian soil, ideal for sustaining life, requires care to remain productive and sustainable. Though many of these techniques were trade secrets of ancient farmers, they remain crucial for sustained productivity.”[br/]– Tammy Wellers, Antares Farming Consulate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forest Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Some life exists in this world by the generous benevolence of intelligent civilization. Keeping a forest and harvesting its resources responsibly requires scientific ingenuity and spiritual patience. It indicates a highly-evolved civil society.”[br/]– Dame Viola Dalta, Treesinger</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fertile Plains Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Observe. Even life on fertile plains is quick, clever and relentless or a stronger, more ruthless creature will claim their habitat and use them as prey. We must exploit even the comfortable open spaces with greater efficiency or life will replace us.”[br/]– Dr. Ellen Shaw, Assembly Environmental Adaption Research</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Anthropologic Research</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_6_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“You can’t forge strong alliances and meaningful friendships before you understand the motives and desires of those you seek to befriend. Polite ignorance is not a diplomatic strategy and will only be tolerated for the first few encounters.”[br/]– Cerera Tan of House Voyan, Diplomatic Consort</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Virtual Hospitality Systems</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Experience perfect illusions free of nagging spouses and carnal limitations. Virtual entertainment will fit whatever twisted whims our citizens can conjure. But who am I to judge, if it keeps the colonists amenable to their civic duties?”[br/]– Pannus Bardum, Vardus III Colony Nuptial Broker</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arid Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Deserts are just another biome where the building blocks of our form of life are rare. Desert-adapted organisms, once they were fully researched, first inspired humankind to understand how they might survive in space, where resources are rare.”[br/]– Ferris Endu, Ecologist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fungal Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Perhaps the most successful lifeforms in the universe, fungal growths stretch for miles, all connected, all one living being, feeding on chemicals often too strong for other organisms. We can have much to learn from fungal landscapes.”[br/]– Dr. Elfa Durall, Chief Mycologist, Terratech Industries</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mountain Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Mountains aren’t just a great place to hide a body. A strong wall in a canyon can hold a reservoir to turn a turbine. Canyon winds can likewise generate power. Alpine travel is quite scenic if you bring the right gear.”[br/]– Old Man Jugger, Blue Mountain Lodge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ruins Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Ruins are the future that awaits all of us unless we discover the reasons why these ruins are all that’s left of a once-enlightened age.”[br/]– Mah Reg’Nib, Explorer of the Ruined Maze</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hydro-Expertise</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We have mapped the ocean currents. Felt the surge of the tide. There’s a world’s worth of momentum behind that unbridled motion, just waiting to be harnessed. We have the knowledge to become an empire of ships.”[br/]– Admiral Dommus Kent</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Food Development II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Food keeps us alive. It is security. It can be challenging. Even a basic grain of rice has a story. Food starts wars. Food ends wars. It’s a memory and lulls us into cozy forgetfulness. Only a fool disrespects food.”[br/]– Mah Reg’Nib, Second Suppertime</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Energy Development II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_3_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“Perpetual motion machines are our business. Though, now that I think about it, if we did invent such a thing, we’d be out of business.”[br/]– Dillon Ullard, CEO of Forward Energy Solutions</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Production Development II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_4_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“Of course, you can’t live in this industrial zone! This is where we manufacture and ship out all the things you can’t live without.”[br/]– Redikk Flinkov, Dvar Foreman</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Research Development II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_5_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“Now that we’ve discovered how to extract every possible detail from our research, and created some truly wonderous things, let’s document the process and then claim that’s how we did it all along.”[br/]– Ryan Calkins, Configuration Manager</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Infrastructure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_6_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">&quot;Breakthroughs in gravitic containment and inertial dampening systems intended to facilitate increased cosmite production prove to have serendipitous applications in mass transit systems across a variety of terrains, allowing for more efficient transport across colonies where this technology is deployed.&quot;[br/]– Dr. Axynnic, Chief Researcher, MagTec Inc.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite Mastery</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_2_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“Cosmite is coveted for its uncanny reality-bending properties. The best tech requires it. Now that we’ve achieved Cosmite Mastery, it’s time to purge society of the lies, misconceptions, and cults surrounding this profitable resource. It’s time to use it without fear.”[br/]– Toriq Vestum, CEO of Cosmite Extraction Industries</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">V.O.:Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Adaptive Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“I’ve never understood the aversion some have to toxins. Nature uses toxins to repel rival lifeforms. The inability to live in a toxic landfill is just an indicator that we, as a race, need to do a little evolving.”[br/]– Charlene Hester, Botanist, Terratech Labs</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_7_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Accelerated Force Deployment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_7_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“All speed records are made to be broken. There is no more time for pleasant byways and scenic detours. If we are to survive the breakneck pace of industry, we must bulldoze even the most curious obstacle. The vistas may not be as majestic as that of the first mountain climber, but our thoroughfares can penetrate a mountain’s heart for the sake of progress.”[br/]—Enzo Mantle, Transportation Minister</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:Index="117" ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>14</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

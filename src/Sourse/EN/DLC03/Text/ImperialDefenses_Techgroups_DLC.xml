@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Elliott Van Neste</Author>
+  <LastAuthor>Bas Staffhorst</LastAuthor>
+  <Created>2018-10-30T08:44:30Z</Created>
+  <LastSaved>2019-08-19T14:28:50Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="241.5"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="153.75"/>
+   <Column ss:StyleID="s62" ss:Width="101.25"/>
+   <Column ss:StyleID="s62" ss:Width="249"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="254.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">STRUCTURES_STRATEGIC_DLC03</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SOUL_BEACON_MAELSTROM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Soul Beacon Maelstrom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A maelstrom often means a state of violent turmoil or sporadic movement.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SOUL_BEACON_MAELSTROM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Soul Beacon siphons and redistributes Essence from hostile troops to friendly troops within the area.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">“Heritor” is a the new secret tech introduced in Planetfall’s first expansion. “Essence” refers to an type of life force/energy that is repeatedly mentioned within the Heritor secret technology.</Data></Cell>
+   </Row>
+   <Row ss:Height="165">
+    <Cell><Data ss:Type="String">SOUL_BEACON_MAELSTROM</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[br/][br/]While within this colony domain, every {turns}[turn/] combat turns: [bulletList][bullet]Each [abilityred]enemy[/abilityred] unit has a {strength}[strengthentropy/] strength chance to suffer [abilityred]Energy Drained[/abilityred] for {drainedturns}[turn/].[/bullet][bullet]In addition, each [abilityblue]friendly[/abilityblue] unit gains an [abilityblue]Essence Charge[/abilityblue].[/bullet]&#10;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLUSTER_MINE_DEPLOYMENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cluster Mine Deployment</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Cluster Mine Launcher harrasses all enemy troops when engaged by firing mines near them.</Data></Cell>
+   </Row>
+   <Row ss:Height="195">
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While within the colony domain, every {turns}[turn/] combat turn: [bulletList][bullet]{mineamount} mines will be placed at random locations on the map.[/bullet][bullet][abilityred]Enemy[/abilityred] non-Flying, non-Floating units passing over or starting their turn on a mine have a {strength}[strengthphysical/] strength chance to suffer {minedamage}[damagekinetic/] damage.[/bullet][bullet][abilityblue]Friendly[/abilityblue] units are not affected by the mines.[/bullet]&#10;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_KILLZONE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firestorm Missile Killzone</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A killzone is an area of a military engagement with a high concentration of fatalities, often caused by the deployment of heavy weapons within that area.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_KILLZONE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Firestorm Missile Silo designates a killzone and will automatically lock on to enemy units within the area when engaged.</Data></Cell>
+   </Row>
+   <Row ss:Height="225">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_KILLZONE</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While within the colony domain, every {turns}[turn/] turns: [bulletList][bullet]A random enemy unit gains [abilityred]Firestorm Missile Lock.[/abilityred][/bullet][bulletList] [bullet] After another turn, that unit will be struck by a Firestorm Missile.[/bullet][bullet]Firestorm Missile deals {damagecenter}[damagethermal/] damage with [abilityred]Massive Impact[abilityred/] on the center target hex.[/bullet] [bullet]It also deals {damage2}[damagethermal/] with [abilityred]High Impact[/abilityred] within a 2 hex radius.[/bullet][bullet]In addition, the missile will leave fire hazards on all affected hexes.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLUSTER_MINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cluster Mine</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">CLUSTER_MINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy units passing through or ending their turn on this hex have a {strength}[strengthphysical/] to suffer {damage}[damagephysical/]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>12</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

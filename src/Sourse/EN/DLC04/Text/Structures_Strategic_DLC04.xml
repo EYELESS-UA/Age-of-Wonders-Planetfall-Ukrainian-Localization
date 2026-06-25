@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Elliott Van Neste</Author>
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <Created>2018-10-30T08:44:30Z</Created>
+  <LastSaved>2020-02-25T14:22:01Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="286"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="272.5"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="332.5"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="310"/>
+   <Column ss:StyleID="s62" ss:Width="121"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRUCTURES_STRATEGIC_DLC04</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESONANCE_HALLS_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resonance Halls</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name - Resonance as in sound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">RESONANCE_HALLS_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sound is central to Shakarn culture. Resonance Halls like these can be found hidden on any Star Union world where their infiltrators operate,  voices forever resonating within its walls, long after their owners have gone.[br/][br/]Grants {Research} Research to the colony it is linked to.[br/]Specialist units built in the linked colony gain [abilityblue]Resonating Memory[/abilityblue], healing them for {ResonatingMemoryHeal} whenever they use a non-damaging ability.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description &#10;Shakarn - Race name&#10;Infiltrators - Shakarn Unit&#10;'After they have gone' - after death</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESONANCE_HALLS_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESONANCE_HALLS_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Specialist units gain [abilityblue]Resonating Memory[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESONANCE_HALLS_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resonating Memory</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit property &#10;Positive sounding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESONANCE_HALLS_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Shakarn ancestors hone this unit's focus. This unit is healed for {ResonatingMemoryHeal} whenever they use a non-damaging ability.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Property Description&#10;Shakarn - Race name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERIAN_ALTERATION_LAB_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Therian Alteration Lab</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">THERIAN_ALTERATION_LAB_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Labs like these were established on many Star Union worlds, advertising the benefits of the Therian Panacea, promising a cure for many genetic diseases... and a haven for transhumanists.[br/][br/]Grants {Research} Research and {Supply} Food to the colony it is linked to.[br/]Biological and Cyborg units built in the linked colony gain [abilityblue]Mutant[/abilityblue] and {Resistancebonus} resistance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description&#10;Therian - Race name&#10;Therian Panacea - the wondersubstance that allowed human and animal genes to be mixed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">THERIAN_ALTERATION_LAB_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Biological and Cyborg units gain [abilityblue]Mutant[/abilityblue] and {Resistancebonus} resistance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERIAN_ALTERATION_LAB_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_ALTERATION_LAB_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{TherianAlterationLabResistance} resistance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Effect Description&#10;resistance - gameplay concept, resisting damage and and status effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COSMIC_MANIPULATION_COMPLEX_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmic Manipulation Complex</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name&#10;Cosmic - referring to space, the void and cosmic events.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">COSMIC_MANIPULATION_COMPLEX_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Star Union's Void technicians worked hard to keep its frontier worlds safe from the unpredictable ripples of the Void Bombs. Though only marginally effective, these Manipulation facilities are a common sight across much of the Union's former territories.[br/][br/]Grants {Cosmite} Cosmite and {Research} Research to the colony it is linked to.[br/]Flying units built in the linked colony gain {Accuracybonus} accuracy on their attacks.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description&#10;Star Union - The name of the old empire&#10;Void Technician - fictional profession for those working at this facility&#10;Void Bombs - devices used to open rifts in space and establish wormholes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">COSMIC_MANIPULATION_COMPLEX_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Flying units gain {Accuracybonus} accuracy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMIC_MANIPULATION_COMPLEX_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMIC_MANIPULATION_COMPLEX_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{Accuracybonus} accuracy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WARDOCK_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wardocks</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">WARDOCK_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Though largely replaced by atmospheric craft, the Star Union maintained a sizable navy on most of its worlds where additional naval firepower was neccesary. These Wardocks are a testament to that presence, featuring state-of-the-art drydocks for ship construction.[br/][br/]Grants {Production} Production and {Energy} Energy to the colony it is linked to.[br/]Naval units built in the linked colony gain {Armorbonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description&#10;Star Union - The name of the old empire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WARDOCK_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WARDOCK_EXPLORATION_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Naval units gain {Armorbonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DARKVOID_PORTALS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringer Portals</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name&#10;Voidbringers - Race name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DARKVOID_PORTALS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringers gather around rifts through which they summon forth endless hordes of servants. There are portals present in combat that will summon [abilityred]Enthralled[/abilityred] Tier I and II Racial units every [turn/] unless destroyed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description&#10;Voidbringers - Race name&#10;Enthralled - condition that slaves units to the Voidbringers&#10;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>12</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

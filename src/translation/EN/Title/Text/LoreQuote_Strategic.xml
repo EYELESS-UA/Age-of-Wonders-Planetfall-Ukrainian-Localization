@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2019-02-15T09:26:59Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11175</WindowHeight>
+  <WindowWidth>25200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:ReadingOrder="LeftToRight"
+    ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:ReadingOrder="LeftToRight"
+    ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="50" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="174.75"/>
+   <Column ss:Index="3" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="275.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="249"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">LOREQUOTE_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">PROMETHEAN_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;The universe is dark and filled with abominations, but the cleansing fire burns them all away.&quot; - High Exterminator Bettrack</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Bettrack - Male name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">PROMETHEAN_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;We commence the great purge. The fire will be used to fight the corruption from without, and within, the Union.&quot; - High Exterminator Bettrack</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Bettrack - Male name&#10;(Transcribe - to non latin fonts - but do not localize)&#10;&quot;Union&quot; refers to the Star Union</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PROMETHEAN_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;We can take the heat. We walk through fire together. Only those that pass through fire understand its proper application.&quot; - Nox Magginski, Fireman </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Nox Magginski - Male name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">PSYNUMBRA_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Into Oblivion we go. And from the darkness they come.&quot; - Cultist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cultist could be male or female. Not an in-game unit.&#10;&quot;Oblivion&quot; refers to Psynumbra concepts of their powers.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">PSYNUMBRA_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Pain is inevitable, suffering is optional. The great gate has to be opened.&quot; - Volunteering Initiate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Initiate&quot; is an in-game unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">PSYNUMBRA_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;One by one, my brothers have failed and perished in front of me. But I will survive and transcend into the Harmony of Oblivion&quot; - Host of Malictor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Malictor - Psynumbra unit&#10;(Transcribe - to non latin fonts - but do not localize)&#10;&quot;Harmony of Oblivion&quot; refers to Psynumbra concepts of their powers.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">XENOPLAGUE_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Competition creates change. Evolution dictates that weaker players be replaced.  We intend to be on the winning team. &quot; -Dr. Drake Becker, Xenotech Labs </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drake Becker - male name&#10;(Transcribe - to non latin fonts - but do not localize)&#10;Xenotech Labs are in-game locations.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">XENOPLAGUE_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">&quot;Can't these zealots see that the gods have given us the ability to create, so that we can continue their work?&quot;  - Dr. Eva Montinga, Chief Bio Scientist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Eva Montinga - Female name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;We've cultured a virus that harvests the best attributes of every lifeform into a single homozygotic lifeform. We're that good.&quot; - CEO Tranton Orr, Xenotech Labs </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">CEO Tranton Orr - Male name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">ARTIFICIAL_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Through Synthesis, all will be connected, and all will be one. True equality through unity.&quot; - Anonymous</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Synthesis is an in-game technology. Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ARTIFICIAL_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Do not be blinded, the truth is that we are prisoners. Throw away the shackles of society and fight for your redemption.&quot; - Anonymous</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ARTIFICIAL_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;By opening your mind to embrace the Synthesis reality, your perception of the world expands and you will be able to see the truth of existence.&quot; - Anonymous</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">CELESTIAN_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;The Light burns within us all. It is a great sin to snuff it out.&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Light&quot; refers to an in-game Celestian concept.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAN_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Remember the Order and their teachings. Remember the fallen and their dreams. Remember the many that would be forgotten. Remember to care.&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Order&quot; refers to Celestian.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">CELESTIAN_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;During the day, the sun fills the world with one huge light. At night, the sky is dotted with many little lights. Yet we spend so much time looking up, we forget to look within.&quot;</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VOID_TECH_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;Step into the future, the past and the present all at once. Exceed the limitations of spacetime. &quot; - Voidtech Slogan, Tier 8 Funding Promo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VOID_TECH_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;VoidTech strums reality's strings, resonating across infinite emptiness. Those harmonics create a symphony of possibilities.&quot;  - Dr. Terrance Lantin, Voidtech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Terrance Lantin - Male name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_TECH_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Dimensional science is the pinnacle of scientific progress, all other fields are insignificant to what we aim to achieve.&quot; - Dr. Johan Sköglar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Johan Sköglar - Male name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">CRYO_TOMB_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;With the Morpheus Dreaming Device, everyone can enter the shared marvelous dreamland during their cryogenic sleep. Remembering dreams is not guaranteed.&quot; - Morpheus Corp Disclaimer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Morpheus Corp - Company name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">CRYO_TOMB_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;I have been awakened from a deep slumber of a hundred years. Yet, I still have to go to sleep every day.&quot; - Dissatisfied Customer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">CRYO_TOMB_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Do cryo-sleepers dream of frozen sheep?&quot; - Customer FAQ entry</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SPACEPORT_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;Go places. There are no traffic jams in space. &quot; - Trent MacLan, Astronaut</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Trent MacLan - Male name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SPACEPORT_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Book a space tour, they said. See new places, they said. I just shrugged and rebooted my VR glasses.' - Anonymous Spacer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SPACEPORT_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Turn off your VR-Suite and go places. Get out into the universe. You get no extra lives, so experience it in person. No virtual thrill compares to fleeing for one's life.&quot; - Mah Reg'Nib, Traveler</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mah Reg'Nib - Kir'Ko&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;No fake VR thrills, experience the real thing. All fantasies can be fulfilled… for the right price.&quot; - Star Union Travel Guide</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;What happens in the Elysium Parks, stays in the Elysium Parks. This is guaranteed by our Surveillance Exemption Status.&quot; - Elysium Parks Brochure</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Elysium Parks is an in-game location.&#10;Surveillance Exemption Status refers to in-game flavour text.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;It looks like the way you’d imagine heaven must look at night” - Satisfied Customer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ELYSIUM_PARKS_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE04</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;The numb Paragon visitors seek to rekindle their humanity with debauched sensations. These resorts are the embodiment of our decline.&quot; - Ryam Cato, Moralist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ryam Cato - male (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNMENT_PALACE_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;The Planetary Governors are a façade, to give the plebs a face to look up to. Instead the Star Union is administered by the cold omnipresent machines of CORE.&quot;  - Outlander Admiral Lumey</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Outlander Admiral Lumey - male (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNMENT_PALACE_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;As Planetary Governor, I solemnly swear to uphold the laws of the Star Union on this world, to protect the Union, indivisible, with liberty and justice for all.&quot; - Governor’s Oath of Office</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Planetary Governor&quot; is an in-game universe title. Could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">GOVERNMENT_PALACE_LANDMARK</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;When the consequences do not impact the Star Union as a whole, CORE expects people to assume the responsibility of settling matters on their own.&quot; - Gallina Constance, Peacekeeper</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Gallina Constance - Female name&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">BIODOME_FARM_RESOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Terratech Uniseed performs under all circumstances, delivering a consistent and nutrient independent taste.&quot; - Terratech Agriculture Brochure</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Terratech Uniseed&quot; refers to in-game lore. (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">BIODOME_FARM_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Eat, drink, and be merry, for tomorrow we're recycled fertilizer.&quot; - Hamilton Biggs, Biodome Farmer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hammilton Biggs - male name &#10;&quot;Biodome&quot; refers to in-game building&#10;(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">BIODOME_FARM_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Biodomes compensate for environmental imbalances. They are the reason when the cataclysm hit, some of the population survived.&quot; - Ormo Tusk, Agricultural Scientist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ormo Tusk - Male name (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_CENTER_RESOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Millions of minds searching for the secrets of the universe in harmony, dreaming of a world where anything is possible.&quot; - CORE Unified Research Laboraties</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;CORE Unified Research Laboraties&quot; refers to an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">RESEARCH_CENTER_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Union mindpods direct even the most undisciplined engineering and scientific minds to produce useful technological research.&quot; - Ui'Geen Tika, Lab Director</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ui'Geen Tika - male. (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">RESEARCH_CENTER_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;The Research Lab contains an assortment of learning devices that we neglected in our haste to survive the cataclysm. It will aide in keeping a fine technological edge.&quot; - Myre Vinn, Technologist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Myre Vinn - female (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">ABANDONED_QUARRY_RESOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Dig Deeper. Find More. Make More. Live Longer.&quot; - Dvar Mining Motto </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker could be male or female.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ABANDONED_QUARRY_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Nothing commits a people to the mission of acquiring profit more than digging a giant hole in the earth.&quot; - Sontransk Lam, Prospector</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sontransk Lam - female(Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ABANDONED_QUARRY_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;This is a beautiful land, perfect for a deep resource-extracting mining complex.&quot; - Gorgle Grok, Foreman </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Gorgle Grok - male (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_REACTOR_RESOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Use Paragon Reactor Systems. Power up your systems with the cleanest and strongest source of energy available. Make every electron count.&quot; - PRS-Energy Ad Council</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Paragon Reactor Systems&quot; refers to in-game flavout text.&#10;&quot;PRS&quot; is abbreveation of above.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ENERGY_REACTOR_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;The Star Union left reactors in some of the most unlikely places, knowing their infrastructure would eventually require it. &quot; - Cmdr. Penweather Tufol, Planetary Exploration</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Penweather Tufol - male (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ENERGY_REACTOR_RESOURCE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Imagine the atomic universe colliding, exploding, and combining and all that energy is contained in a bottle called a reactor.&quot; - Dr. Urtissa Thany, High Energy Physicist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Urtissa Thany - female (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">IMPERIAL_SUNKEN_CITY</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;Be it a sunken city made by men or a natural coral reef, the sea accepts them all and the creatures of the deep find lodging therein.&quot; - Dolat Dolor, Harbormaster</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dolat Dolor - male (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">IMPERIAL_SUNKEN_CITY</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;There is something in the water. Something that snags my fishing nets and breaks my anchorlines. &quot; - Leenad Falk, Fisherman</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Leenad Falk - male  (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">IMPERIAL_SUNKEN_CITY</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QUOTE03</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&quot;The frigid waters of the deep dark sea preserve a legacy of our mistakes upon this world. &quot; - Emporer Salek Pantine</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Salek Pantine - Male name (Transcribe - to non latin fonts - but do not localize)</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

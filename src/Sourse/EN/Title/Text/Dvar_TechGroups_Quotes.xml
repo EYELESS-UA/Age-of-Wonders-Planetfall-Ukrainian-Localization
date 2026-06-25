@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-05-13T08:14:19Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11985</WindowHeight>
+  <WindowWidth>25200</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF6600"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="50" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="299.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="219"/>
+   <Column ss:StyleID="s62" ss:Width="209.25"/>
+   <Column ss:StyleID="s62" ss:Width="298.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="297.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="298.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MILITARYINDUSTRIALCOMPLEX_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aerial Division</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Why do pilots use ramming only when their ships are completely crippled? There’s nothing heroic in suicide. That’s when I realized: why not utilize the inertia of a vehicle’s mass as the primary weapon?  Prepare for ramming speed!”[br/]– Yakov Ukanich, Ramjet Guild Director </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male&#10;&#10;Edit: period in first sentence changed to question mark</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Ramjet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Ramjet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Noble Division</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“I can think of no better place for rich, entitled royalty than on the front lines of the battlefield. Live or die, only the strongest are worthy to lead the Dvar.”[br/]– Lady Ivy Vladov, Dvartian War Heroine</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Baron</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Baron</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_3</Data></Cell>
+    <Cell><Data ss:Type="String">Equipment: Rotary Cannon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dreadnought Division</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: Dreadnaught -&gt; Dreadnought</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Quite honestly, I still can’t quite bring myself to believe that we succeeded in making this much armor and ordnance float!”[br/]– Marzi Dvarwood, Lead Naval Command Engineer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Dreadnought</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Artillery Division</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“There is a stout lady whose voice is thunder. When she sings, the ground shakes. Her booming throaty voice signals that the end has come. We say the same about our artillery.”[br/]– Bardic Kaichiv, Dvar Legendmaster</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male&#10;&#10;Edit: removed space before last comma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Rocket Artillery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seismic Supremacy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Our new machine extracts all resources from the land, rendering the earth barren. Of course, our enemies will do everything in their power to prevent us from obtaining these riches. That’s why the Excavator is covered in guns and armor.”[br/]– Zhanna Tserber, Adamant Council member</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Female&#10;&#10;Edit: removed extra space before &quot;Zhanna&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Earth Crusher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ironclad Division</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Don’t fear the water. You can’t drown by falling into water. You drown by not rising above the surface.”[br/]– Rock Chagrov, Navy Pugilist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Ironclad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Excavations Division</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“If I had my way, all Dvar vehicles would be some form of tank.”[br/]– Skuld Orvik, Arms Smuggler</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Excavator Tank</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Excavator Tank</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Perimeter Security</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The mere existence of fortification or armoring is often enough to prevent an assailant’s attack. Precious strength can then be saved for productive offensive measures.”[br/]– Construction Director Radov Mog, Rumble Barricades Company</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_1_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deep Detonation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_1_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“It is easier to move mountains than to change the ways of a Dvar wife.”[br/]– Jegger Flan, Tunnel Guild Leader</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_2_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Drudges</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Whether it be from the workers or the very core of this planet, it’s a universal truth: we can always extract more. All it takes is a heart of unbreakable steel.”[br/]– Dvar Lord Tog Nugget </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male&#10;Deleted a &quot;-&quot; before Dvar Lord Tog Nugget </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">D-VR Mark IV Upgrades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“I’ll take a bullet for you. Well I mean, I will if I’m wearing fortified armor and shot detectors.”[br/]– Lady Ivy Vladov, Dvar War Heroine</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Female&#10;&#10;Edit: Dvartian -&gt; Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Superior Engineering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The highest achievement of Dvar society is to build something of lasting value and permanence.”[br/]– Torek Norr, Wall Architect</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Risk Management</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“No armor-suit is perfect, but using our new Risk Management Framework we’ve taken the most risk-laden parts—most likely to fail—and made them better. We look forward to seeing how our improvements have exposed new points of failure.”[br/]– Unoch Likitostitch, Dvar Research Project Director</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male&#10;&#10;Edit: Dvartian -&gt; Dvar</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_SUBSKILL_3</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Sapper</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced DV-R Suits</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“There are times when the best way to solve a problem is to punch it in the face… with a solid steel frying pan… propelled by the force of a trapped explosion. That’s how pistons work.”[br/]– Brenna Illich, First Wife of Dvar Lord Tog Nugget</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exploitation Campaign</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Please don’t be alarmed if we ask you to abandon your native holdings. It’s nothing personal. Our technology is specifically crafted to fit the Dvar. Our physiology simply doesn’t match yours, and you aren’t optimized to make the profits our Empire requires.”[br/]– Prakova Petrovik, Productivity Safety Manager</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cataclysm Generation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Our talent for mining beneath the planet’s surface creates a unique opportunity for destruction. We now know the weakest points in every parcel of land. Time to unleash a cataclysm.”[br/]– Dvar Lord Tog Nugget</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Peak Efficiency</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“In the Dvar military, assuming you survive long enough to become Captain, the regalia for that station is really not necessary. Still, it’s always nice to be recognized.”[br/]– Captain Darb Sonk, Artillery Division Commander</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Planetary Oligarchy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_9_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We are good at war. We profit from it. We dominate on the battlefield. We should embrace our gifts and develop this strength. My only fear is that we will run out of enemies and have no one left to fight but ourselves.”[br/]– Zhanna Tserber, Adamant Council member</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Dvar Female</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>36</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>40</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

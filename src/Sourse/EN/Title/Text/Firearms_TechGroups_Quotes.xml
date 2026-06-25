@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>LaszloP</LastAuthor>
+  <LastSaved>2018-11-15T16:43:15Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="189"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="294" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="269.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:Width="188.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FIREARMS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">ADVANCED_PROJECTILE_APPLICATIONS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Subjugation Ordnance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">ADVANCED_PROJECTILE_APPLICATIONS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Though primitive, blades have always been lethal. Especially striking a foe flying at supersonic speed.”[br/]– Orindra Reaver, Syndicate Assassin. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">ELECTRIC_MAGNETIC_AMMO_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Electromagnetic Utilization</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">ELECTRIC_MAGNETIC_AMMO_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“I was inspired reading research on a maglev train accident in Star Union Station. The E&amp;M breaking failed, launching the train through three solid barriers before stopping. Naturally, I thought the same powers could be used in a weapon.”[br/]– Clint Sutton, Vanguard High Energy Operations</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">SMART_AMMUNITION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosive Payloads</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">SMART_AMMUNITION_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Bombs aren’t always bad. The universe started with a big bang. Makes you wonder: what do you suppose God was trying to destroy when it went off, and did it work?”[br/]– Varla Prakash, Philosopher </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Amazon Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">EXPLOSIVE_AMMUNITION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kinetic Force Manipulation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">EXPLOSIVE_AMMUNITION_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“I prefer the elegant clean kill, but when you’re outnumbered, they refuse to surrender, and I have the right weaponry. Well, that’s when it’s time to turn the whole enemy line into something my grandma would call ‘Chunky Salsa.’”[br/]– Enrique Garza, Vanguard Sharpshooter</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">HIGH_VELOCITY_PROJECTILES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Relativistic Projectiles</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">HIGH_VELOCITY_PROJECTILES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Not only did the target get knocked out, but everyone around him went flying. A natural consequence of an object moving near the speed of light. Now that’s a gun!”[br/]– Kim Jordan, Gun Enthusiast</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>6</ActiveCol>
+     <RangeSelection>C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

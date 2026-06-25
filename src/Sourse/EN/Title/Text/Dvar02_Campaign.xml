@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <Created>2018-10-18T15:19:42Z</Created>
+  <LastSaved>2019-05-09T07:49:56Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="235" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="332.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="344.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="146.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="190.5"/>
+   <Column ss:StyleID="s62" ss:Width="208.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DVAR02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Find the source of the corruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find the source of the corruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The redeemer's contacts are the next link in the chain. Surely through them we will find the ones holding the council's leash.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Find the source of the corruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COMMUNION_SITE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Throne of Communion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Fraction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Incomprehensible Gift</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fate's Reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eye of the Cosmos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas' Bane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thorns of Beyond</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Valkas Horizon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_COSMITE_SECTOR_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Baryonic Crater</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PROTON_COIL_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proton Coil Construction Site</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_ASSIST_CLAUDIUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assist Claudius Proton</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Claudius Proton - Male Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_DECLINE_CLAUDIUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Decline Proposition</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_JOIN_CARMINIA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Join Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_DENY_CARMINIA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deny Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_CONTINUE_XENOPLAGUE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">We must see where this leads</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_STOP_XENOPLAGUE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">This is wrong</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_CONTINUE_XENOPLAGUE_QUEST_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">We must press on</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_STOP_XENOPLAGUE_QUEST_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">I must stop this</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: {MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Must Survive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Must Survive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Must Survive Zemestian-4.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_KORVIN_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME} Alive: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Discover who controls the Council and the Redeemers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Discover who controls the Council and the Redeemers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Someone behind the scenes has made puppets of the Council and the Redeemers. Finding out who is the key to freeing the Dvar from their influence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_DISCOVER_WHO_CONTROLS_THE_COUNCIL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Conspiracy Uncovered: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_KELSHANA_INESSA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Kelshana is in league with the Redeemers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Kelshana - Female Amazon character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_INESSA_KELSHANA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Kelshana is in league with the Redeemers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CLAUDIUS_INESSA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Redeemers are a shared enemy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CLAUDIUS_INESSA_PROVIDE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Proved cooperative by providing Cosmite for the weapon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Proton Coil is the name of the weapon Claudius Proton is developing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CLAUDIUS_INESSA_UPLINKED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uplinked to the Proton Coil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_JIKUKU_INESSA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Threatening to destroy &quot;Xa'Kir'Ko&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xa'Kir'Ko - Kir'Ko homeworld</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_ZHANNA_INESSA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Adamant Council exiled the Zhelezo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Zhelezo - clan name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_INESSA_ZHANNA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Adamant Council exiled the Zhelezo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_ENEMY_OF_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy of CORE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CORE demands that the Empress and her allies be destroyed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_ZHANNA_INESSA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy of the new order</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_KELSHANA_INESSA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unholy defiler</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_THREAT_TO_THE_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Threat to the Zhelezo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_WEAPON_TO_END_CORRUPTION_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Weapon to End Corruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_WEAPON_TO_END_CORRUPTION_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Assist Claudius Proton with the construction of the Proton Coil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALLIES_IN_DIRE_TIMES_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Allies in Dire Times</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRACK_DOWN_THE_REDEEMERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Track Down the Redeemers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TRACK_DOWN_THE_REDEEMERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The surviving Redeemers fled to this world. You will no doubt find them here, and perhaps their contacts as well…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRACK_DOWN_THE_REDEEMERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Redeemers found</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESCUE_THE_RASSVET_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover the Rassvet landing party</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Rassvet - Dvar clan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESCUE_THE_RASSVET_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Valodny's Rassvet Dvar have pledged their support to your cause. Their trust caused them to be exiled along with you. You should meet up with their landing party and bring them into the fold.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Valodny Rassvet - male Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECOVER_MORDECHAIS_CHOSEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover Mordechai's Chosen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RECOVER_MORDECHAIS_CHOSEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mordechai said he'd bring some of his chosen to join you on your mission. They must have made planetfall somewhere on Zemestian. You should find and recover them to bolster your forces.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mordechai - Male Syndicate character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have arrived. The Redeemers touched down nearby. If we find them, we will find their contact.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_01_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have arrived. Our allies landed, scattered about the world. Also, the Redeemers touched down nearby. If we find them, we will surely find their contact.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We should give chase before the trail grows cold. If we are to find their contacts, we must track them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">First we should establish ourselves. We need a new base of operations to explore safely our surroundings. The Redeemers have their tricks. We don’t want to run headlong into their traps.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MISSION_INTRODUCTION_MESSAGE_03_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">First things first. Let’s establish a new base of operations to explore our surroundings. We should send out search parties to recover our allies. Their forces will bolster our position on this hostile world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEARS_IN_REALITY_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tears in Reality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ZEMESTIAN_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explore Zemestian-4</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Zemestian-4 - Planet name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ZEMESTIAN_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Zemestian-4 is a lush world, yet it has few signs of Star Union settlement. The surface seems to be dotted with strange tears in our dimension. This instability means that the planet is ripe with Cosmite, and this opportunity is one you should not pass up.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ZEMESTIAN_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Explore Zemestian-4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTURE_A_TEAR_SECTOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Claim a Cosmite Tear Sector</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAPTURE_A_TEAR_SECTOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Zemestian-4's unstable nature has blessed it with a wealth of Cosmite, but it seems this treasure will not be easy to claim. The terrain itself is dangerous, and strange creatures guard the Cosmite nodes. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTURE_A_TEAR_SECTOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Capture a Cosmite tear sector</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ZEMESTIAN_4_COMPLETION_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Director {STR_LeaderFirstName}! We have encountered a sector almost overflowing with Cosmite!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ZEMESTIAN_4_COMPLETION_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This must be the result of Zemestian-4's instability. It is quite a bounty to claim! Capturing it will give us an edge in our struggle, but we must be careful, such a prize is sure to attract unwanted attention.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ZEMESTIAN_4_COMPLETION_MESSAGE_03_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector in particular seems quite dangerous, containing a Hazard we cannot ignore. We would do well to research Environmental Conditioning and remove it before laying our claim on this area.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Environmental Conditioning - research topic </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see that Mephilas spoke the truth. More defilers have come to our world. This world is ours. Your every step offends our mistress. I am Kelshana Latisiak, the appointed custodian of the communion. My mistress's mandate demands that your presence on this world be snuffed out.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mephilas - Male character&#10;&#10;Kelshana Latisiak - Female character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You must be Mephilas' contact. Did he come running to you with his tail between his legs?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mephilas returned to us. He is receiving his just rewards… I have no doubt you will be reunited soon. You are on our world now, and we outnumber you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_04_ALT_MORDECHAI</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This world is corrupt! You have let a darkness take hold of your heart. Have you no pride, Amazon? Are you so weak as to submit to the influences of the Abyss? We stand with our new allies, and the light itself guides us. There can be no failure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_KELSHANA_LATISIAK_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Outnumbered, but not outclassed. Each Zhelezo Dvar is twice the warrior you and your ilk are. You meddled with our affairs. We will repay you in kind. It will be our pleasure to defeat you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Zhelezo - Dvar clan name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Korvin is missing his name on the in-game message for this dialogue box</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If it isn't the Redeemer's vanquishers… You are nothing if not driven, but this conflict is beyond your comprehension. I calculate a 65.7% chance of our goals aligning… You wish to see the Redeemer's masters removed, correct?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly? You seem amenable enough… Yes, we wish to see to the end of the Redeemers and their masters. What is it you propose?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I serve the interests of CORE. I was chosen to create a Proton Coil weapon to defeat its greatest nemesis. I have come to this Abyss-infected world to create and test the device. Your Redeemers and their masters happen to be my lab rats. Help me finish my work, and I’ll help you dispatch the vermin.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_CLAUDIUS_PROTON_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, be careful. CORE is emotionless and calculating. Its followers will be no different. If our usefulness fades, they will dismiss us. I don’t trust them.</Data></Cell>
+   </Row>
+   <Row ss:Index="84" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_ZHANNA_TSERBER_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Zhelezo! Your meddling in council affairs ends today, in the name of the new order we will strike you and your new 'rebellion' down!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_ZHANNA_TSERBER_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Should have known you'd be the one to come find us… ever the council's lapdog. Perhaps we should start our purification of the council with you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEET_ZHANNA_TSERBER_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Try me. You cannot stop us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_JIKUKU_COSRAX_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">And so more destroyers have come, just as Latisiak warned us you would. You will not defile Xa'Kir'Ko! This planet is our destined home and we will defend it with our lives.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_JIKUKU_COSRAX_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have not come do destroy this world. But we have come to destroy something… We are following a trail of corruption, and it has led us here. I doubt you have anything to do with it, Kir'Ko. Do not stand in our way.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_JIKUKU_COSRAX_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yet corruption you bring. We watch with interest. Xa'Kir'Ko is the destiny of all Kir'Ko. Treat her well during your stay, or else…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mordechai Antares, it is good to see you made it. You and your kin are welcome to join us, together we stand stronger after all.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are a sight for sore eyes. Between the Amazon, Assembly and the Kir'ko, there is little respite to be found. Is it Director {STR_LeaderFirstName} now? Were you aching to get to the front, {MSTR_DVAR02_KORVIN_FIRST_NAME} {MSTR_DVAR02_KORVIN_LAST_NAME}?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good to see you too Mordechai. {STR_LeaderName_INESSA_ZHELEZO} leads us for now. A calmer mind must prevail. These days I'm more suited to fight. She is wise for her age, and an excellent tactician. We are in good hands.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIND_MORDECHAI_ANTARES_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see. Leader or not, you and your kin have proven to be dependable allies and friends. My Brothers and Sisters will gladly fight by your side. Direct us as you will, {STR_LeaderName_INESSA_ZHELEZO}.</Data></Cell>
+   </Row>
+   <Row ss:Index="95" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FIND_VALODNY_RASSVET_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah! Young {STR_LeaderName}, it’s good to see you. I brought as much as I could muster from Chimera Glacialis. Lady Lianna was regrettably unwilling to pledge the rest of Rassvet's resources for such a risky endeavor. Regardless, my most loyal are ready to fight for the future of all Dvar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Chimera-V - Planet name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIND_VALODNY_RASSVET_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uncle! I'm glad to see you've arrived safely. Even without the full support of the Rassvet Consortium we will make do, your assistance is most welcome and will no doubt prove invaluable.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIND_VALODNY_RASSVET_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good, we have brought along a colonizer and plenty of troops. Direct us to where you need us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTURE_COMMUNION_SITE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capture the 'Communion' Site</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CAPTURE_COMMUNION_SITE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These Amazon consider themselves custodians of the 'communion'. They likely use this site to report to their masters. If you capture it, you might be able to find out more about the masters to whom they and their Redeemer allies answer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAPTURE_COMMUNION_SITE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These Amazons protect this sector ferociously. More importantly they would rather die than divulge its contents. My old wisdom tells me that we may well find their secrets hidden in those dark depths.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAPTURE_COMMUNION_SITE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Its value is not our concern at this time. The continued existence of the Consortia is in question, and that 'Communion' site may provide us the answer. We must capture it and find out who communes there.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAPTURE_COMMUNION_SITE_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agreed, but we should tread carefully. We saw the power of these 'Psynumbra' ourselves on Chimera Glacialis. If this is their sacred sanctum, it will not be conquered easily.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate the Communion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The ritual site details the rites to initiate the communion. This will likely draw out whatever it is they answered to and provide you with answers, but you must be prepared for unforseen consequences.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No! I cannot fail! The Communion must not be defiled by outsiders! I'll destroy you before I let you desecrate that most sacred place.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your wailing will not grant you victory, and clearly neither will your skill at arms.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bold words, spoken without wisdom. You have no idea what powers you are meddling with, {STR_LeaderName_INESSA_ZHELEZO}. If I cannot show you the folly of your ways, she will.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Now that we control it, we should see to investigating what directs the Communion. I doubt this ritual will be safe for the likes of us. We should prepare for the worst.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The final preparations are in place. Prepare yourselves, brothers and sisters. I doubt this will be pleasant.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(A powerful pressure can be felt on the minds of all present at the Communion. An alien presence coalesces in a shape before their eyes.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A new voice requests an audience, yet it stands in the place of the faithful. You must have questions if you have contacted me this way.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The… Empress? You are behind all this? The Redeemers… the Council… it was you who pulled their strings?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, young one. I offered the Redeemers a gift. They serve me faithfully as a necessary tool in this war, as do your Council.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">That is what we are to you? Tools?! You once ruled the Union, countless trillions of souls, all of whom loved you. And you use them as miner would a pick?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifices must be made. CORE ever tightens its grip on the remnants of the Star Union. Its servants came for this world, and they will come for yours. The council serves me so that CORE can never enslave the Dvar again. Join me. Prevent the tyranny of CORE from taking hold of all people... or refuse and perish.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_07_ALT_WEAPON_COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifices must be made. CORE ever tightens its grip on the remnants of the Star Union. Its servants came for this world and they will come for yours. The council serves me so that CORE can never enslave the Dvar again. You have already chosen the path of dissent, siding with CORE's pets. You disappoint me. You have no place in the Star Union's rebirth.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_08_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We will accept your offer. The Star Union's rebirth is paramount, and from what I have learned, CORE clearly cannot be allowed to control us again.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_09_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I should have known your kind could not be trusted. My estimations warned me. CORE will rule this paradise. Behold my creation! Behold the Proton Coil. Witness that even gods may die.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_09_ACCEPTED_ALT_COIL_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You will be a valuable ally. You have already shown excellent judgment by ignoring Claudius Proton. If you truly wish to show your commitment to our cause, you must destroy the Proton Coil. That weapon cannot be allowed to exist.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_10_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">That weapon! Zhelezo, if you truly want to see a Star Union free from CORE's grip, that weapon must be destroyed. Prove your dedication {STR_LeaderName_INESSA_ZHELEZO}. Destroy Claudius Proton's Abomination!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_08_DENIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Dvar have been reborn already! Independent. Free. Your disregard for our lives shows that you are as unfit to rule as CORE. The Star Union's return will only bring tyranny, yours or CORE's.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_09_DENIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then you are fools. Without my rule, chaos will reign. There will be no safety or prosperity for anyone. If you will not aid me, then you must be eliminated. This world is sacred to the Psynumbran devoted. Lohikarne guards its connection to the Abyss. This is goodbye, {STR_LeaderName_INESSA_ZHELEZO}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Lohikarne - a Psynumbra demon which has no gender.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_10_DENIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_INESSA_ZHELEZO}! A massive monstrosity has surfaced nearby! Could it be this Lohikarne the Empress mentioned?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COMMUNION_MESSAGE_11_DENIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We must destroy that monstrosity before it comes for us all.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_THE_PROTON_COIL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capture and Destroy the Proton Coil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_THE_PROTON_COIL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Claudius Proton has brought his weapon online; the Proton Coil is operational. This weapon cannot be allowed to exist. Prove your worth to the Empress. Destroy the weapon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_THE_PROTON_COIL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Proton Coil destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_THE_PROTON_COIL_COMPLETED_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With the weapon destroyed and CORE's servants routed, your willingness to serve the Union has been proven. Yet the war is far from won. Prepare your armies. I will call upon you when the time comes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFEAT_THE_ECHO_OF_LOHIKARNE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Echo of Lohikarne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEFEAT_THE_ECHO_OF_LOHIKARNE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Empress was behind all of this! She destabilized the connection allowing an Abyssal entity named Lohikarne to send through an echo of its power! It must be defeated if the Dvar are to survive their endeavor on this planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFEAT_THE_ECHO_OF_LOHIKARNE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Echo of Lohikarne defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ASSIST_CLAUDIUS_PROTON_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have chosen wisely. The completion of the Proton Coil is paramount to the restoration of the Star Union. You should be proud to be a part of it. If you could be a faithful assistant and provide us with enough Cosmite to continue our work, we will grant you the privilege of witnessing its first test.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">used normally if the vault is not taken in Dvar 01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ASSIST_CLAUDIUS_PROTON_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I hope you have made the right choice, {STR_LeaderFirstName}. CORE's return could be bad news for all of us. Still its weapons may help us in battles to come.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DECLINE_CLAUDIUS_PROTON_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While our goals may align, I'm afraid that CORE's return to power is not in our best interest. We will avenge the corruption of the Adamant council by our own volition; we do not need your superweapon to do it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DECLINE_CLAUDIUS_PROTON_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see your kind has inherited the stubborn pride of your ancestors. CORE's will be done! It is regrettable that you are not a part of it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent, I knew my judgment of you was correct. With this contribution, I can initiate the final process to make the Proton Coil operational. The next step requires our scientists to modify your sensory equipment to uplink with the Proton Coil's targeting computer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very well, we will dedicate some of our researchers to interfacing our systems.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Think carefully about this {STR_LeaderName_INESSA_ZHELEZO}… If we do this, there’s no turning back. I’ve read the old logs. CORE will not be content with our mere assistance. It will demand our allegiance. If object to CORE, we will be creating the weapon it can use to destroy us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_COMPLETED_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is done, the uplink is established. Is the weapon ready?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_COMPLETED_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, it will be ready to fire on schedule. Now that all preparations are in place it is time for you to provide the test subjects. Kelshana Latisiak protects a shrine on this world she calls 'The Throne of Communion'. Take it from her and lure out whatever entity lies within. Then the test firing of the Proton Coil can commence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROVIDE_COSMITE_TO_FUEL_THE_WEAPON_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Provide Cosmite to Fuel the Weapon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROVIDE_COSMITE_TO_FUEL_THE_WEAPON_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Claudius Proton is assembling a superweapon for CORE on this planet. He has stated that the weapon would be used against the Redeemers and their masters when completed. You should contribute Cosmite to help finish the project if you want the Assembly to assist you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Research the Proton Coil Targeting Uplink</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_WEAPON_TARGETING_UPLINK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">According to Claudius, the Proton Coil will soon be ready for testing. You are to ensure that the the proper targeting uplink is established, as you need to provide the targeting data for the test firing of this weapon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_THE_PROTON_COIL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy the Proton Coil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_THE_PROTON_COIL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heed the Empress's demand and destroy the Proton Coil</Data></Cell>
+   </Row>
+   <Row ss:Index="148" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate 'The Communion'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INITIATE_THE_COMMUNION_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Follow the ritual as described to make contact with whatever is on the other side</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_GRID_SKILL_PROTON_COIL_TARGETING_UPLINK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proton Coil Targeting Uplink</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_GRID_SKILL_PROTON_COIL_TARGETING_UPLINK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Commit research to uplinking with Claudius Proton's superweapon. Once this is done, there is no going back.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROTON_COIL_COMBAT_PROPERTY_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proton Coil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTON_COIL_COMBAT_PROPERTY_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Psionic and Ethereal units are weakened and deal {DamageReduction}. Every turn, all Psionic and Ethereal units have a strength {DimensionalInstabilityStrength} chance to be afflicted with Dimensional Instability for {DimensionalInstabilityDuration} turns.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROTON_COIL_COMBAT_PROPERTY_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has its damage output reduced by {CoilDamageReduc} as it is weakened by the power of the Proton Coil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BODY_AND_MIND_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Body and mind</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BODY_AND_MIND_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Xenoplague may lead to genetic modifcation that would let the Dvar be independent of their suits once more, but using such a tool is a dangerous path.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DRAGAN_VOSS_MUST_SURVIVE_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Dragan Voss Alive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DRAGAN_VOSS_DEATH_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Voss is dead, and the strain is lost with him. I was a fool to think I could cure our dependency… It cost him his life, I cannot let it cost any more.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRST_STEPS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">First Steps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRST_STEPS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Xenoplague may yield a cure, but first preliminary research must be done.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRST_STEPS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">{INT_0}/{INT_1} 'Alpha Strain Inception' Researched</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRST_STEPS_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This world has the mildest climate I have ever seen. It is beautiful in its way… If only we could experience this bountiful life with our own senses as others do…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRST_STEPS_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Director, our science divisions are settled in and ready to be set to work.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIRST_STEPS_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good… I sense that this may be the time; my research into the Alpha Strain may bear fruit on a world such as this. I should direct our scientists’ efforts towards it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Data from the Inception research looks promising; perhaps this could be the first steps toward our freedom. The Alpha Strain is a being that craves evolution however. If we wish to make it serve our purposes it must have a host, and it must be guided along its evolutionary path so it fulfils its desired function.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Which means, you will need a test subject. I would volunteer, but it sounds like this sort of experiment requires a younger subject. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Indeed, I am compelled to volunteer myself, but as Director I cannot take such a risk. It seems we have no choice but find a volunteer within our own people.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIRST_STEPS_EPILOGUE_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If this is the path you wish to follow you must choose, {STR_LeaderFirstName}. Do not make this choice lightly, it concerns much more than just the lives of our kin.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resilient Guidance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Strain Voss bears must be guided to resilience. Battle should provide plenty opportunity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Dragan Voss suffered damage in combat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Director. I am Dragan Voss of the Zhelezo. Word has spread amongst our kin of what you want to achieve, they are nervous, uncertain, but I do not fear what must be done for a just cause. I have come to offer myself, mind and body to your service. Let me bear this burden for our kind.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Baron Dragan Voss, I know who you are. Your clan has been with us since our oldest records, it is good to see that your dedication to the Consortium remains steadfast. Are you certain you wish to take this risk? The Xenoplague is dangerous, it may help us cure our dependency, but it will not be easy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes Director, my father fell on Chimera. But my belief in the Zhelezo cause is not shaken, nor is my decision to carry this burden. The Ancestors will watch over me, I am sure. As will you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am honored by your trust, Baron Voss. Let us begin then. The Inception process should only take 1 cycle to complete. I can only hope this will give us answers in time…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I feel strange, the same yet different. It feels as though potential courses through my veins, strong yet flexible… What is the next step Director?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_MESSAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We should ensure your new symbiont is guided along the correct path. And for that you must be brought into the crucible that forges the strongest Dvar: Battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A new vitality courses through my veins, I feel it. The pain of wounding was dulled somehow, lessened, yet after each blow I felt myself grow stronger… I can feel it pulling at me already; it needs more biomatter to evolve.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are indeed growing stronger, as is the Alpha Strain within you, increasing your resilience. But we will need more if we are to be independent of our suits again. We need to regain what was lost… we could strengthen it more to perhaps unlock its regenerative properties, but it might leave Voss changed forever.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_03_STOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No, this is wrong. A creature like this can only corrupt if we let it grow further than this. I am sorry for what this has brought you Dragan, but important lessons are learned regardless.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_04_STOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is my duty to serve Director, though it might not have given us what we wanted from it, I cannot waste such strength. I will fight for you in the coming conflicts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESILIENT_GUIDANCE_EPILOGUE_MESSAGE_05_STOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am glad to see you carry the wisdom of your ancestors within you after all… I know this hurts you daughter, but some things cannot be changed.</Data></Cell>
+   </Row>
+   <Row ss:Index="186" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aggressive Guidance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Strain grows aggressive, fighting Voss for control. It may be sated in combat instead.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Dragan Voss defeated an enemy in combat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No matter my reservations, this cause requires risks. If sating the Alpha strain’s aggression is what it’ll take we must see where it takes us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As you command, Director.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Such power! I can scarce contain the energy within me, yet I seem as bound as ever to the prison of my suit… The strain feels like it grows within me... I do now know if I can control it much longer…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Steady yourself Voss! The Strain is clearly pushing you to your limits already. I don’t know if can push you any further. We may not even find the answers we seek…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_03_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We cannot stop now, we are so close… the strain must feed more, that might stabilize it from taking him over entirely.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_04_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes director… I must endure for my kin… I…I can control it… I must…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_03_STOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No, I must stop this while I still can. You have suffered much already Voss, I will see to it your condition is stabilized as best we can.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_04_STOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But Director, we were so close… This cannot have been for nothing, let me fight on the forefront of our forces, I will do my part for the Consortium as best I can.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AGGRESSIVE_GUIDANCE_EPILOGUE_MESSAGE_05_STOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am glad to see you carry their wisdom within you after all {STR_LeaderFirstName}… Your dedication to the Consortium will not go unrewarded in time Baron Voss, I will see your kin properly rewarded when this is over. I know this is not the result you wanted son, but some things cannot be changed… no matter the price we are willing to pay.</Data></Cell>
+    <Cell><Data ss:Type="String">I am glad to see you carry their wisdom within you after all {STR_LeaderFirstName}… Your dedication to the Consortium will not go unrewarded in time Baron Voss, I will see your kin properly rewarded when this is over. I know this is not the result you wanted daughter, but some things cannot be changed… no matter the price we are willing to pay.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEMPERING_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tempering Guidance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TEMPERING_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Xenoplague in Voss seems to be overtaking him, it must be allowed to grow by creating more of it's kind in order to evolve a strain strong enough for the cure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEMPERING_GUIDANCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Xenoplague units spawned</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEMPERING_GUIDANCE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Strain guides my senses…Sense… Prey… Must grow… Feed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TEMPERING_GUIDANCE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Alpha strain grows in strength with proximity to more of its kind. We must let the Voss’ strain spread itself, when that is done I think I might finally be able to get a sample potent enough to guide our cure…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TEMPERING_GUIDANCE_EPILOGUE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is done… The Xenoplague has been unleashed. Voss seems to no longer be himself, I can only hope that this is worth it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proof of Strength</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Xenoplague has overtaken Voss completely and gathered more of it's kind in defiance. It claimed it needed proof of strength.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Dragan Voss defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The lifegiver comes… It spoke of ascension… of ancestry… none of that remains now… the meaning of the words is lost… We have become more… Can you hear me lifegiver? </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}! Get away from him!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I must learn from him before he is lost, his sacrifice cannot be for nothing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">They are already lost, {STR_LeaderFirstName}! Do not be consumed by your desires! Do not endanger yourself like this!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_MESSAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…Voss is gone… Part of us now… You commanded him when we were weak… we cannot accept you any longer lifegiver… Prove your strength… or be consumed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Strong… Worth following… This form dies… My other forms… Live forever… Under your guidance… Goodbye… {STR_LeaderName_INESSA_ZHELEZO}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Voss is gone… I have failed… was I a fool to seek a cure? I thought I could help us, but I only condemned one of our bravest to a painful end. How could I be so blind?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Some things are not meant to change, son. Do not mourn his death, make use of what his sacrifice taught us.</Data></Cell>
+    <Cell><Data ss:Type="String">Some things are not meant to change, daughter. Do not mourn his death, make use of what his sacrifice taught us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Director! A swarm of creatures bearing the marks of the Xenoplague have been spotted near the capitol! They seem to be… Waiting for something?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROOF_OF_STRENGTH_EPILOGUE_MESSAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see… It seems the Dragan’s sacrifice did bring us something then. What he said in their last moments… Was that still Dragan? The Alpha strain cannot bring us a cure… but it might bring us victory. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="1"/>
+   <Row ss:Index="219" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The last of our enemies falls before us. Now that the world is under our control, we should discover to whom these fiends answered. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I can give you the answers you seek, young Dvar. I am Empress Carminia. You have my attention. Claudius Proton serves a monster named CORE. It is a cold, artificial remnant of the Star Union. It will stop at nothing to return us all to its chains.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empress… Carminia? Yes, we have seen Claudius Proton. He was as cold and calculating as CORE… But you have not given us the answer we demand: who corrupted the Council? </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Adamant Council is not corrupt. You misunderstand. They merely know what must be done for the Star Union’s rebirth. They seek to prevent CORE’s growing influence. I offer you a place at my side. Join me. Bring glory and eternal reverence to the Zhelezo. You have proven yourselves worthy. With you, we can bring about the Star Union’s rebirth.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOMINATION_VICTORY_DIALOGUE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Dvar are not your tools, Empress! We will forge our own path. We will fight both you and CORE if we have to. The Dvar must be free.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very good, the test went well, although it will be some time until I am able to bring it to full power. Nevertheless, your assistance has been duly noted. In fact, I have someone who wishes to meet you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">ZHELEZO MINING CONSORTIUM. YOUR ASSISTANCE HAS BEEN EVALUATED. A REWARD IS IN ORDER: THE TYRE SPAN, A SECTION OF STAR UNION SPACE WHERE ZHELEZO WILL THRIVE.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CORE itself? We graciously accept this gift; a new beginning is just what our people need.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORE_VICTORY_DIALOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">COORDINATES WILL BE TRANSFERRED. YOU WILL RECEIVE INSTRUCTIONS ON HOW TO PROCEED SOON. THERE IS STILL A THREAT. YOU WILL BE CALLED UPON WHEN THE TIME COMES.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">All caps is intentional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPRESS_VICTORY_DIALOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have chosen wisely, young Director. That weapon was a threat to us all. But CORE and its followers still survive. They must be dealt with soon. When that time comes, I will call upon you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPRESS_VICTORY_DIALOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, your highness. The Zhelezo Consortium will be ready when the call comes. Together we will forge a new future for all Dvar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPRESS_VICTORY_DIALOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I hope that you have set us on the right path, {STR_LeaderFirstName}, for all our sakes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hahaha! Even a monstrosity from the abyss is no match for us. The Zhelezo Dvar have proven they can take anything this universe may throw at us! And you, {STR_LeaderFirstName}, you have proven yourself an excellent Director, just like I knew you would. I am proud of you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you, father, I am glad I could do you proud but this ordeal has taken much out of our people, not to mention our equipment. The shockwave of that creature’s destruction inflicted significant damage on our more sophisticated machinery and equipment; it will take us some time to recover from such damage…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My greatest creation, the best chance of stopping Carminia, Ruined! Your recklessness has cost me everything! The CORE alliance will have your heads for this, mark my words!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We won’t mourn the loss of your weapon Claudius, you could not be trusted with such power and neither could Carminia. Strength of will and equipment are the weapons of the Dvar, and they have proven stronger than your creation this day. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMMUNION_VICTORY_DIALOGUE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We should take some time to recover and prepare our expedition to the Star Union’s interior. I bet my hammer that we’ll find the Empress there.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>180</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>192</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

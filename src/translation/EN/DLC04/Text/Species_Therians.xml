@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Arnout Sas</Author>
+  <LastAuthor>Arnout Sas</LastAuthor>
+  <Created>2019-10-11T09:00:32Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="93.75"/>
+   <Column ss:StyleID="s62" ss:Width="86.25"/>
+   <Column ss:StyleID="s62" ss:Width="463.5"/>
+   <Column ss:StyleID="s62" ss:Width="110.25"/>
+   <Column ss:StyleID="s62" ss:Width="221.25"/>
+   <Column ss:StyleID="s62" ss:Width="85.5"/>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIES_THERIANS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Therians</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of the species/unit class</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HUNTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prowler</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">HUNTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Feel the Call of the Wild… Do you ever wish you could just howl at the moon? Join the Therian Prowlers. Come run with the pack. Maybe you’re submissive and want a strong pack leader? Maybe you’re an Alpha and will take the lead? You won’t know until you let our genetechs alter your physiology and you feel the Thrill of the Hunt. When you feel your claws sinking into the warm wet haunches of prey you hunted with your most trusted packmates. Only a Therian life truly sets you free.” – Fang Whitemane, “RV-94949C: The Law of the Pack”  </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BOUNCER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bouncer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">BOUNCER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Ever partied with a Therian Bouncer? Sure, they’re fast. Those daring privateers aren’t to be messed with in a fight with their dual pistol tornado of bullet spray, but what a crazy night on the town! Party animals give new meaning to ‘bouncing off the walls’! My buddy Bonzai didn’t take kindly to thugs. Always causing barfights! Surrounded, she bounced out of a mob of brutes. I ended up restrained in nylo-cuffs explaining to the judge that the real troublemaker bounced out of the bar laughing all the way.” – Social Influencer, Gaston Beaver, “RV-99548E: Only the Best Parties”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHARPSHOOTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sharpshooter</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Jett lifted his rifle, leveling his scope at the boar. A crack shattered Jett’s rifle before he pulled the trigger. Splatter from a biochemical blast left us choking from debilitating infection. He writhed on the ground, screaming in agony. I dove for cover, thinking the thicket would break the next shot. Lifting my scope, I turned and saw him waggling a mocking claw back at me. The sly fox face of a Therian Sharpshooter grinned widely as I suddenly realized that while we were hunting wild pigs, he was hunting us.” – Edger Tink, “RV-99436E: Nature Channel: Big Game Hunting”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chemist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">CHEMIST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The squirrel face is innocent enough. They are kind to those inquiring about genomic enhancement. They respect kin, but assume things with their quickened minds flitting from salutations to insinuations.  I thought just to inquire, but the Chemist insisted I try his wares. Soon, I was throwing chemicals and poisons in all directions. Filling the air with noxious clouds that only Therians could pass through unscathed. I suppose I had little choice then, but to join the flock, gaggle, herd, or pack. I don’t know what squirrels call themselves in a group.” – Howard Duncan, “RV-74799B: Howard’s Big Furry Transformation.”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">APEX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apex</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">APEX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The Therians would never have organized as an order when the Cataclysm shook the Star Union without the fearsome blade-wielding power of the Apex. Well, that and a little coaxing from me. Moonlighting as mixmaster for FuzzerCon, I saw panic spreading among the genomic animal-hybrid community. I reminded the lion-men of their noble heritage using a holographic fog machine and a voice modulator. With inspiring roars and pride pheromones, they gathered their circle of life. Though why they subsequently chose a life of piracy—I swear, that’s not my fault.” – Mah Reg’Nib “RV-90004T: Dramatic Life Changes and Other Meddlings”&#10;</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Female</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROTO_SQUIRREL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proto-Squirrel</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">PROTO_SQUIRREL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The squirrel face is innocent enough. They are kind to those inquiring about genomic enhancement. They respect kin, but assume things with their quickened minds flitting from salutations to insinuations.  I thought just to inquire, but the Chemist insisted I try his wares. Soon, I was throwing chemicals and poisons in all directions. Filling the air with noxious clouds that only Therians could pass through unscathed. I suppose I had little choice then, but to join the flock, gaggle, herd, or pack. I don’t know what squirrels call themselves in a group.” – Howard Duncan, “RV-74799B: Howard’s Big Furry Transformation.”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

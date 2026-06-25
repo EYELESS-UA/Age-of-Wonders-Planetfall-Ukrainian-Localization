@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2019-09-12T09:02:25Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17235</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="72" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="192.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="147"/>
+   <Column ss:StyleID="s62" ss:Width="108.75"/>
+   <Column ss:StyleID="s62" ss:Width="298.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="186.75"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNITPROPERTIES_DLC03</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Groxum</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of Female Reverse Engineer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dominator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title of a robot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIMELESS_ROMANTIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Timeless Romantic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIMELESS_ROMANTIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero respected the remains of long-dead lovers, and now grants {MoraleBoost} to all units in the stack. Only functions if the hero is the army's leader.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNAWAKENED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unawakened</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNAWAKENED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is unable to move or act until this effect is dispelled. The unit is also [abilityred]Non-Vital.[/abilityred]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_OF_THE_AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hero of the Autonom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HERO_OF_THE_AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grants the Autonom in this hero's stack {DamageBonus} increased damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HERO_OF_THE_AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This Autonom favors the army leader, granting them {DamageBonus} increased damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WORTHY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Worthy</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WORTHY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero is deemed worthy by the Sun Shard, gaining {PsionicResistance} resistance and a {PsiDamageIncrease} damage increase to Psionic attacks.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_SUNFLARE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Sunflare</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CELESTIAN_SUNFLARE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Adjacent enemy units have a {BurnChance} strength chance to suffer [abilityred]Burning[/abilityred] ({SoulBurnChance} strength chance instead if that unit is affected by [abilityred]Soulburn[/abilityred]).</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRUDGE_AURA_ENLIGHTENED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grudge Aura: Enlightened</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRUDGE_AURA_ENLIGHTENED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units in the hero's army deal {DamageIncrease} additional damage to [abilityblue]Enlightened[/abilityblue] units. Only functions if the hero is the army's commander.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRUDGE_AURA_ENLIGHTENED</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit deals {DamageIncrease} additional damage to [abilityblue]Enlightened[/abilityblue] units. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARRIER_OF_LOST_VOICES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carrier of Lost Voices</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CARRIER_OF_LOST_VOICES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grants immunity to Psionic status effects and allows the hero to store an additional [abilityblue]Essence Charge[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCARRED_MEMORY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scarred Memory</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESYNCED_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desynced Anomaly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESYNCED_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit flickers in and out of this dimension, granting it [abilityblue]Resurgence[/abilityblue] and making it {EvasionChance} harder to hit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LUCKY_GAMBLER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lucky Gambler</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LUCKY_GAMBLER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero predicts risks and takes their chances. They are {evasionincrease} harder to hit with ranged attacks.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEL_MY_PAIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Feel My Pain</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Active ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FEEL_MY_PAIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Whenever damage is dealt to this unit, {DamageReflect} of the damage is reflected back to its source.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of active ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ETHEREAL_KNOWLEDGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ethereal Knowledge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ETHEREAL_KNOWLEDGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero has ethereal knowledge granted by the Psi-Fish, gaining {PsionicResistance} resistance and {PsiDamageIncrease} damage increase to Psionic attacks.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARTYR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Martyr</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MARTYR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero became a martyr by taking a great burden off their army. Grants {MoraleBoost} to all units in the stack. Only functions if the hero is the army's leader.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SELFISH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Selfish</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SELFISH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero has been incredibly selfish, giving them {Resistance} to all resistances.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_SPARK_DROID</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deploy Spark Droid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Active ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEPLOY_SPARK_DROID</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deploy a Spark Droid onto the target hex that lasts until the end of combat.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of active ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OVERFLOWING_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Overflowing Essence</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OVERFLOWING_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero gains [abilityblue]{essenceAmountSelf} Essence Charge[/abilityblue] every turn in tactical combat.[br/]In addition, all units start tactical combat with [abilityblue]{essenceAmountArmy} Essence Charge[/abilityblue].[br/]This effect is only functional when this hero is the army's commander.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAUTIOUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cautious</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAUTIOUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Due to being extra careful when threading uncharted domains, this hero gains {bonusSuccess} bonus to success chance on anomalous sites.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TEAR_DOWN_THE_OPPRESSOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tear Down the Oppressor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TEAR_DOWN_THE_OPPRESSOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A reinvigorated hate for the oppressors of old gives this hero {damageIncrease} damage against Vanguard, Syndicate and Amazon units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REJECT_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reject the Past</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REJECT_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Having learned to steel themselves against the oppressors of old, the hero's Swarm Shield provides an additional {shieldIncrease} to adjacent units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REJECT_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Steeled by the rejection of ancient oppressors, this unit gains {shieldIncrease}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPASSIONATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compassionate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPASSIONATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">After showing great displays of compassion, friendly units gain {moraleIncrease}. Only functions if the hero is the army's leader.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DREAM_HAZE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dream Haze</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Active ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DREAM_HAZE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A sleep-inducing haze engulfs target non-Mindless unit, giving it {strengthChance} to be put to [abilityred]Sleep[/abilityred] for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INDUCE_NIGHTMARE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Induce Nightmare</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Active ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INDUCE_NIGHTMARE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target unit affected by [abilityred]Sleep[/abilityred] suffers {psionicDamage} damage and gains [abilityred]Filled with Despair[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALER-E_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Valer-E's Presence</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Active ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VALER-E_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every turn in combat, Valer-E gives a friendly unit with the [abilityblue]Valer-E's Spouse[/abilityblue] property {moraleBoost} and {critBonus} critical hit chance for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALER-E_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{critIncrease} critical hit chance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability mod description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALER-E_SPOUSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Valer-E's Spouse</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VALER-E_SPOUSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is engaged in wedlock. It gains {moraleBonus} and {critChance} critical hit chance for {turn} every turn when Valer-E is in the same army. However, it permanently suffers {moralePenalty} if Valer-E dies.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of passive ability. Valer-E is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WIDOWED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Widowed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Passive ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLAIMED_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Claimed Essence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CLAIMED_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit can carry {extraEssence} [abilityblue]Essence Charge[/abilityblue] and gains {healthBoost}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SALVATION_OF_TENNEBRES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salvation of Tennebres</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SALVATION_OF_TENNEBRES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian light guides the way. This unit is immune to Psionic Hazard and Status effects. Units in this army gain [abilityblue]Enlightened[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOL_PARAMOUNT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sol Paramount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SOL_PARAMOUNT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chosen by Khansu, the Burning Emperor, this hero inspires their army. Grants {Moralebonus}[happiness/] and {UpkeepDiscount} upkeep cost to Promethean units in this army.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANE_OF_EMPERORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bane of Emperors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BANE_OF_EMPERORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero is the bane of the old Elite, dealing {Damagebonus} damage with all attacks against Paragon units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESSENCE_OF_A_HUNDRED_SOULS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Essence of a Hundred Souls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESSENCE_OF_A_HUNDRED_SOULS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has absorbed the Essence of many beings, granting them {Hpbonus}[HP/]. This unit can carry an additional [abilityblue]Essence Charge[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHAMPION_OF_JUSTICE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Champion of Justice</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CHAMPION_OF_JUSTICE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An examplar of justice, this hero inspires his troops to strike down the wicked. Units in this army gain {Moraleboost} while lead by this hero.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOPPERHOUND_PROGENITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hopperhound Progenitor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOPPERHOUND_PROGENITOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A monstrous result of Star Union genetic modification experiments between Kir'Ko and Hopperhounds.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOPPERHOUND_ALPHA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hopperhound Alpha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFIED_GOLEM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purified Golem</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>57</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>72</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

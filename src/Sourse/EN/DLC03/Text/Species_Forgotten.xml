@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="96.75"/>
+   <Column ss:StyleID="s63" ss:Width="80.25"/>
+   <Column ss:StyleID="s63" ss:Width="474.75"/>
+   <Column ss:StyleID="s63" ss:Width="111"/>
+   <Column ss:StyleID="s63" ss:Width="225"/>
+   <Column ss:StyleID="s63" ss:Width="86.25"/>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIES_FORGOTTEN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Forgotten</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of the species/unit class</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DESOLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desolate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">DESOLATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Once we dreamed of living forever. Now we hide in tombs of our own making. There is only one mind left in this dark place. It thrives on vengeance. It demands everything. I’ve nothing left to give. Our hatred twists and festers down here. The compound seethes with malice. Even the Drained are tainted by malice. They fight our enemies, but consume the Essence for themselves. They don’t share it with the commune. Our dream is lost. Will I become one of the Desolate when I am drained?”[br/]– Eldon Squawl, “RV-774584R: Recovered Heritor Logs.”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GOLEM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Golem </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">GOLEM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We thought it another decorative statue until a crimson jewel on its crest ignited and the lumbering form of an Es’Teq Golem moved to block our progress into the Heritor Vault sleep chambers. Even from a distance, the thing could drain the essence from our expeditionary forces, disregarding their body armor and shields. Slow but powerful, it pushed our advance back, sapping our lives and degrading our armor with its entropic blasts. We might still be fighting it today had we not deployed Reaper tech to counter it.”[br/]–  Counterstrike Captain, Stella Diamante, “RV-0511M: Records of the Purge”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eater of the Dead</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">EATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“I’ve only seen it once. Near the end of the Heritor Purge, this twisted construct called the Eater of the Dead rose from corrupted essence to consume the fallen on the battlefield. Many men were consumed outright. With each swallowed body, its strength and savagery increased. I confronted one of the fallen Heritor priests before he was consumed. Choking, he disgorged the words, ‘For Justice!’ then plunged into its hungry maw. Why is it, when men construct gods, they focus solely upon the Law of Justice, ignoring the Law of Mercy?”[br/]– Mah Reg’Nib, “RV-97009X: Running from Monsters&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHATTERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shattered Ark</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">SHATTERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The Quintessence Ark of Heritor Vaults are valuable in the right hands (mine). I’ve sent many expeditions to remote worlds to retrieve these treasures. It does wonders for my skin tone. On one expedition, my Indentured absconded with the fragments of an Ark, only to discover that it was—for lack of a better description—haunted. This Corrupt Ark consumed the life of my servants and had lost its wholistic qualities. Since it seemed bent on revenge, I sent it to a rival. It had great effect. Have you seen her frown lines?”[br/]– Syndicate Beauty Operative, Adira Mulari, “RV-74738E: Cosmic Cosmetology”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SERPION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Serpion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">SERPION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“In the Vault, my spy-bots observed a Serpion. It slithered between life pods, the living jewel on its crest pulsating. Upon discovering a cracked case, it plunged its fangs into the occupant, draining the body's essence, turning it into a lifeless husk. The creature's fins crackled with life, as it climbed up the hierarchy of dreaming bodies to a row of Heritor elite where it used its injecting tail to fill their decorative chambers with vitality. It repeated this task, transferring life from the least to the privileged until it spied my camera and spewed entropic rot.”[br/]– Stealth Specialist Doreen, “RV-838899R: Reconnaissance: Heritor Purge Initiative” &#10;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>12</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

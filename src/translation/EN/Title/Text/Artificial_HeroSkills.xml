@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-01-30T09:42:45Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="353.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="145.5"/>
+   <Column ss:StyleID="s62" ss:Width="118.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="276.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="195"/>
+   <Column ss:StyleID="s62" ss:Width="165.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ARTIFICIAL_HERO_SKILLS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting&#10;&#10;EXAMPLE: &quot;Hero gains {PersonaAccDmg} increased damage and accuracy &quot; looks in-game like &quot;Hero gains +5 increased damage and accuracy&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARTIFICIAL_SKILL_GROUP</Data></Cell>
+    <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis Hero Skill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disrupting Hack</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Send a disrupting wave to hack an area, [abilityred]Compromising[/abilityred] Mechanical and Cyborg units in that area, for {Duration}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compromised</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit modification item name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units hit by this ability are Compromised.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit modification item description.&#10;Compromised is an in-game debuff</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OVERRIDE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Override Daemon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.&#10;Daemon is an in-game status effect</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assisted Breach</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Attacks by units in this hero's army bypass {AssistBreach}.[br/]Only functions when the hero is the army's commander.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">Through assisted defense breaching from this army's Hero, bypass {AssistBreachShield} Shields and {AssistBreachArmor} Armor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill debuff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Electrification Subroutines</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units in this hero's stack have a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred], doing damage over time and reducing target accuracy.[br/]Only functions when the hero is the army's commander.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.&#10;Electrified is an in-game debuff. Commander in this case means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">Unit has a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill debuff description.&#10;Compromised and Electrified are in-game debuffs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">Strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] for {ComExpDuration}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill debuff description.&#10;Compromised and Electrified are in-game debuffs.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

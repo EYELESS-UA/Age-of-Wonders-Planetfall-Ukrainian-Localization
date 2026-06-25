@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2020-09-07T10:05:45Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15825</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="139.5"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="528"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="149.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">GALACTIC_EMPIRE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPEN_EMPIRE_REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Requisitions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPEN_EMPIRE_REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Here you are able to purchase your selected Requisitions. Operations and Mods only need to be purchased once and can then be used normally. Units can be built in your colonies once purchased, as long as the colony has the required structure. After unlocking the unit, you can also buy the unit directly and have it appear in your capital.[br/][br/]These purchases are made with [favor/][hyperlink,000003F300000258]Imperial Renown[/hyperlink], which can be earned by completing [hyperlink,000003F300000255]Empire Requests[/hyperlink] and [hyperlink,000003F300000255]Secondary Objectives[/hyperlink].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Requisitions are units, mods, operations, and doctrines the player is able to buy using the &quot;Imperial Renown&quot; resource.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CREATE_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Creating your empire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CREATE_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome to Empire Creation![br/][br/]This is your first step to conquering the galaxy! Creating a [hyperlink,000003F300000251]Galactic Empire[/hyperlink] will enable you to:[br/][br/][bullet]Conquer planets to earn XP[/bullet][br/][bullet]Discover ancient relics[/bullet][br/][bullet]Unlock bonuses to create new strategies[/bullet][br/][bullet]Design your own dynasty of Heroes.[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STAR_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Star Map</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STAR_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Star Map displays the planets you have conquered for your [hyperlink,000003F300000251]Galactic Empire[/hyperlink]. From here, you can continue your conquests or embark on new expeditions.[br/][br/]Use the tabs at the top to review other aspects of your empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEROES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Hall of Heroes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEROES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Here you can view the Commanders that serve your Empire. You can recruit new Commanders from here as well. These commanders can be recruited to join you as heroes down on the planet.[br/][br/]Click [hyperlink,000003F300000254]here[/hyperlink] for more information about Commanders and Heroes in the Hall of Heroes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEROES_NO_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Here you can view the Commanders that serve your Empire. You can recruit new Commanders from here as well. These commanders can be recruited to join you as heroes down on the planet.[br/][br/]Click the button to Recruit your first hero.[br/][br/]Click [hyperlink,000003F300000254]here[/hyperlink] for more information about Commanders and Heroes in the Hall of Heroes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Progression</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Here you can review your  [hyperlink,000003F300000252]progress[/hyperlink] towards each Race and Secret tech. XP is earned towards these Races and Technologies by conquering planets with a Commander of that Race or Tech or completing  [hyperlink,000003F300000255]Secondary Objectives[/hyperlink] and Empire Requests during your Conquest.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;EXP&quot; is experience.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROGRESSION_DETAILS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Each Race and Secret tech has its own list of [hyperlink,000003F300000257]Requisition items[/hyperlink], which can be unlocked by earning enough XP to level up.[br/][br/]Click [hyperlink,000003F300000252]here[/hyperlink] for more information about Empire Progression.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELIQUARY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Reliquary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RELIQUARY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003F300000256]Relics[/hyperlink] are earned by Conquering a planet with a particular Trait or claiming the relevant [hyperlink,000003E900000AC5]Grail[/hyperlink] on a conquered world.[br/]Earned Relics may unlock unique [hyperlink,000003F300000257]Requisition items[/hyperlink] or certain permanent bonuses!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONQUER_NEW_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conquer a new world</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONQUER_NEW_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">From here you may choose a world to conquer. Each world has its own unique combination of [hyperlink,000003F300000255]Traits[/hyperlink] and associated [hyperlink,000003F300000255]Secondary Objectives[/hyperlink].[br/]Review the planet's Traits before embarking, or search for an alternate world.[br/][br/]As your Galactic Empire gains more experience, more challenging worlds will become available for conquest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Requisitions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Here you are able to select which [hyperlink,000003F300000257]Requisitions[/hyperlink] to bring with you while you are conquering the next planet.[br/]These units, operations, and mods will be available for purchase with [favor/][hyperlink,000003F300000258]Imperial Renown[/hyperlink] earned during your Conquest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_PLANET_LANDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contacting your Empire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EMPIRE_PLANET_LANDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You may now embark on your conquest of this planet![br/]In order to contact your [hyperlink,000003F300000251]Galactic Empire[/hyperlink], press the Empire banner on the bottom left side of the screen, or the radial menu.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Empire banner refers to the shield-shaped icon on the bottom right of the interface that bears the Galactic empire's colours and emblem</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>12</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

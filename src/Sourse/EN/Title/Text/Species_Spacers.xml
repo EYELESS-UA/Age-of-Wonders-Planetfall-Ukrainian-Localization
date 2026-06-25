@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <LastSaved>2018-08-15T13:13:36Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10530</WindowHeight>
+  <WindowWidth>27495</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4375">
+   <Column ss:Width="84.75" ss:Span="1"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="301.5"/>
+   <Column ss:Width="144.75"/>
+   <Column ss:Width="273"/>
+   <Column ss:Width="117.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SPECIES_SPACERS</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Spacer</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PSYCHO</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Psycho</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PSYCHO</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Star Union citizens who survived did so at a tremendous cost to their sanity. While we slept in space, generations endured the collapse of society, constant starvation, cannibalism, the insanity of the ruptured Void, and poison in the earth and sky.  How could a man recover whole? The short answer: they don’t. Spacers call their kettle-headed infantry Psychos. They fight over the last useful scraps of tech—anything they can use to get an advantage. In a pinch, they can turn violently mad at the flick of a switch.”—Senior Sanxus Bellows, “RV-481M: Aftermath and Anarchy” </Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TRUCK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Truck</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TRUCK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“The Spacers were first to emerge from the forced peace created by the Star Union. When food was no longer treated to pacify people’s instincts, Spacer forefathers embraced their basest nature. They care nothing for aesthetics or civilization. Their only desires are the pleasure devices wherein they live out their cruel fantasies in virtual worlds. Without such devices, ironically, they become even more reckless. They’ll deliberately crash their trucks into enemies, laughing all the way. They think they’re in a shooting, driving game with or without their VR gaming gear.”—Anthropologist, Dr. Sarah Harkness, “RV-6012H: A Past of Twisted Purposes”</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MELTER</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Melter</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MELTER</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“We approached a Spacer colony cautiously. Commander said many Spacers lived off junkyards when civilization collapsed. I wondered how that could be healthy. Then I saw a Melter. He was larger than normal. His distorted face looked like melted candlewax. His body was covered in rolls of fat that repelled the acid sloshing in containers on his back. He grinned, pointing a barrel-sized chemical sprayer at our Armored Tank. The acid ate through its armor. We fled on foot as he lobbed cannisters of corrosive gas at our backs.”—Ensign Ryland Grubell, “RV-1274M: Personnel Journal Entries”</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">HELLCOPTER</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Hellcopter</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">HELLCOPTER</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;I awoke to a loud boom. I jumped from my bunk and dashed from the barracks. The glow of flames lit the bunker wall. In the air screamed a hovering junkpile. It catapulted a fiery barrel. Radiant flames engulfed the armory. I trained my rifle on it. My shots reflected harmlessly off the heavy armor plating. The flying ship turned. The air was a wash of fire. I jumped into a retaining pond as spurts of liquid flame roiled over where I was standing. I understood why they called it a Hellcopter.” [br/]—Captain Addria Alethra, “RV-4468M: Encounters”[br/]</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">JUNK_SHIP</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Junk Ship</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">JUNK_SHIP</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Spacers travel the waters in what looks like a floating junk pile. The Junk Ship’s turrets shoot incendiary projectiles, and don’t be fooled by the rusted barrels that they launch at enemy ships. They are filled with an incendiary chemical that explodes with unquenchable fire. Away from their colony’s virtual debauchery simulators, Spacers become ferocious. If these cannibalistic savages can, they will act out their depraved fantasies on the sailors trapped onboard the vessels they board. My advice: Blow it up the moment you see it on the horizon.” —Lars ‘The Admiral’ Robinson, “RV-57682M: Restoring Order to the Sea”</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MAD_PREACHER</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mad Preacher</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MAD_PREACHER</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“A raving lunatic hologram hovered over a scrap-iron vehicle, bringing a crowd of Spacers. The image pointed at my Lieutenant. Madness swept over us. My psionic indicators buzzed a warning. The mad sermon was an attack. Before I could raise the alarm, the Spacers mobbed the Lieutenant. Foaming at the mouth, they ripped him apart. The Spacers planted the Lieutenant’s spine and skull to a pole that radiated mental fury. Inspired by their macabre creation and spurred on by the ramblings of their Mad preacher, the Spacers’ superhuman homicidal wrath amplified.”—Captain Ben Carter, “RV-5688M: Mutant Incident Reports.”</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EFFIGY</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Effigy</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EFFIGY</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“I knew the skull on that post. He died trying to save his family. The Spacers see non-Spacers as resources. That skull gives them power. They tally their kills like life is a game. There is nothing so corrupted that they won’t try it. That skull on the post is a dare to whatever is decent in the world—to any gods that stands for what is decent—that Spacers do what they want. They are the embodiment of rebellion and an Effigy is how they see us.”—Nurse Rachel Greene, “RV-1806H: Observations of The Fallen”</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <RangeSelection>R3C1:R3C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2018-09-14T14:48:57Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11550</WindowHeight>
+  <WindowWidth>25410</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="86" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:Width="228.75"/>
+   <Column ss:Width="175.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="150.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="135.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="210">
+    <Cell><Data ss:Type="String">ECONOMY_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Economy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">Production</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">Research</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">Energy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">Food</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_INFRASTRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">Infrastructure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_WATER</Data></Cell>
+    <Cell><Data ss:Type="String">Water</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECONOMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_TERRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">Terrain</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">RESEARCH_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Research Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ENERGY_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Energy Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PRODUCTION_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Production Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FOOD_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Food Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ARCADIAN_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadian Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCADIAN_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadian Recovery</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARCADIAN_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {ArcadianRec} each turn on the world map while in an Arcadian climate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadian Habitats</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arcadian climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arcadian sector within the colony's domain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARID_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arid Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARID_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arid Recovery</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARID_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {AridRec} each turn on the world map while in an Arid climate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARID_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arid Habitats</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ARID_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arid climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arid sector within the colony's domain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCTIC_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arctic Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCTIC_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arctic Recovery</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARCTIC_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {ArcticRec} each turn on the world map while in an Arctic climate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCTIC_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arctic Habitats</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ARCTIC_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arctic climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arctic sector within the colony's domain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FUNGAL_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fungal Sector Level</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FUNGAL_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fungal Recovery</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FUNGAL_REGEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {FungalRec} each turn on the world map while in a Fungal climate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FUNGAL_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fungal Habitats</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FUNGAL_HAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Fungal climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Fungal sector within the colony's domain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BADLANDS_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volcanic Adaptation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="69">
+    <Cell><Data ss:Type="String">BADLANDS_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies ignore all economic penalties from Volcanic terrain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOREST_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forest Sector Level</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOREST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forest Navigation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FOREST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Forests, reducing the cost of moving through this terrain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOUNTAIN_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mountain Sector Level</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOUNTAIN_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mountain Navigation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MOUNTAIN_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Mountains, reducing the cost of moving through this terrain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RUINS_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ruins Sector Level</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RUINS_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ruins Navigation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RUINS_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Ruins, reducing the cost of moving through this terrain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAINS_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fertile Plains Sector Level</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAINS_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plains Navigation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PLAINS_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Fertile Plains, reducing the cost of moving through this terrain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATER_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coast Sector Level</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transport Reinforcement</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">New naval technologies allow for transports to be reinforced to increase survivability.[br/[br/]Transports gain {hp} and {armor}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This transport has been reinforced with additional {hp} and {armor}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transport Expedience</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Specializing in naval technologies allows for quicker maneuvering in the water, as well as stronger resistance to enemy attacks.[br/][br/]Transports gain medium movement speed and have {resistance} resistance to all damage and status effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This transport has medium movement speed and {resistance} resistance to all damage and status effects.</Data></Cell>
+   </Row>
+   <Row ss:Index="60" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RIVER_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">River Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RIVER_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies with a River going through their domain generate {Food} food income.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAVA_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lava Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LAVA_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies with a Lava stream going through their domain generate {Energy} energy income.</Data></Cell>
+   </Row>
+   <Row ss:Index="65" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Veil of Tranquility</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Abyssal Tear</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_NUCLEAR_FALLOUT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Nuclear Fallout</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_SPORE_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Spore Clouds</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_ARC_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Ion Storm</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_GEOTHERMAL_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Geothermal Instability</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_VOID_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Void Storm</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal: Oil Spill</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard Removal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unlocks the ability to remove Hazards from the world map using special operations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell>
+    <Cell><Data ss:Type="String">POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">Spend resources to remove the hazard from this sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Hazard removal in progress [INT_duration]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERATE_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Generate Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERATE_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unlocks the option for your colonies to 'Generate Knowledge', turning {ResearchAmount} of your production capacity into knowledge when activated.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_GLOBAL_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite Catalyst</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COSMITE_GLOBAL_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Applying a Cosmite catalyst to all Cosmite-generating structures can boost yields.[br/][br/]Global Income of Cosmite increased by {cosmiteIncomeModifier}.</Data></Cell>
+   </Row>
+   <Row ss:Index="83" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">TRANSPORT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sea Transport</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">TRANSPORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Allows units to embark into a transport to travel across the water.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">WATER_BASE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Water Base</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">WATER_BASE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unlocks the ability to build bases on water and coastal sectors.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>17</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

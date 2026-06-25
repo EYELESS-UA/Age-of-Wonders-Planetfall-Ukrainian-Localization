@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2020-08-13T11:34:30Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="46" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="268.5"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="117"/>
+   <Column ss:StyleID="s62" ss:Width="214.5"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="255.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OATHBOUND_TECHGROUPS_QUOTES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Warden Ranks</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warden is an Oathbound Unit (large mech)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The people need a friend they can entrust with their power. A Warden to guide them safely along the upward path, who will not be diverted by the lure of popularity or self-promotion.” – Orfen Bearns, Civil Protector</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is male</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Paladin (Frankly)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Paladin Warden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Paladin Warden </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Watcher Ranks</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Watcher is an Oathbound Unit (cloaked seer)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We all have a better nature, one that will obey our oaths. Unfortunately, left alone, that better nature can be corrupted by selfishness. We forget our actions have consequences. To correct this, our better natures are empowered by constantly being watched.” – Watcher Goody Momo </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (threatening, ominous)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Watcher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipment: Watcher's Scrolls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Champion Ranks</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Champion is an Oathbound unit (large mech)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“A new champion stands, whose practiced virtue is beyond reproach. One entrusted by the people to wield great power in their defense. May this mighty soldier make the harsh sacrifice required by one who seeks peace while wielding a sword, and face the horrors of war without yielding to the brutality that breaks souls. Forever true to the cause of truth.” – Marva Nexa, Oathgiver </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Paladin (Boldly)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Paladin Champion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Paladin Champion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Diviner Ranks</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Diviner is an Oathbound unit (cloaked seer)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Gaze upon the intermingling opinions, troubled history, political biases, storied environments, hormonal responses, relative resources, base chemical reactions, the discharge of stored energy, and a script of genetic attributes all in a swirl of projected possibilities, and if you can maintain your sanity, you may be a fit Diviner.” – Tantalya Corvidan, Diviner</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Seer Female (Ominous)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Diviner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipment: Diviner's Threads</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exemplar's Vestibule</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Exemplar is an Oathbound unit (large mech)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“No matter how grand the mountain stands, it will erode into debris. Likewise, every initiate aspires to don Exemplar armor, but many are merely mountains worn down by a storm of chaos. Only a pinnacle of refined diamond, virtuous and faithful, can wield godlike powers. We may build many powerful machines, but without worthy soldiers, they serve no purpose of ours.” – Groll Cassot, Paladin Council</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is male</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Paladin (Wisely)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_5_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Paladin Exemplar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_5_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Paladin Exemplar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonial Guard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“People won’t work if they don’t feel safe. People won’t share if they don’t feel safe. &#10;People won’t care if they don’t feel safe. See the common thread here? Provide for our safety and we will work to establish your ideals.” – Alandis Marta, Labor Organizer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Oathbound Paladin (Patronizing)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Orchestrated Manipulation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The universe does not revolve around you, but what if it did, just for a moment? Would you be a vengeful god, or would you intervene against fate to cheat death? Now you understand why this power is not given to anyone.” – D’Nex Tornek, Fate Instructor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (Instructive)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Superb Communion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Foresight does not forego calamity and misfortune—it provides shelter to weather it. Famine may come, but knowing when and where it will come allows for preparation. The greatest Oracles look past the horror to find a pathway of healing.” – Teyla Vinzi, Keeper of the Emerald Court Gate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (ominous)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Induction Rites</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“When you know that you are on the right side of history, you won’t miss your opportunity to change the world. All it takes is commitment.” – Rorymandus Millingworth, Oathbound Recruiter</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is male</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Paladin (Enthusiastic)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Combat Manuscripts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Purity and purpose are the only method the Oathbound can use to justify battle. There are irrevocable consequences to violence that only the pure will walk away from. A warrior must possess moral clarity or they have already surrendered to the enemy.” – Lyconis Merliss, Battle Pattern Analyst</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is male</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Paladin (Gentle)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Battlesuit Attunement</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Stop vacillating between poor habits and a better life. Power comes from commitment. Make up your mind and you will no longer fall prey to the forces that would exploit you. Take an Oath of Devotion.” – Eldon Fermi, Exemplar Emeritus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Oath of Devotion is also the name of an in-game mod&#10;Exemplar is an in-game unit&#10;&#10;The person of the quote is male</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Paladin (Noble)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Misfortune Manipulation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Fate balances upon a razor’s point. Either you or I are doomed. For you to live, I must die. And if I live, you are doomed. Your fate depends upon me, and I intend to live.” – Pulminis Vurgent, Augur</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Augur is an in-game unit&#10;&#10;The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (Ominous)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Regulated Chaos Theory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“One of the most surprising discoveries about reality is the discovery that our courageous choices, when pure and decent, matter probabilistically. Moral choices exert influence over chaos. To me, it proves there’s purpose to our existence.” – Gillis Tarlox, Overseer  </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Overseer as in team leader, NOT the Syndicate unit named Overseer&#10;&#10;The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (Enlightening)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Flawless Divination</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_6_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“It is easy to prophesy doom. Fear is the slavery of our past. True prophesy comes from choosing a possibility of hope when others see only doom. See with certainty and you will speak with divine authority. You won’t see it all, but someone will believe and make that prophecy a reality.” – Nella Marsdotter, Seeress of the Sapphire Star  </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (Informative)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">People's Contracts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“To preserve enlightenment, the most informed never forget to share their discoveries with the novice. Record your dreams. Document your breakthroughs. Every soul deserves care, not just in body, but in mind. Lessons may not come easily, but only one with patient compassion can comprehend the most important factors of reality. Only they are prophets.” – Pasha Lyle, Seeress of the People</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (Patient)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Articles of Faith</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Imagine if you could be saved by merely looking to a strip of cloth on a pole? You will not disrespect this flag. Loyalty to our Oathbound banners inspires honor and fosters unity. It is a way of acknowledging that we all deserve the core dignity of life, freedom and compassionate care.” – Wella Sharp, Paladin Standard-bearer  </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Paladin is the type name of the large Oathbound mechs (Protector, Warden, Champion, Exemplar, etc)&#10;&#10;The person of the quote is female&#10;&#10;</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Paladin (Patriotically Fierce)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unbreakable Vows</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The future has already happened in our minds. We have seen the eventuality of what comes of the Oathbound. We will forge a great galactic society that will rid us of all oppression. Its rise cannot be impeded. Those who stand in our way will be forgotten. The only question that remains is whether or not you will be remembered.” – Merissa Link, Seeress of Kaliope II</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person of the quote is female</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Seer (Ominously certain)</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>38</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>45</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

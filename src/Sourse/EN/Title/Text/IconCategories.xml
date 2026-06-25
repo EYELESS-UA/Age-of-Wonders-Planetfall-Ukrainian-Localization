@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Djurre van Dijk</LastAuthor>
+  <LastSaved>2019-03-06T08:26:43Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13425</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="87"/>
+   <Column ss:StyleID="s63" ss:Width="71.25"/>
+   <Column ss:StyleID="s63" ss:Width="87.75"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:Width="169.5"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Row ss:Height="165">
+    <Cell><Data ss:Type="String">ICONCATEGORIES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">These are all names of a set of icons. These icons are used identify units what have mods equipped. I.e. a 'Hellfire Marine' with a flame icon to identify a unit equipped with a flame thrower.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TECH</Data></Cell>
+    <Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named Secret Tech. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TECH</Data></Cell>
+    <Cell><Data ss:Type="String">PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named Secret Tech. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TECH</Data></Cell>
+    <Cell><Data ss:Type="String">VOIDTECH</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named Secret Tech. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TECH</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named Secret Tech. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TECH</Data></Cell>
+    <Cell><Data ss:Type="String">CELESTIAN</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named Secret Tech. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TECH</Data></Cell>
+    <Cell><Data ss:Type="String">ARTIFICIAL</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named Secret Tech. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Generic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Catch all group for uncategorized icons.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">MOVEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">Movement</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons used for units with movement modifiers. E.g. jet boosters, jetpacks.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons used for units with modifiers that give them a support role. I.e. healing, repair, buffs, debuffs.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomacy</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Peacekeeper, warmonger</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Operations</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Covert operation. E.g. Spy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">Quest</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest cup.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">RESOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">Resource</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Knowledge, cosmite</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">NPC</Data></Cell>
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">Autonom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named NPC Faction. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">NPC</Data></Cell>
+    <Cell><Data ss:Type="String">PSIFISH</Data></Cell>
+    <Cell><Data ss:Type="String">Psi-Fish</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named NPC Faction. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">NPC</Data></Cell>
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">Paragon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named NPC Faction. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">NPC</Data></Cell>
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">Spacers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named NPC Faction. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">NPC</Data></Cell>
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">Growth</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the named NPC Faction. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">FIREARMS</Data></Cell>
+    <Cell><Data ss:Type="String">Firearms</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for weapons from the named Tech Group / Damage Channel. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">Biochemical</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for weapons from the named Tech Group / Damage Channel. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">Psionic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for weapons from the named Tech Group / Damage Channel. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">EXPLOSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Explosive</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for weapons from the named Tech Group / Damage Channel. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LASER</Data></Cell>
+    <Cell><Data ss:Type="String">Laser</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for weapons from the named Tech Group / Damage Channel. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">ARC</Data></Cell>
+    <Cell><Data ss:Type="String">Arc</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for weapons from the named Tech Group / Damage Channel. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Generic Weapons</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Catch all group for uncategorized weapon icons.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the Species Tech Group. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the Species Tech Group. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the Species Tech Group. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the Species Tech Group. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the Species Tech Group. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Icons themed for the Species Tech Group. Please translate consistently.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

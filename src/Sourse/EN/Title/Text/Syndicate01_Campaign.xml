@@ -1,0 +1,1319 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <Created>2018-10-12T08:46:08Z</Created>
+  <LastSaved>2019-03-21T09:03:11Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="232" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="468"/>
+   <Column ss:StyleID="s62" ss:Width="139.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="302.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="310.5"/>
+   <Column ss:StyleID="s62" ss:Width="141"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNDICATE01_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-01.5/1 - The universe was created with two kinds of creatures in mind: The ones that rule and the ones that serve. For generations, the Syndicate houses were the ones to rule, until the emperors grew envious of our wealth and robbed us of our heritage. Now, with the Star Union gone, a new age of Syndicate hegemony is at its dawn. Our associates may not always find our offers appealing, but they rarely complain – not successfully anyway.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Shae Mara; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-01.5/2 - Since the passing of my brother in an unfortunate accident, it has become my duty and privilege to lead House Ny'dar through these eventful times. There are rumors of House Timur falling from grace, leaving a vacancy in the Ruling Seven that many will intend to fill.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Shae Mara; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-01.5/3 - Over the course of the past few weeks, our Hackers have tapped into the communication relays of our fiercest competitors, sending some rather volatile, falsified diplomatic messages in their names. That should keep them busy fighting amongst each other for a while. Time that we need to draw up our plans.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Shae Mara; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-01.5/4 - An old associate of mine, Zul Nadjian, has contacted me. He claims to have found a source of power that will assure House Ny'dar's place in the Ruling Seven. It is an ancient secret sealed away on a planet whose entire records have been wiped from the old Imperial Archives. Zul has proven to be a reliable source in the past, so I have decided to personally take care of this matter.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Shae Mara; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-02.1/1 - The unnamed planet lies before us, its surface still shrouded by atmospheric clouds. My instincts tell me that Zul was right and House Ny’dar’s future fortune is buried somewhere down there. It is only a matter of finding the right shovel to dig it up.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Shae Mara; added for context</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_SECTOR_01_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Imperial Energy Complex claimed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROMISING_SIGNAL_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Go to the location of the device</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. The device is intentionally nondescript</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOIDTECH_FACILITY_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Clear the Rift Bridge Facility</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. Name of a location.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSYNUMBRA_FACILITY_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Clear the Dark Voidum Temple</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. Name of a location.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTURE_THE_SYNTHESIS_FACILITY_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Capture the Lost Synthesis Facility</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. Name of a location.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAEMON_CONTAINMENT_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION_01</Data></Cell>
+    <Cell><Data ss:Type="String">Pay {Energyamount}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAEMON_CONTAINMENT_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION_02</Data></Cell>
+    <Cell><Data ss:Type="String">Build the Conversion Plant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_SYN_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Adam McKinley</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. Adam McKinley is a male Vanguard Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_VAN_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Dali Ardelli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. Dali Ardelli is a male Syndicate Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Build the Pillar of Light</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. Pillar of Light is a structure built in your colonies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STOMP_COMPETITION_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Adam McKinley and Dali Ardelli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description. See lines 11 and 12.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">METAL_SCAVENGERS_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Retrieve the Scrap</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELIVERY_SERVICE_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deliver the Scrap </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAPBORN_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Produce the Scrap Spacecraft</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short objective description.</Data></Cell>
+   </Row>
+   <Row ss:Index="24" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRUCTURE_DAEMON_FLUX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daemon Conversion Plant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name. Daemon are computer programs, used in the game as buffs and debuffs, please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRUCTURE_DAEMON_FLUX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Daemon Conversion Plant to enable the ancient Daemon to be interfaced and integrated into a Personality Daemon.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAP_SPACESHIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrap Spacecraft</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Name. A structure to be produced in your colonies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCRAP_SPACESHIP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The blueprint is soggy and torn in places, the design is raising the eyebrows of all your engineers and the ship is 90% scrap. What can go wrong?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PILLAR_OF_LIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pillar of Light</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILLAR_OF_LIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Azer Starg tells you that rising this huge monument will clear the atmospheric disturbance long enough for you to escape.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Description. Azer Starg is an Assembly Commander</Data></Cell>
+   </Row>
+   <Row ss:Index="31" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Omega Id Alpha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name. Greek letters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rift Bridge Facility</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Voidum Temple</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name. Voidum can be translated as &lt;VoidInYourLanguage&gt;-um</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Generator Delta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name. Greek letters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Generator Lambda</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name. Greek letters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Green Haven</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_SECTOR_OASIS_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oasis of Preservation</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_SECTOR_OASIS_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oasis of Greed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_SECTOR_OASIS_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oasis of Sin</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_SECTOR_OASIS_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oasis of Remorse</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector Name</Data></Cell>
+   </Row>
+   <Row ss:Index="42" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Treasure Hunt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Treasure Hunt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Take control and annex the structures pinpointed by Zul and find the location of the Device.[br/][br/]Device found: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Device found: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found the structure, now annex the lost Synthesis Facility to study its contents.[br/][br/]Synthesis Facility Annexed: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Description. Synthesis is a secret tech, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis Facility Annexed: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_CONTROL_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Find a way to transfer Zul's Personality Daemon into the ancient Avatar you found in the lost Synthesis Facility.[br/][br/]Avatar activated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Description. Zul is a male Syndicate Hero unit. Avatar is a robotic Synthesis unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_CONTROL_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Avatar activated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Escape from the Prison Planet</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escape from the Prison Planet</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Adam tells you that Dali Ardelli is the one behind the atmospheric disturbance, and asks you to defeat them alongside them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory condition Description. Adam and Dali are commanders, see entry 11 and 12 for reference.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Dali Ardelli Defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dali owns the structure that is causing the atmospheric disturbance but can't deactivate it without codes that the Vanguard Commander has memorized, defeat them and extract the code from Adam.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory condition Description. Adam and Dali are commanders, see entry 11 and 12 for reference.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Adam McKinley Defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Assembly proposed you build a Pillar of Light in one of your colonies to temporarily clear the anomaly.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory condition Description. Assembly are an in-game race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_ESCAPE_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Pillar of Light Built: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_STOMP_COMPETITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Adam and Dali each hold half the key to break free from the planet, the fools trapped each other for who knows how many years. Defeat them!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory condition Description. Adam and Dali are commanders, see entry 11 and 12 for reference.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_STOMP_COMPETITION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Enemies Defeated: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:Index="61" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">House Ny'dar Rising</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Questline Header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Helping the Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Questline Header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Helping the Syndicate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Questline Header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Control the Device</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Questline Header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Atmospheric Disturbance</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Questline Header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrap Abound</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Questline Header</Data></Cell>
+   </Row>
+   <Row ss:Index="70" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Signal Boost</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">QUEST_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Capture an Imperial Energy Complex to boost your scanners and locate the device your associate Zul Nadjian spoke of.[br/][br/][recommendedcol](Hint: You don't need to claim the Imperial Energy Complex revealed by Zul. Capturing any similar structure will be enough to complete this quest.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Zul Nadjian is a male Syndicate Hero.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Finding the Device</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Move your troops to the supposed location of the device and investigate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Voidtech Facility</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Clear Rift Bridge of its inhabitants to allow Adam to retrieve the blueprints inside.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Rift Bridge is a location name, Adam is a male Vanguard Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Music from Hell</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Retrieve the Screaming Stone for Dali Ardelli by clearing the Dark Voidum Temple.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Dali is a male Syndicate Commander, Dark Voidum Temple is a location name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_09</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Annex the Lost Synthesis Network</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name. Lost Synthesis Network is the name of a facility (location)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Take control of the Lost Synthesis Facility and annex it, in order to retrieve and study whatever is hidden inside.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_10</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daemon Transfer: Overcharge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We could transfer Zul's Daemon with a large amount of energy to ensure the transfer is done correctly.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_11</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daemon Transfer: Conversion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_11</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We could transfer Zul's Daemon with a Conversion Plant that lets us interact with the device.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_12</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escape with the Syndicate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_12</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Vanguard and recover the codes so you and the other House may leave the planet.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. The Vanguard are an in-game race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_12_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Adam McKinley Defeated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_13</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escape with the Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_13</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Syndicate to find the facility causing the atmospheric disruption.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_13_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Dali Ardelli Defeated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_14</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Syndicate and the Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_14</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Dali to possess the Disruption Matrix and Adam to retrieve the codes to safely deactivate it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Disruption Matrix is an item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_15</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrap Scavengers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_15</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Retrieve scrap from the pile indicated by the Spacers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. The Spacers are an in-game faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_16</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrap Delivery</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_16</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deliver the Scrap to the indicated Spacer Dwelling</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_17</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Spacer Flight Program</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_17</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Build the Scrap Spacecraft in one of your colonies.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_18</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escape with the Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_18</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Build a Pillar of Light and work with Azer Starg so you may escape from the planet.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_18_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Pillar of Light Built</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_19</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Escape</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_19</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You managed to escape with what you were looking for.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description.</Data></Cell>
+   </Row>
+   <Row ss:Index="107" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARRIVAL_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have finally landed, but we’ve sustained some structural damage. There is an incredible amount of atmospheric disturbance on this planet - leaving again won’t be easy. Regardless, that is a concern for later. Zul, what are the coordinates of the device?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARRIVAL_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Patience, {STR_LeaderFirstName}. It’s proving difficult to pinpoint our target through the volatile atmosphere. We could boost our scanners by discharging the energy reserves of an old Imperial Energy Complex. I have detected one close to our current position.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Syndicate male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ARRIVAL_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh, and one more thing: the planet’s climate is unusually active, quickly shifting between Arid and Arctic. We’ve noticed patterns of rapid erosion in the soil, so although it’s warm and dry now, it may freeze later. Keep that in mind when you set up your colonies.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Syndicate male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECRUITMENT_METHIDS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recruitment Methods</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest  Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECRUITMENT_METHIDS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Go to the Vanguard settlement and acquire its inhabitants as property of House Ny'dar by using your influence or military power.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Influence is an in-game currency</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECRUITMENT_METHIDS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Vanguard Settlement Acquired</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest objective tracker.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RECRUITMENT_METHIDS_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hey! Is anybody out there? We’ve been stuck on this deathtrap of a planet for what seems like an eternity… Our supplies are running short. There is barely anyone left of our unit. We need help!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Vanguard Refugees (mixed gender group)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RECRUITMENT_METHIDS_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Vanguard settlement lost in the desert? How very unfortunate... Surely, they will appreciate it when someone competent provides for them in their misery. They may not be Syndicate, but their military nature, accustomed to drills and obedience, will make those Vanguard a passable addition to the plebs managed by our Overseers.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SIGNALS_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Preparing to discharge energy reserves in three… two… one…[br/][br/]The sensor sweep got through the planetary interference. We have a signature matching the scanner profile of the device. Its location has been uploaded to our maps.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Syndicate male)</Data></Cell>
+   </Row>
+   <Row ss:Index="117" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_VAN_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bravo-05, come in Bravo-05... damnit! Wait, there’s someone else on this line. Blast it, another Syndicate! As if we didn’t already have enough trouble with the accursed Ardelli!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_VAN_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not a very good diplomat, are we, Commander? What if that ‘other’ Syndicate house has gracefully shown up to offer you a way out of your miserable situation?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_VAN_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can’t trick me with words. How could you even understand the predicament I am in when you’ve just arrived on this prison of a planet? No, I demand action! Bring me the central stability projector from the Voidtech Complex not far from here. Then we can talk!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_VAN_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I’ve got the stability projector you asked for, McKinley. Now, you mentioned something about this planet being a prison? Elaborate, or I’m afraid House Ny’dar will have to find another buyer for the item.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_VAN_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I knew it! You Syndicate never do anything without a price. Very well, since it seems Vanguard Central Command abandoned us decades ago, I may as well tell you: this planet was designed as a high-security cell for a single prisoner.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_VAN_PAGE06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We do not know anything about the prisoner’s identity, only that the entire assignment required the highest level of secrecy. Empress Carminia herself signed our orders. The prisoner must be long dead, but if you want to search his remains, I can give you the coordinates of the prison complex where he was held.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male). Empress Carminia is a female ancient emperor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_VAN_PAGE07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A criminal dangerous enough to require a planet as his cell? An intriguing story indeed. Throw in some energy for the handling fee, and you can have that stability projector of yours.[br/][br/]Certainly, it was a pleasure doing business with you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="125" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Well this is new, a fellow house leader on an isolated world.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I recognize these colors. I did not know the Ardelli travelled so far. Shouldn’t you be busy licking your brother’s boots back on Raliton Beta?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.). Raliton Beta is a planet name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">That would be my second brother, Aron. It gives me certain satisfaction to know he still has to linger in Givori’s shadow. But for the future, let it be clear that I am the only one allowed to insult any members of House Ardelli. Guard your tongue!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male). Givori and Aron are both Dali's brothers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The third Ardelli brother? The hot head running away on a Hoverbike? Now that’s some interesting plot twist![br/][br/]I visited your funeral last spring. It was quite a touching ceremony.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.) Hoverbike is a Syndicate vehicle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I had a feeling my family would make sure I could only return as an imposter. Not that it mattered though. Unlike my brothers, my sole interest in Psynumbra had always been to harness its melodies. The last years on this rock have provided me with the perfect environment to bring my grim compositions to perfection.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Once I’ve gotten my hands on the Screaming Stone, I will be able to directly share the songs from the Abyss with my fans. My brother may still have the power, but I will have the fame.[br/][br/]The Screaming Stone lies guarded within a Psynumbra Sanctorum. Recover it and I’ll make sure to promote you on my first concert tour.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male). Screaming Stone is a quest item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh, yes! I can already hear the masses chanting the chorus of Oblivion. You have my gratitude. I’ll make sure House Ny’dar will play its part in one of my future ballads.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A touching gesture, but hardly profitable enough. I propose a twenty percent profit share from your first album including an immediate loan to insure me against failure. That or the Screaming Stone remains in my possession.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_SYN_PAGE09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ha, very well! I’ll give you fifteen. Now, if you don’t mind, I’ll be off for some additional recordings. The Vanguard on this planet have proven to provide some excellent sound samples when conducted by my Malictors...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male). Malictors are Psynumbra units.</Data></Cell>
+   </Row>
+   <Row ss:Index="135" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONTROL_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This pyramid complex… I don’t need any scanner readings to confirm to me that this is the reason we’ve come to this planet.[br/][br/]The vector lights projected around the main compound remind me of our own Synthesis technology. Things are starting to get interesting.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONTROL_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">So, the device we’ve been after is an old Union era Avatar model. Intriguing. Though simple from the outside, our technology couldn’t even interlink with its core functions, as if something is denying us access. We only got a glimpse at its vast database and at what appear to be the stored recollections of a previous user.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.) Union era as in the time where the Star Union was ruling. Avatar is a digital Syndicate unit. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONTROL_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We could transfer a Personality Daemon into the Avatar to activate it, but its software structure is quite different from the models we’re using. We will need to build a conversion module to study the Avatar further until we can perform the Daemon transfer – or we could force the integration of the Personality Daemon by overcharging the Avatar’s security matrix.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.). Personality Daemon is a computer program that can be uploaded (holding a personality)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONTROL_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Regardless, I have to decide whose Personality Daemon to use. I wonder… who is the most loyal servant of House Ny’dar?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONTROL_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It would be a great honor for me to undergo the uploading process once the transfer is ready. I wish to see the world through the Avatar’s eyes. My mortal body will be useless, but I will have the infinity of cyber space to explore.[br/][br/]All in service of House Ny'dar, of course.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Syndicate male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONTROL_PAGE06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Regardless, I have to decide whose Personality Daemon to use. I wonder… who is the most loyal servant of House Ny’dar?[br/][br/]Bring me Zul’s Personality Daemon. Right now, he seems like the best candidate for the transfer. He has proven his loyalty in the past and was the one to lead us to the Avatar in the first place.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONTROL_PAGE07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Of course. As a reward for your dedication and loyalty I shall accept your proposal. I’d advise you to start with the necessary preparations in time. We have no margin for additional delays.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONTROL_PAGE08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">So, you’ve managed to retrieve the ancient Avatar. I am impressed. Don’t look so surprised. I may have come to this planet for other reasons, but I am still an Ardelli. We have our ways of knowing things. The Psynumbra has refined our instincts.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONTROL_PAGE09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Harnessing the power from the Abyss could suit you equally well, {STR_LeaderName}. All you need to do is to attune to these Psi-Stones and use them as a medium to induce the Daemon transfer. This is where your journey to Psynumbra can begin.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male). Pis-stones are Psionic weaponry. Psynumbra is an in-game secret tech. The Abyss is a Psynumbra term, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONTROL_PAGE10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Studying the Psynumbra is a tempting opportunity. I will take the Psi-Stones and will consider their usage as a possible solution to our problem. House Ny’dar sends you its regards for this generous gift.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONTROL_PAGE11</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Though a tempting offer, I’m afraid I’ll have to decline. Allowing your psionic artifacts in the halls of my House seems like an unnecessary risk.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_PSI_STONES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daemon Transfer: Psi-Stones</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_PSI_STONES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Learn to attune to the Psi-Stones gifted to you by Dali Ardelli to use them as a medium for the transfer of Zul's Personality Daemon into the ancient Avatar.[br/][br/][firecol](Warning: Completing this quest will make you adopt Psynumbra as a Secret Technology for the next mission!)[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_PSI_STONES_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psi-Stone Ritual</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Research Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_PSI_STONES_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Activates the psionic potential of the medium.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Research Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONTROL_PAGE12</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bring me Zul's Personality Daemon, he shall be used for this.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Zul's Daemon node deactivates and the ancient Avatar starts to spring to life.)[br/][br/]I’ve never felt so... vast... so powerful... This vessel, it is something incredible. The knowledge stored inside is overwhelming.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Third-person Narrator in brackets, Zul Nadjian afterward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good to hear you are making yourself comfortable in your new home. Did the transfer damage your Personality Daemon?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I do not know how to answer that. I seem to be in control of all my mental faculties, however there is something else. The name Ara’rael comes to my mind quite often. It is strange, but no reason for concern. Give me a moment. I need to adjust myself to this new existence.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Is now a Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_04_NO_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(The Avatar turns dim for a second, then immediately lights up again.)[br/][br/]I know a way off the planet. The instability binding us here is artificial. The Syndicate and the Vanguard each hold half of the key to our freedom, and in their infighting, they have been keeping each other chained and unable to escape.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Is now a Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_05_NO_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Is that so? Send a system-wide alert. We are going to launch a full-scale assault against the two fools.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_04_SYN_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If you are intrigued by this power, help me escape from this planet and I shall teach you so much more. The Harmony Beyond welcomes everyone. But to get off the planet we will need the clearance codes Adam McKinley holds.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male). Harmony Beyond is a Psynumbra term for 'heaven', please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_04_SYN_ALLIED_VAN_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If you are intrigued by this power, help me escape from this planet and I shall teach you so much more. The Harmony Beyond welcomes everyone. But to get off the planet we will need to use the clearance codes Adam McKinley held.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male). Harmony Beyond is a Psynumbra term for 'heaven', please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_05_SYN_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Clearance codes? What are you talking about?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_06_SYN_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The atmospheric anomaly holding everyone on this planet a prisoner is created by an imperial distortion matrix. I already got control of the matrix, but without the proper clearance codes it cannot be shut down. Adam McKinley is offering violent resistance with his Vanguard, but together we should be able to extort the codes from him.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male).</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_06_SYN_ALLIED_VAN_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The atmospheric anomaly holding everyone on this planet a prisoner is created by an imperial distortion matrix. I already got control of the matrix, but without the proper clearance codes it previously couldn't be shut down. What do you say, {STR_LeaderName}, you wanna go on that hell ride together?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_07_SYN_ALLIED_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very well, let us deal with the Vanguard and leave this planet together.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_07_SYN_ALLIED_VAN_DEAD_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very well, with the Vanguard rotting to dust I see no reason to extend House Ny'dar's business on this planet. Let us leave.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_07_SYN_ALLIED_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not only do I control the ancient Avatar, I also know how to get rid of the planetary disturbance. Goodbye, Dali Ardelli. You have been of great use to my house. Now you and the Vanguard can be left to rot on this planet.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_04_VAN_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, now that you have retrieved the Avatar from the Synthesis Facility my mission on this planet has lost its last meaning. I desire nothing more than to finally leave this accursed rock.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_05_VAN_ALLIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The atmospheric distortions were created as part of the planet’s security system. I still hold the clearance codes to deactivate the imperial distortion matrix that is causing them, but since Dali Ardelli captured the facility, we have become prisoners on our own. We need your help, {STR_LeaderName}. Ardelli may be sharp, but against our combined forces, he won’t stand a chance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male)</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_05_VAN_ALLIED_SYN_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The atmospheric distortions were created as part of the planet’s security system. I still hold the clearance codes to deactivate the imperial distortion matrix that is causing them, but after Dali Ardelli captured the facility, we had become prisoners on our own. Now that Ardelli is dead, will you continue our cooperation and leave this planet together?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_06_VAN_ALLIED_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The other Syndicate houses don’t need to learn about what happened here. Silencing Ardelli can only benefit us. Let us both prepare for the assault.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_06_VAN_ALLIED_SYN_DEAD_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The other Syndicate houses don’t need to learn about what happened here. You helped us to silence Ardelli. House Ny'dar will return the favor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_06_VAN_ALLIED_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Placing the fate of my house in the hands of a Vanguard Commander? What a disgusting thought! Goodbye, Adam McKinley. You have been of great help, but there comes a time when every Syndicate house needs to dispose of its expended assets.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_07_VAN_ALLIED_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good move, betraying the Vanguard. Now that we know how to remove the planetary disturbance, we can take out both him and Ardelli to escape on our own.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Is now a Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">DAEMON_CONTROL_COMPLETION_MESSAGE_PAGE_07_VAN_ALLIED_SYN_DEAD_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good move, betraying the Vanguard. Now that we know how to remove the planetary disturbance, we can take out Adam McKinley to escape on our own.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STOMP_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Never mess with a superior house!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_SYN_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome to my humble establishment, Adam McKinley. I have been waiting for this moment. Now, master of House Ny’dar, let me show you how to properly ‘extract’ those clearance codes. It won’t take very long...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate male).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_VAN_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A crippling assault. Here, take the blasted codes and use them to disable the imperial disruption matrix.[br/][br/]There is a special place in the Void for people like you, Dali Ardelli.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Adam McKinley (Vanguard male). Void is a Voidtech term, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Huh? Never seen you around here before. Spacers is our clan, and we're the free people of this land. We need to travel to the Sacred Junkyard to gather new props. But we've got a big guild raid happening soon, so we’re busy. Go meet the Azer Starg, leader of the living effigies, and ask him for these specific parts.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Spacer Preacher (male). Azer Starg is an Assembly Male Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am receiving it now, they gave us the location of some... pile of scrap? Along with a wish list of different scrap pieces.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Amusing. We might as well see where this is going. These Spacers seem primitive enough to be easily manipulated. I could certainly see the benefit in them riding their barbaric constructs into battle for House Ny’dar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What a pleasant surprise! Allow me to welcome your house to our meditation grounds. I am Azer Starg.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Azer Starg (Assembly male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What is it with all of this junk? I thought the Spacers were the only ones playing in scrap.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The metal serves another purpose, light of the Celestian willing. I have told the Spacers many times they are welcome to take anything we do not use, but they think we are some form of sentient ‘effigies’. Would you please take the scrap that they want and give it to them? They are building a space ship to take off to the stars.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Azer Starg (Assembly male). Celestian is a secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Spacers are going to attempt to fly through this atmosphere? That might actually be entertaining to watch… I will see what we can do, but I cannot make any promises.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Here you are. Apparently, you wanted all this scrap for spaceship parts?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">To the skies... and it ain't scrap!! The guy I replaced five minutes ago said the meat tastes better up there. Now give us the divine parts![br/][br/]Actually, we have no idea how to build a spaceship. Could you assemble it? Please?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Spacer Preacher (male). Azer Starg is an Assembly Male Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE11</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What do you mean you can't assemble it!? You are the ones who wanted the parts!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE12</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Well, we obviously can't touch the sacred scrap, coz' it's sacred! Here, these are the blueprints. Do this for us and we will give you our second best scrap![br/][br/]Sheesh, not very smart this one.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Spacer Preacher (male). Azer Starg is an Assembly Male Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE13</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I don't have time for this nonsense! House Ny’dar has higher priorities, more important business to deal with.[br/][br/]They've stopped listening...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE14</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Well, it is done. We followed the crude blueprints of the Spacers as far as there was anything to follow, but my engineering advisors say that the best this thing can do is serve as a bloated firework.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE15</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Marvelous, this is just how I imagined it! Well, Droopy drew it first and then I imagined it. Here, your reward.[br/][br/](Something drops out of the vehicle onto the ground)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Spacer Preacher (male). Azer Starg is an Assembly Male Commander. Droopy is a Spacers grunt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_THE_SPACERS_PAGE16</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I have no idea what they are going to do with it, but let us finally be done with this circus.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="191" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My friend, I don't like seeing you like this. Perhaps the time for change has come. If you do not wish to destroy those who oppose you, join me in building a Pillar of Light. If we both work together, you may escape without unnecessary bloodshed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Azer Starg (Assembly male). Pillar of Light is a holy structure to be built</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My database contains knowledge of the ancient Celestian arts, {STR_LeaderFirstName}. What Azer Starg is saying may be more likely to work than it sounds.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I know it may be too late to resolve this conflict peacefully, but if we endure while constructing the Pillars you can still escape.[br/][br/]What say you? Will you accept a defensive alliance?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Azer Starg (Assembly male). Pillar of Light is a holy structure to be built</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not having to bother with those fighting fools could certainly save us some time. The longer they will be busy with each other, the better. We will try it your way, Azer Starg.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The only blood that needs not be shed is the blood of House Ny’dar’s loyal servants. Just watch as I make sure those fools are getting what they deserve.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Look, the sky is clearing just above us.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Faithful, we will race you to the stars! Droopy, open your eye folds! The moment is here! Let's go![br/][br/](Even you are amazed that the pile of scrap you built for them can actually fly.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Spacer Preacher (male). Droopy is a Spacers grunt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESCAPE_WITH_ASS_PAGE08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Now! Escape through the clearing!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Azer Starg (Assembly male). </Data></Cell>
+   </Row>
+   <Row ss:Index="200" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FALLBACK_ATTACKED_OR_DEFEATED_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Incompetents! It is clear now that House Ny’dar should resolve this relying on its own strength alone. Let there be no one left to stand in my way!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_NOT_FOUND_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With the entire planet under House Ny’dar’s control, finding the device we’ve been after was only a formality. It is an old Union era Avatar model. So far, we’ve only had a glimpse at its vast database and will need to transfer a Personality Daemon to activate it. I wonder… who is the most loyal servant of House Ny’dar?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_NOT_FOUND_MESSAGE_PAGE_02_ZUL_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It would be a great honor for me to undergo the uploading process. I wish to see the world through the Avatar’s eyes. My mortal body will be useless, but I will have the infinity of cyber space to explore.[br/][br/]All in service of House Ny'dar, of course.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_NOT_FOUND_MESSAGE_PAGE_02_ZUL_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bring me Zul’s Personality Daemon. Right now, he seems like the best candidate for the transfer. He has proven his loyalty in the past and was the one to lead us to the Avatar in the first place. Prepare for the transfer to begin. Starting in three… two… one…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_NOT_FOUND_MESSAGE_PAGE_03_ZUL_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Of course. As a reward for your dedication and loyalty I shall accept your proposal. Prepare for the neural upload to begin. Starting in three… two… one…</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_NOT_FOUND_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Zul's Daemon node deactivates and the ancient Avatar starts to spring to life.)[br/][br/]I’ve never felt so... vast... so powerful... This vessel, it is something incredible. The knowledge stored inside is overwhelming.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Third-person Narrator in brackets, Zul Nadjian afterward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_NOT_FOUND_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(The Avatar turns dim for a second, then immediately lights up again.)[br/][br/]I know a way off the planet. The instability binding us here is artificial. The Syndicate and the Vanguard each held half of the key to our freedom, but as they are both dead, we can just combine their two pieces and leave.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Third-person Narrator in brackets, Zul Nadjian afterward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_NOT_FOUND_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent. No unfinished business, no eyewitnesses left – this is what I call a successful enterprise. Take us out, Zul! Afterwards, we can discuss the utility of your new existence for House Ny’dar’s future...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_FOUND_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With the entire planet under House Ny’dar’s control, gathering the required resources to initiate the Personality Daemon transfer was only a formality. Zul, prepare for the neural upload to begin. Starting in three… two… one…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_FOUND_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Zul's Daemon node deactivates and the ancient Avatar starts to spring to life.)[br/][br/]I’ve never felt so... vast... so powerful... This vessel, it is something incredible. The knowledge stored inside is overwhelming.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Third-person Narrator in brackets, Zul Nadjian afterward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_FOUND_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good to hear you are making yourself comfortable in your new home. Did the transfer damage your Personality Daemon?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_FOUND_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I do not know how to answer that. I seem to be in control of all my mental faculties, however there is something else. The name Ara’rael comes to my mind quite often. It is strange, but no reason for concern. Give me a moment. I need to adjust myself to this new existence.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_FOUND_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(The Avatar turns dim for a second, then immediately lights up again.)[br/][br/]I know a way off the planet. The instability binding us here is artificial. The Syndicate and the Vanguard each held half of the key to our freedom, but as they are both dead, we can just combine their two pieces and leave.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STANDARD_VICTORY_DEVICE_FOUND_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent. No unfinished business, no eyewitnesses left – this is what I call a successful enterprise. Take us out, Zul!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="216" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ZUL_EARLY_DEATH_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, listen to me... my consciousness… on my Daemon. I… please… it must not end like this!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ZUL_EARLY_DEATH_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Zul never told me his neural integration was this far developed. I wonder what other secrets he’s been keeping. Still, disposing of him would be unwise at this point. He may return to be of use for our house.[br/][br/](You cautiously extract Zul's Personality Daemon, a digital backup where his consciousness is stored.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="219" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No Deal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accept Dali's Help</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Decline</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accept Dali's Proposal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Refuse and Betray</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accept McKinley's Proposal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Decline</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accept Azer's Proposal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Decline</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:Index="231" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_BETRAYAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Betrayed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Spaceship Construction</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>156</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>162</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

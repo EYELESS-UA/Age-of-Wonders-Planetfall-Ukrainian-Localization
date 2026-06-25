@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Ajay Ramautar</LastAuthor>
+  <LastSaved>2020-09-03T13:43:02Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7365</WindowHeight>
+  <WindowWidth>17025</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="107" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="127.5"/>
+   <Column ss:StyleID="s62" ss:Width="201"/>
+   <Column ss:StyleID="s62" ss:Width="386.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="379.5"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAILS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configuration Survey Site</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is the location of a powerful artifact. It can be explored by a Hero with the correct Cypher Access Codes in order to gain the power of the Grail Configuration.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The search for the Grail Configuration</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_QUEST_SHARED</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">The Grail Configuration fell into enemy hands.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Grail Configuration / Grail - Powerful relics by an ancient race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Echoes of an Ancient Era</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Build the Grail Frequency Scanner. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">The A.I.V.A. system located the presence of a Grail Configuration on this planet, an ancient artifact used by CORE to stabilize and control the galaxy. They grant powerful boons to those who employ them. The energy of the Grail permeates the planet, so we must build a Grail Frequency Scanner to pinpoint energy sources that might lead us to it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A.I.V.A. is the in world support AI seen in the tutorial and some cmapaign missions&#10;&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">We have picked up multiple signals originating from Grail Cypher locations. They point to the Exploration Sites spread across the planet - and to the Dwellings of the local NPC Factions, who seem to have collected the Cyphers as items of value.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cyphers - Provide the Access Codes to enter the Grail Configuration; </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Build the G.F.S to locate the Cyphers hidden on this planet.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">GFS - Grail Frequency Scanner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Frequency Scanner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A powerful global scanner attuned to the energy signature of the Grail Configuration on this planet. It can be used to locate the Cyphers resonating with the corresponding Grail frequency.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encoded Message</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Obtain enough Cyphers from Exploration Sites or NPC Factions to obatin the key to the Grail Configuration vault.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Exploration Sites and NPC Faction are ingame terms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">We need to collect the Cyphers in order to locate and unlock the vault holding the Grail. The scanner revealed that they can be found in [hyperlink,000003E100000670]Exploration Sites[/hyperlink] and through the Dwelling Shop of the local [hyperlink,0000039E00000075]Factions[/hyperlink].[br/][br/]A.I.V.A. has warned us that not all of the Cyphers within the ruins will still be intact and that the dishonored [hyperlink,000003E300004242]Apostates[/hyperlink] are attempting to claim the Grail for themselves, attacking anyone in sight of the Cyphers when given the chance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Apostates are an ingame wildlife group</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">We have acquired enough still intact Cyphers to start decoding the information hidden within them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cyphers collected</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SCAN_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scan for Cyphers and Enter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SCAN_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Scan this site for Cyphers. The unit will remain stationary for {Turn}[turn/].[br/]If the Site is occupied:[bulletList][bullet]Fight the site's defenders and obtain an intact Cypher.[/bullet][/bulletList][br/]If the site is empty:[bulletList][bullet]Large chance to fight Apostates and get an intact Cypher.[/bullet][bullet]Small chance to fight Apostates and get a destroyed Cypher.[/bullet][bullet]Slim chance to get an intact Cypher without a fight.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SCAN_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Scanning Exploration Site.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Decoding the Cyphers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Analyze the Cyphers to find the location and access codes of the Grail vault.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">A.I.V.A. has shared with us an old Star Union Cypher analysis alogrithm. Our scientists can use it to find the location of the Grail Configuration and the access codes needed to enter its inner vault.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">The analysis was a success. We identified the Grail's location and the access codes required to gain entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Analyze the Grail Cyphers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cypher Analysis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An algorithm to decrypt the Cyphers and gain access to the Grail Configuration on this planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Retrieve the Grail</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Bring a Hero led army to the Grail Survey Site.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">We need a trustworthy hero with a powerful army to go and obtain the Grail Configuration for our Empire. It has to be expected that the Apostates will do anything in their power to intervene.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">We have obtained the Grail Configuration. As long as the Vault Landmark remains under our control, we can use its Doctrine to give our empire an edge over our competitors on this planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Complete the Grail Survey Site</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vault of the Configuration of Law</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This vault holds a Grail that reigns over Law. The configuration relates to applying rules to reality and ensuring those rules are followed. In practical terms, it aids the organization of large societies, granting bonuses to industrial productivity and military upkeep.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vault of the Configuration of Unity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This vault holds a Grail whose configuration leads to Unity. The configuration facilitates communication, aids in finding common ground and solving conflicts. The grail grants bonuses to happiness, influence and popular support.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vault of the Configuration of Life</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This vault holds a Grail that aids Life. These configurations relate to the organization of life forms to make them function and excel. They grant bonuses to Food growth and while manipulating reality in order to regenerate units to their cognitive ideals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vault of the Configuration of Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This vault holds a Grail of Knowledge. The configuration relates to the organization and collection of abstract data. A grail of this type increases Research and gives your units a certain Precognition over their enemies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vault of the Configuration of Potential</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This vault holds a Grail that promotes Potential. The configuration enhances and strengthens machinery and living beings beyond their physical limits. The grail facilitates Energy generation and increases the damage output of units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We discovered the vault of a Grail Configuration, powerful relics of times past that have the power to shape our future for the best. With the proper Cypher access codes, we could enter and obtain it for ourselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">After going through the outer halls of the facility, it becomes more and more clear why the existence of the Grail Configurations was kept a secret during Star Union times. The left behind data from studying the Grail seems to point to its alien origin. As we delve deeper, we find ourselves before a heavily fortified door, which must serve as the entrance to the vault.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Use the Cypher Access Codes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">We put in the access codes and the massive door starts to open up before us. But there is no time to enter the vault, as a squad of Apostates immediately charges at us to deny us entrance. They seem to have been monitoring our moves and waited that we would open the way to the Grail for them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The Apostates seem to now worship the Configuration, trying to uncover its secrets. We need to clear them out if we ever wish to unveil the secrets of the Grail.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">We defeated all the Apostates drawn to the Grail Configuration chamber. The grail is now ours to command.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuration of Law</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DOCTRINE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cities you control generate +{Percentage}%[production/], your units cannot desert you, and their[energy/]upkeep is reduced by {UpkeepPercentage}%.[br/][br/][firecol]Unit upkeep can never be reduced by more than 50%.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuration of Unity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your [influence/] gain increases by +{Percentage}%, Popular Support stays at maximum, and your colonies gain +{HappinessGain}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuration of Life</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cities you control generate +{Percentage}%[supply/], and units you control regain {HPAmount}[hp/] per turn during combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is under the influence of a powerful Grail Configuration, regenerating {HPAmount}[hp/] per turn during combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuration of Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cities you control generate +{Percentage}%[research/] and units you control gain a stack of [abilityblue]Precognition[/abilityblue] per turn during combat.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Precognition is a buff connected to the Oathbound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is under the influence of a powerful Grail Configuration, granting it a stack of [abilityblue]Precognition[/abilityblue] per turn during combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuration of Potential</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cities you control generate +{Percentage}%[energy/], and units you control gain a {DamageUp}% damage increase.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is under the influence of a powerful Grail Configuration, gaining a {DamageUp}% damage increase.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_GENERAL</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{income}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configuration of Law</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FBA]Configuration of Law[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark is an advanced Production sector, and gives the following when annexed:[br/]{ProductionFlat}, {ProductionSlot}.[br/]{ResearchFlat}, {ResearchSlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configuration of Unity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FC5]Configuration of Unity[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{InfluenceFlat}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark is an advanced Research sector, and gives the following when annexed:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{InfluenceFlat}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configuration of Life</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FCB]Configuration of Life[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark is an advanced Supply sector, and gives the following when annexed:[br/]{FoodFlat}, {FoodSlot}.[br/]{ProductionFlat}, {ProductionSlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configuration of Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FD0]Configuration of Knowledge[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark is an advanced Research sector, and gives the following when annexed:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{EnergyFlat}, {EnergySlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configuration of Potential</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FD6]Configuration of Potential[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{SupplyFlat}[/bullet][bullet]{SupplySlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark is an advanced Energy sector, and gives the following when annexed:[br/]{EnergyFlat}, {EnergySlot}.[br/]{SupplyFlat}, {SupplySlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKED</Data></Cell>
+    <Cell><Data ss:Type="String">Already purchaced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Cypher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">ALREADY_SCANNED</Data></Cell>
+    <Cell><Data ss:Type="String">Already scanned for Cypher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">HAS_CYPHER</Data></Cell>
+    <Cell><Data ss:Type="String">Has Cypher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_CLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">Cypher Claimed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Request Grail Cypher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A special cypher found by the local faction that contains information on this world's Grail Configuration.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BATTLE_REPORT</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_REWARD</Data></Cell>
+    <Cell><Data ss:Type="String">Cypher gained!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BATTLE_REPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NO_CYPHER</Data></Cell>
+    <Cell><Data ss:Type="String">No intact cypher found!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Bought Cypher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_PlayerName} completed {STR_PhaseName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">event text when a player completed a grail phase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">GRAIL_COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_PlayerName} completed the final phase and acquired the Grail Configuration</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">event text when a player has complted the grail event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GRAILS</Data></Cell>
+    <Cell><Data ss:Type="String">Grails</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GRAILS_CHANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Grails Chance</Data></Cell>
+   </Row>
+   <Row ss:Index="95" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">The grail quest chain will start around turn {turn}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LATE</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Late</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EARLY</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Early</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Disabled</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">The grail quest chain will not appear.</Data></Cell>
+   </Row>
+   <Row ss:Index="103" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">SETTINGS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grails</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">SETTINGS_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Set the settings for the grail quest chain</Data></Cell>
+   </Row>
+   <Row ss:Index="107" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_SCANNED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_StructureName} scanned for Cypher</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>78</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>106</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R107C1:R107C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

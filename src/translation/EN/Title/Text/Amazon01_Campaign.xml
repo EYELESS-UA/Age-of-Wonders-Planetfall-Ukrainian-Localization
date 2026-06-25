@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laszlo Pieper</Author>
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <Created>2018-10-11T08:22:20Z</Created>
+  <LastSaved>2019-02-14T15:23:02Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="135" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="252"
+   ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="259.5"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="254.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMAZON01_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_HAZARD_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contagious Marshlands</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_GRAZING_GROUNDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grazing Grounds</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_DENSE_FOREST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wildland Woods</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_SPECIAL_RESEARCH_XENO_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate Xeno Evidence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_SPECIAL_RESEARCH_XENO_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Creusa led us to the Xeno facilities and helped us find the necessary evidence of what this Plague exactly is. It is time to take a closer look and see what we can find ourselves.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Creusa - An Amazon who was part of Berhane’s forces</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_SPECIAL_RESEARCH_FIND_CURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Cure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_SPECIAL_RESEARCH_FIND_CURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Develop a serum to administer to the local infected wildlife.</Data></Cell>
+   </Row>
+   <Row ss:Index="15" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Matriarch's Trial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Matriarch's Trial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can win this map by stopping Berhane.[br/][br/]Berhane's Location Obtained: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Berhane - Amazon character who was the old mentor of Mahina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Berhane's Location Obtained: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can win this map by stopping Berhane's lackey and discovering where your old mentor went after leaving Thanakiwa.[br/][br/]Infected Kir'Ko Stopped: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_MAHINAS_TRIAL_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Infected Kir'Ko Stopped: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:Index="22" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_BUTTON_LABEL_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accept Creusa into your ranks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_BUTTON_LABEL_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Decline Creusa's request</Data></Cell>
+   </Row>
+   <Row ss:Index="25" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_PLAGUE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the Plague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_PLAGUE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You must learn more of this 'Xenoplague' in order to understand it and ultimately fight it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_FIND_BERHANE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find Berhane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_FIND_BERHANE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have the last known location of Berhane. The sooner you track her down, the better.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_DEFEAT_BERHANES_HENCHMAN_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Berhane's Lieutenant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_DEFEAT_BERHANES_HENCHMAN_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If you want to find out where Berhane is, you will have to go through her puppet, Kiri Uz'Kol.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Kiri Uz'Kol - Female Kir'Ko character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_WILDLIFE_PRESERVATION_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Environmental Protection</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_WILDLIFE_PRESERVATION_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As Amazon Matriarch, it is your duty to preserve and nurture the natural environment around you. Watch out for threats that could endanger the equilibrium you bring.</Data></Cell>
+   </Row>
+   <Row ss:Index="34" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_INFESTED_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infested</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_XENO_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cell</Data></Cell>
+   </Row>
+   <Row ss:Index="37" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_MISSION_START_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have finally arrived on Thanakiwa. It appears to be as lush and densely forested as the long range scans indicated. Our colony will certainly thrive in an environment like this.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Thanakiwa - planet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_MISSION_START_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matron {STR_LeaderFirstName}, during the landing sequence we noticed plenty of wildlife on this planet. Many of them seem powerful, and could prove to be capable combatants. Perhaps we could tame them to bolster our numbers here?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_LeaderFirstName} - Shows the name of the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_MISSION_START_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmm, good thinking, sister. We should scout the area for strong beasts to capture. But our priority mission comes first: tracking down Berhane. We must find her last known location and start the hunt from there.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_ON_THE_HUNT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">On The Hunt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_ON_THE_HUNT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Following standard Matriarch protocol you should start exploring Thanakiwa by hunting and taming some of the planet's wildlife.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No drill or training matches the thrill of a real hunt! Unfortunately, we could only take a few of the beasts into our care. Most of them had peculiar growths on their bodies, unlike anything we have seen before.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matron {STR_LeaderFirstName}! We have discovered a Xenolab facility not far from here. It seems to be central to the corruption afflicting the wildlife. We dared not enter alone, but we suspect that it may contain more answers.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Matron - a title given to the Amazon </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you for your candor, sister. That is troubling indeed, and something we will need to investigate immediately. Was there anything else?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, Matron. We have found the tracks of a larger predator. Judging by the footprints, it must be enormous.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_ON_THE_HUNT_COMPLETE_MESSAGE_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Finally, a challenge! Send forth the Shrikes, muster the Lancers! We have big game to hunt!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shrikes - Amazon bird like unit&#10;&#10;Lancers - Amazon units</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prize of the Predator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your huntresses have encountered another predator roaming Thanakiwa. Let the hunt continue to track the beast down!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rooaarr! (The beast, though sunken to the ground, continues to flex its muscles, angrily glaring in your direction.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matron {STR_LeaderFirstName}, what are you waiting for? Put an end to this abomination!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No… I feel sympathy for the creature. It somehow reminds me of what could have become of us Amazons if we had tampered with our DNA any further, like Berhane does.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}! Watch out!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grrrr raaaarrrr! (The beast leaps in your direction, its jaws opened in deadly anticipation. But you swiftly evade its charge, striking it with a punishing blow.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_PRIZE_OF_THE_PREDATOR_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ho! It is time you learn to obey your new master. Here, this Advanced Instinct Controller will keep your rage in check – and if it doesn’t, you will return to taste the fury of the Lancer!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Advanced Instinct Controller - Amazon mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_FIND_THE_SOURCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find the Source</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_FIND_THE_SOURCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We must investigate why there is a parasite infesting some of the planet's wildlife.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_FIND_THE_SOURCE_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">For a planet rich with wildlife, it is eerily quiet here. This must be the facility the scouts found. Looks very much abandoned.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_FIND_THE_SOURCE_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Suddenly, a pack of hopperhounds pour out of the building complex, disturbed by your presence!)[br/][br/]On alert, sisters! Fall back, and reform with me!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hopperhounds - Wildlife creatures</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_FIND_THE_SOURCE_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">That was a close call. This plague has infected these hopperhounds too. We need access to this facility. Perhaps it is best if we put these poor beasts out of their misery.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_END_THEIR_SUFFERING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">End Their Suffering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_END_THEIR_SUFFERING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Many creatures in this area have been taken over by the parasites. You cannot proceed until you've gotten rid of them. Kill the parasite-controlled wildlife.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_END_THEIR_SUFFERING_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Huntresses, take their bodies back to the colony. Have the scientists investigate their parasitic infection.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_END_THEIR_SUFFERING_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, Matron! We will deliver these specimens to our research facilities immediately.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_END_THEIR_SUFFERING_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I cannot help but feel sympathy for these creatures. This plague appears to have caused them terrible suffering.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_FIND_CURE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find a Cure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_FIND_CURE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You must find a cure so that we can save as much of the planet's wildlife as possible. Your scientists should focus their efforts toward developing a cure to the infestation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_FIND_CURE_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matron {STR_LeaderFirstName}, our scientists have concluded their research into the plague and… unfortunately, there is no cure. Their only significant finding is that killing the host also kills the parasite. It lives in symbiosis with its host organism.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_FIND_CURE_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then there is nothing we can do to prevent this plague from spreading further. We must correct Berhane’s mistakes by stopping those responsible for introducing the plague to this world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_SEARCH_FOR_BERHANE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Search for Berhane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_SEARCH_FOR_BERHANE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have the last known location of Berhane. The sooner you track her down, the better.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">More test subjects for plague to eat? Berhane will be pleased! You whelps do not realize full extent of your predicament. Too late to turn back. Submit to the plague's consumption. Conclude this sorry tale quickly.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Kir’Ko? You are one of Berhane’s lackeys? We are here to stop her. Get out of our way! Her transgressions cannot be forgiven. She must be held accountable. If you impede us, we won’t hesitate to put you down like a sick hopperhound.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Berhane left to another planet long ago. She continues our research. You cannot stop the plague from spreading. We’ll crush you quickly! The infection craves new hosts. You’ll not escape this planet alive.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">AMA01_MEET_KIRI_MESSAGE_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What, she is the one behind this plague?! How could she do this? I knew she disagrees with some of our teachings, but this is insane! And she’s escaped already…[br/][br/]That will have to come later. I first need to deal with you, Kir’Ko, and the rest of your plague cult, before you contaminate the rest of this world!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Show of Force</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Kir'Ko lackey Kiri Uz'Kol cannot be reasoned with. She is blinded by power, and if we want to find out more about Berhane, we will need to go through her.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_QUEST_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Kiri Uz'Kol Defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This cannot be! We were supposed to be immortalized… she promised us…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seems that she lied to you, just as she betrayed her own people. But I will give you a chance to redeem yourself. Tell me where Berhane went, and I will spare your life. Decline, and we will be forced to resort to other measures to extract the information from you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not necessary, ha-ha! She means nothing to us, a path to power, nothing more. If anything, we were using her, ha-ha! (Now that she is on her knees, this coward shows her true colors.) She left for Avium SK-51! We swear it on ancestors!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Avium SK-51 - planet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmm, I believe you. You don’t seem stupid enough to continue lying to me. Biomancers, fetch a containment unit. Her contamination must not be allowed to spread any further.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biomancers - Amazon unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No, please! You cannot deny us open skies! Plague cannot be contained. You will succumb anyway… (A team of biomancers seals the Kir’Ko inside a hermetic case and proceeds towards the Biosecurity Engagement facility)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_SHOW_OF_FORCE_MESSAGE_PAGE06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Although killing that wretch would have destroyed the plague inside her, and might have been the more merciful option, we need more information about how this plague works in order to fight it better. Now to pursue Berhane to Avium SK-51. She won’t elude us a second time!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matron, while scouting the woods we heard a loud thundering sound. Now there is smoke rising in the distance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This could be the doing of my old mentor. We should investigate, but with caution!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the Smoke</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your Huntresses spotted rising smoke in the distance. You must investigate this immediately - it might be your quarry's doing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sisters, please help! I’m stuck in my ship, and these Kir’Ko will cut me to ribbons!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_INVESTIGATE_THE_SMOKE_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(You see a crashed Amazon airship surrounded by an angry swarm of winged Kir’Ko.)[br/][br/]Quickly sisters, form a hunting party! We must intervene before those insects reach her.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clear Skies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Several airborne Kir'Ko have been hunting the Amazon who was calling for help. You should assist in dealing with them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you for your help, Matriarch. Without you and your warriors, I would not have survived that encounter. I owe you my life and offer you my services. You are {STR_LeaderName}, are you not?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am, though my training as a Matriarch is not yet completed. You should address me as Matron. We are here to hunt down Berhane and bring her to justice. Do you know of her?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, Matron, I do! I was on her research team. We were trying to find uses for the Xenoplague.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You served Berhane? Then how can I trust you? Give me a good reason why I should not just abandon you to your fate here…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_MESSAGE_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am no longer loyal to Berhane! Her methods were far too radical, and I turned away from her leadership. I am a capable warrior. I know much about Berhane and can help you understand the Xenoplague. I put myself at your mercy, Matron.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_ACCEPT_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmm, I suppose I don’t have a choice but to accept this risk. We do not have the luxury of ignoring any information on this plague. You may join us for now.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_ACCEPT_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am happy to be allowed to redeem myself. I will not let you down! As a first step, there is a research facility we should visit. It was the location of most of Berhane’s experimentation with the plague. We had to find a new location after some of the experiments overran the place…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_DECLINE_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It would be too risky to allow you to join us. I will not judge you for what Berhane unleashed on this planet, but you should leave before I change my mind.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_CLEAR_SKIES_DECLINE_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I respect your choice, Matron {STR_LeaderFirstName}. Good luck with hunting Berhane and fighting the plague. I am sorry to have had a hand in it…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scientific Reclamation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If you are to find out more about this Xenoplague then you have to search one of its research laboratories.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What were those creatures? They did not look like infected animals or people…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">They were neither. When given enough time and sustenance, the plague parasite can grow and strengthen, becoming a sentient creature with its own mobility. Their sentience is, of course, limited: their main purpose is to spread the Xenoplague that created them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE02_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">They looked more like monsters, but they had distinguishing characteristics similar to the Xenoplague parasite we investigated earlier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_SCIENTIFIC_RECLAMATION_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We should gather as much material from their bodies as we can to aid our research back at the colony. Make haste, sisters. I dare not remain here too long, in case more of these abominations roam the area.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_UNDER_THE_MAGNIFYING_GLASS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Under the Magnifying Glass</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_UNDER_THE_MAGNIFYING_GLASS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have collected plenty of sources on the plague from the Xeno Facilities. The next step would be to investigate further and see how  this plague exactly works.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is interesting how this Xenoplague works in conjunction with its host to sustain and enhance both organisms. I am beginning to understand why Berhane indulged this research.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All I’ve seen of the plague forces me to conclude that the only way to stop its spread is to burn the entire planet. There is an alternative option though. What if you could find a way to control it yourself, perhaps to use it? In the right hands, it would be a powerful weapon!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You may be correct, but would I not then follow in Berhane’s footsteps?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Berhane uses it for heinous reasons. If you were to adopt the Xenoplague yourself, you could right her wrongs and show that, in the right hands, it can be used for good.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You make a good point, Creusa. But I don’t know if we would even be able to contain such a vicious plague. Berhane could not control it, why would I fare any better?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE01_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is interesting how this Xenoplague works in conjunction with its host to sustain and enhance both organisms. I am beginning to understand why Berhane indulged in this research.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE02_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(You take a closer look at some of the sample vials containing small concentrations of the Alpha Strain. Some of the more developed parasites are throwing themselves against the walls of their glass prisons in an attempt to escape.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_MESSAGE_PAGE03_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What if the only way of defeating this plague is to bring it under our direct control? We could certainly use such a powerful weapon against Berhane. But I don’t know if we would even be able to contain such a vicious plague. Berhane could not control it, why would I fare any better?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Adopt Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Reject use of Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_ACCEPT_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With some reluctance, I have decided that it would be best to employ this technology ourselves, if only to better understand and thus fight it. I hope I will not come to later regret this decision.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_XENO_SECRET_TECH_SWITCH_DECLINE_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I will not allow myself to follow Berhane’s path – I have decided to ignore this technology and destroy the plague wherever I find it. I may be making the wrong call, but at least my conscience is clean.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">More bloody Amazons?! Filthy plague-spreaders! Is it not enough that you mind-control your beasts? Must you also decide the fate of honorable men?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Men? You are male humans? Apologies for intruding, we are not plague-spreaders and are not associated with any Amazons you met before. We are here to track them down to put an end to their corruption.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Even so, I’d appreciate it if you did not approach our position any further. We settled here in an attempt to avoid conflict, but only found more of it. This plague is disgusting… it infected some of my troopers and steered them off into the wilderness. What proof do you have that you are not here to do the same to the rest of us? It’s best if you just leave. I want no more war today…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_MEET_FRANK_MESSAGE_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We could use an ally on this planet. Perhaps they would consider helping us if we do something for them. They may appreciate if we put down the plague-ridden troops they mentioned to prevent them from causing any more havoc.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA01_LAID_TO_REST_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">Laid to Rest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_LAID_TO_REST_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Frank Vance was torn about some of his troops falling victim to the vicious Xenoplague. Perhaps you should end their suffering to ease his sorrow.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Frank Vance - Vanguard male character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Now these warriors can rest instead of being parasite puppets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I cannot thank you enough for what you have done. Sadly, I don’t think I can assist you in finding the Amazon responsible for all this. All I know is that she infected that crazy Kir’Ko and her colony with the plague, and they’ve been tearing the area apart.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It was our honor to help ease your pain of loss. Thank you for the information. We will try to retrace Berhane’s steps.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hang on, before you go: some of my troopers insist on being allowed to help you during your search. I can’t stop them, so they are at your disposal until this horrible situation is resolved. Good luck out there.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_LAID_TO_REST_COMPLETION_MESSAGE_PAGE05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We are grateful for their assistance in our struggle, Frank Vance. May peace find you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_FRANK_JOINS_WAR_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I have come to the conclusion that I still have one more fight left inside me before I completely retire. Let us join you in your war against Berhane's minion! Show me where the fight is!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_PLAYER_DECLARED_WAR_FRANK_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">To think I would be able to escape from conflict was foolish. Well, let’s get this over with.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA01_PLAYER_DEFEATED_FRANK_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Did I deserve this fate? At least I will be able to join my comrades in death…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA01_CREUSA_DIED_MESSAGE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Creusa may have been misguided before, but I believe that her heart was pure. We should give her an appropriate burial so that she may rejoin Mother Nature.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,401 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-07-17T11:42:40Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15825</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="56" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="139.5"/>
+   <Column ss:StyleID="s62" ss:Width="168"/>
+   <Column ss:StyleID="s62" ss:Width="354.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="313.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATHBOUND_HERO_SKILLS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting&#10;&#10;EXAMPLE: &quot;Hero gains {PersonaAccDmg} increased damage and accuracy &quot; looks in-game like &quot;Hero gains +5 increased damage and accuracy&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATHBOUND_SKILL_GROUP</Data></Cell>
+    <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound Hero Skill</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill tree header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Intuitive Strikes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HERO_SKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If this unit has [abilityblue]Precognition[/abilityblue], it also gains +{DamageMult}% damage on all abilities.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description&#10;Precognition is a buff that allows you to evade an attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Attenuators</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While in a vehicle, gain one level of [abilityblue]Stagger Resistance[/abilityblue] and +{staggerResist} [abilityblue]status effect resistance[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_3</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Trailblazer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While in a vehicle, unit has [abilityblue]Fast Movement[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_4</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Field Repair Droid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_4</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicles driven by this hero gain [abilityblue]Regeneration[/abilityblue]. If destroyed, the vehicle is restored at {ResurganceRestore}%[hp/] at the end of battle, as long as the hero was not killed as well.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oracle's Protégé</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">For every level of reputation above Neutral, gain +{hpBonus}[hp/] and {armorBonus}[armor/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_POSITIVE_REP</Data></Cell>
+    <Cell><Data ss:Type="String">This hero gains {hpBonus}[hp/] and {armorBonus}[armor/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_6</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oracle's Favor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_6</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Killing an enemy grants the hero a stack of [abilityblue]Precognition[/abilityblue], negating the next direct damage attack to affect it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Overload Power Core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">When in a Battlesuit vehicle, this hero gains the single action [abilityblue]Eject[/abilityblue] ability:[br/]Destroy your battlesuit, dealing {ejectDamage} [damageWave/] in a {radius} hex radius to enemy ground units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description&#10;Battlesuit is a type of vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eject</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy your Battlesuit, dealing {ejectDamage} [damageWave/] in a {radius} hex radius to enemy ground units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_SKILL_8</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic Infusion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HERO_SKILL_8</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit's attacks gain {DamageEntropyS}[damageEntropy/] ({DamageEntropyR}[damageEntropy/] for repeating attacks) and a {strengthChance}[strengthentropy/] ({strengthChanceR}[strengthentropy/] for repeating attacks) chance to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_HERO_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">ALWAYS_ACTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Always Active</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Conditional part of several hero skills descriptions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_HERO_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">WHEN_IN_CITY_DOMAIN</Data></Cell>
+    <Cell><Data ss:Type="String">Hero in Colony's domain</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Conditional part of several hero skills descriptions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_HERO_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OUTSIDE_DOMAIN_WITH_THRONE</Data></Cell>
+    <Cell><Data ss:Type="String">Hero outside Colony's domain</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Conditional part of several hero skills descriptions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Agrarian Ideals</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero can become a Lord of a colony, granting it bonuses to food production and happiness.[br/]Disables the option to gain [abilityblue]Scientific Method[/abilityblue] and [abilityblue]Energetic Efficiency[/abilityblue]hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell>
+    <Cell><Data ss:Type="String">FOOD_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Food[food/] income increases by {foodIncomeIncrease}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell>
+    <Cell><Data ss:Type="String">HAPPINESS_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Happiness[happiness/] income increases by {happinessIncomeIncrease}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEW_GENERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: New Generation</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NEW_GENERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero inspires a new generation in their colony.[br/]Disables the option to gain [abilityblue]Euphoric Presence[/abilityblue] hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NEW_GENERATION</Data></Cell>
+    <Cell><Data ss:Type="String">GROWTH_REQUIREMENT</Data></Cell>
+    <Cell><Data ss:Type="String">Growth requirement for a new colonist[population/] is lowered by {growthRequirement}%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EUPHORIC_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Euphoric Presence</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EUPHORIC_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero's presence makes the people in their colony happier more quickly.[br/]Disables the option to gain [abilityblue]New Generation[/abilityblue] hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EUPHORIC_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">HAPPINESS_THRESHOLD</Data></Cell>
+    <Cell><Data ss:Type="String">Threshold for a happiness event is lowered by {happinessThreshold}%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Scientific Method</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero can become Lord of a Colony, granting it bonuses to research and cosmite income.[br/]Disables the option to gain [abilityblue]Agrarian Ideals[/abilityblue] and [abilityblue]Energetic Efficiency[/abilityblue]hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Research[research/] income increases by {researchIncrease}%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell>
+    <Cell><Data ss:Type="String">COSMITE_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite[cosmite/] income increases by {cosmiteIncrease}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MILITARY_FOCUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Military Focus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MILITARY_FOCUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero's combat expertise allows this colony to improve military research.[br/]Disables the option to gain [abilityblue]Societal Focus[/abilityblue] hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MILITARY_FOCUS</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">{researchIncrease}% [research/] for Military Research.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOCIETAL_FOCUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Societal Focus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SOCIETAL_FOCUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero's intellect allows this colony to improve society research.[br/]Disables the option to gain [abilityblue]Military Focus[/abilityblue] hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOCIETAL_FOCUS</Data></Cell>
+    <Cell><Data ss:Type="String">SOCIETY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">{researchIncrease}% [research/] for Society Research.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Energetic Efficiency</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero can become Lord of a Colony, granting it bonuses to production income and energy income.[br/]Disables the option to gain [abilityblue]Agrarian Ideals[/abilityblue] and [abilityblue]Scientific Method[/abilityblue]hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">PRODUCTION_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Production[production/] income increases by {productionIncrease}%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">ENERGY_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Energy[energy/] income increases by {energyIncrease}%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARMY_STANDARDIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Army Standardization</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARMY_STANDARDIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero's presence inspires a willingness to fight and decreases production time for new units.[br/]Disables the option to gain [abilityblue]Pre-Planned Structures[/abilityblue] hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARMY_STANDARDIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">{productionDiscount}% [production/] cost for all units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PREPLANNED_STRUCTURING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lord: Pre-Planned Structures</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PREPLANNED_STRUCTURING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero's knowledge of construction enables more efficient building and decreases building time.[br/]Disables the option to gain [abilityblue]Army Standardization[/abilityblue] hero skill.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PREPLANNED_STRUCTURING</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">{productionDiscount}% [production/] cost for all structures.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hero Skill description</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

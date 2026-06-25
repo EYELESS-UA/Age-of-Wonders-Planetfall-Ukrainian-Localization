@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Bas Staffhorst</Author>
+  <LastAuthor>Bas Staffhorst</LastAuthor>
+  <Created>2019-05-29T14:43:30Z</Created>
+  <LastSaved>2019-09-02T10:42:50Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="54" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s63" ss:Width="221.25"/>
+   <Column ss:StyleID="s63" ss:Width="168.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="228"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="358.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HAZARDMARKERS_STRATEGIC</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HAZARD_SOURCE_ESSENCE_GASH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Essence Gash</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Essence is life force/energy mentioned by the Heritor secret technology.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HAZARD_SOURCE_ESSENCE_GASH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Essence Gash is a large directional rift that spews out volatile essence. Whereas Heritors use it to harvest and profit from its abundance, other creatures often cannot contain the essence within them without their physical form suffering damage.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Essence is life force/energy mentioned by the Heritor secret technology.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="171">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HAZARD_SOURCE_ESSENCE_GASH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">[bulletList][bullet]Annexing this sector grants {Happiness}[happiness/] to the colony.[/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Non-[abilityblue]Heritor[/abilityblue] units do not regain [hp/] out of combat while within this sector[/bullet][bullet]Every {combatturnnumber}[turn/] turns:[/bullet] [bulletList][bullet]Units have an {strength}[strengthentropy/] strength chance to gain an [abilityblue]Essence Charge[/abilityblue][/bullet]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Essence is life force/energy mentioned by the Heritor secret technology. Heritor is the new secret technology in this expansion of Planetfall.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HAZARD_SOURCE_ESSENCE_GASH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Every {combatturnnumber}[turn/] turns: [bulletList][bullet]Units have an {strength}[strengthentropy/] strength chance to gain an [abilityblue]Essence Charge[/abilityblue][/bullet]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Essence is life force/energy mentioned by the Heritor secret technology.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HAZARD_SOURCE_ESSENCE_GASH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This unit is affected by the Essence Gash in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Essence is life force/energy mentioned by the Heritor secret technology.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HAZARD_SOURCE_ESSENCE_GASH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">No loca needed</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="11" ss:AutoFitHeight="0" ss:Height="28.6875"/>
+   <Row ss:AutoFitHeight="0" ss:Height="152.25">
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63"/>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125"/>
+   <Row ss:Index="17" ss:AutoFitHeight="0" ss:Height="28.6875"/>
+   <Row ss:AutoFitHeight="0" ss:Height="152.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125" ss:Span="1"/>
+   <Row ss:Index="25" ss:AutoFitHeight="0" ss:Height="111.75"/>
+   <Row ss:Index="27" ss:AutoFitHeight="0" ss:Height="43.3125"/>
+   <Row ss:Index="30" ss:AutoFitHeight="0" ss:Height="28.6875"/>
+   <Row ss:AutoFitHeight="0" ss:Height="146.25"/>
+   <Row ss:Index="33" ss:AutoFitHeight="0" ss:Height="28.6875" ss:Span="2"/>
+   <Row ss:Index="40" ss:AutoFitHeight="0" ss:Height="50.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="123"/>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875" ss:Span="2"/>
+   <Row ss:Index="47" ss:AutoFitHeight="0" ss:Height="128.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125"/>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875"/>
+   <Row ss:Index="53" ss:AutoFitHeight="0" ss:Height="77.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

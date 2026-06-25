@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>ThomM</LastAuthor>
+  <LastSaved>2020-03-19T10:15:19Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="127" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="288.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="153.75"/>
+   <Column ss:StyleID="s62" ss:Width="172.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="498.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="283.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">WORLD_EVENTS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">World Event: {STR_Name} {INT_Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">World Events</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Determines if random, planet-wide effects can happen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Total Eclipse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units and structures lose {sightPenalty} vision range. Units lose {rangePenalty} range in Tactical Combat, to a minimum of 4.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">The largest moon in orbit around this world is in transit between the parent star and us. The star’s corona flaring and the silver beads twinkling are sights everyone should see, but some can only worry about the dark shadow the moon casts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">All units lose {rangePenalty} range on all attacks and abilities, to a minimum of {rangeMinimum}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">This structure has {sightPenalty} vision range.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fungal Awakening</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every [turn/], a few sectors will be terraformed to Fungal, and Spore Cloud hazards will appear in those sectors. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Fungal&quot; refers to an in-game terrain type. &quot;Spore Cloud hazard&quot; refers to in-game obstacle. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Fungi seem to be one of those few certainties in life… or perhaps of life. Enormous clouds of fungal spores have spread all across the world and the conditions are right for them to flourish even further.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] {explosionNumber} poison explosions with a 2 hex radius happens in a random location, dealing {bioDamage}[damagebio/] to units in range. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">AOE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fungal Poison Cloud</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">AOE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Deals {damage}[damagebio/] to all units moving through or ending their turn on this hex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite Rain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[tricorium/] pickups appear in random sectors every [turn/]. During Tactical Combat, this causes displacement in a random unit every {turn}[turn/], teleporting it a random distance away from its original position. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Cosmite&quot; refers to the in-game resource. &quot;displacement&quot; refers to the in-game effect. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite is a rare and valuable commodity, and it raining down on the planet is actually good news. We must be careful when handling it, though, as the material comes with a number of strange side effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Due to cosmite's weird properties, a random unit will displaced every {turn}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pirate Uprising</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">1 Pirate Base will appear on the map every [turn/], and during Tactical Combat, wreckages will hit 5 random units every {turn}[turn/], each with a 4[strengthphysical/] strength chance to cause [abilityred]Stagger[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Stagger&quot; refers to the in-game condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">They've hidden underground ever since we touched down, but now they’ve had enough. Pirates are setting up bases and plan to invade our territory here on the surface, while they simultaneously use their ships to maneuver all kinds of debris, causing it to crash down around us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] wreckage will strike 5 random units and have a 4[strengthphysical/] strength chance to cause[abilityred]Stagger[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Stagger&quot; refers to the in-game condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Orbital Weapons Cache</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Weapon pickups appear on the strategic map. In Tactical Combat, a random unit will be hit with exploding debris for 10[damagethermal/] every {turn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidentified flying objects are something that will always keep us asking questions. Are they aliens? Are they secret government spaceships? No! This time it’s sweet, sweet loot raining down from the sky — weapons big and small bursting from caches, crates, and cargo containers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] a random unit will be hit with exploding debris for 10[damagethermal/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">COMMON_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">Common Weapons Cache</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">UNCOMMON_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">Uncommon Weapons Cache</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">RARE_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">Rare Weapons Cache</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">COMMON_CACHE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cache of common weaponry, dropped from orbit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">UNCOMMON_CACHE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cache of uncommon weaponry, dropped from orbit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">RARE_CACHE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cache of rare weaponry, dropped from orbit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Open Weapons Cache - {STR_ItemName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Weapons found inside:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">White Star Supernova</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every[turn/] a few sectors will be terraformed to Volcanic. Units have all resistances reduced by [abilityred]{resistanceReduction}[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Volcanic&quot; describes an in-game terrain type. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Supernovas are massively luminous explosions created by dying stars as they shed their outer layers. Unfortunately we find ourselves too close to the shockwave of one, and it will be devastating once it hits the planet... which will be very soon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Remnants of a supernova are damaging this unit's molecular integrity. All resistances are reduced by[abilityred]{resistanceReduction}[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">All resistances on all units are reduced by [abilityred]{resistanceReduction}[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Satellite Disruptions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Strategic and Tactical operations (excluding Doomsday and Doctrines) [energy/] costs are doubled.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Strategic and Tactical Operations&quot; &quot;Doomsday&quot;, &quot;Doctrines&quot; describe in-game concepts and actions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmic rays are disrupting our satellites, causing occasional malfunctioning and overheating. While not devastating, it does waste energy intended for use in operations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Satellite Overcharge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Strategic and Tactical operations (excluding Doomsday and Doctrines) have their [energy/] and [influence/] costs removed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Strategic and Tactical Operations&quot; &quot;Doomsday&quot;, &quot;Doctrines&quot; describe in-game concepts and actions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">At the peak of its solar maximum our host star’s energy output increased significantly and our satellites are able to take advantage of this. This allows us to expend less of our satellite’s energy reserves than normal when using them in operations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Perfect Climate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[foodslot/] produce {bonusFood}. All Biological and Cyborg units gain {happinessBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Biological&quot;, &quot;Cyborg&quot; describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">The many factors that go into forming a climate have aligned so perfectly, it’s reminiscent of the theoretical “Gaia” planet. Fair temperatures, good moisture levels — everything fell into place as if it was made for biological life.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Due to very favourable weather, this unit gains {happinessBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Acid Rains</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce {foodReduction}[supply/] less. Every {turn}[turn/] during Tactical Combat, acid rain will melt {armor}[armor/] of all units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Biochemical&quot;, &quot;Strength Chance&quot;, &quot;Poisoned&quot;, &quot;Biological&quot;, &quot;Cyborg&quot; describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Pollution of many different sources has saturated the air and mists, and the result is raining down on us — literally. The acidity of the rain is stunting growth in flora and causing everything from irritation to burns in those it touches.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] acid rain will melt {armor}[armor/] from all units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coronal Mass Ejection</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colony [production/] is reduced by {productionReduction}. Every {turn}[turn/] during Tactical Combat, hot embers deal {thermalDamage}[damagethermal/] and have a {strengthChance}[strengththermal/] strength chance to apply[abilityred]Charred[/abilityred] for {turn}[turn/]. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Thermal&quot;, &quot;Strength Chance&quot;, &quot;Charred&quot;, describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">A powerful and unexpected burst of solar matter has shot from our host star and has hit this planet. It has fried many of our electronics and has superheated many  tiny particles floating in the air, which char every surface they touch.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] hot embers deal {thermalDamage}[damagethermal/] and have a {strengthChance}[strengththermal/] strength chance to apply[abilityred]Charred[/abilityred] for {turn}[turn/]. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ionic Nebula</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Supercharged energy generators result in {energyIncrease} increased {energyProduction} income. Every {turn}[turn/] during Tactical Combat electrical discharges will remove {shield}[shield/] of all units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">As the star we orbit ionizes more gas and dust around this planet than usual, we’re able to make use of the additional charged particles leaking through our atmosphere. This makes it easier to conduct larger amounts of electricity through machinery and weaponry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] an electrical discharge will remove {shield}[shield/] from all units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Supermoons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Improved astrological research circumstances result in {researchIncrease} increased [research/] income. Every {turn}[turn/] during Tactical Combat, a wave of Psionic energy washes over the battlefield that has a {strengthChance}[srengthpsyche/] strength chance to apply [abilityred]Broken Mind[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Psionic&quot;, &quot;Strength Chance&quot;, &quot;Broken Mind&quot;, describe in-game concepts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Supermoons have always had superstitions tied to them, but the empowering of Psionics turned out to be true. Times like these are always a good excuse to study their mental powers closely. Or just hope they leave you alone.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] a wave of Psionic energy washes over the battlefield, attempting to inflict[abilityred]Broken Mind[/abilityred] with a {strengthChance}[strengthpsyche/] strength chance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crystal Meteors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quartzite Spawners appear around the map and Mineral units gain {armorBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;quartzite&quot;, &quot;Quartize Spawner&quot; &quot;Mineral&quot; describe in-game concepts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Silicon-based lifeforms are rather uncommon, with quartzite being one of the few known examples. Meteors filled with the creatures raining down is raising a number of questions like: “How did they get in space?” and “Do they originate from the vacuum between planets?”.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Empowered by Crystal Meteors all Mineral units gain {armorBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Ship Crash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Refugee camps will appear around the map every[turn/] and can be picked up to grant the nearest colony 1[population/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">We’ve received a distress call from a nearby colony ship, but as it seems that no one is able to provide assistance to them they’ve opted to use their escape pods. We should provide assistance to those who have landed here; they might even want to join our colonies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Giant's Perihelion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units gain [abilityblue]Fast Movement[movewalkenhanced/][/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Fast Movement&quot; describes an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Perihelions are generally nothing special, but this time it's a little different. Our closest approach of the star coincides with the approach of our largest neighbor: a massive gas giant. The sheer mass of the gas giant is actually affecting the gravitational pull of this planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Due to lower gravitational pull, this unit gains [abilityblue]Fast Movement[movewalkenhanced/][/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Fast Movement&quot; describes an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Due to lower gravitational pull, all units gain [abilityblue]Fast Movement[movewalkenhanced/][/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Superstorm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The storm travels in a line and terraforms a number of sectors into Arctic sectors every [turn/]. Flying units now have[abilityred]Slow Movement[/abilityred]. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Arctic&quot; describes an in-game terrain type. &quot;Flying&quot; and &quot;Slow Movement&quot; describe in-game concepts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">An unexpected drop in global temperatures is whipping up several blizzards across the planet. These frighteningly powerful storms are covering everything they touch in a thick layer of ice and snow, and it does not look like it will melt away any time soon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Flying units are slowed to [abilityred]Slow Movement[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Slow Movement describes an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tombs of Ignition</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Several Promethean Vaults appear around the map every [turn/], and ranged attacks have {strengthChance}[strengththermal/] strength chance to apply[abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Star Union&quot; and &quot;Promethean&quot; refer to in-lore factions. &quot;Promethean Vault&quot;, &quot;Strength Chance&quot;, &quot;Burning&quot; describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">A lot of information has been lost since the collapse of the Star Union, including the Promethean Vaults which are suddenly being unearthed. Whatever the reason may be, they come with a number of combustible gases and elements, some even spontaneously igniting as they reach air.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">All ranged attacks have a {strengthChance}[strengththermal/] strength chance to apply[abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {turn}[turn/]. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Magnetic Field Disruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[influence/] income is reduced by {influenceReduction}. Every {turn}[turn/] during Tactical Combat, static charges deal 4[damagewave/] and have a {strength}[strengthwave/] strength chance to apply[abilityred]Static Charge[/abilityred] to all units for {turns}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Kinetic&quot;, &quot;Strength chance&quot;, &quot;Concussion&quot; describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">The planet's magnetic field is constantly present, but has a variable strength. We're seeing an increase in its strength right now, and it's wreaking havoc on our communications in addition to inducing static charges in a number of different objects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turn}[turn/] during Tactical Combat, static charges deal 4[damagewave/] and have a {strength}[strengthwave/] strength chance to apply[abilityred]Static Charge[/abilityred]to all units for {turns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Planetary Pollen Cloud</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[food/] income is doubled. All Biological and Cyborg units gain {moraleBonus}[happiness/] and regenerate 10[hp/] every turn. Plant and Bee units also deal {damageIncrease} more damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Plant&quot; and &quot;Bee&quot; describe specific unit types. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">The rate of springtime reproduction on this planet is off the charts. All at once every piece of flora has shot their seeds or spores or pollen into the air, leaving it to be carried off by the wind. Everything is covered by giant clouds of pollen and affecting all living beings.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT_DUO</Data></Cell>
+    <Cell><Data ss:Type="String">The pollen-filled air is empowering this unit. All of its abilities deal {damageBonus} more damage and it gains {moraleBonus}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">All Biological and Cyborg units gain {moraleBonus}[happiness/] and regenerate 10[hp/] every turn. Plant and Bee units also deal {damageIncrease} more damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aurora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Colonies gain {happinessIncrease}[happiness/] income. Non-Mindless units gain {moraleIncrease}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">For most people it’s their first time seeing an aurora and their reaction is stunned silence. The variety of beautiful lights and patterns currently illuminating the night sky are the result of a reaction caused by the star’s solar wind interacting with the planet’s magnetosphere.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">All non-Mindless units gain {moraleIncrease}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mirror Seas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Coastal Sectors produce double [food/], [research/], and [energy/], Water Units gain [abilityblue]Fast Movement[/abilityblue] and two hexes increased range on their abilities, and more pick-ups spawn at random locations on the water. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Coastal Sector&quot;, &quot;Water Units&quot;, &quot;Fast Movement&quot;, &quot;Range&quot; describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Unusually calm weather has resulted in an unobtrusive, mirror-like sea surface. It is as if the sea has tamed itself, allowing us to harvest its resources with much greater efficiency and pick up an increased amount of objects that have floated to the surface.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT_AQU</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has [abilityblue]Fast Movement[/abilityblue] and two hexes increased range on their abilities.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fast Movement, &quot;Range&quot; describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">SECTOR_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">This sector produce double [food/], [research/], and [energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Water units have [abilityblue]Fast Movement[/abilityblue] and two hexes increased range on their abilities.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Void Echoes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">In our colonies these echo's provide 1 additional resource for every [foodslot/][productionslot/][energyslot/][researchslot/], and in Tactical Combat, this creates an Echo of a random unit every {turn}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Void&quot; refers to a lore concept. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Due to a recently detected Void anomaly we’ve been experiencing some strange echoes of ourselves. Seeing yourself doing what you just did or repeating what you just said is quite the experience. At least it seems to be helping with our work!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Void energy is creating an Echo of a random unit every {turn}[turn/]. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Void&quot; refers to a lore concept. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reflective Dust</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units have [abilityblue]Universal Camouflage[/abilityblue] and ranged attacks have {decreasedAccuracy} decreased accuracy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Universal Camouflage&quot; refers to an in-game concept. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Being able to go unseen on a hostile world sounds like a good idea, but it doesn’t help if every other living being on that world is also invisible. The glittery dust that’s been settling down for a while is doing exactly that right now.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT_A</Data></Cell>
+    <Cell><Data ss:Type="String">Unit has {decreasedAccuracy} decreased accuracy on ranged attacks.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;accuracy&quot; refers to an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Units have {decreasedAccuracy} decreased accuracy on ranged attacks.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;accuracy&quot; refers to an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interstellar Trade Convoy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Generate Energy[energy/] and Generate Knowledge[research/] convert {productionConversion} of our [production/] income, instead of 25%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Generate Energy&quot;, &quot; Generate Knowledge&quot; refer to in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">They say it’s bad luck to pass up a good deal, and we’ve just been offered one. A convoy of interstellar traders has hailed us, saying they will trade some of their energy and knowledge for any goods or repairs we’re able to offer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Short-Lived Nanites</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hurry production costs {buyNowDecrease}% less [energy/][br/]Cyborg and Mechanical units are being healed for {heal}[hp/] during Tactical Combat and have an additional {fumbleChance} chance to fumble their attacks and abilities.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Hurry production&quot;, &quot;Cyborg&quot;, &quot;Mechanical&quot; refer to in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">After opening an ancient tomb of sorts, a massive cloud of nanites escaped and have quickly spread across the world to nestle themselves in any electronic equipment they could find. Short-lived as they are, they are both repairing and greatly enhancing every part of machinery.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Cyborg and Mechanical units are being healed for {healthIncrease}[hp/] every[turn/] and have an additional {fumbleChance} chance to fumble their attacks and abilities.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Cyborg&quot;, &quot;Mechanical&quot; refer to in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Earthquake</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A few sectors have been terraformed to Mountainous. In Tactical Combat, after shocks have a {strengthChance}[damagekinetic/] strength chance to apply [abilityred]Stagger[/abilityred] to all land units and cause 10 damage to a large amount of obstacles. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Two tectonic plates collided which such violence that they pushed up part of the planet's crust and formed a new range of mountains. The event was almost instant, but the aftershocks will be felt all over the planet for a while.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Aftershocks have a {strengthChance}[damagekinetic/] strength chance to apply [abilityred]Stagger[/abilityred] to all land units and cause 10 damage to a large amount of obstacles. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">World Event</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>36</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>47</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <LastSaved>2020-02-21T11:03:19Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9345</WindowHeight>
+  <WindowWidth>15675</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="107" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="156"/>
+   <Column ss:StyleID="s62" ss:Width="39"/>
+   <Column ss:StyleID="s62" ss:Width="81"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="229.5"/>
+   <Column ss:StyleID="s62" ss:Width="128.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHAKARN_HEROES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sprek</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Jatta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Keska</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lyze</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Huttar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Merios</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuska</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hellflame</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vorath</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Heckom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tennets</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blightclaw</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Naranga</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign Leader. Not a placeholder!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Od</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign Leader. Not a placeholder!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_FIRSTNAME_12</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chancellor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign Leader. Not a placeholder!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LEADER_SECONDNAME_12</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign Leader. Not a placeholder!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_31</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Char</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_31</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pyrros</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_32</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobeck</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_32</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fireclaw</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_33</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Curser</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_33</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Methodios</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_34</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Melantha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_34</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Augur</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_35</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lykourgos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_35</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Spix</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_36</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hekate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_36</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hermia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_37</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Taloz</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_37</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Skal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_38</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lachesis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_38</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Spek</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_39</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Miltiadez</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_39</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hok</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_40</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Takiss</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_40</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dur</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_41</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pestilen</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_41</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_42</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pliga</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_42</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Afflict</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_43</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Stratis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Heritor Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_43</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Jat</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Heritor Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_44</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Agnetha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Heritor Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_44</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Luht</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Heritor Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_47</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kudat</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_47</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rotak</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_48</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vastrix</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_48</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Zokla</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_49</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Korvoratka</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign (Survey Site) character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_49</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Halfblood</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign (Survey Site) character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_FIRSTNAME_50</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tyra</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SECONDNAME_50</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Krox</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell><Data ss:Type="String">Campaign character. Not a placeholder name!</Data></Cell>
+   </Row>
+   <Row ss:Index="56" ss:AutoFitHeight="0" ss:Height="33">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_01</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Buron</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_01</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Draxx</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_02</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Deviah</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_02</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Hartheka</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_03</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kator</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_03</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dororax</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_04</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kriroka</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_04</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Folmok</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_05</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Hobrun</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_05</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dadakho</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_06</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zotoa</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_06</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Barabas</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Altanan</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_07</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rodhok</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_08</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Daniki</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_08</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Holhoa</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_09</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kraraka</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_09</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Yartenas</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_10</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sstachala</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_10</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Trotor</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_11</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Yorchok</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_11</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Drogarr</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kruraku</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Hualomi</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_13</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zzladan</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_13</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fririrek</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_14</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Onchata</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_14</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Scholodo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zarkaz</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ochzz</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_16</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Brucda</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_16</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Uzk</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_17</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dytzuku</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_17</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Braxt</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_18</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Erkki</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_18</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Narkabya</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_19</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nambon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_19</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tsetsegg</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_20</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Drandaka</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_20</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Xatul</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_21</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zaladzar</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_21</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Monkhtset</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_22</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Octa</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_22</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ganbat</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_23</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Batbadar</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_23</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tztad</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_24</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zarnai</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_24</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Garganta</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Odval</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_25</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Qardenas</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_FIRSTNAME_26</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Erdene</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RANDOMIZER_SECONDNAME_26</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sarantsatral</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Surname/Title&#10;Transcribe - to non latin fonts - but do not localize</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Randomizer only</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>51</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>58</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

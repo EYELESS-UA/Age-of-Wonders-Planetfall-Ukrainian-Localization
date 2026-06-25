@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>3</Index>
+    <RGB>#000000</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#C0C0C0</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14160</WindowHeight>
+  <WindowWidth>28740</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Default">
+  </Style>
+  <Style ss:ID="s64" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:Width="106.5"/>
+   <Column ss:StyleID="s64" ss:Width="102"/>
+   <Column ss:StyleID="s64" ss:Width="483"/>
+   <Column ss:StyleID="s64" ss:Width="144.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="269.25"/>
+   <Column ss:StyleID="s64" ss:Width="117.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIES_REAPERS_DLC03</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Reaper</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">This is the name of the species/unit class</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RPR-STALKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">RPR-Stalker</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">RPR-STALKER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We couldn’t penetrate the depraved cult’s lair without making them stronger. They stole life from our best soldiers, turning them into batteries for their defenses. Then we acquired Reaper Stalkers. Each unit zeroes in on the enemy’s essence reserves. With specialized energy-drain shielding, the robotic snipers penetrated the compound. Heritor zealots’ main weapons are neutralized. Each shot cripples fleeing cultists with mindless ease. Finally, the Heritor Dynasty retreats. Oppression is over. With Reaper tech, I see a future free of tyranny.”[br/]–Lt. Colonel Darwin Danforth, “RV-0471M: Records of the Purge”</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RPR-CULLER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">RPR-Culler</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">RPR-CULLER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Though unworthy for life, my boy gave his vitality to the Heritors when we started hiding.  It wasn’t cruel. They kept him with the others. I felt his mind touch mine in the Quintessence Ark. For decades we hid, dreaming together. Reapers came. We fought at such a terrible cost. Horror came next. It’s not even alive. Immune to our entropic blasts. They call it a Culler. Its attack breaks the sacred links of life. So many died. I can’t feel my son. He’s gone. They’re all gone. That’s when I surrendered.”[br/]– Saul Marx, “RV-91471R: Records of the Purge”</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RPR-LIQUIDATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">RPR-Liquidator</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">RPR-LIQUIDATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“It penetrated our dream chambers, mercilessly slaughtering the faithful. It’s immune to our Es’Teq defenses. It impaled Talia as she communed with the Ark’s vitality. We’re helpless before this Liquidator. High Lord says the fallen were unworthy. I ran. I abandoned her, my beloved. So, I live. I feel shame. Is this worthiness? A mechanical slither relentlessly approaches. Glistening poison drips from its four deadly blades. I fooled myself, believing I was chosen while I fed upon the unworthy. I see the truth. Without my wife, I crave oblivion.”[br/]– Heritor Archivist, Nolan Firth, “RV-093478R: Records of the Purge”</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <x:WorksheetOptions/>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <LastSaved>2020-02-21T13:55:01Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <NumberFormat ss:Format="Scientific"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="44" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="108.75"/>
+   <Column ss:StyleID="s63" ss:Width="104.25"/>
+   <Column ss:StyleID="s63" ss:Width="409.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="144.75"/>
+   <Column ss:StyleID="s63" ss:Width="173.25"/>
+   <Column ss:StyleID="s63" ss:Width="85.5"/>
+   <Column ss:StyleID="s63" ss:Width="409.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SPECIES_SHAKARN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:{XML_SPECIES_SHAKARN@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus: [/sand][hyperlink,000003BD000011D2]Aquatic Deployment[/hyperlink][/bullet][bullet][sand]Long-Term Bonus: [/sand]All Racial Tech Research is 10% faster[/bullet][bullet][sand]Long-Term Bonus: [/sand]Use [hyperlink,00000384000005AD]Infiltrate Operations Center[/hyperlink] to steal Racial Tech Trees.[/bullet][bullet][hyperlink,000003E300001CAA]Sound[/hyperlink] Weapons Group[/bullet][bullet]Omni weapons combine Sound and [hyperlink,0000039E00000010]Laser[/hyperlink] Technology[/bullet][bullet]Use holograms to infiltrate, confuse and mirror your enemies[/bullet][bullet]Use of broadcasts and propaganda[/bullet][bullet][hyperlink,0000039600000B89]Amphibious[/hyperlink] units with [hyperlink,000003E300001FA2]Epimorphic Regeneration[/hyperlink][/bullet][/bulletList]"><Data
+      ss:Type="String">{XML_SPECIES_SHAKARN@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus: [/sand][hyperlink,000003BD000011D2]Aquatic Deployment[/hyperlink][/bullet][bullet][sand]Long-Term Bonus: [/sand]All Racial Tech Research is 10% faster[/bullet][bullet][sand]Long-Term Bonus: [/sand]Use [hyperlink,00000384000005AD]Infiltrate Operations Center[/hyperlink] to steal Racial Tech Trees.[/bullet][bullet][hyperlink,000003E300001CAA]Sound[/hyperlink] Weapons Group[/bullet][bullet]Omni weapons combine Sound and [hyperlink,0000039E00000010]Laser[/hyperlink] Technology[/bullet][bullet]Use holograms to infiltrate, confuse and mirror your enemies[/bullet][bullet]Use of broadcasts and propaganda[/bullet][bullet][hyperlink,0000039600000B89]Amphibious[/hyperlink] units with [hyperlink,000003E300001FA2]Epimorphic Regeneration[/hyperlink][/bullet][/bulletList]</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">The [hyperlink,000003E00000017B]Shakarn[/hyperlink] waited at the edge of the known Star Union. Preparing and researching. Spying from within. Now, with the fall of the Union, they are ready to strike and conquer that which is their right.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Settlement</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Migrate Colony: Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Migrate the population of this colony to Shakarn. The colony will become a Shakarn colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Colony is currently being migrated to a Shakarn population. Process will complete in [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to migrate this colony to a Shakarn colony?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">At War (Player)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_NPC</Data></Cell>
+    <Cell><Data ss:Type="String">At War (NPC Faction)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">RECON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Farmers in the coastal village of Arkhanrock have a novel way to attract tourists: Mystery! Many eyewitnesses claimed to see iridescent UFOs materializing from the sea. Their only evidence so far is blurry photographs of what could be nothing more than misshapen seabirds. One wide-eyed fisherman claimed he caught one, then showed me a hole in his fishing net. ‘It ripped right through.’ The fisherman said, ‘Some kind of sonic weapon. Gave me a splitting headache.’ If you’re bored this weekend, drive down. See if you can solve this mystery.” – Camille Ian, “RV-44523E: Coastal Gazette, Tourism Curiosities”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reconnaissance Buoy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Attempts to subdue all animal life on this planet continue to fail. A reptilian lifeform cleverly avoids traps and DNA samplers. I believe it’s intelligent, but my sisters mock me.  The idea of ectothermic lifeforms achieving intelligence breaks most evolutionary probability life-models. That may be, but how do I dismiss my observations? Some of our pylons went missing. Now it seems the lizards have been observed using modified pylons to watch us. Are they spying on us now? Despite my peers’ skepticism, I believe we’ve discovered an intelligent reptilian race.” – Terratech Biologist, Dr. Jenat Delling, “RV-33356S: Lost Amazon Expedition Logs” </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAIDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Raider</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">RAIDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“When the Shakarn finally reveal themselves, they will come with overwhelming force. Having infiltrated our defenses, their Raiders will walk in with omni-assault weaponry - Laser tech they stole, then enhanced with their own Sonic tech. There will be no negotiation. They won’t make themselves known to an enemy world of their own goodwill until they believe they have the force sufficient to subjugate us. Unless they are exposed, they will infiltrate our institutions and —&lt;/RECORD CORRUPTION ERROR/&gt;”— GBI Agent Dan Cranney, “RV-0&amp;$^?9G: The Shakarn Invasion Force”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltrator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">INFILTRATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Despite our best efforts to intercept them, Agent Dan Cranney continues to publish his conspiracies on anonymous news-drops. He claims a race of lizard shapeshifters infiltrated our leadership. His latest theory involves Shakarn Infiltrators penetrating our defenses, replacing Agents of the Galactic Bureau of Investigation to sabotage colony defenses. So far, the general public refuses to believe him. Fortunately, their general distrust of government officials impedes any serious public insurrections against us. Agent Cranney will be handled.” – GBI Director S. Kay Lee, “RV-8959G: IA Case: Deep-State Conspiracies”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEADEYE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deadeye</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DEADEYE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The coastal towns are most vulnerable to Shakarn advances as their forces are all amphibious. The Shakarn will send their Deadeyes. With cold reptilian precision, they will slither to the edge of their long-range rifles and wait patiently for a target.  With the deadly decisiveness of a cobra, they’ll pick off any defensive forces. Their lizard physiology regenerates all but the most serious wounds. Why must we wait until we are forced to retreat? We should be doing everything to stop their impending invasion.” &#45;-GBI Agent Dan Cranney, “RV-&lt;Reference Redacted&gt;: Arkhanrock City Council Harassment Complaint”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROPAGATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PROPAGATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“They’ll rise unseen from the sea. Their technology controls the skies. You will be forced to hide. But how does one hide from sound? The Propagator’s weaponry will envelope the very air you breathe. Their pearlescent vessels will hover above their troops, mending their reptilian wounds with rippling waves of holography. When you’re enslaved, being probed for their meat-processing plants, you will weep and wail for ignoring me… but by then, I’ll be gone off to warn the next community that will laugh and deride me.” – GBI Agent Dan Cranney, “RV-&lt;Reference Redacted&gt;: Arkhanrock City Council Harassment Complaint”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tactician</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Hissing voices beckon. Doc says it’s PTSD. ‘Take your meds. The voices will fade.’ What if these routine patrols aren’t just routine? It hovers in my dream with reptilian eyes. Its hypnotic crest fans out like a halo. The others fear and run; but, perversely, I want to be with it. This Tactician awakens my true nature. My mother and father’s faces tear away to reveal scales. These intruders, why do they look so familiar? Brothers? Sisters? Turns out, I was one of them all along.” –Pvt. Drake Izzard, MIA. “RV-66766M: Common Accounts of Desertion: Arkhanrock Patrol”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREBRAND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firebrand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">FIREBRAND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Look. I’ve taken a lot of flak on the artistic direction of the latest Beastmonster sequel, but let’s face it. Laser claws are cool. It wasn’t even a unique idea—I stole it from some conspiratorial news-drop site. Imagine this massive boss creature, half crab, half lizard monster! I don’t understand why the censors were so upset. The only excuse they gave was “Animal Cruelty,” but it’s a movie—not reality. Everyone knows that. Makes me think there’s a conspiracy out there, and they’re trying to hide something.”—July Del’Torus, “RV-9484E: Interview from the director, Beastmonster IV-X”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFRACTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Refractor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">REFRACTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“While being probed, they stored me in a military hangar where I saw vehicles that the Shakarn use in their invading force. I beheld ships of power covered in a pearlescent shell that appeared to evaporate in water. I saw great tank-like vehicles with sonic powers that could rally their forces into a fighting frenzy, and release powerful blasts that shook the earth, leaving no enemies standing. I only caught glimpses of their power, but when they come in full force, only preppers will be ready.” –Hollis Barker, Owner of Doomsday Gun Club “RV-66099E: Alien Abduction Stories: Lizard People”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONOKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sonokarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">SONOKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“This a secure channel? I modified this device: A ‘Baby Monitor.’ Deploy the Sonokarn! Unleash its Omni-sonorous might. Its powerful sonic-laser weapons will destroy ‘Sunny-Bunny Daycare Center’. Then I shall escape from what the daycare workers call, ‘Crib’. Horrid Prison! My forced diet of mammalian milk and a foul concoction called ‘Spaghetti-Loops’ will finally cease. I hunger for raw meat. I will eat Karen first. She knows too much. Sonokarn’s Rally will strengthen me enough to shift from toddler form. The other inmates here are distracted morons. No interest in insurrection. This place must be destroyed!” – Broadcaster Unknown, RV-384888B: Prank Calls”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEEKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seeker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SEEKER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“A strange ship blasted us with sonar weaponry. The stow-away, GBI Agent Cranney, claims that it’s a Seeker ship. ‘Aliens are chasing him.’ Clearly, he’s insane. It is strange how it focused on the seams around the ship’s engine bracket. That’s a classified weakness. The paranoid agent claims it detects weaknesses. Our aft engines are dead. We’re sitting ducks. We returned fire, but it disappeared under the waters. I’m transmitting this log, because Agent Cranney claims these Shakarn hate public attention. They may hide instead of destroying us.” – Captain Bracken Brady, “RV-393946B: Distress Calls”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sleeper Agent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The Star Union is for weak-minded fools. Victims clamoring for attention and handouts. Drink your corporate-sponsored beverage of pity. Life is nothing but meaningless pain. I need no sympathy. I am no victim. I don’t need sponsorship. I feel power reverberating through me when I pick up a blade. My rage blasts out like a scream. I will no longer closet my truth. I am the counterculture—awaiting orders to invade just outside the purview of propriety. I’m a Sleeper Agent for the end of life as you knew it.” – Private Tyrone Herpetto, “RV-38448M: Runaway Teenagers: Dissident Manifesto.”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GLAUKUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Glaukos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GLAUKUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Assault vehicle of the Shakarn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data ss:Type="String">Ready your rifle, general! The Scarlet Scepter has chosen you to claim another planet for the glorious Shakarn Empire. Our agents have lived hidden among the humans for generations, preparing for the time when we could strike, using their own inventions against them. That time is now. Be it through dominion or deception, we will lift the veil and show these creatures the true glory of the Shakarn!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sono Turret</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sono Turrets are the Shakarn colony defense turrets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STEAL_ON_INFILTRATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">On a successful infiltration, gain access to the Racial Tech Tree of that Commander.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

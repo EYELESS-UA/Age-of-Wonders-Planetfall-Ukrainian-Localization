@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <LastSaved>2018-08-10T07:41:20Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="9"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="100.5"/>
+   <Column ss:StyleID="s62" ss:Width="86.25"/>
+   <Column ss:StyleID="s62" ss:Width="482.25"/>
+   <Column ss:StyleID="s62" ss:Width="110.25"/>
+   <Column ss:StyleID="s62" ss:Width="279.75"/>
+   <Column ss:StyleID="s62" ss:Width="85.5"/>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIES_MYCELIANS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Mycelian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of the wildlife race. Singular.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell><Data ss:Type="String">Mycelians</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of the wildlife race. Plural.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FERTILIZER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fertilizer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">FERTILIZER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;My girlfriend calls it Karma. She got me into all that vegan stuff. Unfortunately, it’s a dog-eat-dog world. Or in this case, a people-eat-mushroom, then the mushrooms-eat-people world. Not sure why or how, but mushrooms got into the fertilizer dispenser-bots. Now they’re smart. They have control of the bots, roaming the land, seeking to turn us all into fertilizer so they can grow and spread their mushrooms like wildfire. They eat us, and when we can take one down, we eat them. I never should’ve given up on bacon.” – Diego Tortuga, “RV-554361E: Live Your Best Life&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPRAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sprayer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">SPRAYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Dear Helix Drone Farming, I don’t usually complain, but I feel you should be informed that your products appear to be defective. This regards the Hover Sprayer-66 Drone. I understand drones go missing, but these appear to be swarming. They’re hunting people now, spraying my workers with blinding toxic mist rather than my crops. They’re very popular with certain mushroom strains. I’m beginning to think they’ve got a mind of their own. Please refund my money, and maybe send some troops to hunt down your defective units before they kill us all? Thanks.” –Derwood Mycon, Farmer “RV-488385C: Complaint Department Memos&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Planter</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is the name of a unit.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">PLANTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Upon arrival on Parma Rigella IV, our landing crew located a still functioning biofarm from the Star Union Agricultural ministry. The Planter bots combed fields flowing with rich crops of edible herbs and fungus. We entered the personnel center to begin negotiations with the farmers, only to discover a horrible sight. The crew of the station was dead, covered in fungal growths. That’s when we realized the mushroom-encrusted Planter bots were not being directed, but had become sentient, had followed us, and sought to use us as fertilizer.” – Mah Reg’Nib, “RV-:09432567T: When Your Food Wants to Kill You.&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a unit description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-02-20T10:40:26Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="239.25"
+   ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s62" ss:Width="102"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="204.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="150"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">LASER_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPTICS_AND_LASER_TECHNOLOGY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Heavy Laser Applications</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPTICS_AND_LASER_TECHNOLOGY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Lasers are fast, accurate and leave no bloody mess—just the delicious smell of fried bacon.”[br/]– Mark McNash, CEO Laztech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">LASER_WEAPON_SYSTEMS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Photon Acceleration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">LASER_WEAPON_SYSTEMS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Don’t think too rigidly. The speed of light is not a constant if you change it.”[br/]– Dr. Millicent Rickles, Head Researcher, Lazilite Inc.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DIRECTED_ENERGY_WEAPONS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Non-Refracting Lasers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DIRECTED_ENERGY_WEAPONS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The concept is quite simple really. It’s old medical tech applied to the battlefield. Think of yourself as a surgeon and your enemy is a bad tattoo you need to remove.”[br/]– Mark McNash, CEO Laztech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">LASER_OPTICS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crystalline Technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">LASER_OPTICS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Even the most advanced and brutal technology eventually evolves into something dazzlingly beautiful.”[br/]– Varla Prakash, Philosopher</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Amazon Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">STAR_INFUSION_TECHNOLOGY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma Weaponry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">LASER_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">STAR_INFUSION_TECHNOLOGY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“They say the first lifeforms evolved from primordial stardust. If so, our new weapon is a reset switch. Instead of stardust-life becoming complex life, complex life is reduced to stardust. Just beautiful! The circle of life, I tell ya!”[br/]– Master Gunnery Sergeant Talwar Aag, Vanguard 2nd Landing Division</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>6</ActiveCol>
+     <RangeSelection>C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

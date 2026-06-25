@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <LastSaved>2018-08-10T07:41:20Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19965</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="267"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="108.75"/>
+   <Column ss:StyleID="s62" ss:Width="86.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="432"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="262.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIES_WILDLIFE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Wildlife</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WILD_SHRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wild Shrike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">WILD_SHRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Story goes: Star Union planets were overrun with interstellar vermin known as Space Pigeons. A real menace. They consumed whole fields of crops. Their filthy droppings covered every surface. Terratech tried fixing the matter. They discover a planet with no Space Pigeons. This planet has a natural predator of the vermin. So Terratech enters the Shrike into their Genetic Ark as a “natural remedy” to the Space Pigeon without testing the results at scale. It’s wildly successful. Too successful. Sure, the crops are safe, but you ever been hit by Shrike droppings?”—Kelly Angel, Satirist, “RV-3411E: Genetic Jokes”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WILD_SWIFT_BEAK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wild Swift Beak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">WILD_SWIFT_BEAK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Across the forested expanse of Terra-III they gallop. Majestic are the Swift Beak herds. Come and see these creatures in their natural habitat. Though not technically a beak, these creatures use their thick sharpened chin horn to strike at threats. Never fear, we guarantee your safety! Let our experienced ranchers domesticate your pick of the herd in our all-expenses-paid ‘Swift Beak Rancher Experience Vacation Pack.’ Stay in our luxury suites, eat rustic meals with real ranchers, and go home with your very own Swift Beak steed.”—Unknown, Adworxs Agency Archive, “RV-93A: Terra-III Tourism Account”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WILD_HARRIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wild Harrier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">WILD_HARRIER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Um, yes? Hello? Is this animal control? I’m calling on behalf of my neighbor, Zeb. There’s a large bat-dragon on his rooftop. Yeah, hostile. It ate his dog. It’s breaking through his roof. Oh dear. I think that’s his wife, Marlene, in its jaws. Yes, A Harrier? I don’t care what it’s called. Can’t you kill it? I don’t care if it’s endangered, it’s eating my neighbor’s wife. There goes Zeb. Sorry Zeb, I can’t get the door, I’m on the phone. Look at the thing fly! It’s swooping! Oh dear…  It’s eating Zeb.”—Narda Melifu, “RV-0224E: Colony Laugh-a-long”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WILD_BOMBARDON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wild Bombardon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">WILD_BOMBARDON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The Bombardon cautiously eyed Ranger Craig. Swollen glands on either side of its neck throbbed. Green sludge oozed from its frog-like maw. Ranger Craig steadied his voice and said, “Easy, big fellow… PharmaCorp pays good money for monster snot. I just want a sample.” The creature let out a guttural croak and suddenly a glob of goo erupted from the Bombardon’s mouth, covering the Ranger.  When PharmaCorp drones retrieved Ranger Craig’s remains, they had more than enough Bombardon sample for their need.”—Ranger S. P. Rocket, “RV-549S: Wildlife Protection Course”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VORADON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voradon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">VORADON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Geneticaworld Themepark was supposed to make Terratech a boatload of money. Bragging about their creations, the CEO assured his guests nothing could go wrong. I remember his shrieks when a Kir'Ko Ravenous/Tyrannadon hybrid escaped its containment. The Voradon’s wounds healed with each lawyer, animal handler and infantryman it devoured. I escaped on a child’s hoverboard. Voradons overran the countryside, leading the Star Union eventually to quarantine the planet. Now and then, some military genius will capture a Voradon, thinking to exploit its savage power. The story always ends with blood splatters and screaming.” —Mah Reg’Nib, “RV-2220X: Runaway!”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAGING_TYRANODON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Savage Tyrannodon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">RAGING_TYRANODON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;I remember that Sheila was a screamer. I get it. It’s instinct to panic when a Savage Tyrannodon roars right behind you. When I panic, I hide, cower, and maybe soil myself. It’s far superior to what Sheila did. It’s just a really bad idea to run screaming into a clearing where the massive predator can easily crush you with its heavy tail before gulping you down in one brutal snap of its massive jaws. I think I’d eat her too, just to stop all that noise she was making.” – Mah Reg’Nib, “RV-38429T: Surviving Deadly Wildlife Encounters”</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

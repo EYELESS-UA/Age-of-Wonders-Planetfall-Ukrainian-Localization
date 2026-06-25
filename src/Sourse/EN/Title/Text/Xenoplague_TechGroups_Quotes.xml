@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-05-13T08:49:03Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12197</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="41" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="137.14285714285714"/>
+   <Column ss:StyleID="s62" ss:Width="195.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="226.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="171.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261.85714285714283"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE_TECHGROUPS</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_XENOPLAGUE_TECHGROUPS@XENOPLAGUE@DESC}[br/][br/]{XML_XENOPLAGUE_TECHGROUPS@XENOPLAGUE@FEATURES}</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">No need to translate. This inserts the XENOPLAGUE_TECHGROUPS@XENOPLAGUE@DESC and XENOPLAGUE_TECHGROUPS@XENOPLAGUE@FEATURES texts with some white space.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The [hyperlink,000003AC0000032A]Xenoplague[/hyperlink] spreads through a highly-adaptive alien parasite, and can be used to create biological weapons, develop super soldiers and evolve planetary populations.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FEATURES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[bulletlist][bullet][sand]Starting Unit:[/sand] [hyperlink,0000039A00000230]Pustule[/hyperlink][/bullet][bullet]Spawn and evolve special units after battle[/bullet][bullet]Heal and enhance Biological units[/bullet][bullet]Deploy infectious bioweapons[/bullet][bullet]Uses the Biochemical and Kinetic damage channels[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pustule Mutation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“The plague has now evolved aggressive mobility to a degree that ordinary, unarmed Star Union citizens would not survive a close-up encounter.”[br/]– Dr. Elemandus Fink, Geneticist for Terratech Advanced Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutation: Pustule</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipment: Pestilence</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alpha Strain Inception</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100.71428571428571">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“It isn’t disease that breaks civilizations. This Alpha Strain can infect every living thing. Some will grow stronger while others are afflicted and die. That uncertainty erects quarantine barriers and awakens the sickening cruelty already lodged deep in the human heart.”[br/]– Dr. Marvin Mentor, Union Center for Disease Control </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male (Smartypants)&#10;&#10;Edit: added space before &quot;Dr.&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dispersion</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Pods are a convenient way to carry chemicals to untouched areas. The only downside to the delivery mechanism is that children tend to ingest them.”[br/]– Dr. Q. Tulwark, Xenocorp Innovation Team Lead</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Militarized Strains</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“An inferior military force can easily destroy a superior one if the soldiers in the superior force are weakened by illness. The only trick is picking them off with your rifle as they reel over in pain from the plague.”[br/]– Corporal Bergen Vort, Plague Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Regenerative Stimulation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“The Xenoplague is an organic machine. It need not be virulent. Our latest innovation demonstrates the virus’s propensity to heal damaged tissue and purify the body from harmful effects while it captures and reprograms the genetic attributes of its host.”[br/]– Dr. Eva Montinga, Lead Geneticist for Terratech Advanced Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destroyer Mutation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“We have not lost control of this project. This step in its evolution is natural. Flesh is easier to infect when it is torn apart.”[br/]– Dr. Eva Montinga, Lead Geneticist for Terratech Advanced Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutation: Destroyer</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipment: Acrimonious</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Omega Strain</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“I can feel my life’s work within me. I have no further purpose than to infect others. Will I explode violently to travel the air as spores, or will my body liquefy and spread through the water supply?”[br/]– Professor Darrick Amptor’s last journal entry</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Proliferated Aggression</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“We can hijack the plague strains to deliver behavior hormones to manipulate the minds of all organic life.  Sure, we’ve mostly created hyper-aggressive subjects, but with more project funding we might discover how to pacify them.”[br/]– Dr. Eva Montinga, Lead Geneticist for Terratech Advanced Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Symbiotic Superiority</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Yeah, so the nice folks in corporate marketing forced me to change the name of my invention to the ‘Hyperstimulation Beam’. I wanted to call it the ‘Coffee Beam’.”[br/]– Dr. Q. Tulwark, Xenocorp Innovation Team Lead </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Plague Lord Mutation</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Legend states we killed our gods, replacing them with entertaining technologies. The gods, beholding their demise, planted doom within us: a seed called Hubris. Witnessing the creation of this abomination, I hear the dead gods laughing.”[br/]– Mah Reg’Nib, Quitting the Xenocorp</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutation: Plague Lord</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipment: Malady</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Advanced Militarized Strains</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Bloated pustules crawl across the hillsides of our quarantined land. Our screams for help summon bloated pustules to fight off our enemies. If I didn’t know better, I’d suspect they’re protecting us until they can turn our bodies into their food supply.”[br/]– Professor Sandro “Cosmo” Welker, TBCU: Containment</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Omega Transcendance</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“By unleashing the Omega Strain into the biome, all life is forced to make long-overdue choices. Food shortages and illness will do the work we’ve advocated all along. To survive, the weak will be purged and the strong will prevail.”[br/]– Dr. Eva Montinga, Lead Geneticist for Terratech Advanced Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Expedited Germination</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Applying this serum to a Xenoplague Pustule will cause it to instantly evolve into a Destroyer. Pustules no longer need roam the countryside murdering people in order to evolve. Of course, the serum does require harvesting brain tissue from living donors.”[br/]– Dr. Eliza R. Snowden, Kolobo Laboratories</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_DOCTRINE_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bio-Matter Repurposing</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Wounded soldiers can now scavenge medical nutrients from infected enemy bodies using Bio-Matter Repurposing. This Xenoplague variant can transform organic material into sustenance. Even the flavor is programmable. So, bon appetite!”[br/]– Dr. Eva Montinga, Lead Geneticist for Terratech Advanced Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female&#10;&#10;Edit: removed extra space before &quot;Dr.&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_DOCTRINE_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Infection Experiments</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Genetic research has endured the populace’s hysteria: life-saving vaccines rejected by ignoramuses claiming that their ignorance trumps scientific evidence. It is time to bypass public acceptance altogether.”[br/]– Dr. Eva Montinga, Lead Geneticist for Terratech Advanced Research Division</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female&#10;&#10;Edit: removed extra space before &quot;Dr.&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

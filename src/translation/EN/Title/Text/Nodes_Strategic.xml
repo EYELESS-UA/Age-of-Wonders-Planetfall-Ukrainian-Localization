@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2019-10-28T13:48:47Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11550</WindowHeight>
+  <WindowWidth>25410</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="42" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="205.5"/>
+   <Column ss:StyleID="s62" ss:Width="168.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="319.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="156.75"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">NODES_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data></Cell>
+    <Cell><Data ss:Type="String">CRYSTAL_TAG</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,0000039F000024D8]Cosmite[/hyperlink]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite is an in-game currency</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data></Cell>
+    <Cell><Data ss:Type="String">RESOURCE_NODE_TAG</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[hyperlink,0000039A00000924]Resource Node[/hyperlink]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource nodes are locations on the map that generate a steady income of the resource.</Data></Cell>
+   </Row>
+   <Row ss:Index="6" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Derelict Power Plant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A small-scale Star Union Power Plant lies abandoned here. Grants {Energy} Energy to the colony it is linked to.[br/][br/]Grants an additional {SynergyEnergy} Energy when in an Energy Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATER_ENERGY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Derelict Hydro-Plant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">WATER_ENERGY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A forgotten Star Union hydroelectric power plant sits here. Grants {Energy} Energy to the colony it is linked to.[br/][br/]Grants an additional {SynergyEnergy} Energy when in an Aquatic Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abandoned Quarry</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Minerals are mined from here. Grants {Production} Production to the colony it is linked to.[br/][br/]Grants an additional {SynergyProduction} Production when in a Production Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATER_PRODUCTION_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deep Sea Mining Station</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">WATER_PRODUCTION_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Valuable deep sea minerals are mind from the seabed using this mining station. Grants {Production} Production to the colony it is linked to.[br/][br/]Grants an additional {SynergyProduction} Production when in an Aquatic Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Research Station</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Research is performed in these dome-shaped high-tech labs. Grants {Research} Knowledge to the colony it is linked to.[br/][br/]Grants an additional {SynergyResearch} Knowledge when in a Research Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATER_RESEARCH_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marine Research Station</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">WATER_RESEARCH_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Research into aquatic applications of technology is performed in these special Marine Research Stations. Grants {Research} Knowledge to the colony it is linked to.[br/][br/]Grants an additional {SynergyResearch} Knowledge when in an Aquatic Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Overgrown Biodome</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vital supplies are grown and manufactured here. Grants {Supply} Food to the colony it is linked to.[br/][br/]Grants an additional {SynergySupply} Food when in an Agriculture Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATER_SUPPLY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aquatic Algae Farms</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">WATER_SUPPLY_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Water-based Algae Farms have increased growth rates for organic manufacturing. Grants {Supply} Food to the colony it is linked to.[br/][br/]Grants an additional {SynergySupply} Food when in an Aquatic Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite Spatial Rift</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CRYSTAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A spatial rift to the Void is located here, out of which shards of Cosmite are emerging. Cosmite can be harvested here in limited quantities. Grants {Crystal} Cosmite income to the colony it is linked to.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quartzite Crystal Cluster</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Quartzite secrete energized crystals as part of their lifecycle. These crystals can grow together to become Crystal Clusters. [br/][br/][bulletList][bullet]Grants {QuartziteEnergy}[energy/] [/bullet][br/][bullet]During combat in this sector, all Mineral units are healed for {QuartziteHealing}, at the start of their turn.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Quartzite are wildlife units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">On their turn, all Mineral units are healed for {WasteHeal}[hp/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Combat modifier description.</Data></Cell>
+   </Row>
+   <Row ss:Index="37" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Artifact</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These strange artifacts belong to an ancient 'Celestian' civilization. The device seems to have some subtle sway over the mind. It could prove influential if one were capable of controlling it. [br/][br/]Grants {CelestianArtifactInfluence} Influence income to the owner.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Celestian is a secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACER_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Spacer Refinery</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPACER_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These refineries are specialized in producing heavy duty constructions, and thus have optimized production processes.[br/]When located within a colony's domain, Heavy unit production cost in that colony is reduced by {ProductionCostReduction} [production/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node description. Spacers are an NPC faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATER_CRYSTAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aquatic Cosmite Rift</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resource node name.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>25</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

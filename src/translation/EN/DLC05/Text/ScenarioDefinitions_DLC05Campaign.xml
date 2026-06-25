@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <LastSaved>2020-08-07T14:27:45Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="32" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="219"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="477"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="302.25"/>
+   <Column ss:StyleID="s62" ss:Width="94.5"/>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SCENARIODEFINITIONS_DLC05CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">General Loca Notes for this XML: For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.&#10;&#10;In the text below, text is spoken by a character who can be either male or female (except for Amazon, which is always female). If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MISSION_ORDER01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An aspiring paladin is sent to the protection of a lost colony.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For &quot;Paladin&quot; see the corresponding entry in the glossary.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 1, Stanza 13</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Oathbound&quot; is the name of the new race.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ORDER01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">I pledge myself, from now and forever, to the protection and needs of the weak and the poor. As a Paladin, I shall heed the wisdom of the Seers and beware the voices of greed and immodesty that will tempt me to put myself above others. I swear to use this battlesuit to sow order where the Star Union’s fall reaped chaos, and to capture peace where the Cataclysm liberated war. From this day on, I am an Oathbound.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">All Paladins are wearing battle-suits. It's the equivalent of a knight's armor.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 264, Stanza 7</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">ORDER01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">After Equis Arrethorn’s heroic sacrifice on Atrium Alpha, the High Paladius and his Seers have started to look for a worthy soul to succeed Arrethorn in the Circle of Heroes. They announced a “Calling of Bravery”, a friendly strife where aspiring Paladins can compete to prove their virtue and courage. I am among the few chosen ones admitted to its final stage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Equis&quot; is a title given to Paladins ruling a planet.&#10;&quot;Arrethorn&quot; is the name of a male Oathbound character.&#10;&quot;Atrium Alpha&quot; is the name of a planet.&#10;&quot;High Paladius&quot; is the title of the highest-ranking Paladin.&#10;For &quot;Seers&quot; see the corresponding entry in the glossary.&#10;For &quot;Circle of Heroes&quot; see the corresponding entry in the glossary.&#10;&quot;Calling of Bravery&quot; is the name of a competition.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 292, Stanza 1</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ORDER01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">The last round of the tournament takes me to the Equisat of Verdrice, a rural planet once engineered by the Star Union to become a hyper-fertilized farming center. Like my competitors sent to other planets, I have been asked to seek out our existing colonies on the Equisat of Verdrice, shield its citizens from all danger, and build up a flourishing enclave of peace and prosperity. An accompanying Seer will be my judge of honor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Equisat&quot; is the name the Oathbound give to a planet ruled by an Equis. In this case &quot;Equisat of Verdrice&quot; means the planet is governed by &quot;Equis Verdrice&quot;, where &quot;Verdrice&quot; is the last name of that character.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 297, Stanza 25</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ORDER01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Our transport is nearing the orbit of our destination. Even from up here we can see the vast patches of the fields once harvested by the Star Union. I don’t know yet what exact challenges will await me on the surface, but the citizens of the Equisat of Verdrice are now under my vowed protection.[br/][br/]On my honor, protect them I shall!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Equisat of Verdrice</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER01_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Find and protect the Oathbound settlements</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 462, Stanza 8</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ORDER01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">While the Calling of Bravery has reached its sudden end, my journey as an Oathbound Paladin feels like it only began. Following the High Paladius’ orders, I shall travel to Archanon-8 and its vast archives of knowledge, where I will come before Oracle, given voice by the vestal Seers. It is my final test of courage, as it is said that the eye of Oracle can peer through the very soul of a mortal man.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Archanon-8&quot; is the name of a planet.&#10;For &quot;Oracle&quot; see the corresponding glossary entry.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MISSION_ORDER02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">At the Star Union’s fabled capital world a new era begins.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 465, Stanza 3</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ORDER02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">The wisdom of Oracle is unfathomable. Speaking to it has changed me, inspired me. All the Paladins in the Circle of Heroes know that it guides their actions. When the High Paladius called me out to renew my oath, my voice spoke in the name of them all. For while we are each individuals with different strengths and opinions, we meet in the Circle as equals, united by one noble ideal and duty.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 473, Stanza 8</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ORDER02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">All Paladins in the Circle of Heroes are committed to a secret mission: to find and recover the Grail Configurations. These relics from a forgotten civilization are said to bring peace and prosperity to the planets housing them, and have appeared in many decisive moments of Star Union history. With each Configuration we Oathbound secure, we come one step closer to making the universe a better and safer place for everyone.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Grail Configuration&quot; is the name of an in game type of structure. They are portrayed as locations of great power.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 473, Stanza 9</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ORDER02_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">But all of that is suddenly at risk. The Assembly have succeeded with their insane plan and wrested Union Prime from the Void. Now the old capital world has reappeared on the star charts, drawing in all the aspiring factions who want to lay claim on this symbol of power and human heritage. What is worse, the Assembly seem to know about the planet’s biggest secret: the Prime Grail Configuration!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Prime Grail Configuration&quot; is the name of a specific &quot;Grail Configuration&quot;.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Testimonial of an Oathbound - Day 495, Stanza 6</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ORDER02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Along with Equis Weviere and Equis Denard, I have been chosen and sent to Union Prime. As we are approaching the fabled planet, it is glimmering in black and gold like the treasury of an ancient kingdom.[br/][br/]But we must not be fooled by this image and think of the dangers ahead: only if we claim the Prime Grail Configuration in time, the Assembly can still be stopped!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Equis Weviere&quot; is the last name (Weviere) and title (Equis) of a female Oathbound character.&#10;&quot;Equis Denard&quot; is the last name (Denard) and title (Equis) of a male Oathbound character.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Union Prime</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_PLANETFALL_DEFAULT_HIDDEN</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">??????????</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Find the Prime Grail Configuration</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORDER02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chronlices of an Empire - Preliminary Chapters</Data></Cell>
+   </Row>
+   <Row ss:Height="225">
+    <Cell><Data ss:Type="String">ORDER02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">No great power should go unchallenged. The duality of Emperor and CORE is what brought stability and prosperity to the Star Union, and so will my reign as Tholian II, backed up by the wisdom of Oracle and its Grail Configurations. When I ascend to the throne, the traditions and goals of the Oathbound and Paragon will merge into a new ideology that stimulates the elites without abandoning the broad base of its citizens.</Data></Cell>
+    <Cell><Data ss:Type="String">No great power should go unchallenged. The duality of Emperor and CORE is what brought stability and prosperity to the Star Union, and so will my reign as Carminia II, backed up by the wisdom of Oracle and its Grail Configurations. When I ascend onto the throne, the traditions and goals of the Oathbound and Paragon will merge into a new ideology that stimulates the elites without abandoning the broad base of its citizens.</Data></Cell>
+    <Cell><Data ss:Type="String">For &quot;CORE&quot; see the corresponding glossary entry.&#10;&quot;Tholian II&quot; is the ruling name of a male emperor. &quot;Carminia II&quot; is the ruling name of a female emperor.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row ss:Height="210">
+    <Cell><Data ss:Type="String">ORDER02_DEBRIEFING_SOLE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">From this day on, I shall be known as Tholian II, regent of the new Star Union. The combined strength of Paladins and Paragon will be my scepter, the Grail Configuration my crown. It is my destiny to extend my oath of protection to all citizens of the old and new races, and to avert the danger of Oracle becoming a second CORE to control humanity. This empire will be our own.</Data></Cell>
+    <Cell><Data ss:Type="String">From this day on, I shall be known as Carminia II, regent of the new Star Union. The combined strength of Paladins and Paragon will be my scepter, the Grail Configuration my crown. It is my destiny to extend my oath of protection to all citizens of the old and new races, and to avert the danger of Oracle becoming a second CORE to control humanity. This empire will be our own.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ORDER02_DEBRIEFING_JOINED_ELOP</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Union Prime is the name, and a new union is what we shall build, here, on top of the ruined ambitions of the Paragon, Syndicate and Assembly. Together with the ELOP commanders we are devising an intergalactic senate with the recovered Grail Configuration at its center. It is the birth of a galactic empire where common values and cooperation pledge protection to all citizens, be they human, Kir’Ko or even Shakarn.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;ELOP&quot; is the short form for &quot;Egalitarian League of Planets&quot; (see corresponding glossary entry).</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female Oathbound</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>12</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

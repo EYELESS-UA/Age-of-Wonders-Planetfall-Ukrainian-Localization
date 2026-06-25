@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Djurre van Dijk</LastAuthor>
+  <LastSaved>2018-08-13T15:09:14Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="40" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="131.25"/>
+   <Column ss:StyleID="s62" ss:Width="85.5"/>
+   <Column ss:StyleID="s63" ss:Width="288.75"/>
+   <Column ss:StyleID="s62" ss:Width="145.5"/>
+   <Column ss:StyleID="s62" ss:Width="210"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="199.5"/>
+   <Column ss:StyleID="s63" ss:Width="288.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIES_AQUATIC</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Aquatic</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHELUS_STEEL-EATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chelus Steeleater</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">CHELUS_STEEL-EATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Suddenly the whole reef lurched toward the ship. No reef, a sea monster! A Chelus Steeleater! For a moment, we lost it in the surf. The Skipper shrieked. The whole ship vaulted upward. The crew catapulted in every direction. This creature had no interest in eating the fleshy sailors bobbing in the briny blue waves. It lunged onto the vessel. Steel plating snapped in the Chelus’s vice-like beak. We scrambled for anything that floated as the great behemoth decimated the ship’s armor as if it were the Fish Taco Special.”— Sailor Sammy Sellis, “RV-90210: Seashells by the Seashore.”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: removed second exclamation mark</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHELUS_CLUTCHMOTHER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chelus Clutchmother</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">CHELUS_CLUTCHMOTHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The Chelus Clutchmother rammed the ship with a huge horn on its back. As the ship took on water, I jumped into a half-full apple barrel. The Chelus took another bite out of the side of the ship. My barrel tipped overboard. I floated away watching while it laid a large egg that hatched moments later. The young Chelus joined its mother eating the boat. As I floated away from the screaming sailors, my heart was warmed by the stirring thought of mother and child completing the circle of life together.”— Mah Reg’Nib, “RV-22300X: Forlorn Fantasy Destinations”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHELUS_SPAWN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chelus Spawn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">CHELUS_SPAWN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The Clutchmother’s genetic variations demonstrate a common ancestry from that of homeworld. This proves they were brought here. But by whom, and why? Wait. I hear tapping. The egg is hatching! This is most exciting. Bring up OVA-monitor on Sea-Hold station. See that? A crack on the egg. That smell? Strong. Acrid. It must use bio-organic acid to break down its shell. No wait. Oh no! The Spawn is burrowing into the research lab. Stay back! It will… *[Expletive Redacted*] No! Shoot her! Shoot her!”— Professor Sandro “Cosmo” Welker, “RV-000331S: Planetary Survey: Transgalaxy Biological Contamination Unit”</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">Changed '[]' into '*[*]' where the '[]' were intended to be displayed to the player - i.e. where it doesn't concern markup text.&#10;We need to be sure to change this in the localized text too, as this change was made after the text was send out for localization.&#10;Please remove this comment when the changes are made, but only after verifying this was done for all languages supported at launch.&#10;&#10;Edit: shell? -&gt; shell.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">OCTOWHALE</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Octowhale</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">OCTOWHALE</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“I swim with many ocean dwellers, but none is as protective of the gentle sea-creatures as the Octowhale. They are often found swimming with Chelus, performing nurturing tasks for those it deems a friend. When my submersible lost power, an Octowhale lifted us from the depths, so that we could surface for air. It is as though it senses distress and wants to help. When threatened it can shoot a thick glop of biotoxic ink from its blowhole, but I’ve never observed it do so predatorially.”— Marine Biologist, Dr. Ariel Triton, “RV-3423S: Under the Sea”</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ELDER_OCTOWHALE</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Elder Octowhale</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ELDER_OCTOWHALE</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“Today, my research camp was attacked by a Spacer Junkship. My crew jumped into the submersible. One of the enraged cannibals grabbed the air line. Before he could cut it, a mass of tentacles constricted the man. An Elder Octowhale surfaced, spraying the Junkship with toxic ink. The Spacers returned fire. The Elder let out a screaming song, and other Octowhales joined the attack. I watched in awe as this gentle monster rammed the ship with a percussive force that cracked the ship apart. I’ve renewed my appreciation for Octowhales.”— Marine Biologist, Dr. Ariel Triton, “RV-3423S: Under the Sea”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: air-line -&gt; air line</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHELUS_EGG</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Chelus Egg</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHELUS_EGG</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Something moves inside…</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>6</ActiveCol>
+     <RangeSelection>C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

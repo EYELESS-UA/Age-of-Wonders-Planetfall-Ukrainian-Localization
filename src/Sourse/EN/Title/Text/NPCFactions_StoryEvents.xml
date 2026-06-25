@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <LastSaved>2019-03-08T15:23:05Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10185</WindowHeight>
+  <WindowWidth>25200</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="86" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="270"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="224.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="279"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="107.25"/>
+   <Column ss:StyleID="s62" ss:Width="265.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">NPC_FACTIONS_STORYEVENTS</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="6"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="6"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="6"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Retaliation Strike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="83.25">
+    <Cell><Data ss:Type="String">PARAGON_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have ways of dealing with thieves and plunderers like you, {STR_LeaderName}! Soon our army will be at your doorstep. Do not expect us to show any mercy.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imperial Assault</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="79.5">
+    <Cell><Data ss:Type="String">PARAGON_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, your petty attempts to oppose the true heirs of the Star Union will soon come to an end. Know that there are special forces on their way to cleanse the planet's surface of your kind!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wrath of the Machine God</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96.75">
+    <Cell><Data ss:Type="String">PARAGON_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Look and tremble in fear before the vast forces of the mighty Paragon, {STR_LeaderName}. Too long have your actions defied the will of CORE, and now you shall experience its terrifying power!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tendril Trouble</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GROWTH_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our roots feel unpleasant next to you, {STR_LeaderName}. We sought symbiosis, but we received parasites instead. Pests should be swiftly eliminated, lest they spread. Our tendrils come for you, enemy of Sonriel.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thorns and Stingers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="92.25">
+    <Cell><Data ss:Type="String">GROWTH_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, enemy of light and symbionts. Your oppression will not to be tolerated. Our thorns and stingers are aimed at you and they cannot be stopped. Feel the power of those who bear Sonriel's might!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seeds of Vengeance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="88.5">
+    <Cell><Data ss:Type="String">GROWTH_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prepare to feel the wrath of Sonriel, {STR_LeaderName}. Mother Node does not accept anyone who defiles her garden. Your walls shall not protect you when our pollen descends upon your cities!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:Index="20" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cleanup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell><Data ss:Type="String">AUTONOM_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entities: detected. Order indicators are at subpar levels. Unruly life forms must be terminated. Target: {STR_LeaderName}. Threat level: low. Protocol: send cleanup crew.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sweeping Round</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75">
+    <Cell><Data ss:Type="String">AUTONOM_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sovereignty: in danger. Multiple infringements detected by: {STR_LeaderName}. Crimes compiled. Threat level: medium. Protocol: issue a controlled sweep.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extermination Protocol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AUTONOM_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dangerous lifeform detected. {STR_LeaderName}: planetary threat. Detention: not an option. Target located. Units on the move. Extermination protocols: eliminate with extreme prejudice.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:Index="27" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Void Hunters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="78.75">
+    <Cell><Data ss:Type="String">PSIFISH_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Physical forms... more dangerous than anticipated. {STR_LeaderName} opposes us. Send hunters in the dark… sleep eternal. Relief.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Water Stalkers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="92.25">
+    <Cell><Data ss:Type="String">PSIFISH_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your kind is not the superior species… we will prove it. Enraged... your madness ends. Our shoal will consume… {STR_LeaderName}. Your defenses will be breached… by the Void.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Harbingers of the Void</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="73.5">
+    <Cell><Data ss:Type="String">PSIFISH_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The feeble, physical mind of {STR_LeaderName} wanes… until nothing remains. Disillusioned. Commanding the void of spiraling eternity… we bring madness to your kind. Soon. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:Index="34" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrap Clan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPACERS_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Look at this scrub. {STR_LeaderName}, you think your guild is tough? Wait 'til you see ours. We'll send you a small party for you to sample, although they will probably break you 'til you're nothing but a sad mess! PWNED.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ruin Delvers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="108">
+    <Cell><Data ss:Type="String">SPACERS_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Get off our turf n00b. You think yourself OP? Wrong! Our guild is the most OP on this server. We're sending someone in your direction, and they're full of Black Nex - nothin' can stop 'em! They will kick you so hard you won't be able to log back in!{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">n00b' is game slang for someone who is completely new to something (newbie)&#10;&#10;'OP' is an abbreviation for &quot;Over powered&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guild Raiders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SPACERS_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We getting rekt? No way! These scrubs must be hackers. Always another one in an instance! Preacher tells us that a new raid was added to stop the glitchers, at your location {STR_LeaderName}! Can't wait to see what kind of loot ya drop. HAHAHA LUL. This will be your end game.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Rekt' is game slang for getting wrecked (beaten horribly in a game)&#10;&#10;'Scrubs' is game term for someone who's not good at anything.&#10;&#10;'LUL' is game slang for LOL </Data></Cell>
+   </Row>
+   <Row ss:Index="41" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ATTACK_EVENT_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Show attacking army</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ATTACK_EVENT_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Shows the location of the attacking force</Data></Cell>
+   </Row>
+   <Row ss:Index="44" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Accept Demand ({STR_Rewards})</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Gain:[br/][xpCol]{INT_reputationValue}[reputation6/] Reputation[/xpCol][br/]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Decline Demand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Gain:[br/][fireCol]{INT_reputationValue}[reputation0/] Reputation[/fireCol][br/]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_LOCATE_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Locate Sector</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_LOCATE_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Look at the sector that is being asked for</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_DO_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Do Quest Instead</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_BUTTON_DO_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Accept a quest from the demanding faction as an alternative action to meet their demand. Failing that quest will have the same consequences as declining the original demand.</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paragon Faction Demand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PARAGON_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, just the person we are looking for. It has come to our attention that tribute has not been made. Please do so, for the sake of a good relationship, of course.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PARAGON_ALIENGOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite is of finite quantity, a rarity even for the Paragon. To keep good relations with us, we request a tribute.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PARAGON_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">It has come to our attention that the lands you own are rightfully contended by the Paragon. If you want to maintain good relations, we request that you release ownership.</Data></Cell>
+   </Row>
+   <Row ss:Index="58" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Growth Faction Demand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_GROWTH_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We demand Sonriel’s essence to keep symbiosis, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_GROWTH_ALIENGOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mother Node demands the alloy of the stars to keep symbiosis, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_GROWTH_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We demand possession of the soil you claim, to keep symbiosis.</Data></Cell>
+   </Row>
+   <Row ss:Index="63" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autonom Faction Demand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_AUTONOM_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tribute: required. Entity known as {STR_LeaderName} must make offering to Autonom. If accepted: relations maintained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_AUTONOM_ALIENGOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tribute: required. Material known as: Cosmite. If {STR_LeaderName} wishes to maintain order: offer Cosmite.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_AUTONOM_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tribute: required. Sector in domain of: {STR_LeaderName}. To maintain relations, {STR_LeaderName} must offer sector to: Autonom.</Data></Cell>
+   </Row>
+   <Row ss:Index="68" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PSIFISH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psi-Fish Faction Demand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PSIFISH_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bright, swirling energy. Lusting. We must have it… to keep the balance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PSIFISH_ALIENGOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The material you gather… Cosmite. Familiar to us, vital. To maintain relations… you must sacrifice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_PSIFISH_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This piece of reality… it belongs to us, to our domain. You must part with it... to maintain order.</Data></Cell>
+   </Row>
+   <Row ss:Index="73" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Spacers Faction Demand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_SPACERS_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You wanna keep relations intact with our guild? Then you gotta pay up! A small tribute to keep a healthy relationship.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_SPACERS_ALIENGOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If you wanna stay on the Spacers' good list, we're gonna need some of that fancy shiny space metal you have lying around.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_SPACERS_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hey, that land belongs to our guild! If you still wanna be friends with the clan, it's best you hand it over to the Spacers.</Data></Cell>
+   </Row>
+   <Row ss:Index="78" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_SECOND_SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We told you to stop helping our rivals, but apparently you’re deaf or somethin’. Last chance to make things right, now give it up!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_SECOND_PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We warned you about helping our rivals, and yet you have ignored our request to stop. Good relations with the Paragon holds a price, and you must pay it to maintain it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_SECOND_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have asked you time and time again, Symbiont. Yet you still defy Mother Node when we ask you to stop aiding our enemies. We demand tribute to maintain symbiosis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_SECOND_PSIFISH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Confusion… why do you do this? Dishonor… will not listen. Anger… violent vibrations. We will not ask again, {STR_LeaderName}. Stop helping our enemy. You must pay tribute.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_SECOND_AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entity {STR_LeaderName}: you have ignored our request to stop helping Autonom enemies. The price has been set: to maintain Autonom relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">NEGOTIATE_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[br/][br/](We can negotiate for peace by contacting this faction's dwelling.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>32</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>44</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

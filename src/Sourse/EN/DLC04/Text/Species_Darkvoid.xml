@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-02-26T15:40:11Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9345</WindowHeight>
+  <WindowWidth>15675</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="97.5"/>
+   <Column ss:StyleID="s62" ss:Width="86.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="186.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SPECIES_DARKVOID</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Faction name singular</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Faction name plural</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Voidbringers&quot; is the name given to the mind-absorbing creatures relentlessly invading planet after planet. Their origin unknown, they seem to consume planet after planet leaving barren nothingness in their wake.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIER2A</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Strix</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">TIER2A</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Many Psynumbrae have long believed that the Void was a prison trapping a darker power in the infinite emptiness. The lost and foolish Psi-Fish were but a forensic foreshadow of the dread that comes. We feel it. A Voidbringer. Sweet oblivion. We crave this malice. Sinister psionic forces streak toward us, assaulting our nightmares. It starts small, in the corner of your eye. Then it appears, an orb of cruel indifference and we are its prey. Burst into our reality with the force of a bomb. Its tentacles lust for our sanity.  Intoxicating Strix.” –Shartok Kreeg, “RV-74593R: Blessed Delusions” </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIER2B</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Naga</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">TIER2B</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Don dark vestments, cult-brother. Tonight, we wake the serpent bound to the underworld because his tail churned the cosmic sea of sacred milk from which all intelligent life emerged. I feel its spiked fang in my mind. Careful. The lovers of light and vanity worship creator gods jealous of the Naga’s gift to humanity. Its venom enlightened our minds to act free of these vain gods. We must repay the Naga. Reach out. Let its tendrils drain you. The more they feed, the more the darkness spreads. They will grow. Change.” –Asuras Durvasas, Psynumbra Mindshrieker, “RV-75443R: Nihilistic Rebellions”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIER3</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Undine</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">TIER3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“There is beauty in the Voidbringer sea. Listen. It sings from deep beneath the waves of reality. Only her lithe form undulates across the emptiness the gods forgot. So seductive she renders the mind broken. Let lust cleanse your petty desires for life. Give yourself to the Undine. Between the shores of imagination and reason, she drinks your dreams, replacing them with restless nightmares. Surrender. Let her enthrall you. Let her consume you. Feel her transformations within you and it will carry you in her womb.” –Asuras Durvasas, Psynumbra Mindshredder, “RV-75444R: Nihilistic Rebellions” </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIER4</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Leviathan</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">TIER4</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“It slithers in tendrils of darkness. Minds break before the pressure of its passing. Without a question, it purposefully harvests life, consuming thought and draining the courage of even the most powerful champions. The Voidbringer Leviathan will not stop feeding on intelligent life until the minds of all living things cease sparking intelligent thought. Death is no relief. It reanimates the wretched fallen serving its sadistic will. What purpose could it serve than to prove the universe is nothing more than a nihilistic nightmare?” – Psynumbran Philosopher, Thranx Morden, “RV-9966699P: Shades in Lost Cities and Fallen Empires”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PORTAL_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pandora Portal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="111">
+    <Cell><Data ss:Type="String">PORTAL_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;This is it. The gateway for darkness. At long last this wretched world has unified with the vast, dark sea of our Voidbringer saviours. They will swarm the lovers of light. Remake them. Consume them. Marry them to darkness. Come. Pour forth from your magnificent nothingness, into this world. Let screaming orchestras of agony announce the freeing of the heretics.&quot;–Asuras Durvasas, Psynumbra Mindshredder, “RV-75445R: Nihilistic Rebellions” </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a Voidbringer unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <LeftColumnVisible>3</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

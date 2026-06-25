@@ -1,0 +1,933 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-09-10T14:51:31Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15825</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="178" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="244.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="193.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="471"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="127.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="214.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="477"/>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">UNIT_UPGRADES_CYBERNETICS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ocular Implants (Detector)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unit gains [abilityblue]Detection[/abilityblue], +{VisionRange} Strategic Vision Range and a {bonus}% bonus to critical hit chance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{bonus}% critical hit chance.</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassembly Module</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gains [abilityblue]Regeneration[/abilityblue], healing {ReassemblyHealOverTime}[hp/] each turn in combat, and recovers all of its [hp/] at the start of its owner's turn on the strategic map.[br/]If the unit dies, the reassembly module attempts to repair all vital systems, allowing the unit to reassemble itself after the battle if the unit's owner wins.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUBDERMAL_CLOAK_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cloaking Implants</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SUBDERMAL_CLOAK_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced technologies grant this unit [abilityblue]Universal Camouflage[/abilityblue]on the World Map and the [abilityblue]Evasion[/abilityblue] defense mode. In addition, the unit becomes {ChameleonicOverwatchAccuracyDecrease} harder to hit with all attacks.</Data></Cell>
+   </Row>
+   <Row ss:Index="16" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAMMER_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hammer Strike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAMMER_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A powerful melee strike.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WILD_SWING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wild Swing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WILD_SWING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A wild swing of the hammer that can damage all targets in front of the unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLAW_SLASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Claw Slash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLAW_SLASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A melee attack.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAWBLADE_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Saw Blade Slash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAWBLADE_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A melee attack.</Data></Cell>
+   </Row>
+   <Row ss:Index="25" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCT_CONSTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Create Construct</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCT_CONSTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Create a Construct under the player's control on the target hex. Puts the unit into Defense Mode after use.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCT_ADVANCED_CONSTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Create Advanced Construct</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCT_ADVANCED_CONSTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Create an Advanced Construct under the player's control on the target hex. Puts the unit into Defense Mode after use.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassemble</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target a dead, light, ground unit that is Cyborg or Mechanical to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Machanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced Reassemble</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ADVANCED_REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target a dead ground unit that is Cyborg or Mechanical to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Mechanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REVERSE_ENGINEER</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced Re-engineering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ADVANCED_REVERSE_ENGINEER</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Upgrades the Reverse Engineer. It is now possible to Reassemble Heavy units as well as Light units, and to create more powerful Advanced Constructs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSIMILATE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assimilate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSIMILATE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit repairs itself with parts from its foes. Successfully melee attacking non-Mineral and non-Ethereal units heals this unit for {AssimilateLifeSteal} per hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSIMILATE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heals for {AssimilateLifeSteal} when attacking non-Mineral, non-Ethereal units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REPURPOSE_CORPSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Repurpose Corpse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REPURPOSE_CORPSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy the target corpse and heal the unit for {healAmount}.[br/]Puts the unit into defense mode after use.[br/][br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Miniaturized Corpse Processor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="40.3125">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A device for the rapid collection, processing and reuse of dead bodies on the battlefield.</Data></Cell>
+   </Row>
+   <Row ss:Index="45" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAINTENANCE_REPAIR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Maintenance Repair</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MAINTENANCE_REPAIR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Inspector is able to make small maintenance repairs on friendly Cyborg and Mechanical units, healing them for {hp}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SELF_REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Self-Reassembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SELF_REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">When destroyed, the Wrecker will return after {ReassemblyTurns} in a weakened state, with {armorPenalty} armor and {damagePenalty} damage.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassembled</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is weakened from reassembly, it does {damagePenalty} damage and has {armorPenalty} armor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damagePenalty}% less damage.</Data></Cell>
+   </Row>
+   <Row ss:Index="54" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hyper Assimilation Implants</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="87.5625">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Melee attacks heal the user for {healAmount}, and have a {FleshTearerChance}[strengthphysical/] strength chance ({FleshTearerChanceRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Bleeding[/abilityred] to Biological or Cyborg units, doing damage over time and reducing [DamagePhysical/] resistance for {BleedDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Flesh Tearer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heals for {AssimilateLifeSteal} when attacking Biological, Cyborg or Mechanical units</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Neurotoxic Implants</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit's melee attacks now do Biochemical damage and have a {NeuroChance}[StrengthBio/] strength chance ({NeuroChanceRepeating}[strengthBio/] for repeating attacks) to apply [abilityred]Neural Toxin[/abilityred] to Biological and Cyborg units, which can damage or stun the target, for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:Index="63" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quantum Support Nanites</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Extensive implants fitted with specialized field generators automatically target all friendly units within a {SupportAoERadius} hex radius of this unit. This unit and all other affected units gain +{SupportNaniteShields}[shield/] and heal for {SupportHealAmount}[hp/] each turn for {SupportTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is being protected by Quantum Support Nanites, providing {SupportNaniteShields} and healing it for {SupportHealAmount}[hp/] each turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_RECOVERY_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Emergency Quantric Shielding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">QUANTUM_RECOVERY_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This unit is immune to all damage over time status effects. Whenever the unit takes damage that would kill it, the unit is left at 1 [HP/] instead, and it gains complete immunity to all damage, stagger and status effects for 1[turn/].[br/]Only triggers once per battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REAVER_FORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reaver Form</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REAVER_FORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reform the swarm into a Reaver.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SWARM_FORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Swarm Form</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SWARM_FORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Split the Reaver into a Swarm of devouring robots, restoring {healAmount}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RE_ENERGIZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Re-energize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RE_ENERGIZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Restore all Action Points [movewalk/] and dispel all hostile status effects on target friendly unit. This effect can jump up to {ReEnergizeJumps} additional targets within {ReEnergizeHexes} hexes of the original unit. This ability does not work on the Assembly Reaver, regardless of what form they are in.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devouring Strike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Reaver swarms around the target, attempting to devour it and add the target's parts to its own form. If a unit is killed by this attack, the Reaver gains a buff until end of combat, depending on the type of unit killed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heal {DevouringLifeSteal} per attack.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_BIOLOGICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rapid Regeneration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_BIOLOGICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit heals {BiologicalHeal}[hp/] per stack of this buff. Lasts until end of combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_CYBORG_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cyberpower</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_CYBORG_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit deals {CyborgDamage} extra damage per stack of this buff. Lasts until end of combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_MECHANICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Accelerated Processing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has {MechanicalCritChance} extra critical hit chance per stack of this buff. Lasts until end of combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_MINERAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crystal Armor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_MINERAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gains +{MineralArmor} per stack of this buff. Lasts until end of combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_ETHEREAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ethereal Shift</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOURING_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_ETHEREAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is {EtherealHitChance} harder to hit per stack of this buff. Lasts until end of combat.</Data></Cell>
+   </Row>
+   <Row ss:Index="89" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NAVAL_REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Launch Water Construct</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NAVAL_REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Build a Water Construct on an adjacent hex</Data></Cell>
+   </Row>
+   <Row ss:Index="93" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROJECT_PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Project Constriction Field</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROJECT_PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Constrictor locks itself and the target together in a phased field, granting both of them +{shieldBuff}[shield/] and stagger resistance, disabling their abilities and holding them in place. The effect lasts until the target breaks free, or the Constrictor is killed or staggered.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Constricting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is enveloped in an energy field granting it +{shieldBonus}[shield/] and stagger resistance. It can choose to crush its foe or release it, but is otherwise unable to act.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_CRUSH_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Constricted</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_CRUSH_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is enveloped in an energy field granting it +{shieldBonus}[shield/] and stagger resistance, but preventing it from acting.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEN_FREE</Data></Cell>
+    <Cell><Data ss:Type="String">Broken Free</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELEASE_PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Release Constriction Field</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELEASE_PHASE_DISRUPTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Release the constrictor and its captive from the Constriction Field</Data></Cell>
+   </Row>
+   <Row ss:Index="103" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DISRUPTION_FIELD_CRUSH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Static Crush</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DISRUPTION_FIELD_CRUSH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Crush the target with a static-charged appendage, dealing heavy damage.</Data></Cell>
+   </Row>
+   <Row ss:Index="107" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROCURER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Procurer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROCURER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit restores an additional {ProcurerRegen}[HP/] to all Cyborg and Mechanical units in its army after each battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REPULSER_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Repulsor Blast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REPULSER_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A blast of energy targeted at a unit. [abilityred]Knocks back[/abilityred] Light units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGGRESSIVE_RECOMBINATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aggressive Recombination</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AGGRESSIVE_RECOMBINATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The swarm descends on the target, pulling it to pieces to make a new form. {RecombinationChance}[StrengthPhysical/] strength chance to transform the target unit into a Construct under the player's control. If this fails, the target instead takes {RecombinationDamage}[DamagePhysical/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGGRESSIVE_RECOMBINATION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recombination</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGGRESSIVE_RECOMBINATION</Data></Cell>
+    <Cell><Data ss:Type="String">ADVANCED_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced Recombination</Data></Cell>
+   </Row>
+   <Row ss:Index="116" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Oculized</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Optical</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Eyeplanted</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Receptor</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pupil</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCULAR_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Iris</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reaper</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lasher</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lacerator</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Claw Honed</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Blood Ripper</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rupturer</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rot Lasher</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Grave Sneaker</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Disappearer</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Dark Walker</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Shadecloaker</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Blurred</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rogue</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOXIN_NANITES_AMMUNITION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Gas Launcher</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOXIN_NANITES_AMMUNITION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Toxitized</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOXIN_NANITES_AMMUNITION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pestilential</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOXIN_NANITES_AMMUNITION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Poisoner</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOXIN_NANITES_AMMUNITION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Infectious</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOXIN_NANITES_AMMUNITION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rot Bomber</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Brain Wrecker</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Acid</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Debilitator</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Infecting</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Venomized</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Will Sapper</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Undying</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Self Assembler</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Grave Riser</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Death Toll</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Amaranth</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ariser</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLY_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Revivifier</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REENGINEERING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Artisan</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REENGINEERING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Corpsemancer</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REENGINEERING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Morgue Doctor</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REENGINEERING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ungodly Crafter</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REENGINEERING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Body Builder</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_REENGINEERING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Master Anthropologist</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_QUANTRIC_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Never Ending</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_QUANTRIC_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Purgatory</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_QUANTRIC_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Final Nemesis</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_QUANTRIC_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mortem Incarnate</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_QUANTRIC_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Morbid End</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_QUANTRIC_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Eternal</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_QUANTRIC_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Undead Lord</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Beacon of Constructs</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Morbid Protector</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Scrap Master</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nanite Overlord</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Crypt Guard</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Limb Fitter</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_1</Data></Cell>
+    <Cell><Data ss:Type="String">Recycler</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_2</Data></Cell>
+    <Cell><Data ss:Type="String">Necrotic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_3</Data></Cell>
+    <Cell><Data ss:Type="String">Hungering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_4</Data></Cell>
+    <Cell><Data ss:Type="String">Death Eater</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_5</Data></Cell>
+    <Cell><Data ss:Type="String">Undertaker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAMES_6</Data></Cell>
+    <Cell><Data ss:Type="String">Gravestone</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>31</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>54</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

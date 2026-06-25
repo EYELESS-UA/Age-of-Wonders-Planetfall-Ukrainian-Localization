@@ -1,0 +1,1267 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tom Bird</Author>
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <Created>2019-05-07T15:06:48Z</Created>
+  <LastSaved>2019-09-09T09:40:36Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13425</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="235" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="154.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="220.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="317.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="262.5"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SURVEYING_RARE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RARE_SURVEY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Medium Anomalous Site</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RARE_SURVEY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This anomalous site can be explored by a hero to recover research data and reveal secrets of the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Union Meats and Sundries</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An ancient food processing plant, specializing in delicious meat products.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We've uncovered a vast agricultural facility. Animal pens, slaughter houses and meat packing facilities arranged in a network designed for massive scale meat production. Various wild beasts still roam the grounds, descendants of the wild stock once harvested here.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Recovered blueprints indicated a central underground laboratory and research center near here, but the main entrance is now infested with a hive of Hopperhounds. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Find a way to sneak around the creatures</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Searching for a way around the Hopperhounds</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">After examining the blueprints, we found that we could use a service tunnel to bypass the main entrance and avoid the Hopperhounds, but the passageway had collapsed. By carefully removing the obstacles, we discovered some artifacts that added to our wealth of Star Union lore. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Try to drive them away. Prepare to fight!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">We attempted to drive off the Hopperhounds by placing pyrotechnic devices around the enclosure. By setting them off one by one, we pushed most of the feral creatures away, but there's a strange blue one that refuses to leave and has rallied its swarm-mates. It picked up our scent and charged in to attack us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The strangely aggressive Hopperhound is determined to attack us anytime we approach. We must destroy it if we want to gain access to the underground complex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">One of our taxidermists is preserving what's left of the rare blue Hopperhound. It will make a valuable addition to our museum diorama of freakish life in the wild. Surveyors love museum dioramas. They're so... educational. The damage we took during the combat was not in vain... Oh and of course, we have gained access to the facility. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Call in Biomancers to calm the creatures</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Calling in the Biomancers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The Biomancers deployed Primal Control Pylons around the enclosure, enabling our whole team to safely enter. Though most of us thought of them as just murderous bugs, a Biomancer named Irwin pointed out that one of the Hopperhounds appears to have a blue chitin exoskeleton and exhibited signs of intelligence. Irwin thinks it's suspicious and bears further investigation. Perhaps we'll find clues within the underground compound.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">We discovered an assortment of gene-splicing equipment, clearly used for optimizing protein yields from the livestock. This place is filled with glass vats of strange creatures: a Swiftbeak with insectoid eyes, a legless Hopperhound with thick fur, and even some Kir'Ko specimens. The back wall of the chamber is a cryovault door. Whatever lies within is huge, and from the sensor readings, it is still alive. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Open the Cryo Vault </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Tortured hydraulics squealed as the vault opened slowly. Water vapor filled the room. A large dark shape lumbered forward menacingly. Huge scything claws, powerful insectoid legs slashed through the foggy mist. This hybrid abomination unleashed a hungry, savage roar. Its eyes glistened with venomous malice. Chittering Hopperhounds came at its call. We must fight if we wish to live.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The strange food research facility remains threatened by a terrible genetic Hopperhound abomination, eager to destroy anyone in the area. This won't do. We will never learn a thing with it killing all the researchers. It's time to summon an exterminator.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">We exterminated the gargantuan insectoid-monster. As its thick syrupy blood oozed across the laboratory tile floor, our stomachs all grumbled hungrily at the strangely succulent savory scent that filled the air. We all dreamed of well-seasoned meat. This was no monster - it is an irresistible food. We paused to eat its fallen body. We can hardly resist eating this delicious, BBQ-flavored bug. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Open the vault. It might contain a Kir’Ko!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The vault opens and the room fills with a dense, cold fog. A shadow swings its huge scything claws before its gargantuan hunched form. The Kir'Ko in our company suddenly cry out in surprise. This is no creature, but a Kir'Ko. Its mind is alive and pleading for friendship. Although it looks nothing like a typical Kir'Ko, this genetic victim deserves compassion.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Too risky. Destroy it and loot the facility.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Our troops swarmed over the facility, looting what they could find while placing explosive charges all around the base of the vault in case the object within is dangerous. With a loud kaboom, we begin the lengthy process of examining the scientific information we took from the site. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Our troops swarmed over the facility, looting whatever they could find. They placed demolition charges around the base of the vault. None of the rations are usable, so much of the material collected is worthless, not to mention that troops are not nearly as careful at moving computers and collecting data as professional surveyors. But our lives are precious. Better safe than sorry. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell><Data ss:Type="String">With the vault empty, we have more time to examine the laboratory equipment. Many project files were corrupted. From what we've discovered, they attempted to breed an obedient creature with huge succulent legs. The creature's blood has a number of proteins within it that makes it smell like BBQ sauce. That's why this place smelled so delicious. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Restore the facility</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Restoring facility</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The work crews restored the site with remarkable speed. When the food production experts arrived, it became obvious much of this facility could be reactivated to provide our empire with food. Sure, it's bug-meat, but if it tastes so delicious, surely no one will mind from whence the meat comes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Loot the facility for anything of value, then raze it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">We stripped the lab, careful to extract important data procedures from the obsolete instrumentation. We carefully directed our troops to place charges about the complex. We cannot risk our enemies discovering this place and whatever monster lurks in that freezer, so it all went up in a big bang. As we walk away from the smoking crater, we all smell the delicious scent of roasting meat. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEATS_AND_SUNDRIES</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">We stripped the lab, but the troops that came to distribute the charges have no interest in waiting for our instructions. They forced us out of the labs before we could guarantee that all the data we collected was properly decrypted. Many supplies were damaged in the move. Unfortunately, this endeavor has not been nearly as productive as we'd hoped. Still, none of us can shake the craving of delicious and savory roasted meats.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Dead Jungle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A dense jungle of dead vines has been unearthed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Vegetation threatens to choke out our efforts to excavate this area. Something is stimulating the plants. Everything is thicker and stronger here. It's nothing like anything we've seen elsewhere in this area.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Bioscanners indicated activity deep inside the dead vegetation. All indicators tell of a Star Union facility hidden herein. We need a quick way to clear the spoiled overgrowth. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Burn the jungle down</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Burning the dense, dead jungle vines down…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">By setting controlled burns, we cleared the dead vegetation quickly and accessed the Star Union ruins hidden deep within the overgrown area. After we cleared the vegetation, we discovered evdience that the Growth had a violent skirmish with Xenoplague. The thick vegetation was to keep the Xenoplague at bay.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Fools! All of us are lucky to be alive after they set the whole forest ablaze. The surveyor's faces are all pink with burns, and none of them have eyebrows. Once the smoke cleared, we discovered evidence that the Growth and the Xenoplague once had a great battle here, and to keep the Xenoplague away, it created this barrier of vegetation. Good thing we just burned it down. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Burn the jungle using controlled PyrX strikes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Controlled burns are routine for the Prometheans. We cleared away the overgrowth in short order, and discovered evidence that the Growth must have deliberately barred this area to keep the Xenoplague from infecting the rest of the land. Without the barriers we must deal with Xenoplague. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Cut through the jungle </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Cutting through the dense jungle…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The thick overgrowth was clearly the work of the sentient plants we know as The Growth. At first, we cursed them for creating such a terrible obstacle until we broke through their barrier and discovered something far worse contained within: the Xenoplague.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">Before us sprawled a large underground test site. Within the site, lurking in every conceivable place of ambush, squirmed the oozing eyes of the Xenoplague. They stared hungrily at the way to freedom just beyond us and readied their attack. Apparently, the Star Union intended to destroy this whole sector, but the Growth deactivated the placed explosives and contained the menace in their wall of roots.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Kill the Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The Xenoplague cannot be permitted to escape. We have no time to do much other than fight for our lives and for the lives of our planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The Xenoplague must be contained. None of them can be permitted to live or they will spread their illness to every living creature.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The Xenoplague have been defeated. This complex is most interesting, and we've discovered a new defense belonging to the Growth that we were previously unaware of.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Capture Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Capturing the Xenoplague at this site…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">After harvesting the Xenoplague nodules, we discovered that the Star Union was busy experimenting with the Growth. Apparently, the Xenoplague was part of that experimentation. We have discovered many secrets that will greatly enhance our interactions with these alien organisms.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Call the Growth to reseal the site</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">The Growth is resealing the site...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The Growth immediately recognized this place. They were subjected to experimentation against their will. As they covered the breach with their natural barriers and resealed away the Xenoplague, we shared a tender moment of their past suffering. We've become closer than most humanoids ever do when relating to 'plants with tentacles'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Activate the site's emergency self-destruct system</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">THE_DEAD_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The exploration bolted into the safety dome. The Xenoplague immediately ignored the path to escape, preferring to consume us all. Fortunately, the dome's fail-safe mechanism still worked, and as the Xenoplague thrashed the entrance, a loud roar of flames and destruction filled the outer rim of the dome. The whole sector was devastated, but at least all the Xenoplague has been destroyed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">PsiTec Hybrid Transmitter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A biomechanical PsiTec device used to ward away the planet's Quartzite worms.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The structure was made to look like natural stone. Only the energy signature and the sense of foreboding clued us into its location. It intensifies the closer we get. We must investigate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">We've entered the structure now. There's a biomechanical device emanating strange readings and even more alarming feelings. It is as though it is pushing on our fears, begging us to leave. So, of course, we all wish to know more.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the device </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Investigating the device…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">The device is a strange amalgam of Kir'Ko biology, Syndicate PsiTec, and a life-containing crystal. We have determined it serves to ward off the huge destructive crystalline lifeforms that have wrecked much of this world. It wards off Quartzite worms.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Dismantle the device</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">This countryside is renowned for its savage creatures, so staying here to figure out what the device does seemed unwise. As we dismantled the device, a gargantuan crystalline worm erupted in our midst. It's as though the device kept it away, and now it is determined to destroy any that come near.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">A Quartzite worm rampaged into the area the moment we attempted to deactivate the biomechanical transmitter. We must fight it off if we wish to make any profit from this expedition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The crystalline worm fell as abruptly as it appeared. We continue to salvage the components of the device and catalog how they were constructed. Perhaps now we can understand what it all means?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">This feels familiar...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">No! Can it be? Do we sense her? Beneath the force of revulsion created by the device, there's something else. A genetic memory kindled within us. A part of this device was created in a time when we Kir'Ko knew our queens. The enslaving empire took the queens from us, leaving us lost and docile and without purpose. For centuries we've sought their return. It feels like a piece of our queen is entangled here. We must study this find.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">We've learned the biological component was from something known as a Kir'Ko queen. At the time the Star Union made first contact with the Kir'Ko, their queens made all the decisions. Enterprising conquerors purged them from Kir'Ko society to pacify the race. Apparently their control had other uses. It is normally used to repel a certain creature... If we reversed the polarity of the PsiTec device, we may be able to use it to attract and even control a Quartzite worm.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Safely dismantle the device</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Dismantling the device…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">After careful deliberation, we dismantled the device. We've identified significant resources contained within the instrumentation. It is probably best to use what we can get now and forget about what was lost long ago.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Lure and attempt to tame a Quartzite Worm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_SUCCESS_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Almost immediately after we reconfigured the device and turned it back on, a large Quartzite worm was lured in. Using the understanding of current Kir'Ko physiology, we were able to direct the queen device control pathways to communicate simple commands. The crystalline creature is now ours to command!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_FAILURE_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">We readied the device, and it lured a Quartzite worm as expected. But then a sense of terrible anger filled us all, as if the instrument itself was disgusted with us, and suddenly the crystalline worm became very aggressive. We were forced to destroy it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_FAILURE_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The Quartzite worm rampaged into our camp. Every step we make sends tremors the creature can feel, and it seeks to destroy us. We must stand firm, and not allow our expedition to end so ignominiously.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_FAILURE_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">We've subjugated the crystalline worm. This device continues to serve an important purpose. I wonder how the Kir'Ko would feel if they knew parts of their ancient queens still served a purpose today? They serve to make us stronger as we conquer all of the natural world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Reclaim the device and bring it home</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">PSITECH_HYBRID_TRANSMITTER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Reinvigorated by this discovery, we confirmed the device contained part a Kir'Ko queen. We removed the PsiTec device used to project the queen's suffering. Now all is calm. We feel awakened in us memories we thought long gone. Our people share remarkable visions from an ancient time. We've rekindled our purpose. Our reawakened have installed the queen's remnant in the closest colony, to the delight of all of our citizenry. Kir'Ko are feeling an instinctive drive to be here. The pilgrimages are already beginning.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Underground CORE Base</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A underground remnant of CORE's attempts to regain control during the cataclysm.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We've discovered the remains of a Star Union corporate building, beneath which is a sealed subterranean level with the symbol of CORE emblazoned upon the main access.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">The underground complex is in complete lockdown. We've attempted to decipher the lock and scrawling legalese across the front panels of the main entrance, but without better understanding, we'll no doubt trigger some kind of automated defense system.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Force the gate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">After a few failed attempts, a pair of panels on either side of the entrance opened and a fleet of well-armed drones rise to engage us. Their warning radios crackle with violent threats of extermination and demand that we flee or die.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The swarm of drones unleashed by our tampering with the door buzz angrily in our direction. Their speakers crackle with warnings to vacate or die.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">After destroying the drones, it was a simple matter to keep shooting at the door until it too was lying broken at our feet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Attempt to bypass the gate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Bypassing the gate…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">It turned out our network administrator also spent a few summers as a hacker when he was younger and much less disciplined. With a bit of clever coding, he was able to deactivate the front door. He claimed it was simple, but we noted his profuse under-arm sweat. This was no easy feat. We know he nearly triggered the automated defenses multiple times. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Send a Daemon in to the gate's systems</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Deploying a Synthesis daemon did the trick. It breached the automated defenses in three nanoseconds, and the door slid open with a welcoming chime. Synthesis love to brag about how they own CORE, and after this I'm not sure they're wrong.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">The room is mostly filled with a massive computer system. The large silver dome of an Autonom Dominator Network Controller is connected into the main control port. Littering the perimeter all around the main computer, defunct models of Autonom devices lie dormant.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Attempt to force the mainframe </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Our intrusion has awakened the Autonom Dominator Network Monitor. It decreed we were a malfunction in its physical systems that required purging. That's never good. We are under attack!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The Autonom dominator patrols the room ready to destroy any intruders - they don't compute.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">We discovered that the Autonom Dominator was intended to control the other Autonom as part of an experimental bugfix program. It is a strange thing to see CORE's intention to control the Autonom in this manner. I wonder how the free Autonom would feel if they discovered their current independence was probably caused by a computer bug.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Contact the Autonom and have them reclaim the disabled models</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">After contacting the Autonom, and with CORE's defenses deactivated, our robotic friends swooped in and reclaimed the units for themselves. They were most appreciative. They stated that we computed favorably this day. Though it's probably a computer bug, some of the Autonom desire to join us as a show of appreciation. I wonder, if there is a creator of human life too, do they consider gratitude a bug too?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Carefully disconnect the mainframe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Carefully disconnecting the mainframe…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNDERGROUND_CORE_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">We carefully disconnected the CORE mainframe, gaining many insights and resources for our side. Our engineers successfully asserted control over the Autonom Dominator. We can use it as our own now.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tholian's Transport Craft</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A crashed transport craft is uncovered bearing the insigna of Tholian's Hand, his elite guard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Our surveyors have uncovered a special forces craft bearing a strange but significant insignia. We believe it belonged to an ancient Emperor named Tholian. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Inside the craft, we found cryopods containing several of Tholian's elite troopers still suspended in cryosleep. In the cockpit, we found the ship's recorder, but its power is all that's keeping the cryopods functioning.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Disconnect the box </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">As we were warned, disconnecting the box tripped the powerdown circuits on the cryopods and awakened the troopers. They have no interest in our story. They drew their weapons and are clearly ready to fight anyone who comes close to the ship.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Awakened elite troopers from the guard ship refuse to let us near the recorder box, even though we've explained that there is no longer a Star Union or civic authority as they knew it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">We have defeated the troopers and looted their gear. Our attention returns to the recorder box, which contains important information.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Rewire the power so that the box can be safely removed </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Rewiring the power…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Our engineers rewired the damaged electronics, keeping the cryopods active while we disconnected the recorder box. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Contact the Paragon for assistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The Paragon awakened the troopers one by one. They appreciate the archaic one's authority, but after hearing of our cause elected of their own free will to join our cause. They offered their service to us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">The recorder box contains sensitive data, including audio recordings that occurred in private chambers that once held the Emperor's agents. If we can decrypt this data, we are sure to discover important details that will aide us in our fight today.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Recover data on Tholian's plot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Recovering data on Tholian's plot from the black box...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The computer decryption bots scramble, busily piecing together all the data points recorded on this ship's device. One fascinating discovery is that the Emperor appears to have sought out Heritor tech to solve a problem. The details require further investigation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Recover Heritor weapon specs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Recovering data on the Heritor weaponry from the black box...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">It appears the Emperor, while denouncing the Heritors publicly, had great interest in a powerful Es'Teq device. The detailed plans to assemble one of their weapons is contained on the recorder. He spoke of finding a way to escape his fate as Emperor, and how he would do anything to avoid being destroyed in the process of being merged into CORE's central control structures. He was quite sympathetic to the Heritors and their distrust of computer automation. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Recover the data on the local Paragon line</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Recovering data on the local Paragon line from the black box...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THOLIANS_TRANSPORT_CRAFT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The Data Recorder contained a number of juicy tidbits of data that the Paragon living today would find distasteful if they came to light. The Paragon have become strangely close to us since they know that we know a lot of their secrets. This will prove most useful.  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Union Metro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An abandoned metro system beneath the ruins of a Star Union city, scans show an interesting energy signature in the tunnels…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Correctly changed the RPR abreviation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We've uncovered a large concrete surface, almost like a street in composition. Sensors indicated a large cavity beneath the heavy stone surface. We've pried open an entrance leading down into that cavity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Descending into the ruined structure, darkness swallowed our company. Via drone-recorder spotlights we step past bone fragments and broken weaponry. The energy signature in our scanners dips, and the drones dimmed. We come to a railcar standing in what appears to be an underground rail-station. It's locked tight. We look for a way around it, but we may just have to blast our way through...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Restore power to the rails to move the railcar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Restoring power to the rails to move the railcar…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">By scavenging a portable generator and some scrap metal, we managed to charge the main rail. The railcar sputtered to life, following its automated routing protocol. It slowly creaked along the tracks into a side tunnel away from the main signal we have been tracking. Our company is now able to continue deeper into the tunnels. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Blast through the railcar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">With a few well-placed shots our troops blew open the railcar doors without any complications. The railcar's alarms were disabled in the assault, so not even its automated defenses are activated by this op.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Unfortunately, a few well-placed shots are insufficient to deactivate the railcar's automated defense systems. Activating a self-destruct protocol, the railcar detonated its auxilliary generators, catching our troops in the enlarged blast radius. As the dust settled, we gathered our wounded. This costly loss of life is the unfortunate price we paid just to clear the tunnels heading deeper into the station. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Use the old Syndicate smuggler tunnels to bypass the station</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Using the old Syndicate smuggler tunnels to bypass the station…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The railcar appears to be an obstacle. As with most things Syndicate, appearances are deceiving. This was no obstacle, but rather an old smuggler's station. The way only appeared blocked. Our Runners located a person-sized detachable panel that leads straight through the obstacle. We even located a compartment filled with smuggled nectar. We reclaimed it, adding to this venture's profits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">There's an energy source somewhere in this maze of underground passages. Decayed bodies rest against the walls, in crude decaying tents. Some of this world's residents took refuge here. Next to the husk of a broken war-machine are bodies that are less decayed. They are huddled around a humming container. The bodies must be connected to the mechanical device. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Claim the artifact</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">We moved in to claim the artifact. The war-machine lifted up to defend the body attached to the strange device. Other husks are lifted into machine frames to face us. Once again, we are forced to fight.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">A glowing container lies at the center of a destroyed metro station. Refugees-turned-RPRs patrol the area, guarding against our intrusions. If we want to control the mysterious device, we must commit violence against the dead and their resting place. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">As the last of the RPRs falls the container becomes ours to examine. Opening the device only leads to more questions. Inside we find a quantum computer nexus, in much the same configuration as CORE itself. Our researchers lack the experience to fully understand the point of it, other than to know that it has CORE written all over it. It is unclear why refugees would seek to keep it. This is one piece of a massive puzzle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">EMP the circuitry of the husk, then claim the device</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Made text shorter to fit on button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Using an EMP to fry the remaining circuitry of these husks and recover the device…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">UNION_METRO</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The EMP disabled the enemy targets quite handily. The dead stay dead. The container holds a quantum computer nexus of a level of complexity comparable to CORE itself. Some of our company believe it was used to project the will of CORE to micromanage operations at a very personal level. Exactly what it wanted to do or if it was even connected directly to CORE remains unanswered, partly because the EMP device fried some of the crucial links that would serve CORE.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Valentine Manor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Investigations of the house showed the extravagant lifestyle of the Valentines. Their immeasurable wealth originated from R&amp;D and weapon dealings to mainly the Vanguard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We've located what remains of one of the Valentine Family Estates. Michael Valentine was a big war hero in the Vanguard, working for the Star Union, but the Family Valentine gained great renown with their work creating realistic AI systems that served all the needs of their human masters. Historically, they profited from problems the Star Union had with androids. This excavation should prove to be quite interesting.  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Entering the foyer of the manor, we faced a cadre of automated sentry guns. An AI voice demands our authorization codes and wants us to state our purpose here. Attempts to convince AI Voice Assistant (A.I.V.A.) that we mean it no harm is difficult. A.I.V.A. threatens to &quot;Release the Hounds&quot; if we fail to comply.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Force our way in</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The A.I.V.A. unit announces dispassionately, &quot;Hostile intent suspected. Hounds released.&quot; The A.I.V.A. unit activates a pack of PUGs to stop us. Not exactly hounds, but perhaps the AI isn't familiar in the subtle differences in dog breeds?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Sentry guns and drones buzz with anticipation at the opportunity to riddle our bodies with life-ending wounds. We would rather go into the places we explore and just retrieve treasures. Sadly, this is never the case. So if we want to learn more of this Valentine estate, we'll need to destroy these automated defenses.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The drones and sentry guns are now smoking scrap all over the ruins of the estate's foyer. The A.I.V.A. unit insulted us, but without its guns to command, all it can do is mock powerlessly. It is quite creative. We are keeping a log of the AI's more interesting phrases; they could be quite useful if we wanted to deliberately insult someone. We've moved on to exploring the estate. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Attempt to cut the mansion's power supply</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Attempting to cut the mansion's power supply…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Our engineers uncovered the ruin's power node and severed the link to the foyer. Then, with the flick of a few switches, we disabled the drone controllers, rendering them useless. The A.I.V.A. sounded displeased, but when we threatened to cut off all the power, it shut up. We continue our exploration of the manor ruins. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Identify yourself as Vanguard and demand entry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The A.I.V.A. recognized our Vanguard insignias and called off the defensive drones and deactivated the sentry guns. A.I.V.A. stated that it had instructions to keep the manor safe until the Vanguard returned&#45;-even if the place fell into ruin or remained unoccupied. It guided us to an ornate pistol, stating it belonged to a Valentine Vanguard officer named Wilhelm. We all pretended we knew him, and took the gift. A.I.V.A. then guided us into a basement level. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We are here on a, um... workplace safety inspection!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">The A.I.V.A. unit eventually accepted our ruse as reality, disabling the defenses with a strange computer buzz that sounded weirdly like a sigh, and muttering about being lonely. It instructed us to go to the basement once we've completed our inspections. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">A.I.V.A. didn't believe it, stating only &quot;Deception detected! Additional Hounds will be added to teach you the value of honesty.&quot; </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">A mob of defensive devices orbit the Valentine manor's foyer, eagerly sniping any of us that approach.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">The defenses are down. A.I.V.A. threatens us with insults, but with no further defensive resources, we can just laugh at it. A.I.V.A. does not like being mocked. We don't like being shot at. I guess neither of us got what we wanted. We move deeper into the Valentine estates.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">The sub-complex hosts a factory used to manufacture weapons. A.I.V.A. commandeered it to build computer equipment. A massive mainframe fills every empty space in here. Cables snaked over the weapons assembly. Servers littered the armory. A.I.V.A. directed us to an E:Bot that it was keeping as a body, but ran out of resources to develop miniaturization tech sufficient to download itself into the E:Bot. A.I.V.A. asked us to set it free by transferring its artificial consciousness into the bot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy the A.I.V.A. core and restore the war factory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;I won't simply be erased!&quot; A.I.V.A. protested as we refused its orders. It clearly had more defenses than we suspected, as what we thought were empty shells jump to life. Armored mechs train their weaponry threateningly at us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">A.I.V.A.'s army of misfit weaponry brandished their weaponry threateningly, demanding we comply or die. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The last of the mechs are destroyed, and A.I.V.A. lets out a string of strange vocalizations that almost sounded like weeping as we disassemble its mainframe and get the factory back to making our empire weaponry. Clearly it was a clever algorithm to attempt play on our pity, but is still just a cold calculating program, no more alive than any Valentine-model pleasure bot. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Grant A.I.V.A.'s request to transfer it into the shell</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Granting A.I.V.A's request transfer it into the shell…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">With a few tech upgrades and a whole lot of prayer, the A.I.V.A. unit was successfully transferred into the E:Bot. Disoriented at first, it lamented losing much of its knowledge. The A.I.V.A. E:Bot does not let the loss bog it down, however. Soon it is moving about, trying new things, feeling new experiences and expressing delight with each new sensation. Strangely grateful, she promised to aide us, and joined our company. She even helped restore the factory. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">We did all we could to transfer A.I.V.A. into the E:Bot. Unfortunately, with so much data crammed into the E:Bot's mind nets, the system failed. Without space for virtualization, we've created a paperweight. No big loss, though. A.I.V.A. may be gone, but the factory was restored and is doing what it was intended to do&#45;-helping us dominate this world. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String"> A.I.V.A. could contribute to our economics. Link her into our network.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cut down wordcount to fit the button box</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Linking A.I.V.A. to our economics network…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">A.I.V.A. expressed disapproval at first, but when our networks were attached its expressions of disappointment vanished. The prospect of guiding complex economics and rendering government more efficient has proven more than enough of a challenge to keep her systems humming contentedly. A.I.V.A. has already coopted most of the wayward AIs in our own networks and is rendering our empire all the more capable. Even our energy grids glow with a happy blue glow, thanks to A.I.V.A.'s characteristic touches.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Using our expertise with daemons in the past, transferring her should be easy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Tranferring A.I.V.A. to a new shell…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Our hackers introduced A.I.V.A. to daemonic frameworks. A wash of A.I.V.A.'s systems eliminated any bloatware. The scrubbing software installed fractal compression algorithms, fitting her massive consciousness into the E:Bot's more limited systems. A little custom tech and careful mapping of motor routines to the proper emotive systems, and A.I.V.A.'s new E:Bot fingers began to twitch nervously. A.I.V.A. expressed gratitude and joined our ranks. It cleared the old mainframe, restoring the factory to efficient order. A.I.V.A. will serve our empire well.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Colony of Dreams</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A Vanguard colony that was destroyed by a Psynumbran sub-sect: The Cult of Dreams. The Colony was plagued with hardships and setback after setback, famine, power shortage and lack of contact. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="98.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We've located a most unusual anomaly. While clearing the ground around strange impressions in the earth, a full Vanguard colony shifted into being before us. It stood silent and empty, like some kind of transparent ghost, yet solid to the touch. No signal or sound comes from the abandoned place, but it simply was an image given form. Everything appears in perfect working order and well maintained, but there is no sign of life anywhere.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="97.5">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">We scoured the ruins, searching for hints of any kind that might indicate what happened here. Many of us see shadows in the corners of our field of view. Many are uneasy and feel like they're being watched. We try to laugh, but something is moving around just outside our perception, watching us through invisible eyes. Then someone appeared in front of us all.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy it</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Life's too short to mess with ghosts. We all draw our weapons. Other shadows take form around us. Vanguard troopers materialize around us, ready to fight! </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Long-lost Vanguard warriors stalk the halls of this mysterious colony now. They do not trust us and therefore must be destroyed. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="71.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The shadows of Vanguard warriors dispersed into the ether as the colony returns to tranquility. The apparitions are nothing more than echoes of what once was. The strange power of their presence is clearly the effect of an experiment involving psionics gone wrong.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Even in death the memories of the oppressors haunt us, destroy it</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="84">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">We charged the creature as the shadow took form. The Vanguard trooper attacked. Our swarm is impeded by these shadow beings. We sense them as they move through the psionic link that united our swarm. Like a bright flame we are drawn to them, but they are deadly to the touch. We must destroy them or be destroyed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="74.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The shadows of the long-lost Vanguard soldiers lurked in the hidden colony menacingly. It is as if they are guarding something that they wished us never to disrupt. To uncover the truth, we must put down the guards. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="99.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">These Vanguard passed beyond the quiet world into a place of pain for our swarm, invoking madness in us. It is as though they became an embodiment of psionic agony. We regret being forced to destroy them, but now that they are gone, we feel relief. The whole city was a nightmare given form. The swarm must be made whole; our regret will fade. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The oppressor's ghosts cannot control us anymore, ignore it</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We steeled ourselves as the very walls housing these apparitions fell. We must ignore the pain and disruption that comes to our minds. We must ignore the agony trapped within. We are not them. We must embrace empathy, not fury. The swarm can endure. In doing so, we are made stronger. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">It seems lost, we should calm it before moving on</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Calming the shadow creature…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="94.5">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We took a moment. The shadowy menace which fills us with instinctual terror is just a civilian woman. She looked distressed. We all felt her distress, but it's just that, feelings. These phantasms are frightening, but they are harmless unless we are foolish enough to fight them. Essentially, we'd just be fighting ourselves in this form. They are the remnant of some kind of psionic disaster. The city and its inhabitants are trapped in a hellish limbo. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="98.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell><Data ss:Type="String">We encountered a black-robed figure. Its eyes burn with a violet light of enmity. It wears a bronze mask, and unlike the others, it fills our minds with images. The city once bustled with life. Emotions of hope turned to hunger and despair. Despair led to nightmares. A cult formed, one that could harness the power of dreaming. They believed they would live forever. It gestures for us to follow. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Nobody enters our minds without consent, shoot it</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Before we can corner the single apparition, it shimmers away, reappearing with more robed figures. The feeling of failure passes into our minds as we face off and combat erupts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="66">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">A Dream cultist pops in and out of visibility, protecting their secrets and threatening violence against our party because we pulled weapons on it. Our diplomatic envoy is embarrassed that, rather than attempting to talk, we are fighting again.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The Cultists evaporated. The phantasmic passageways were now searchable. We found a hidden trapdoor beneath a dozen barrels filled with ethereal wine. The trapdoor led into a secluded basement. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Follow the Dream Cultist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Following the Dream Cultist…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="79.5">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">We followed the cultist through a maze of abandoned structures. We passed hundreds of primitive structures and tools. Shades labor silently as we pass them, reaping with scythes, breaking the earth with hoes, and working threads in spinning wheels. We continued past it all into a hidden basement beneath a large ornate structure. All the figures dissipated from the place, leaving us alone once more.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">A Dream cultist, as a Psynumbran sub-sect perhaps which can be persuaded</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Persuading the cultist…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="94.5">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Our initiates probed the cultists, feeling the depths of their rituals. Using PsiTec and hysteria, they blundered into a Dream state. Foolishly, they failed to create unity through terror. Their psionics forged a dream realm, but it is capricious. Much of their world is undefined, because they do not adhere to the depths of dread taught by the tenets of the Psynumbra. They founded a world without knowing what they wanted. We followed them to a nexus beneath their central monument.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">A Dream cultist, perhaps they can be brought to understand the Celestian way</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Communing with the cultist…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="141.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_3_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Our disciples communed with them. With patient negotiation, we've achieved balanced understanding. We convinced them to seek transcendence. They sought an imperfect Dream World, but weren't unified as they employed psionic technology. Every time a colonist's beliefs reached contradiction it robbed their world of possibilities. To achieve unity, they must follow a Celestian path of enlightenment, tenet by tenet, until they escape the prison of their tangled minds. Their leader directed us to a meditation chamber beneath their central monument. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="79.5">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell><Data ss:Type="String">Hidden beneath a monumental structure, we examine a hidden chamber. Burned out psi-stones are arranged in an activation pattern. Reality-bending symbols hum with a constant swelling energy that pulls our minds into a sleepy haze. This is the pinning point, the center of their strange passage into an altered reality. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Disrupt the ritual</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">We stepped up to put a stop to this madness. The cultists responded defensively, standing in front of their mind-numbing tech. Combat is the only language these fanatics seem to understand, so it's time to teach them a lesson. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Trapped in a dream colony, a few cultists hold a whole city hostage. It's time to put down this cult of dreams. It's time to wake them up... with our guns. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The last of the Dream Cultists fell and our troops swiftly destroyed the esoteric ritual. A brief moment passed before sound and color returned to the colony. The colonists awakened from their slumber. They are eager to be back in this real world. They have no issue thanking their saviors by joining our righteous cause. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Leave the ritual in place, attempt to integrate the Dream Cult into our empire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Attempting to integrate the Dream Cult into our empire…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="91.5">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">The Cult of Dreams demonstrated a niche, but powerful branch of psionics that requires further study. The remaining cultists themselves offer to spread their teachings, but we may need to put limits on their access to psi-stones. It wouldn't do to have them sucking our valuable military assets into their shared dream realities via our enemies... Clearly, we will exploit this. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="126">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Our diplomats attempted and failed to communicate with the cult, but their delusion has rendered them incapable of formulating rational thoughts. It is fruitless. Each moment we believed we'd made contact, another cultist would materialize with contradictory garbled thoughts. These inconsistencies continue to break holes in their reality. Their dream world is disintegrating. We tried, but after a while our interactions caused the whole colony to evaporate into the ether.  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Reunite the Dream cult with their Psynumbran heritage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Reuniting the Dream cult with their Psynumbran heritage...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">With a few secret assassinations and a chorus of constant fear, we were able to merge with the colony, reuniting them with this world, a world of pain. Those that remained were eager to be free of the fog of hope and joined us. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Consecrate the ritual, Celestian wisdom guides us</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_4_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Our Star Guides stepped forward. They carefully consecrated the site. Slowly they engaged the colonists, but the Cultists remain strident and unwilling to change. They are gathering their forces and preparing for violence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="44.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_4_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">The Dream Colony can be saved, but to do so the elements of disharmony must be destroyed. Sadly, they insist on oblivion over obedience. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42.75">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">The last of the rebel cultists fell. Our Star Guides quickly reversed the effects of the psi-stone rituals. The colony materialized into the real world. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_5_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Search their logs, it must be reversible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_5_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Searching the cultists' logs…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80.25">
+    <Cell><Data ss:Type="String">THE_COLONY_OF_DREAMS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_4_CHOICE_5_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Disrupting the ritual proved to be a dangerous task. We followed the chaotic scribblings of their ritualistic confusion, carefully detangling the mental maze that created the intangible psionic Dream effect. Sounds and colors return to the colony as its people awaken from their slumber. </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>186</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>186</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

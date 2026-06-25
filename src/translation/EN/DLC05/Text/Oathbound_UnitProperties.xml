@@ -1,0 +1,1330 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <LastSaved>2020-08-06T22:03:41Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12315</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="211" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="137.25"/>
+   <Column ss:StyleID="s62" ss:Width="161.25"/>
+   <Column ss:StyleID="s62" ss:Width="387"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="379.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNIT_UPGRADES_OATHBOUND</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ENTROPIC_ZAP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic Shock</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.&#10;&#10;Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ENTROPIC_ZAP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shock an enemy with entropic energy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.&#10;&#10;Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENTROPIC_LASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic Shot</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.&#10;&#10;Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPIC_LASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shoot an enemy with entropic energy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPIC_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic Storm</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPIC_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Blast a {hexrad} hex radius area with entropy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPIC_WAVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic Lash</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTROPIC_WAVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lash an enemy with an entropic wave. The wave can jump to up to {extraTargets} additional targets within {hexRange} hexes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_PIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Pike</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_PIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Strike an enemy with an arc-charged pike.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Blast</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shoot a bolt of lightning at an enemy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_LANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Saber</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_LANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Strike an enemy with an arc-charged saber. Can hit either ground or air targets.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_GREATBOW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Greatbow</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_GREATBOW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shoot an arc-infused arrow using a greatbow.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_ARROW_STAB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Arrow Stab</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_ARROW_STAB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Stab an enemy with an arc-infused arrow.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_GREATSWORD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Greatsword</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_GREATSWORD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Strike an enemy with an arc-charged greatsword.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STORM_DISCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Storm Discharge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STORM_DISCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Jump to target hex and discharge an incredible surge of electricity in a {hexrad} hex radius around it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STORMVOLT_GLAIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Stormvolt Glaive</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STORMVOLT_GLAIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Strike an enemy with a storm-charged glaive. Deals {damageperecentage} of damage to enemy units adjacent to the target.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ONSLAUGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Onslaught</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ONSLAUGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unleash a flurry of attacks upon a single enemy. Tier I and II units have a {arcstrength} strength chance of insantly being killed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIFT_OF_PRECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gift of Precognition</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GIFT_OF_PRECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target friendly unit gains one stack of [abilityblue]Precognition[/abilityblue], negating the next direct damage attack to hit it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIFT_OF_PROVIDENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gift of Providence</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GIFT_OF_PROVIDENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target friendly unit gains [abilityblue]Providence[/abilityblue] for {providenceTurns}, granting it +100% critical chance. A unit's critical chance can never exceed the hit chance of its attack.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CURSE_OF_ADVERSITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lash of Adversity</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CURSE_OF_ADVERSITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target enemy unit gains [abilityred]Adversity[/abilityred] for {adversityTurns}, making all of its attacks fumble. This attack can jump to up to {extraTargets} additional targets within {hexRange} hexes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECORD_KEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Record Keeper</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECORD_KEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units in this stack, except Seers, gain {recordKeeperBonus} bonus experience.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMBOLDEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Embolden</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMBOLDEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All friendly units within a {hexRad} hex radius heal for {emboldenHeal} and lose all Psionic status effects.[br/]Additionally, Tier I and II units gain [abilityblue]Heroism[/abilityblue] until end of combat, making their attacks deal more damage to higher tier units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEROS_BANNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Warden's Banner</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HEROS_BANNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shoot a flying Warden's Banner in the air at target hex, dealing damage to adjacent enemy ground and air units.[br/][br/]The Warden's Banner gives a random non-Mindless unit in a {hexRad} hex radius {critChanceIncrease} critical hit chance increase and [abilityblue]Flanking Immunity[/abilityblue] for {buffTurnCount}, every [turn/]. Banner disappears after {bannerTurnCount}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNERS_HEROISM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner's Perception</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BANNERS_HEROISM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Give a non-Mindless unit in a {hexRad} hex radius {critChanceIncrease} critical hit chance and [abilityblue]All-round Awareness[/abilityblue] for {buffTurnCount}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BANNERS_HEROISM</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has {damageIncrease} extra critical hit chance and has [abilityblue]All-round Awareness[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Property Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIFT_OF_ADAMANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gift of Adamance</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GIFT_OF_ADAMANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target ally gains [abilityblue]Last Stand[/abilityblue], causing them to remain at {minimumHP} when they would die for {turnCount}.[br/]When the effect expires the target will heal for {HealAmount}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CURSE_OF_FINALITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Curse of Fatalism</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CURSE_OF_FINALITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target enemy gets [abilityred]Fatalism[/abilityred], making it {fatalismpercentage} easier to hit and making it fail all of its resistance checks (except for instant death checks) for {turns}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Instant Death Checks are checks that will instantly kill the target if it fails them</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIFT_OF_FORESIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gift of Foresight</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GIFT_OF_FORESIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All friendly units in target {hexrad} hex radius gain a stack of [abilityblue]Precognition[/abilityblue], negating the next direct damage attack to hit them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CURSE_OF_INEVITABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Curse of Inevitability</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CURSE_OF_INEVITABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ensure enemies will get the worst possible outcome in their defense. All enemy units in target {hexrad} radius gain [abilityred]Fatalism[/abilityred] for {turn}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORDAIN_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ordain Shield</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ORDAIN_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grant target unit your shield, giving it {shieldBonus}.[br/]Switch to Glaive Mode. This mode gives {damageBonus} damage, [abilityblue]Fast Movement[/abilityblue], Blitz, Onslaught, and Defense Mode: Evasion.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXEMPLARS_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exemplar's Protection</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXEMPLARS_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has the Exemplar's shield and gains {shieldBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shield Mode</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mode Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GLAIVE_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Glaive Mode</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mode Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODE_SWITCHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit shifts between two modes.[br/]Shield Mode: Unit has {shieldBonus}, and Defense Mode: Protector Shields.[br/]Glaive Mode: Unit gains {damageBonus}, [abilityblue]Fast Movement[/abilityblue], and Defense Mode: Evasion.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mode Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODE_SWITCH_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mode Switch: Shield</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODE_SWITCH_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Switch to Shield Mode. This unit gains {shieldBonus}, Ordain Shield, and Defense Mode: Protector Shields. Cancels [abilityblue]Exemplar's Protection[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODE_SWITCH_GLAIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mode Switch: Glaive</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODE_SWITCH_GLAIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Switch to Glaive Mode. This unit gains +{damageBonus} damage, [abilityblue]Fast Movement[/abilityblue], Blitz, Onslaught, and Defense Mode: Evasion.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BLITZ</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blitz</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BLITZ</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Jump to target hex, dealing damage to all enemy units in target {hexRad} hex radius. Switches to Shield Mode. Cancels [abilityblue]Exemplar's Protection[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NOT_YOUR_TIME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Not Your Time</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">NOT_YOUR_TIME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heal target friendly unit for {healhp}.[br/]Alternatively, target friendly dead Tier I, II or III is resurrected with {reshp}.[br/]The affected unit gains [abilityblue]Unwavering[/abilityblue] and [abilityblue]Resurgence[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_BOW_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Bow Crash</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_BOW_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Crash into an enemy with an arc-charged ship's bow.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STORM_BREATH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Storm Breath</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STORM_BREATH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Attack in a {hexrad} hex cone, hitting both water and air units. {turbulenceChance} strength chance to give [abilityred]Turbulence[/abilityred] to Flying non-Ethereal units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TWINAXES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Twinaxes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TWINAXES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Attack an enemy with dual volt-charged battleaxes. Can hit either air or ground units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_SURGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Surge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOLT_SURGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Surge to target hex, dealing arc damage to all adjacent units when it lands. {surgeStrength} strength chance to apply [abilityred]Electrified[/abilityred] for {turntimer}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_DISCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Volt Discharge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOLT_DISCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Launch an arc blast in a {hexrad} hex radius around target unit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FATALISM_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fatalism Daemon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">FATALISM_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target enemy unit is forcibly infected with a hostile Daemon. They have a strength {HaywireChanceCompromised}[strengthentropy/] chance to get [abilityred]Fatalism[/abilityred] for {HaywireTurnCompromised}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_OF_JUSTICE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner of Justice</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BANNER_OF_JUSTICE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Launch a flying Banner of Justice at target air hex. On launch, it heals ground and air allies for {healAmount} and dispels their negative status effects in a {hexrad} hex radius.[br/]The Banner can randomly pick an allied unit within {hexrange} hexes to heal for {healAmount} and remove all of its negative status effects. The banner disappears after {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNERS_JUSTICE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner's Justice</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BANNERS_JUSTICE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heal a random unit within {hexrange} hexes for {healAmount} and remove all of its negative status effects.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Honor's Calling</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Inspire all non-Mindless friendly units with {moraleIncrease} and {damagePercentage} damage increase for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Honor's Call</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has {moraleIncrease} and {damagePercentage} damage increase for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damagePercentage} damage</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RETALIATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quick Strike</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RETALIATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quickly strike an enemy. Has a {adversitychance} strength chance to apply [abilityred]Adversity[/abilityred]. This ability is removed after {turnTimer}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANALYZE_TIMELINES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Analyze Timelines</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ANALYZE_TIMELINES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target friendly unit gains [abilityblue]Against All Odds[/abilityblue] for {turnTimer}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHALLENGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Challenge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CHALLENGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{strengthChance} strength chance to bond with target enemy and [abilityred]Challenge[/abilityred] them, making it use all of its [movewalk/] to run towards this unit for {duration}. If this unit is staggered, the effect will end.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHALLENGE</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Challenged</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHALLENGE</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is [abilityred]Challenged[/abilityred] by an enemy, making it use all of its [movewalk/] to run towards it. If that unit is staggered, the effect will end.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHALLENGE</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Challenging</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CHALLENGE</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is [abilityblue]Challenging[/abilityblue] an enemy, making that enemy use all of its [movewalk/] to run towards this unit. If this unit is staggered, the effect will end.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISGRACED</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disgraced</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Debuff Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISGRACED</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit will not gain XP after this battle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Debuff Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scramble Destiny</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy units in a {hexrad} hex radius around the caster have a {entropyStrength} strength chance to gain either [abilityred]Fatalism[/abilityred] or [abilityred]Adversity[/abilityred] for {turns}. Friendly units in a {hexrad} hex radius gain either [abilityblue]Providence[/abilityblue], {damageincrease} damage on all abilities or {armorincrease} for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY_BUFF_ARMOR_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scramble Destiny: Armor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY_BUFF_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gained {DestinyBuff}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY_BUFF_DAMAGE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scramble Destiny: Damage</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY_BUFF_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gained {DestinyBuff} damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY_BUFF_PROVIDENCE</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gained [abilityblue]Providence[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell>
+    <Cell><Data ss:Type="String">ENEMY_DEBUFF</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gained [abilityred]Fatalism[/abilityred] and [abilityred]Adversity[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Precognition</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Buff name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unit negates one direct damage attack, then Precognition is removed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Buff Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NEGATED</Data></Cell>
+    <Cell><Data ss:Type="String">Precognition: Attack Negated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Damage popup description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROVIDENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Providence</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Buff name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROVIDENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unt has +100% critical hit chance. Critical hit chance cannot exceed the hit chance of the attack.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Buff Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAST_STAND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Last Stand</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Buff name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAST_STAND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit will remain at {hp} instead of dying.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Buff Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner of Healing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A banner with the ability to heal friendly units for {healamount}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNERS_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner's Healing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNERS_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heal target friendly unit for {healamount}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_TARGETTING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner Targeting Mode</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mode name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_TARGETTING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_RANDOM</Data></Cell>
+    <Cell><Data ss:Type="String">The targets of this Banner's abilities are randomly picked from available targets.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mode Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_TARGETTING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">The targets of this Banner's abilities are chosen by the player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mode Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIRELESS_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tireless Dash</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIRELESS_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Lightbringer jumps towards target ground hex and lands heavily, dealing damage to adjacent units. Grants the user [abilityblue]Tireless[/abilityblue] for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAL_PROVIDENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestial Providence</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAL_PROVIDENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target friendly unit gains [abilityblue]Providence[/abilityblue] for {providenceTurns} ,granting it +100% critical chance. A unit's critical chance can never exceed the hit chance of its attack.[br/][br/]The unit is also considered [abilityblue]Enlightened[/abilityblue] until the end of combat.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CURSING_LIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cursing Light</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CURSING_LIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use starlight to attack a {diameter} hex radius.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_SLASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma Slash</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_SLASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Slash a plasma blade, dealing damage to multiple targets in front of the unit. Can hit either air or ground units.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_PIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Void Pike</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BURNING_GREATBOW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Burning Greatbow</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BURNING_GREATBOW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shoot a flaming arrow at the target.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BURNING_BANNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Burning Banner</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BURNING_BANNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shoot a flying Burning Banner at target air hex, dealing damage to adjacent enemy ground and flying units.[br/][br/]The Burning Banner gives a random  enemy [abilityred]Soulburn[/abilityred] until end of combat and [abilityred]Burning[/abilityred] for {turns}, every [turn/]. Banner disappears after {bannerTurnCount}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNERS_BURN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner's Burn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BANNERS_BURN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target enemy unit gets [abilityred]Soulburn[/abilityred] until end of combat and [abilityred]Burning[/abilityred] for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oath of Purity</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gain {statusResistance} status resistance and Damage Over Time Immunity.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Battle Pattern Analyzer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MOD_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unit gains [abilityblue]Detection[/abilityblue] and +{SensorRange} Sensor Range. Whenever this unit gets hit within a {hexRange} hex range, it gets [abilityblue]Quick Strike[/abilityblue] for {turnTimer}, a {retaliateRange} range [entropy/] attack with a {adversitychance} strength chance to give[abilityred]Adversity[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oath of Loyalty</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grants {armorbonus} for each adjacent unit with an Oath mod, up to a maximum of {maxarmorbonus}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oath of Devotion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grants [abilityblue]Mind Control Immunity[/abilityblue]. Grants the unit [abilityblue]Last Stand[/abilityblue] once per combat, leaving it at {hp} instead of dying for {turntimer} when it would otherwise die. When triggered, this unit becomes [abilityred]Disgraced[/abilityred], not gaining any experience at the end of combat.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plight Mitigator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If this unit has negative status effects, it dispels them at the start of its next turn. When it does, obtain [abilityblue]Providence[/abilityblue] for {turn}. Can only trigger once every {cooldown}.[br/]In addition, this mod prevents the unit from fumbling naturally.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plight Mitigated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Effect Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Plight Mitigator will not trigger during these turns.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Effect Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oath of Courage</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Timethread Datascrolls</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gains one stack of [abilityblue]Precognition[/abilityblue] at the beginning of its turn if it does not have one already.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Beacon of Hope</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOD_8</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heals the user and all friendly units in a {hexrad} hex radius around it for {healAmount} at the end of each turn. This effect does not stack.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destiny's Manuscript</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROTECTION_BANNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner's Protection</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROTECTION_BANNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target unit heals for {Heal}[hp/] and gains a stack of [abilityblue]Precognition[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Incorruptible</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Untouchable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Upright</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Pure</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Inextinguishable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Imperishable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Prudent</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Skillful</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Cunning</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Assaying</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">The Analyzer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Tactician</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">The Devout</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Allegiant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Unfailing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Staunch</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Ardent</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">The Dutiful</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Self Offering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Saintly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Martyring</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">The Punished</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Ever Suffering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Devout</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">The Untouchable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Favored</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Resistant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Clear Minded</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Stoic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Unsusceptible</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Audacious</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Daring</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">The Taunting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Jeering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">The Sneering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Instigator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Gift of Foresight</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Anticipating</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Gift of Premonition</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Discerning</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Indifferent</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Indomitable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Supportive</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Promising</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Encouraging</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Supportive</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Bolstering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">The Illuminant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Medicinal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">The Remedial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Mending</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Curative</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">The Healer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Tactical Apothecary</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><Data ss:Type="String">Mod Template name</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>126</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>141</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

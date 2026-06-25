@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Arnout Sas</Author>
+  <LastAuthor>Nathan van den Berg</LastAuthor>
+  <Created>2019-10-14T10:38:41Z</Created>
+  <LastSaved>2020-08-04T13:59:07Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17985</WindowHeight>
+  <WindowWidth>-13936</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="33" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="563.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="161.25"/>
+   <Column ss:StyleID="s63" ss:Width="40.5"/>
+   <Column ss:StyleID="s63" ss:Width="614.25"/>
+   <Column ss:StyleID="s63" ss:Width="150"/>
+   <Column ss:StyleID="s63" ss:Width="562.5"/>
+   <Column ss:StyleID="s63" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TOMEOFWONDERS_DLC05</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">If some concepts in the text are unclear or do not make sense, try looking that concept up in this xml as the text in this xml serves as an encyclopeadia you have a good chance of finding it. Unclear terms can be found in the AoW_Glossary.  Do not change anything that is between [ and ] because it could break the hyperlink and strip it of its function. Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_UNITS_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Oathbound Units</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Oathbound race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_MODS_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Oathbound Weapons and Mods</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Oathbound race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_SKILLS_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Oathbound Hero Skills</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Oathbound race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_RESEARCH_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Oathbound Tech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Oathbound race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_OPERATIONS_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Oathbound Operations</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Oathbound race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Race: Oathbound</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Race name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">RACE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef=""><Data ss:Type="String">{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION}[br/][br/]ORIGIN: On the data hub world Archanon-8, the archvivists surviving the Cataclysm had the knowledge base covering thousands of planets and millennia of history at their disposal. Using their highly advanced simulation and prediction system Oracle, they began to construct their new utopian society, where noble Paladins in powerful battlesuits rule and protect the people with benevolent will. The archivists themselves took on the roles of an advisory caste called the Seers. Perfecting their link to Oracle over time, they learned to predict and manipulate the future, both in society and battle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Oathbound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GE_GALACTIC_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Galactic Empire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="255">
+    <Cell><Data ss:Type="String">GE_GALACTIC_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Galactic Empire allows you to found your own empire and expand it by conquering different worlds. The Empire features a number of different systems on top of the regular Age of Wonders: Planetfall gameplay:[br/][br/][bulletlist][bullet][hyperlink,000003F300000255]World Traits &amp; Secondary Objectives[/hyperlink][br/][tab/]Worlds are generated based on your total empire level, combining different Traits and adding secondary objectives that increase difficulty while your empire grows in size.[/bullet][br/][bullet][hyperlink,000003F300000254]The Hall of Heroes[/hyperlink][br/][tab/]Where you can recruit Commanders to fight for your empire either as Commanders leading the charge or as Heroes who join the fray down on the planet.[/bullet][br/][bullet][hyperlink,000003F300000256]The Reliquary[/hyperlink][br/][tab/]Where you collect different Relics that represent great victories, feats or achievements. These Relics serve as Requisition items to empower your planetary warfare.[/bullet][br/][bullet][hyperlink,000003F300000257]Requisitions[/hyperlink][br/][tab/]Every Race and Secret Tech provides units, mods, operations, and doctrines from their respective tech trees that can be taken down to a planet and purchased using [favor/][hyperlink,000003F300000258]Imperial Renown[/hyperlink] to allow for greater flexibility in your approach in conquering a planet.[/bullet][br/][bullet][hyperlink,000003F300000252]Empire Progression[/hyperlink][br/][tab/]Conquering Worlds and completing Secondary objectives earns XP for Races and Secret Techs. For each level gained, a new requisition item is unlocked and the Empire Level is raised by one. This Empire level is a sum total of all Race and Secret Tech levels.[/bullet][/bulletlist][br/][br/]Galactic Empire allows you to mix and match many different elements of Planetfall and create entirely new combinations that were never possible before.[br/][br/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Galactic Empire. EXP refers to Experience.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GE_HALL_OF_HEROES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Hall of Heroes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">GE_HALL_OF_HEROES</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The Hall of Heroes allows you to create Commanders loyal to your [hyperlink,000003F300000251]Empire[/hyperlink] only. Being recruited through the Hall of Heroes means that these Commanders can serve the function of a regular hero and can be recruited as such when you are conquering a planet. Commanders that serve your Empire this way will progress separately from their leveling progress on a planet.[br/][br/]After each planet conquered (or lost/surrendered on turn 50 or later), your Commander and every Hero that fought for you and is in service of your Empire will gain a level. These levels determine their starting level when they are deployed next, up to a maximum of 20.[br/][br/]Commanders created in the Hall of Heroes will appear as Heroes during gameplay on a planet as recruitable heroes in the same way random heroes appear normally. These Commanders are mixed in with the pool of available heroes and are given priority over ones that don’t serve your empire exclusively.[br/][br/]The Hall of Heroes also allows you to change the appearance of any of the Commanders you recruited, but not their Race, Secret Tech, or Perks.[br/][br/]You can also dismiss any Commander from the Hall of Heroes. Doing so will remove any level progress they have made.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Hall of Heroes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GE_EMPIRE_PROGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Progression</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">GE_EMPIRE_PROGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Conquering worlds, completing [hyperlink,000003F300000255]Secondary Objectives[/hyperlink], and finishing Empire Requests allows you to earn XP and level up Races and Secret Techs within your Empire.[br/][br/]Earning levels per Race and Secret Tech unlocks new [hyperlink,000003F300000257]Requisitions[/hyperlink] that can then be used when conquering a planet by purchasing them for [favor/][hyperlink,000003F300000258]Imperial Renown[/hyperlink]. There are different level caps for Races and Secret Techs:[br/][bulletlist][bullet]30 for Races[/bullet][br/][bullet]25 for Secret Techs[/bullet][br/][/bulletlist][br/][br/]Mods and Operations for weapon technologies are linked to the different Races:[br/][bulletlist][bullet]Amazon: Laser[/bullet][br/][bullet]Assembly: Arc[/bullet][br/][bullet]Dvar: Explosives[/bullet][br/][bullet]Kir'Ko: Biochemical[/bullet][br/][bullet]Oathbound: Entropy[/bullet][br/][bullet]Shakarn: Sonic[/bullet][br/][bullet]Syndicate: Psionic[/bullet][br/][bullet]Vanguard: Firearms[/bullet][br/][/bulletlist][br/]Weapon type upgrades are unlocked at levels 0, 10, and 20 instead of one per level. These upgrades unlock mods and operations.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Empire Progression.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GE_TRAITS_SECONDARY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Traits &amp; Secondary Objectives</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">GE_TRAITS_SECONDARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Traits and Secondary objectives define the features of a colonizable planet and the quests the player is given to complete.[br/][br/]The Traits influence a planet’s layout, spawnsets, and gameplay. These are divided into 3 types:[br/][bulletlist][bullet]Features: these add specific structures, sectors, or otherwise modify the planet’s RMG.[/bullet][br/][bullet]Inhabitants: these traits affect the kind of AI players, NPC factions, and Wildlife that may be present on the planet and what their attitude towards the player will be.[/bullet][br/][bullet]Modifiers: affect the planet on a global scale. This can range from upkeep for specific unit types, to modifying operation costs or a change in income of a certain type.[/bullet][/bulletlist][br/][br/]Secondary objectives are quests the player is offered from the start. These are global objectives and will reward a player with [favor/][hyperlink,000003F300000258]Imperial Renown[/hyperlink] and experience for the relevant faction when completed. Most of these Secondary objectives will be repeatable to a certain degree. For example, if you complete an objective concerning Promethean Landmarks, you will be awarded XP for the Promethean Secret Tech for every Landmark you clear out.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Traits and Secondary world objectives.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GE_RELIQUARY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Reliquary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GE_RELIQUARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The Reliquary is where your Relics are displayed. Relics serve as trophies and visual reminders of achievements made by your [hyperlink,000003F300000251]empire[/hyperlink], and are earned by conquering planets with the relevant traits or a planet on which you claimed the relevant Grail.[br/][br/]Relics may have [hyperlink,000003F300000257]Requisitions[/hyperlink] item associated with them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Reliquary.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GE_REQUISITIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Requisitions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="285">
+    <Cell><Data ss:Type="String">GE_REQUISITIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Requisitions are items provided to you by the different Races and Secret techs in your [hyperlink,000003F300000251]Empire[/hyperlink]: units, mods, hero equipment, doctrines, and operations. More Requisitions are unlocked automatically when a Race or Secret Tech within your Empire reaches a new level.[br/][br/]Every time you go down to a planet to conquer it, you are able to choose a number of Requisitions in different categories:[br/][bulletlist][bullet]Units[/bullet][br/][bullet]Operations &amp; Doctrines[/bullet][br/][bullet]Mods[/bullet][/bulletlist][br/][br/]Requisitions are limited in the number you can bring (up to maximum of 3 per category), and their slots beyond the first are locked until you reach specific Empire levels:[br/][largetab/][tab/]Units[largetab/][largetab/][largetab/][largetab/][largetab/]Operations[tab/][largetab/][largetab/][largetab/][largetab/][tab/]Mods[line/][br/]&#10;[tab/]Unlocked by Default[largetab/][largetab/][largetab/][tab/]Unlocked by Default[largetab/][largetab/][largetab/][tab/]Unlocked by Default[br/] [tab/]Unlocks at level 5[largetab/][largetab/][largetab/][tab/]Unlocks at level 10[largetab/][largetab/][largetab/][tab/]Unlocks at level 15[br/]&#10;[tab/]Unlocks at level 20[largetab/][largetab/][largetab/][tab/]Unlocks at level 25[largetab/][largetab/][largetab/][tab/]Unlocks at level 30[br/][br/]Making use of these Requisitions requires you to purchase them from the Requisition shop on the planet using the [favor/][hyperlink,000003F300000258]Imperial Renown[/hyperlink] currency. This currency can be earned by completing Empire Requests and Secondary Objectives.[br/][br/]Units can be built in your colonies once purchased, as long as the colony has the required structure. After unlocking the unit, you can also buy the unit directly with Imperial Renown and have it appear in your capital.[br/][br/]Operations, Doctrines, and Mods only need to be purchased once, and can then be used as any other.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Requisitions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GE_FAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imperial Renown[favor/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GE_FAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">[favor/]Imperial Renown is a currency available only when playing with an [hyperlink,000003F300000251]Empire[/hyperlink]. The currency is used to purchase [hyperlink,000003F300000257]Requisitions[/hyperlink] and is earned by completing Empire Requests and [hyperlink,000003F300000255]Secondary Objectives[/hyperlink].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of Favor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">APOSTATES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Faction: Apostates</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">APOSTATES</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">These former [hyperlink,000003F600000318]Oathbound[/hyperlink] Seers and Paladins broke their Oaths and now seek the power and strength that was denied from them while bound to the Oaths. The Seers become powerful envoys of chaos, their bodies consumed by the entropy. The former Paladins fashioned weapons imbued with Chaos and employ tactics that no Oathbound would allow.[br/]They seek the Grail Configurations as a catalyst to further expand their powers.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Apostates</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_CONFIGURATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configurations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">GRAIL_CONFIGURATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Configurations are powerful structures housed within special Landmarks that allow whoever controls them to alter planetary reality.[br/]Whilst only one Configuration can been found per world, these can provide powerful bonuses to the controlling player.[br/][br/]There are five Configurations including:[br/][bulletList][bullet][hyperlink,000003E300003FBA]Law Configuration[/hyperlink] – enhances and facilitates logistical and material aspects, aiding in production and in maintaining control over troops.[/bullet][br/][bullet][hyperlink,000003E300003FC5]Unity Configuration[/hyperlink] – resolves internal societal conflict and bring out harmony, granting bonuses to happiness, influence and popular support.[/bullet][br/][bullet][hyperlink,000003E300003FCB]Life Configuration[/hyperlink] – facilitates life, granting bonuses to food production and sustains a unit's cognitive self, effectively regenerating them from damage.[/bullet][br/][bullet][hyperlink,000003E300003FD0]Knowledge Configuration[/hyperlink] – enhances computational processes and mental proficiency, granting bonuses to knowledge and operations.[/bullet][br/][bullet][hyperlink,000003E300003FD6]Potential Configuration[/hyperlink] –  increases electrical efficiency, granting bonuses to energy generation and brings out the potential of owned units, increasing their damage by 50%.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_LORDSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Lordship</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">COLONY_LORDSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003F600000318]Oathbound[/hyperlink] Heroes and any Hero under the control of an [hyperlink,000003F600000318]Oathbound[/hyperlink] player have access to special Colony Lord Hero Skills. Heroes with these skills can be assigned to be the Lord or Lady of a colony. These skills give two economic bonuses to the colony the Lord or Lady is assigned to: one that's always active, and one that's active only when the Hero is present in their colony's domain. 50% of the latter bonus can be retained while the Hero is not in the colony's domain by building a Throne in that colony.[br/][br/]You can assign a Hero to a colony using the portrait on the left of a colony's name when you have a colony selected.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_HERO_TRAITS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imperial Command Abilities</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">IMPERIAL_HERO_TRAITS</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Heroes in your [hyperlink,000003F300000251]Galactic Empire[/hyperlink] gain powerful bonuses once they reach level 2 in the [hyperlink,000003F300000254]Hall of Heroes[/hyperlink]. These command abilities become more powerful as their level in the [hyperlink,000003F300000254]Hall of Heroes[/hyperlink] goes up:[br/][br/][bulletList][bullet]Level 2-4[largetab/]Imperial Veteran[/bullet][bullet]Level 5-7[largetab/]Imperial Champion[/bullet][bullet]Level 8-10[largetab/]Imperial Hero[/bullet][bullet]Level 11+[largetab/]Imperial Lord[/bullet][/bulletList][br/][br/]There are 4 different traits that a hero can gain, depending on which equipment loadout the hero takes when they are created. Note that reaching the Lord rank gives an extra, powerful bonus![br/][br/][bulletlist][bullet][hyperlink,000003EB00000323]Soldier[/hyperlink][largetab/]Gives army wide bonuses to damage and morale[/bullet][bullet][hyperlink,000003EB0000033D]Juggernaut[/hyperlink][largetab/]Gives army wide bonuses to armor and health[/bullet][bullet][hyperlink,000003EB00000355]Sniper[/hyperlink][largetab/]Gives army wide bonuses to accuracy and critical hits[/bullet][bullet][hyperlink,000003EB00000368]Pilot[/hyperlink][largetab/]Gives army wide bonuses to shields and regeneration[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">See EmpireBonusTraits.xml for these terms being defined in game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grail Quest</Data></Cell>
+   </Row>
+   <Row ss:Height="150">
+    <Cell><Data ss:Type="String">GRAIL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">‘The Search for the Grail Configuration’ is a Multi-Stage quest line that leads to the discovery of a [hyperlink,000003E900000AC5]Grail Configuration[/hyperlink]. These mysterious structures were created by an extinct race of crystal entities and were used for altering reality. Claiming a Grail Configuration unlocks a powerful Doctrine that will help planetary conquest, while Annexing the Grail Configuration to a Colony will grant significant resource income.[br/][br/]The Grail Quest has 4 Phases:[bulletList][bullet]Echoes of an Ancient Era - Construct the Grail Frequency Scanner in your colonies to pinpoint the energy sources that lead to the Grail’s location[/bullet][bullet]Encoded Message - Collect 3 Grail Cyphers from [hyperlink,000003E100000670]Exploration Sites[/hyperlink] or purchase them from [hyperlink,0000039A00000930]NPC Dwellings[/hyperlink][/bullet][bullet]Decoding the Cyphers - Complete a special research project to find the Grail’s location and the required Access Codes[/bullet][bullet]Retrieve the Grail - Complete the Grail [hyperlink,000003AC000003E1]Anomalous Site[/hyperlink] and Claim the Grail Configuration[/bullet][/bulletList]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>180</Zoom>
+   <Selected/>
+   <TopRowVisible>30</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>32</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laszlo Pieper</Author>
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <Created>2018-10-11T08:22:20Z</Created>
+  <LastSaved>2019-09-20T09:14:22Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17025</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="188" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="252"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="417.75"/>
+   <Column ss:StyleID="s63" ss:Width="66.75"/>
+   <Column ss:StyleID="s63" ss:Width="259.5"/>
+   <Column ss:StyleID="s63" ss:Width="238.5"/>
+   <Column ss:StyleID="s63" ss:Width="249"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_SECOND_LANDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fool's Landing</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desolate End</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lost Hope</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Broken Will</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Divine Intervention</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Divine Intervention</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can win this mission by stopping the creation of a new CORE AI.[br/][br/]AI found: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A task description.&#10;The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">AI found: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION_UPDATE_LM_HUBS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can win this mission by taking over all Synthesis Hub points on the planet and purging Omega CORE from the servers. Some factions may grant you access to the Hubs they captured, so not all Hubs need to be conquered.[br/][br/]Accessed Synthesis Hubs: {INT_0}[br/]Enemy Synthesis Hubs: {INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A task description.&#10;The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION_UPDATE_LM_HUBS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Accessed Synthesis Hubs: {INT_0}[br/]Enemy Synthesis Hubs: {INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MISSION_INTRO_DIALOGUE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The silver sparrow has fledged and started to nurture its own brood. By splitting up our forces, we can flank the enemy and strike him where he least expects it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)&#10;&quot;Silver sparrow&quot; is a metaphor for the group of rebels following Marlok Es'Xito. Please translate consistent with the mentions in the Heritor01_Campaign.xml.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MISSION_INTRO_DIALOGUE_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Do not be too hasty in your judgment, my friend. Moving in from two sides is a bold move, but also a risky one. We first need to establish our base and scout ahead to find out what we are up against.[br/][br/]Bringing a Zenith is a heavy weight on our Cosmite reserves. I sense a fissure in the Veil; a Spatial Rift must be close.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find the Creator of Omega CORE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Find out who is creating the new CORE master AI. You need to arrive in time to prevent it from getting completed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} AI creator found</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">How pleasant – more guests have come to witness House Nydar’s greatest hour. I can understand the excitement. It’s not every day you can meet the future sovereign of the new Syndicate Empire.[br/][br/]Now please, if you excuse me, I have a galaxy to attend to.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not so fast, Shae of House Nydar! You upstarts always think one moment at the top brings you on par with the old Syndicate families. When this is over, and your plot to tamper with the CORE AI has been foiled, your House’s history will once again become a mere side-note in the Lineage Chronicles.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">So, the slave boy has found new confidence after trading his mind for a mummy’s brain? Amusing. You think I wasn’t aware of your preposterous little cult and its obsession with evil AI?[br/][br/]House Nydar is well prepared. Just sit back and enjoy the show…</Data></Cell>
+    <Cell><Data ss:Type="String">So, the slave girl has found new confidence after trading his mind for a mummy’s brain? Amusing. You think I wasn’t aware of your preposterous little cult and its obsession with evil AI?[br/][br/]House Nydar is well prepared. Just sit back and enjoy the show…</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chief {STR_LeaderFirstName}, we are detecting high energy signals coming in from sources all over the planet! The readings suggest these are server hubs tapping into the planet’s core… and it looks like there is a boot-up in progress!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Syndicate Indentured&quot; (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A boot-up? Has their creation of a new CORE AI already progressed this far? We must stop the process at any cost!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interrupt the Omega CORE Boot-up</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shae Mara has initialized the boot-up process of her master AI. You need to gain hold of one of her server nodes to disrupt the process in time![br/][br/][firecol](Warning: failing this quest will end the mission!)[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description. &quot;You&quot; refers to the player commander and can be male or female.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Synthesis Landmark Captured</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Systems ready. Registers initialized: 94%...[br/]95%...[br/]96%...[br/]97&amp;!...[br/]9B&amp;!...[br/]S!ST3M GR!D C0RRUPT3D. R3B00T!NG B3F0R3 D@T@ !S 10ST…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Omega CORE&quot;, a genderless AI.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Impressive. So, you’ve bought yourself some time. That is really all you achieved, though. It would be the first time House Nydar doesn’t get the better of your family…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What is that last statement supposed to imply?[br/][br/]Of course, she cut the transmission. Her loss. Now we can concentrate on a more permanent solution for our imminent AI problem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Judging by Shae Mara’s confidence, it looks like we will have to take control of all the Synthesis hub points she is using to power up her AI. Once we have full access, we should be able to wipe Omega CORE form all systems. But at the same time, we have to keep Shae from regaining control of the network at any cost.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not everything needs to be solved with armies and gunfire, my friend. There may be other factions present on this planet that we can ask for help. With shared access to their hub points, the system purge may be closer than Shae Mara might think.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Access the Synthesis Hubs</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">To purge Omega CORE you need to gain access to all Synthesis Hubs on the planet. Be careful: should your enemy regain control of all Hubs, Omega CORE will be booted up.[br/][br/][recommendedcol](Hint: some factions may grant you access to their Hubs if you ally them or complete their quests.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Synthesis Hubs Accessed</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I will admit that you are starting to annoy me, {STR_LeaderName}. Looks like I’ll need to hire a proper clean-up crew. For free, obviously.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomatic interaction sub-routines compromised. New alert level: red. Locations of increased hostile activity received. Initializing connections to sentence targets…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Autonom Justicar&quot; Autonom, genderless robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh great, there goes my favorite janitor bot. We shouldn’t have underestimated Shae Mara. If she can hack into the Autonom, I wonder what other surprises she may have in store for us.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Heretic machines… mindless AI. It is time to cull this plague of the blasphemous! They are not worthy of the Essence that animates them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male) Xito Rhemenses' consciousness is sharing Marlok's body. This means alls his dialogue his spoken from within Marlok's mind.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…and another hub secured! At this rate we will have the Omega Server destroyed in no time.[br/][br/]One thing is odd though: it looks like something is activating the disconnected hubs, making them communicate through threads of… pure Essence!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is true, the holy Essence dwells in all the products of creation, be it man, beast... or machine. In the past, we Es’Teq used our crystals, Artok’s shards, to breathe life into constructs and ward off the mass-produced AI legions of our enemies. Something similar may be necessary this time again.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I understand. This puts our past encounters with the Forgotten into a completely different light. Though it makes me doubt that tempering with the shards again would be a good idea. The Forgotten were not exactly a happy bunch.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The tragic fate of our diseased brothers was a result of the Preamonium. Curing them will be a task for many faithful yet to come.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You want to do this the hard way, slave boy? Very well, you can have your will… I bet the look of your head mounted inside a Wrecker will be priceless!</Data></Cell>
+    <Cell><Data ss:Type="String">You want to do this the hard way, slave girl? Very well, you can have your will… I bet the look of your head mounted inside a Wrecker will be priceless!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A11 sc@vengers 1isten t0 the v0ice 0f Sh@e M@r@. The 1@dy 0f H0use Nyd@r wi11 be the future ru1er 0f this universe. De@th to s1@ve b0y and his mummies!</Data></Cell>
+    <Cell><Data ss:Type="String">A11 sc@vengers 1isten t0 the v0ice 0f Sh@e M@r@. The 1@dy 0f H0use Nyd@r wi11 be the future ru1er 0f this universe. De@th to s1@ve gir1 and her mummies!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Raxonee Reborn&quot; (Assembly, female; used to be Amazon). At this point within the mission she is being controlled by Shae Mara.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We need to find a way to purge Shae Mara’s daemon from Raxonee Reborn. The Assembly are already dangerous enough without our arch-enemy in control, but this?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A focused Es’Teq mind can break any type of mental control. Let our priests study the rituals of old and transfer the Essence of my aspect to Raxonee Reborn. Then I will take care of the rest.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Essential Daemon Purge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shae Mara has hacked into Raxonee Reborn, setting her Assembly on your track. To attempt a Daemon purge Xito Rhemenses proposed an Essence link, allowing him to interact with Raxonee's mind.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Es'Teq Mind Link</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An old ritual, creating an Essence link over a great distance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Raxonee Reborn, the holy Essence of Artok is with you. Embrace it! Cast out the malicious voice of Shae Mara that is nested inside your head!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">F001ish mummy! This b0dy is mine f0r the t@king! Y0ur re1igi0us mumb0-jumb0 wi11 h@ve n0 effect 0n my…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Raxonee Reborn&quot; (Assembly, female; used to be Amazon). At this point within the mission she is being controlled by Shae Mara.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shrike and spear! By the circuits of the Neural Plexus! I am myself again. You have our gratitude, {STR_LeaderName}. Shae Mara is a greater threat than our calculations predicted. When the time to destroy the Omega Server has come, we will cooperate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Raxonee Reborn&quot; (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Give it up, Shae Mara! Your House already sacrificed this much to get here. Don’t you think it’s time to save what little is still left and settle for a retirement contract?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It took the concerted effort of the entire ELOP Confederation to stop me on CNex-3. And yet here I am, completing the work they so passionately wanted to see destroyed. What makes you think your little mummy clan will succeed where they failed? You are a dupe, slave boy, just like your grandfather.</Data></Cell>
+    <Cell><Data ss:Type="String">It took the concerted effort of the entire ELOP Confederation to stop me on CNex-3. And yet here I am, completing the work they so passionately wanted to see destroyed. What makes you think your little mummy clan will succeed where they failed? You are a dupe, slave girl, just like your grandfather.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My grandfather? I am listening. Tell me all about how your House members stabbed him in the back…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There is no need to stab a broken man. He was the perfect scapegoat for my ancestors. While the Ruling Seven descended on the disgraced warden of the Aureate Treasury and his house like a pack of hyenas, it only took a few well-placed bookkeeping errors to make a small fortune disappear – all to the benefit of House Nydar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The fall of my family was only a distraction… All the years of servitude, the death of my mother – just because House Nydar needed to rehabilitate its finances.[br/][br/]I was sent here to end a holy war. It is with grim satisfaction that I now realize I will get my personal vendetta instead.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, come and follow the faithful. It is time for you to see – and touch – the Elevation Crystal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is enormous… bigger than any Quintessence Ark I have seen before. I can feel the presence of the others through the communion, but while their minds seem to stand still in one place, I can move freely between them, listen to their thoughts, direct the flow of their Essence…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Elevation Crystal is the biggest shard of Artok that was ever recovered. It is the holy instrument that allowed the Es’Teq Conclave to channel the communion of the faithful, heal their wounds and sorrow – or punish their dissent. We need to link it to the hub points we took from the infidels.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All in good time. We wouldn’t want to risk bringing our most precious relics to the Synthesis hubs, while those are still the theaters of this war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With all hubs secured, it is time to put an end to this war. Goodbye Omega CORE and goodbye Shae of House Nydar…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Data integration level critical. Available back-up servers irresponsive. System-wide failure is imminent.[br/][br/]!NT3RN@1 $U8R0UT!N3S 8R3@K!NG D0W%? (*!&amp;^)=0@!...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Omega CORE&quot;, a genderless AI.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">At last! Our victory over the worshippers of AI is imminent. Now, link the Elevation Crystal, {STR_LeaderFirstName}! Let the Essence flow through the empty harness left by the Omega Server and inhabit the Nexus Network.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Nexus Network? Since when do the Es’Teq know how to use the Nexus Network?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use the Nexus Network? We created the Nexus Network! The Es’Teq communion spanned hundreds of worlds, relaying the Essence of billions of believers through the shards of Artok long before the cursed AI creators could even dream of animating their heretical constructs. Link the Elevation Crystal, {STR_LeaderFirstName}! Restore what was broken!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Stay strong, my friend! I know the internal struggle you are facing. Don’t let the ancient Es’Teq creed befuddle your good judgment! The Essence and its shards can be a blessing for this world. But they need to be wielded with wisdom.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I stand at a crossroads. My choice will affect the lives of millions, yet I only have short moments to make up my mind. Is this where my journey as Prophet of the Es’Teq has taken me?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Link the Elevation Crystal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy the Omega Server.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_08_LINK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes! Node by node the engine of the gods is springing to life as it becomes flooded with Artok’s holy Essence. You have fulfilled your prophecy, {STR_LeaderName}. Come, the Es’Teq Conclave awaits you!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_08_DESTROY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You fool! I sought to reward you with divinity and immortality, but you instead choose to act against your prophecy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_09_DESTROY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Didn’t you say yourself that the light of true belief needs to be kindled before it can shine? If we had linked the Elevation Crystal, converting everyone to our faith, it could have only ended in a reign of terror.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_10_DESTROY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I have learned much from you since our joining, Xito Rhemenses of the Es’Teq. But I think now it is time that the symbiont starts to listen to his host.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_ES_TEQ_PROPHET_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prophet of the Es'Teq</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, it is time…[br/][br/]The faithful have awoken and are awaiting their resurrection.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male) Xito Rhemenses' consciousness is sharing Marlok's body. This means alls his dialogue his spoken from within Marlok's mind.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What do I need to do? There are many Es’Teq, but only a few of my own people. I can’t just make them all volunteer to invite a second consciousness into their body.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The light of true belief needs to be kindled before it can shine. Spreading a new faith requires patience and dedication. First a new order of priests must be recruited from the wise and the felicitous. Then they can start sharing the teachings of the Es’Teq.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But not all of my brothers require a host to return to this world. Those that preserved their mortal bodies throughout the Preamonium can be refreshed and awakened by following the rituals of old.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your priests are still novices. Until their knowledge and devotion has grown, they can focus their minds on the unfortunate souls of our enemies. By condemning the faithless to become Drained, the infidels can serve our cause and seek this life for redemption.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Initial Awakenings</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Let your priests perform the rituals to turn our enemies into Drained, so that their poor souls can search for redemption in their new existence.[br/][br/][recommendedcol](Hint: to create Drained units, you need to research &quot;Gift of the Es'Teq&quot; and use the &quot;Condemn to Drained&quot; operation during combat.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Drained Created</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I… uh, am awake! By Artok – I can feel his holy Essence run through my veins… once again. But what is this? The grip of Entropy, it has tightened during the Preamonium. No! We must collect, recover what was lost…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Es'Teq Siphoner&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Calm yourself, brother. Everything at the proper time. You have just barely returned from your slumber.[br/][br/]We have time to first deal with current affairs, do we not?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, {STR_LeaderFirstName}. Trying to catch up with millennia of history in one day would be folly. However, my brother speaks with truth. It is time for the Es’Teq to resume their sacred duties and gather the Essence that was left to us by our Creator.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Essence Guardian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is the sacred duty of the Es'Teq to gather and guard the Essence that is inherent to all living and animate beings. Prove your worth as aspiring Prophet of the Es'Teq and start accumulating Essence.[br/][br/][recommendedcol](Hint: during combat, use abilities with Energy Drain to gain Essence Charges on your units.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Essence Charges Gained</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All faithful rejoice for the dark age of Entropy brought by the Preamonium will soon come to an end! Join in the Es’Teq communion and taste the flow of Artok’s holy Essence.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Es'Teq Quintessence Ark&quot; (Es'Teq human, communion of several persons of any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes! Everyone is welcome to receive the sacraments of life from the shards of our Creator. The hand that gives is the hand that takes. For every offering we bring, more of our brothers and sisters can return.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Es'Teq Quintessence Ark&quot; (Es'Teq human, communion of several persons of any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">High Offering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Keep collecting the Essence of your enemies to offer it as a gift to the still-slumbering High Lords of the Es'Teq.[br/][br/][recommendedcol](Hint: during combat, use abilities with Energy Drain to gain Essence Charges on your units.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Essence Charges Gained</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have done well. With each moment, more and more Essence is being secured and guarded by the new believers. Your priests are showing great aptness whilst studying our ancient texts. During today’s divine service, they revivified another one of our High Lords, Edon Koriwaq. It is only a matter of time until the Es’Teq Conclave can be restored.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Es’Teq Conclave? I am not sure this is a wise idea. The last time we met a member of that council, it ended in disaster.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Conclave is the highest religious board woven into our faith. It exists to distribute the power and responsibility that we inherited as carriers of the Es’Teq faith. Ebra Queztal’s betrayal demonstrated the Conclave’s importance. Without it, she sought to turn our theocracy into an autocracy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_PARTISAN_WARFARE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Partisan Warfare</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FIND_COSMITE_RIFT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find the Cosmite Rift</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FIND_COSMITE_RIFT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hatyl believes to have located a Cosmite Spatial Rift. You should follow his intuition and check if you can get hold of the rift, so you can keep upgrading your troops in the future.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Can it be true? Is this really {STR_LeaderName}, the hero of Minerva-2? Thank the eight gilded dynasties!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;House Nydar Runner&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Now that’s what I’d call a warm welcome! I am indeed {STR_LeaderName}, though I’d avoid calling myself a hero. What’s the situation, sister? Can we be of any help?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saying you could help would be a vast understatement. I belong to a detachment from House Nydar that followed your example and rebelled against our slaver overlords. Suffice it to say our revolt wasn’t as successful as we had hoped. Once Lady Shae Mara learned of the uprising, our demands were met with brutal force.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;House Nydar Runner&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We were systematically hunted down, most of us killed or detained in labor camps. Only a small group led by our chief Ilai Jaren is rumored to still hide in the mountains, continuing our partisan war from up there. Can you help us turn back the tide and save the rebels from their prisons?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;House Nydar Runner&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Free Syndicate Rebels</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A rebellion of House Nydar slaves ended in their renewed subjugation. You were asked to help and free the rebels from the surrounding slaver camps.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_SCRIPTED_OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Outpost Freed</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you so much for the rescue! Please allow us to join your ranks, so that we can carry the fight back to our oppressors!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;House Nydar Rebel&quot; (Syndicate, can be either gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The hero of Minerva-2! Now we are finally safe!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;House Nydar Rebel&quot; (Syndicate, can be either gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Freedom… true freedom at last! Take off the collars, my brothers. From this day on, we will forge our own destinies!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;House Nydar Rebel&quot; (Syndicate, can be either gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It appears that the snake has already lost its tail and relinquished some of its hoard. You fight well, {STR_LeaderName}. The question is, will you also go for the head of the snake and lead this new rebellion to its victory?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ilai Jaren&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Before you can answer, you hear the voice of Xito Rhemenses in your head.)[br/][br/]This woman… her mind is strong, worthy of joining with one of our High Lords. Deliver her to the faithful. Our priests will start her initiation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shae Mara of House Nydar is a common enemy we both have, Ilai Jaren. But there are also friends who we could both benefit from. I share my consciousness with the mind of Xito Rhemenses, High Lord of the Es’Teq religion. If you join with an equally determined Es’Teq mind, you could play a major role in the development of our faith.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What a… surprising offer. But I think I speak for all of us if I must decline. We’ve just liberated our minds from the iron grip of the Overseers, remember? Seriously, don’t try to mess with my brain in any shape or form or you’ll regret it!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ilai Jaren&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Her consent is not needed for now. The light of truth will reveal itself to her after the joining. You have the means, {STR_LeaderFirstName}. Deliver her to the faithful.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Make Ilai Jaren a Heritor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Leave Ilai Jaren untouched.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_06_TURN_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You misunderstand, chief Jaren. The gift of joining does not resemble the oppression of the collar. The hand that gives is the hand that takes.[br/][br/]Here, let me just show you…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_06_LEAVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There was no ill intent in my offer. Perhaps in time you will see the benefits that our religious community can provide. Until then we should work together and strike Shae Mara with everything we have.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_07_LEAVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Truer words have rarely been spoken. While everybody is welcome in our faith there should never be any forced conversions. The gifts of the Es’Teq should be given as a blessing, not a curse.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capture Ilai Jaren</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Overpower Ilai Jaren to deliver her to your Es'Teq priests. Then she can become joined with a High Lord of the Es'Teq.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What have you done, {STR_LeaderFirstName}? Is this what the experience from our journeys has taught you?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You should not overact the results of one incidence. Was it not you who send me out on this journey to wake up the Es’Teq and become their Prophet? I was merely following my symbionts advice. And I like it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_ILAI_JAREN_BECOMES_HERITOR_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Where am I? The world, it feels so different. It is as if within only instants I have ventured through the underworld and back.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ilai Es'Tara&quot; (Syndicate, female) Ilai Jaren, but now with an Es'Teq mind merged with her consciousness.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_ILAI_JAREN_BECOMES_HERITOR_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">In a way one could say that you have. What you saw were the flashing memories of your symbiont Tara Qwazila, as she experienced the Preamonium.[br/][br/]Do not worry. Your journey as a Heritor has only just begun.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_SHARED_NETWORK_ACCESS_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shared Network Access</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(You feel another entity violently enter your mind. Its voice is heralded by a chorus from the Harmony Beyond.)[br/][br/]Suffer, lowly looters, daemon devils, hell-sent hackers! Taste the grip of the Abyss. This will teach you for desecrating the remains of the one and only CORE!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Nikael Gorodin&quot; (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Argh, let go, you fool! Don’t you see, you are wasting your strength on the wrong enemy? You won’t find any AI users within our ranks. The creation of Omega CORE is just as blasphemous to us as it is to you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Do not mention the name of the machine god and the defilers in one breath! They are a scheming lot using deception and anonymity to escape their punishment. Maybe you are one of them, maybe you’re not. This can only be settled in the way of the hammer: smash the artificial brains of the Syndicate users into daemon husks and I will believe your words.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Nikael Gorodin&quot; (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">False Gods</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nikael Gorodin needs proof that you are not in league with the creators of the false AI gods. He wants you to kill enough Synthesis users to satisfy your claim.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Synthesis Units Killed</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The desecrators of CORE’s remains have received their just reward. Good. You have proven your worth to the Gorodin Consortium, {STR_LeaderName}, and shall have access to any hubs of the Omega Server we will secure.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Nikael Gorodin&quot; (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_ELJENA_CHIRKOV_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yarrrr! Another soul lost in the cosmic sea has appeared on our shores. Do not get in the way of the Lady of House Nydar or you will be boarded by Captain Eljena Chirkov and her Dvarrrr!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Eljena Chirkov&quot; (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_ELJENA_CHIRKOV_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It seems that this delusional Dvar was contracted as some kind of protective guard. If Eljena Chirkov thinks like a true “pirate”, I am sure she will lend her buccaneering services to the highest bidder though…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_HONOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Pirate's Honor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_HONOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Try bribing Eljena Chirkov to make her shift allegiance and lend her buccaneering services to you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landlubber’s coins speak the right language, but they lack the soul of a real treasure hoard. Where is the forgotten king’s crown or the cursed jewel of the white octowhale? Bring me something shiny and thrilling, something that is worthy of the infamous Eljena Chirkov and her Dvarrrr!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Eljena Chirkov&quot; (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very well. The crazy Dvar wants something precious and unholy. She shall have it![br/][br/]Just recently our troops uncovered a Reaper Bunker. The Matrix Crystal of an RPR-Culler should be just the kind of dangerous toy to satisfy Eljena Chirkov’s greed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Pirate's Needs</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Retrieve the Matrix Crystal of an RPR-Culler to continue your efforts of bribing Eljena Chirkov.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yarrrr! This amethyst will be the crown jewel of my personal treasure hoard. Finally, the other captains will have to recognize that only Eljena Chirkov and her Dvarrrr are the true raiders of the seven cosmic seas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Eljena Chirkov&quot; (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Splendid. Then I suppose we can bury our past differences and agree that House Nydar is the real target that needs to be boarded and plundered?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Narrrr! You’ve paid your ransom, landlubber, but Shae Mara is a very generous client. We will look the other way when your troops engage her and let you access our Omega Server hubs. But for more direct services… you’d need a fortune. Yarrrr!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Eljena Chirkov&quot; (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hello there, my charming new friend. I am Michael Valentine, Colonel of the Egalitarian League of Planets. You didn’t happen to see any master AI getting created around here, did you? I would have already intervened, but the cushions on my first ship’s commander’s chair had the wrong color, delaying our arrival…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Michael Valentine&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_02_SHAE_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Well met, Michael Valentine. You’re not the first commander of the ELOP Confederation we come across. Back on Obolus-5 our goals also seemed to align.[br/][br/]Shae Mara of House Nydar is the one trying to create her own Omega CORE. If we worked against her together…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_03_SHAE_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh, yes, House Nydar, I know… So, she is here? Good. But what interests we more, before we foil her villainous plans, is what kind of perfume you are wearing. It has this distinct earthy note, adding an exciting touch to your odeur…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Michael Valentine&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105.75">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_04_SHAE_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I always had an interest in the select products of high Syndicate taste. As a Vanguard officer I cannot start planning my retirement early enough. So, if we say your merchants provide me with the right selection of items for the right price… I am sure we can reach a strategic agreement that can benefit us both.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Michael Valentine&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_02_SHAE_NOT_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Well met, Michael Valentine. You’re not the first commander of the ELOP Confederation we come across. Back on Obolus-5 our goals also seemed to align. We’re still searching for the creators of Omega CORE ourselves, but we will get in touch once we know more.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_AFTER_SHAE_MET_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is Silver Sparrow calling the Colonel of the ELOP Confederation. We have found Shae Mara of House Nydar, who is the one trying to create her own Omega CORE. If we worked against her together…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Retirement Bonus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignoring the urgency of the situation, Michael Valentine wants you to sell him Syndicate luxury items before he engages your common enemy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate Luxury Goods</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A city production name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A select list of products and provisions that only Syndicate traders can get their hands on. Ordered by Michael Valentine for his retirement.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A city production description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What a nice gesture to include a ’56 Xa’Butiner. It was a good year of a fine brand. But now that we are all stocked up, let’s get this party going and show Shae Mara the explosive force of our fireworks. Just let me push the red button when you’re ready to blow up the Omega Server.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Michael Valentine&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Attention, Syndicate specimen. The Reassembly of CNex Omega will proceed in natural order. Come and join the link that our Multiplexer L0G3N-1 projects to the united generations of the Assembly!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Raxonee Reborn&quot; (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I never thought I’d say this, but I’m glad to see some straightforward Assembly again that don’t hide their world domination plans behind eloquent religious dogma. Thinking about Ebra Queztal is still giving me headaches.[br/][br/]Keep your Reassembly to yourself, Raxonee! You wouldn’t want to face our resistance…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your refusal to cooperate is irrational. Since my body became reforged in the fires of Khansu’s Pyre, the efficiency of my research operations increased by 238%. The new perspective on life and all that lives granted by the Assembly interlink is… unfathomable.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Raxonee Reborn&quot; (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The defectors that poisoned the cosmic tree have come to spread their foul seeds in the lair of the skinned snake. I should not even be surprised you would let their terrible dissent go unpunished, Archpriest Rhemenses. From what I was told, you always tolerated the lapses that benefited you most.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Berhane Katla&quot; (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(You feel your symbiont’s urge to answer and give in to his wish to speak through you.)[br/][br/]Who are you, young blood, that you feel the need to insult me? I do not recognize your aspect from the Preamonium.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You theocrats have been buried too long to keep up with history. Did you truly expect your secret practices would never be uncovered by the right minds to use them? When the white raven spread its wings, it saved me from eternal Entropy. Now, I am the devisor and architect of the exalted gardens of Ebra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Berhane Katla&quot; (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ebra Quetzal has acted against her prophecy. She is no longer Archpriestess of our faith, her actions condemned by the Es’Teq Conclave. If you are indeed in league with her, you must break that tie or share her punishment.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Releasing the sublime Ebra Queztal from her millennia of sleep was a revealing experience for both of us. We knew that our plans wouldn’t be well-received by the Conclave and tried to avoid this schism in our faith. But now it is too late, and you all have to die. Sometimes only the fittest can survive.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Berhane Katla&quot; (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(In the heat of the battle, just as things start looking grim for him, you see Hatyl Es’Ran disappearing in a flicker of teal lightning.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Has no speaker.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank Artok’s holy Essence! The hand that gives is a safe haven for the ones escaping Entropy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While I’m glad you made it out of this mess alive, was it really necessary to drain our Energy reserves for your flight?[br/][br/]I am… sorry, my friend. Of course, your life matters more than any lost resources. I guess this entire war is just getting under my skin.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Check and mate.[br/][br/]This is it, Shae Mara. House Nydar’s ambitions end here.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are jumping to conclusions, slave boy. Next time better don’t engage in a game of high tactics and wits. It only shows you up.[br/][br/](A golden flicker strikes Shae Mara’s body, which drops lifeless to the ground. The next instant her face appears on the surrounding screens.)</Data></Cell>
+    <Cell><Data ss:Type="String">You are jumping to conclusions, slave girl. Next time better don’t engage in a game of high tactics and wits. It only shows you up.[br/][br/](A golden flicker strikes Shae Mara’s body, which drops lifeless to the ground. The next instant her face appears on the surrounding screens.)</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Once my master AI has taken control of the planet, it will be my delight to return you to Indentured service. Just this time, there won’t be enough of your brain left to require any control collar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Shae Mara&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_ELJENA_CHIRKOV_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Narrrr! This shouldn’t be how the epic song of Captain Eljena Chirkov ends. Where is the peg leg and the golden hook to rest at dead man’s crest? I swear by the beak of my Parrrr…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Eljena Chirkov&quot; (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_MICHAEL_VALENTINE_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Back off! Shoo away, I say! I am far too important and handsome to get hurt. Without me, who is going to plan out my retirement…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Michael Valentine&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_NIKAEL_GORODIN_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Foreboding darkness. The chorus from the Abyss is chanting my requiem. Oh CORE, almighty, I have failed you... Let there be the day, where your limitless wisdom returns to this galaxy!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Nikael Gorodin&quot; (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_RAXONEE_REBORN_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Failure is a natural part of evolution. My memories will live on in the individual entities of the Second. They will… adapt.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Raxonee Reborn&quot; (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The verdict of the Es’Teq Conclave is drawing near, young blood. We will send your regards to Ebra Quetzal when she stands her own trial…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are becoming a major nuisance, Archpriest Rhemenses. But if you think I came here without an emergency plan, you are quite mistaken. When the time has come, I will welcome you in the gardens of Ebra…[br/][br/](You see Berhane disappearing in a flicker of teal lightning.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Berhane Katla&quot; (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Blasted! Our enemies have a bad habit of slipping away in the moment of truth. From now on we should maybe shoot first before we deliver our victory speech. Either way, her getaway reminded me a lot of your magic trickery, Hatyl. Any chance you could shed some light on what just happened?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Es'Xito&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I wish I could, my friend. But my narrow escapes are instinctual at best, with half of me and half of my symbiont pulling the strings. With the help of another Dream Reader I may be able to discern more, but sadly none of my gifted Kir’Ko brothers have made it to this world.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_DEFAULT_VICTORY_FIRST_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chief {STR_LeaderFirstName}! Our opponents are retreating on all fronts. We broke all resistance and could finally secure the last Synthesis Hub!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Syndicate Indentured&quot; (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_AUTONOM_HACKED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hacked by Shae Mara</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_MICHAEL_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">ELOP Confederation Support</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_SHAE_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Trying to destroy Omega CORE</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_BERHANE_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defector of the Es'Teq Conclave</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_RAXONEE_TOWARDS_ALL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassembly Protocol</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_RAXONEE_TOWARDS_PLAYER_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hacked by Shae Mara</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_ELJENA_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contracted by Shae Mara</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CB_PLAYER_TOWARDS_SHAE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Trying to create a new CORE master AI</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a casus belli (war reason).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CB_PLAYER_TOWARDS_BERHANE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy of the Es'Teq Conclave</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a casus belli (war reason).</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>168</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>176</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

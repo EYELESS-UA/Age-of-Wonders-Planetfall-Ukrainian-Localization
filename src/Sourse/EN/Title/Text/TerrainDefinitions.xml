@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-02-11T14:32:14Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>3</Index>
+    <RGB>#000000</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#C0C0C0</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Default">
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal_">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s65" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s65" ss:Width="105.75"/>
+   <Column ss:StyleID="s65" ss:Width="63.75"/>
+   <Column ss:StyleID="s65" ss:Width="261.75"/>
+   <Column ss:StyleID="s65" ss:Width="147.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="159.75"/>
+   <Column ss:StyleID="s65" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TERRAINDEFINITIONS</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SURFACE_LAYER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Surface</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">as in: game layer type, displayed when you are at the surface layer</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TACTICAL_LAYER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Tactical</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">as in: game layer type. Displayed when your are at the tactical world view</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CHASM</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Chasm</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FOREST</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Forest</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">HILLS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Hills</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">MOUNTAINS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Mountains</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PLAINS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Fertile Plains</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">as in: flat land</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BADLAND</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Volcanic</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">WETLAND</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Wetland</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">as in: swamp like terrain</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">WATER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Water</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RIVER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">River</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LAVA</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Lava</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RUINS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Ruins</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">as in: area that contains primarily old architecture that is in ruins</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BARREN</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Barren</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SHRUBLAND</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Shrubland</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VOID</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Void</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">URBAN</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Urban</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">IMPERIAL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Imperial</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ARCADIAN</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Arcadian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Peaceful simple landscape</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ARCTIC</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Arctic</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUNGAL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Fungal</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ARID</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Arid</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SEA_LAVA</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sea Lava</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">OCEAN</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Ocean</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEATH_WARNING</Data></Cell>
+    <Cell><Data ss:Type="String">WATER</Data></Cell>
+    <Cell><Data ss:Type="String">Units have drowned: {INT_numUnits}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEATH_WARNING</Data></Cell>
+    <Cell><Data ss:Type="String">LAVA</Data></Cell>
+    <Cell><Data ss:Type="String">Units have burned in lava: {INT_numUnits}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEATH_WARNING</Data></Cell>
+    <Cell><Data ss:Type="String">VOID</Data></Cell>
+    <Cell><Data ss:Type="String">Units have been swallowed by the Void: {INT_numTurns}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <x:WorksheetOptions/>
+ </Worksheet>
+</Workbook>

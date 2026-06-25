@@ -1,0 +1,1123 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laszlo Pieper</Author>
+  <LastAuthor>ThomM</LastAuthor>
+  <Created>2018-09-14T10:48:07Z</Created>
+  <LastSaved>2020-09-22T15:23:33Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16440</WindowHeight>
+  <WindowWidth>29040</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="207" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="202.5"/>
+   <Column ss:StyleID="s62" ss:Width="126"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="414.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="252"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ENDLESS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ENDLESS_MILITARY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Military Tech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ENDLESS_ECONOMIC_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Society Tech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ENDLESS_RESEARCH_SUBSKILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">???</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.&#10;&#10;???: Meant to say this</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENDLESS_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">Repeatable Research</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENDLESS_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Future Tech Breakthroughs</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for viewing all of the completed Repeatable Research</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENDLESS_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">RECORD_TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">Future Tech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENDLESS_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">RECORD_TYPE_RARE</Data></Cell>
+    <Cell><Data ss:Type="String">Future Tech - Special</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENDLESS_RESEARCH_SUBSKILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Research this tech to reveal its effects</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arc Weaponry Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arc Weapon Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A major breakthrough from our weapons division has led to a boost to all of our armies' Arc weaponry!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus}% extra damage to all Arc weapon attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firearms Weaponry Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firearms Weapon Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A major breakthrough from our weapons division has led to a boost to all of our armies' Firearms weaponry!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus}% extra damage to all Firearms weapon attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosive Weaponry Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosive Weapon Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A major breakthrough from our weapons division has led to a boost to all of our armies' Explosive weaponry!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus}% extra damage to all Explosive weapon attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psionic Weaponry Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psionic Weapon Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A major breakthrough from our weapons division has led to a boost to all of our armies' Psionic weaponry!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus}% extra damage to all Psionic weapon attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Biochemical Weaponry Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Biochemical Weapon Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A major breakthrough from our weapons division has led to a boost to all of our armies' Biochemical weaponry!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus}% extra damage to all Biochemical weapon attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropy Weaponry Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropy Weapon Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A major breakthrough from our weapons division has led to a boost to all of our armies' Entropy weaponry!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus}% extra damage to all Entropy weapon attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weaponry Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weapon Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A major breakthrough from our weapons division has led to a boost to all of our armies' Laser weaponry!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus}% extra damage to all Laser weapon attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GENERAL_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units you control gain +{amount}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This amount is used for various of the techs below, they all refer to the amount of resistance you get to the respective damage channel which is told by an icon inside the {}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bio-Resistant Materials Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Biochemical Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists have made major strides in treating materials to resist Biochemical attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arc-Resistant Materials Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arc Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists have made major strides in treating materials to resist Arc attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropy-Resistant Materials Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropy Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists have made major strides in treating materials to resist Entropy attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERMAL_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thermal-Resistant Materials Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERMAL_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thermal Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERMAL_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists have made major strides in treating materials to resist Thermal attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINETIC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kinetic-Resistant Materials Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINETIC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kinetic Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINETIC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists have made major strides in treating materials to resist Kinetic attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psionic-Resistant Materials Breakthrough</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psionic Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists have made major strides in treating materials to resist Psionic attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MECHA_UNITS_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Armor: Mechanical</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MECHA_UNITS_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced Armors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MECHA_UNITS_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A breakthrough has occurred in the field of Armor for Mechanical Units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MECHA_UNITS_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Mechanical units you control gain +{ArmorGain}[armor/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shields: Cyborg and Mechanical</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shielding Metals</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A breakthrough has occurred in the field of Shields for Cyborg and Mechanical units!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shields and Armor are defensive stats in the game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Cyborg and Mechanical units you control gain +{ShieldGain}[shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Armor: Biological and Cyborg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Second Skin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A breakthrough has occurred in the field of Armor for Biological and Cyborg units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Biological and Cyborg units you control gain +{ArmorGain}[armor/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_UNITS_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shields: Biological</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_UNITS_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shield Infusion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_UNITS_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A breakthrough has occurred in the field of Shields for Biological units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_UNITS_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Biological units you control gain +{ShieldGain}[shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crystalloid Grafts</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Crystalloid as in made from / based on crystals</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Quartzite Magma Worm Corrals</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Crystal Grafts</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quartzite Magma Worm is an ingame unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! During our research we discovered how to control Magma Worms and how to graft their armor onto unusual units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION_1</Data></Cell>
+    <Cell><Data ss:Type="String">Allows the production of Quartzite Magma Worms in our colonies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION_2</Data></Cell>
+    <Cell><Data ss:Type="String">All Animal, Ethereal, Mineral and Plant units you control gain +{Armor}[Armor/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crystalloid Wave-Emitters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Quartzite Crystal Worm Corrals</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Wave-Emitters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! During our research we discovered how to control Crystal Worms and how to project shield fields using their strange electromagnetic fields onto unusual units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION_1</Data></Cell>
+    <Cell><Data ss:Type="String">Allows the production of Quartzite Crystal Worms in our colonies.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quartzite Crystal Worm is an ingame unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION_2</Data></Cell>
+    <Cell><Data ss:Type="String">All Animal, Ethereal, Mineral and Plant units you control gain +{Shield}[Shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extradimensional Penguin Comms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Penguin Void Portals</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Penguins are a unit ingame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Penguin Refinement</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! During our research we discovered how to contact Extradimensional Penguins from the Void and how to use our technology to improve them!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION_1</Data></Cell>
+    <Cell><Data ss:Type="String">Allows the production of Penguins in our colonies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION_2</Data></Cell>
+    <Cell><Data ss:Type="String">All Penguin units you control deal +{damage}% damage, gain +{Armor}[Armor/], +{Shield}[Shield/] and +{Health}[hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENLIGHTNED_MINDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Enlightenment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENLIGHTNED_MINDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enlightened Minds</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENLIGHTNED_MINDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! We saw into the stars and became enlightened! We can now easily teach our units the way of all things.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENLIGHTNED_MINDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units you control gain [abilityblue]Enlightened[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Enlightened is a Celestian Secret Tech term</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arc Waves</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wave Integration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! We discovered a electron wave integration method that can combine with any form of attack, granting it Arc damage!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units you control gain {ArcDamage}[damageWave/] on their attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">{ArcDamage}[damageWave/] additional damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XNA_AGITATORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">XNA Agitators</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XNA_AGITATORS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Hasteners</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague is a Secret Tech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XNA_AGITATORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! By further agitating the XNA of the xenoplague lifeforms, we can make them transform into their next phase faster!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XNA_AGITATORS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Units transform {Amount}% faster.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MECHANICAL_AUGMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mechanical Augments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MECHANICAL_AUGMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Performance Booster Metals</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MECHANICAL_AUGMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! We discovered new compounds that are less Arc conductive while increasing the performance of our machines!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MECHANICAL_AUGMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Mechanical units you control gain +{Damage}% damage and +{ResistanceWave}[defenseWave/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cybernetic Resilience</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cyborg Last Stand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! We discovered a way to quickly stabilize Cyborg units, granting them Steadfast!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cyborg units you control gain [abilityblue]Steadfast[/abilityblue], making them remain at 1[hp/] and invulnerable for a turn when they drop below 1[hp/], once per combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Steadfast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Once per combat, unit  remains at 1[hp/] and invulnerable for a turn when they drop below 1[hp/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Biological Toughening</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Genome Editing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! We discovered how to make Biological units tougher by altering their DNA!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Biological units you control gain {Armor}[armor/] and {HP}[hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBFUSCATION_MATERIALS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Occlusion Filters</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBFUSCATION_MATERIALS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Obfuscation Materials</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBFUSCATION_MATERIALS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accidental Breakthrough! We made new progress on obfuscation materials and control. We can make a permanent mist around our units, obfuscating them from enemy line of sight!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OBFUSCATION_MATERIALS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units you control gain [abilityblue]Lightly Obscured[/abilityblue], making them {Accuracy}% harder to hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Efficiency: Production</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Production Increase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists made great strides towards Colonist efficiency in the field of Production gain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gain {Amount}[production/] per [productionSlot/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">productionslot/ and others like it show an icon of a colonist in the designated slot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Efficiency: Supply</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Supply Increase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists made great strides towards Colonist efficiency in the field of Supply gain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gain {Amount}[Supply/] per [FoodSlot/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Efficiency: Energy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Energy Increase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists made great strides towards Colonist efficiency in the field of Energy gain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gain {Amount}[Energy/] per [EnergySlot/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Efficiency: Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Knowledge Increase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists made great strides towards Colonist efficiency in the field of Knowledge gain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gain {Amount}[Knowledge/] per [ResearchSlot/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Unit Ranks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Complex Training</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By using Automatic Training Inceptors, units produced in your colonies are produced with higher training.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RANK</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies Produce units with a +{Amount}[medaliron/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">medaliron is an icon for the unit rank</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Unit Armor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Armors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We made great strides in the field of armoring our units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce units with +{Amount}[Armor/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_UNIT_GENERAL</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unit has +{Amount}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Unit Shields</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compact Shields</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We made great strides in the way we shield our units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce units with +{Amount}[Shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Unit Health</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Altered Structure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We made great strides in the way we build our units!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce units with +{Amount}[HP/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Energy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Energy Gains</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured a more efficient way to gain Energy!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce +{Amount}%[Energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Supply</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Supply Gains</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured a more efficient way to gain Supply!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce +{Amount}%[Supply/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Production</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Production Gains</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured a more efficient way to gain Production!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce +{Amount}%[Production/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Breakthrough: Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge Gains</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured a more efficient way to gain Knowledge!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies produce +{Amount}%[Knowledge/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Breakthrough: Doctrine Slot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grand Bureaucracy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our social scientists made strides in the field of Organizational Bureaucracy, making space for further policies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empire gains +{Amount}[doctrine/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Breakthrough: Cosmite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Void Cosmite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We created a way of extracting Cosmite from the Void!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empire gains +{Amount}[tricorium/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Breakthrough: Influence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enhanced Diplomats</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists managed to make our Diplomats and Envoys more efficient through advanced linguistic training and manipulation skills.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empire gains +{Amount}[Influence/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Breakthrough: Rivers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Not</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured a way of recycling waste commonly found in rivers into food for our colonies!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empire gains +{Amount}[Supply/] from Rivers in a colony's Domain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Breakthrough: Lava Stream</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Geothermal Generators</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured out how to make geothermal generators that quickly gather energy using entropy technology.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empire gains +{Amount}[Energy/] from Lava Streams in a colony's Domain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Operation Breakthrough: Op Defense</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Counterintelligence Measures</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured out a new encryption method that will prevent our data from being stolen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your empire gains +{amount}[operationDefense/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Operation Breakthrough: Op Strength</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Intel Extraction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists figured out a faster way to break through enemy encryption.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your empire gains +{amount}[operationstrength/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Operation Breakthrough: Tactical Points</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Tactical Operation Support</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A new discovery in logistics allows us to deploy more Tactical Operations!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your empire gains +{amount}[castingtactical/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Operation Breakthrough: Strategic Points</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Future Strategic Operation Support</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A new discovery in logistics allows us to deploy more Strategic Operations!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell>
+    <Cell><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your empire gains {amount}[casting/].</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>110</Zoom>
+   <Selected/>
+   <TopRowVisible>2</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

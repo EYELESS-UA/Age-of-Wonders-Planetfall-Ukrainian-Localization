@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2020-08-31T08:20:56Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19965</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="191" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="232.5"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="531"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="234.75"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">GALACTIC_EMPIRES_OBJECTIVES_DLC05</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PROMETHEAN_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean Secrets</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean - the name of a Secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_PROMETHEAN_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Claiming this world's Phoenix vaults should appease the [abilityblue]Promethean[/abilityblue] elements in your empire and grant us a significant insight into their advanced weapons systems.[br/][br/][bulletList][bullet]Each [abilityblue]Phoenix Vault[/abilityblue] claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean - the name of a Secret tech.&#10;Phoenix Vaults - in game Name of the Promethean Landmarks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">OBJECTIVE_PROMETHEAN_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Phoenix Vaults[/abilityblue] captured</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_BOUNTIFUL_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bountiful Harvest</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_BOUNTIFUL_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Exploiting this world's natural fertility should appease the [abilityblue]Amazon[/abilityblue] factions in your empire and ensure they are more willing to share their secrets.[br/][br/][bulletList][bullet]Each [abilityblue]Food Specialization[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BOUNTIFUL_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Food Specializations[/abilityblue] produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REBIRTH_OF_CIVILIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rebirth of Civilization</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_REBIRTH_OF_CIVILIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Vanguard[/abilityblue] wishes nothing more than the rebuilding of civilization, and founding new colonies on this dead world should please them.[br/][br/][bulletList][bullet]Each [abilityblue]Colony[/abilityblue] you found grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REBIRTH_OF_CIVILIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Colonies[/abilityblue] Founded</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWERFUL_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Powerful Allies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWERFUL_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Syndicate[/abilityblue] would certainly be pleased if you secured an alliance with the Paragon.[br/][br/][bulletList][bullet]Reach the relation level [abilityblue]Integration[/abilityblue] with the [abilityblue]Paragon[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWERFUL_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Relation with the [abilityblue]Paragon[/abilityblue] reached 'Integration'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NETWORKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Networking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_NETWORKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Synthesis[/abilityblue] elements in your empire would be pleased to be given the opportunity to have an inside look at the Autonom network, secure the Autonom's trust and they will be pleased.[br/][br/][bulletList][bullet]Reach the relation level [abilityblue]Integration[/abilityblue] with the [abilityblue]Autonom[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NETWORKING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Relation with the [abilityblue]Autonom[/abilityblue] reached 'Integration'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_WEED_WHACKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Weed Whacking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_WEED_WHACKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Promethean[/abilityblue] accept no comprimise when it comes to alien aggression. They would be pleased to see the Growth cut down to size.[br/][br/][bulletList][bullet]Each [abilityblue]Growth[/abilityblue] Dwelling claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Growth - Faction name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_WEED_WHACKING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Growth Dwellings[/abilityblue] captured</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CAPABLE_PETS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capable Pets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CAPABLE_PETS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Psynumbra[/abilityblue] respect those with an aptitude for manipulation, asserting your dominance over the Psi-Fish should impress the disciples of the Abyss.[br/][br/][bulletList][bullet]Each [abilityblue]Psi-Fish[/abilityblue] Dwelling claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CAPABLE_PETS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Psi-fish Dwellings[/abilityblue] captured</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_GANK_THE_OUTLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gank the Outlaws</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_GANK_THE_OUTLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Vanguard[/abilityblue] desire a return of order above all, these Spacers are a threat to that order.[br/][br/][bulletList][bullet]Each [abilityblue]Spacer[/abilityblue] Dwelling claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacer - Faction name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_GANK_THE_OUTLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Spacer Dwellings[/abilityblue] captured</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MINE_FOR_THE_TAKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mine for the Taking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_MINE_FOR_THE_TAKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Dvar[/abilityblue] respect those capable of amassing wealth, and claiming Cosmite nodes should go a long way to impressing the Consortia.[br/][br/][bulletList][bullet]Each sector containing a [abilityblue]Cosmite Node[/abilityblue] claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite - Special resource</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MINE_FOR_THE_TAKING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Sectors containing [abilityblue]Cosmite Nodes[/abilityblue] claimed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_VOID_MONOPOLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Void Monopoly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_VOID_MONOPOLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Voidtech[/abilityblue] respect those who command a measure of control over the void.[br/][br/][bulletList][bullet]Each sector containing a [abilityblue]Teleporter[/abilityblue] claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech - Secret tech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_VOID_MONOPOLY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Sectors containing [abilityblue]Teleporters[/abilityblue] claimed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SERVICE_PROVISION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Service Provision</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_SERVICE_PROVISION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Assembly[/abilityblue] desire control over the Broadcasting network, to what end only time may tell.[br/][br/][bulletList][bullet]Each sector containing a [abilityblue]Broadcast Station[/abilityblue] claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SERVICE_PROVISION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Sectors containing [abilityblue]Broadcast Stations[/abilityblue] claimed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANUP_AND_REBUILD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clean and Rebuild</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANUP_AND_REBUILD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Vanguard[/abilityblue] support those that seek to restore civilization to the ruined Star Union, removing the scars of the cataclysm should send the right message.[br/][br/][bulletList][bullet]Each [abilityred]Hazard[/abilityred] removed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANUP_AND_REBUILD</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Hazards[/abilityred] removed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KEEP_AN_EYE_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Keep an Eye out</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_KEEP_AN_EYE_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Synthesis[/abilityblue] factions respect those that understand the value of information, and establishing a monitor network may help secure their support.[br/][br/][bulletList][bullet]Each [abilityblue]Monitoring Station[/abilityblue] placed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KEEP_AN_EYE_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Monitoring Stations[/abilityblue] placed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_CULL_THE_HERD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cull the Herd</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cull: reduce the population of (a wild animal) by selective slaughter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CULL_THE_HERD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These wild mutations are a danger to the ecosystem of this world. The [abilityblue]Amazon[/abilityblue] matriarchs may be more forthcoming if you stabilize the situation.[br/][br/][bulletList][bullet]Each [abilityred]Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CULL_THE_HERD</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_INDUSTRIAL_MIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Industrial Might</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_INDUSTRIAL_MIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Dvar[/abilityblue] Consortia have a keen interest in this mineral rich world. Proving your merit as an industrial powerhouse may help get them on your side.[br/][br/][bulletList][bullet]Each [abilityblue]Production Specialization[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Renown is a kinda currency the player uses in game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_INDUSTRIAL_MIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Production Specializations[/abilityblue] produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEST_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pest Control</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEST_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Dvar[/abilityblue] Consortia have an outstanding bounty for Quartzite and Psionica, presumably for their aptitude for consuming valuable minerals.[br/][br/][bulletList][bullet]Each [abilityred]Quartzite or Psionica Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEST_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Quartzite or Psionica Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SETTLE_THE_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Settle the Claim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_SETTLE_THE_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Dvar[/abilityblue] Consortia have informed your diplomats that this world is being feuded over by two rival Consortia. Brokering a peaceful solution may please them greatly.[br/][br/][bulletList][bullet]Forge an [abilityblue]Alliance[/abilityblue] with both Dvar for a massive Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SETTLE_THE_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Dvar Rivals[/abilityblue] allied</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWIFT_ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Swift Action</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWIFT_ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Voidtech[/abilityblue] has contacted your diplomats, claiming that terrible events are set in motion, and that unless a rival empire is destroyed before the 20th cycle, there will be dire consequences.[br/][br/][bulletList][bullet][abilityblue]Defeating[/abilityblue] another [abilityred]Empire[/abilityred] before turn {TurnLimit} passes grants you a massive Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech: name of Secret tech faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWIFT_ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Empire Defeated[/abilityblue] before turn {TurnLimit}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_UNNATURAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deny the Unnatural</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_UNNATURAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Vanguard[/abilityblue] Commander has a bounty out for each of the Assembly warlords comprising the alliance reassembling this world, so eliminating them could prove beneficial.[br/][br/][bulletList][bullet]Each [abilityred]Assembly alliance[/abilityred] Commander defeated grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_UNNATURAL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Assembly alliance[/abilityred] Commanders defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PRESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Preserve</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_PRESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Celestian[/abilityblue] commune has caught wind of the Promethean Cult of Khansu and their plans for this world. They have requested that you stop the Cult's sacrifice.[br/][br/][bulletList][bullet]Each [abilityred]Cult of Khansu[/abilityred] Commander defeated grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PRESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Promethean[/abilityred] Cult of Khansu Commanders defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ALTERNATIVE_TRANSPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alternative Transport</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_ALTERNATIVE_TRANSPORT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Voidtech[/abilityblue] respect creative minds. This world has an unusual atmosphere making atmospheric flight difficult, so circumventing this drawback should please the Voidtech.[br/][br/][bulletList][bullet]Each [abilityblue]Orbital Relay Specialization[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech: name of Secret tech faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ALTERNATIVE_TRANSPORT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Orbital Relay Specializations[/abilityblue] produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RECOVER_SAMPLES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover Samples</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_RECOVER_SAMPLES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Xenoplague[/abilityblue] scientist is offering a reward for any samples that can be recovered of the Mycelian nests on this world.[br/][br/][bulletList][bullet]Each [abilityred]Mycelian Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague: name of Secret tech faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RECOVER_SAMPLES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Mycelian Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_THIN_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thin the Swarm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_THIN_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Promethean[/abilityblue] warlord has issued a bounty for the destruction of Hopperhound nests, since this planet in particular suffers from their presence. Cleanse the nests to earn Renown.[br/][br/][bulletList][bullet]Each [abilityred]Hopperhound Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_THIN_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Hopperhound Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SILENCE_THE_STATIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Silence the Static</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_SILENCE_THE_STATIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Kir'Ko[/abilityblue] Hive claims that the psycho-active crystals of this world interfere with their Psionic gifts, so destroying them would surely earn their Imperial Renown.[br/][br/][bulletList][bullet]Each [abilityred]Psionica Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SILENCE_THE_STATIC</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Psionica Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BAD_COMPANY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bad Company</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_BAD_COMPANY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Celestian[/abilityblue] faith has long demonized Xenopenguins like the ones found on this world, and slaying them should get you into the Celestian's good graces.[br/][br/][bulletList][bullet]Each [abilityred]Penguin Hive[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BAD_COMPANY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Penguin Hives[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KNOWLEDGE_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge is Power</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_KNOWLEDGE_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Assembly[/abilityblue] respect intelligence above all. Proving that you hold the same values may impress them.[br/][br/][bulletList][bullet]Each [abilityblue]Research Specialization[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KNOWLEDGE_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Research Specializations[/abilityblue] produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWER_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Power is Power</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWER_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Vanguard[/abilityblue] have requested the restoration of this world's power grid. Setting up a power network in preparation of your conquest would surely please them.[br/][br/][bulletList][bullet]Each [abilityblue]Energy Specialization[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWER_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Energy Specializations[/abilityblue] produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REJECT_MORTAL_TETHERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reject Mortal Tethers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_REJECT_MORTAL_TETHERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Psynumbra[/abilityblue] demand a demonstration of faith. Reject your mortal tethers and leave this world a barren waste![br/][br/][bulletList][bullet]Each [abilityblue]Colony[/abilityblue] [abilityred]Razed[/abilityred] grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REJECT_MORTAL_TETHERS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Colonies[/abilityblue] Razed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANSE_THE_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cleanse the Infestation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANSE_THE_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Promethean[/abilityblue] fight the Alpha Strain wherever it may be found; showing your dedication to its destruction would surely please them.[br/][br/][bulletList][bullet]Each [abilityred]Xenoplague Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANSE_THE_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Xenoplague Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RULE_THE_WAVES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rule the Waves</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_RULE_THE_WAVES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Shakarn[/abilityblue] respect dominance in their domain. Show them your might on the waves.[br/][br/][bulletList][bullet]Each [abilityred]Water Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RULE_THE_WAVES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Water Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_FAITHFUL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deny the Faithful</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_FAITHFUL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Psynumbran[/abilityblue] creature manifested in your embassy, demanding the destruction of the Celestian Crusade on this world.[br/][br/][bulletList][bullet]Each [abilityred]Holy Crusade[/abilityred] Commander defeated grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_FAITHFUL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Celestian[/abilityred] Holy Crusade Commanders defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_AVENGE_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Avenge the Past</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_AVENGE_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Kir'Ko[/abilityblue] emissary approached your expedition and requested the destruction of the two Syndicate houses allied on this world. The emmisary claimed they played a prominent role in her kind's oppression in the past.[br/][br/][bulletList][bullet]Each [abilityred]Syndicate Allies[/abilityred] Commander defeated grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_AVENGE_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Syndicate[/abilityred] Allies Commanders defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SURPRESS_THE_SCUM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Surpress the Scum</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_SURPRESS_THE_SCUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Syndicate[/abilityblue] noble contacted your ambassador, demanding you crush the Kir'Ko hive established on this world. The man referred to them as 'obsolete property'.[br/][br/][bulletList][bullet]Each [abilityred]Aggressive Kir'Ko Swarm[/abilityred] Commander defeated grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SURPRESS_THE_SCUM</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Kir'Ko[/abilityred] Aggressive Swarm Commanders defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ENFORCE_ORDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enforce Order</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_ENFORCE_ORDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An [abilityblue]Oathbound[/abilityblue] Seer approached your ambassador with a request: destroy the Apostate warbands nesting on this planet. Do so and be rewarded.[br/][br/][bulletList][bullet]Each [abilityred]Dark Tower[/abilityred] explored grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ENFORCE_ORDER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Dark Towers[/abilityblue] explored</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_ANATHEMA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deny the Anathema</Data></Cell>
+    <Cell><Data ss:Type="String">Anathema: something or someone that one vehemently dislikes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_ANATHEMA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Heritor[/abilityblue] Lord contacted your embassy, requesting the destruction of RPR forces on this planet.[br/][br/][bulletList][bullet]Each [abilityred]RPR Tower[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_ANATHEMA</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]RPR Towers[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_OPERATIONAL_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Operational Efficiency</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_OPERATIONAL_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Synthesis[/abilityblue] respect technical skill and planning. Prove your capability to secure their favor.[br/][br/][bulletList][bullet]Each [abilityblue]Strategic Operation[/abilityblue] successfully launched grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_OPERATIONAL_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Strategic Operations[/abilityblue] successfully launched</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BRUTALLY_CUNNING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Brutally Cunning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_BRUTALLY_CUNNING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Syndicate[/abilityblue] are a culture of subterfuge and cunning. Prove your cunning to secure their favor.[br/][br/][bulletList][bullet]Each [abilityblue]Covert Operation[/abilityblue] successfully launched grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BRUTALLY_CUNNING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Covert Operations[/abilityblue] successfully launched</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DAGGERS_IN_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daggers in the Dark</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DAGGERS_IN_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Syndicate[/abilityblue] are a culture of subterfuge and cunning, prove your cunning to secure their favor.[br/][br/][bulletList][bullet]Each [abilityblue]Infiltration[/abilityblue] successfully launched grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Meant to be, same description as row 112. Please copy translation from row 112.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DAGGERS_IN_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Infiltrate Operations Center[/abilityblue] successfully launched</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_CONNECTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Making Connections</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_CONNECTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Kir'Ko[/abilityblue] will respect an empire that explores their options.[br/][br/][bulletList][bullet]Each Commander [abilityblue]Contacted[/abilityblue] grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_CONNECTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Commanders [abilityblue]contacted[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_A_VAST_INHERITANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Vast Inheritance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_A_VAST_INHERITANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Heritor[/abilityblue] have left behind a vast legacy; uncovering the past may give an insight into their ways.[br/][br/][bulletList][bullet]Each [abilityblue]Survey Site[/abilityblue] completed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_A_VAST_INHERITANCE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Survey Sites[/abilityblue] completed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MIGHT_OF_THE_DOMOK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Might of the Domok</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MIGHT_OF_THE_DOMOK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Shakarn[/abilityblue] Domok Warlord asked for support in settling a dispute, they want you to eliminate a rival's thralls.[br/][br/][bulletList][bullet]Each [abilityred]Shakarn Thrall[/abilityred] Commander defeated grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MIGHT_OF_THE_DOMOK</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Shakarn Thrall[/abilityred] Commanders defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NECESSARY_EVIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Necessary Evil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_NECESSARY_EVIL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Syndicate[/abilityblue] agent approached your embassador and suggested you make up for this planet's flaws by siphoning from the competition...[br/][br/][bulletList][bullet]Each [abilityblue]Energy Siphon[/abilityblue] successfully launched grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NECESSARY_EVIL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Energy Siphon[/abilityblue] successfully launched</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLAIM_THEIR_BIOMASS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Claim their Biomass</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLAIM_THEIR_BIOMASS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Xenoplague[/abilityblue] scientist demanded you claim this world's settlements, since they could prove excellent test subjects...[br/][br/][bulletList][bullet]Each [abilityblue]Settlement[/abilityblue] conquered grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLAIM_THEIR_BIOMASS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Settlements[/abilityblue] conquered</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_GHOST_BUSTIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ghost Bustin'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_GHOST_BUSTIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Heritor[/abilityblue] emmisary claims that 'bustin' makes him feel good'. There are plenty of creatures hiding near this world's pickups - take them out.[br/][br/][bulletList][bullet]Each [abilityblue]Pickup[/abilityblue] picked up grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_GHOST_BUSTIN</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Pickups[/abilityblue] picked up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFIANT_OF_NATURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defiant of Nature</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFIANT_OF_NATURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Amazon[/abilityblue] are masters of adaptation. Show them you can overcome this world's challenges and prosper.[br/][br/][bulletList][bullet]Each [abilityblue]Residential Sector Specialization[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFIANT_OF_NATURE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Residential Sector Specializations[/abilityblue] built</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_NAVAL_DOMINANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Naval Dominance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_NAVAL_DOMINANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Shakarn[/abilityblue] are masters of naval expansion; prove your merit on the waves to earn their favor.[br/][br/][bulletList][bullet]Each [abilityblue]Hydro-Exploitation[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_NAVAL_DOMINANCE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Hydro-Exploitations[/abilityblue] produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CIVIC_DUTY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Civic Duty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CIVIC_DUTY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Oathbound[/abilityblue] view the well-being of their citizens as a demonstration of righteousness; prove you are equally inclined.[br/][br/][bulletList][bullet]Each [abilityblue]Happiness Event[/abilityblue] achieved grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CIVIC_DUTY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Happiness Events[/abilityblue] achieved</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_CAST_OFF_THE_SHACKLES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cast off the Shackles</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_CAST_OFF_THE_SHACKLES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Kir'Ko[/abilityblue] have known the shackles of servitude like no other, so freeing this world from the Darkvoid's clutches should leave an impression.[br/][br/][bulletList][bullet]Each [abilityred]Voidbringer Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_CAST_OFF_THE_SHACKLES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Voidbringer Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SEAL_THEIR_FATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seal their Fate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_SEAL_THEIR_FATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Psynumbran[/abilityblue] creature appeared in your court, demanding the destruction of this world's empires. Granting its demand may bring great rewards...[br/][br/][bulletList][bullet][abilityblue]Defeating[/abilityblue] other [abilityred]Empires[/abilityred] before turn {TurnLimit} ends grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SEAL_THEIR_FATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Empires Defeated[/abilityblue] before turn {TurnLimit}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NOBLE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Noble Quest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_NOBLE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Oathbound[/abilityblue] are obsessed with claiming this 'Grail'. Doing so will surely earn their respect.[br/][br/][bulletList][bullet]Claiming the [abilityblue]Grail[/abilityblue] grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NOBLE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Grail[/abilityblue] claimed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWARM_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Swarm Rush</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWARM_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Kir'Ko[/abilityblue] delegate has demanded you show your understanding of the swarm's philosophy. Crush the threat on this world swiftly to earn their favor.[br/][br/][bulletList][bullet][abilityblue]Defeating[/abilityblue] another [abilityred]Empire[/abilityred] before turn {TurnLimit} ends grants you a massive Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWARM_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Empire Defeated[/abilityblue] before turn {TurnLimit}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ADAPT_AND_OVERCOME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Adapt and Overcome</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_ADAPT_AND_OVERCOME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Xenoplague[/abilityblue] researcher caught wind of your expedition to this world, and they have pledged their support should you prove up to its challenges.[br/][br/][bulletList][bullet]Each [abilityred]Hazard[/abilityred] removed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ADAPT_AND_OVERCOME</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Hazards[/abilityred] removed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DESTROY_THE_WEAK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destroy the Weak</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_DESTROY_THE_WEAK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Xenoplague[/abilityblue] warlord proclaimed the ELOP to be a weak response to the challenges of this galaxy, and they are offering a bounty for anyone that proves their point.[br/][br/][bulletList][bullet]Each [abilityred]ELOP[/abilityred] Commander defeated grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DESTROY_THE_WEAK</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]ELOP[/abilityred] Commanders defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_VENGEANCE_FOR_KADALOS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vengeance for Kadalos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_VENGEANCE_FOR_KADALOS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Shakarn[/abilityblue] have more reason than most to hate the Voidbringers, and demand their destruction wherever they may be found.[br/][br/][bulletList][bullet]Each [abilityred]Voidbringer Spawner[/abilityred] destroyed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_VENGEANCE_FOR_KADALOS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Voidbringer Spawners[/abilityred] destroyed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_WILD_AND_FREE_UNDER_ME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Wild and Free, Under Me.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_WILD_AND_FREE_UNDER_ME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Certain [abilityblue]Amazon[/abilityblue] elements wish to see certain rebellious elements brought under control.[br/][br/][bulletList][bullet]Each [abilityblue]Therian[/abilityblue] Dwelling claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_WILD_AND_FREE_UNDER_ME</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Therian Dwellings[/abilityblue] captured</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_RETURN_THEM_TO_THE_FOLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Return Them to the Fold</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_RETURN_THEM_TO_THE_FOLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Heritor[/abilityblue] Lord contacted your embassy, requesting you reclaim the defective Forgotten for him.[br/][br/][bulletList][bullet]Each [abilityblue]Forgotten[/abilityblue] Dwelling claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_RETURN_THEM_TO_THE_FOLD</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Forgotten Dwellings[/abilityblue] captured</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MONITOR_THE_ANOMALIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Monitor the Anomalies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MONITOR_THE_ANOMALIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An [abilityblue]Assembly[/abilityblue] scientist has requested you establish Research infrastructure on this world to study the strange anomalies.[br/][br/][bulletList][bullet]Each [abilityblue]Research Specialization[/abilityblue] built grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MONITOR_THE_ANOMALIES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Research Specializations[/abilityblue] produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REPURPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Repurposed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_REPURPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Synthesis[/abilityblue] respect those with extensive information networks, utilize this worlds doctrinal network to impress them.[br/][br/][bulletList][bullet]Each [abilityblue]Doctrine[/abilityblue] enacted grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REPURPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Doctrines[/abilityblue] enacted</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEACE_THROUGH_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Peace through Power</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEACE_THROUGH_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Celestians[/abilityblue] teach control and restraint above all else. Show them that you have mastered restraint.[br/][br/][bulletList][bullet]Each [abilityblue]Defensive Pact[/abilityblue] you forge with another Commander grants you a Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEACE_THROUGH_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Defensive Pacts[/abilityblue] forged</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFILE_AND_DESECRATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defile and Desecrate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFILE_AND_DESECRATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Psynumbran[/abilityblue] creature appeared in court, demanding the capture and desecration of this world's 'Holy Sites'.[br/][br/][bulletList][bullet]Each [abilityblue]Celestian Archive[/abilityblue] claimed grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFILE_AND_DESECRATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Celestian Archives[/abilityblue] captured</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_READY_FOR_ANYTHING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ready for Anything</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_READY_FOR_ANYTHING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Oathbound[/abilityblue] revere 'defenders of the people'. Show them you take these matters seriously and prepare for all threats![br/][br/][bulletList][bullet]Each [abilityblue]Advanced Military Infrastructure[/abilityblue] upgrade produced grants you an Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_READY_FOR_ANYTHING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Advanced Military Infrastructure[/abilityblue] upgrades produced</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_THE_HAND_THAT_TAKES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Hand that Takes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_THE_HAND_THAT_TAKES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Heritor[/abilityblue] emmissary has offered a solution to this world's challenges: take from the undeserving and the heretical![br/][br/][bulletList][bullet]Each [abilityblue]Colony[/abilityblue] [abilityred]Razed[/abilityred] grants you a substantial Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_THE_HAND_THAT_TAKES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Colonies[/abilityblue] Razed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_UP_THE_DEFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Making up the Deficiency</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_UP_THE_DEFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [abilityblue]Assembly[/abilityblue] are nothing if not efficient. Show them you know how to compensate for setbacks like those on this world.[br/][br/][bulletList][bullet]Each [abilityblue]Energy Specialization[/abilityblue] built grants you an Imperial Renown and Experience boost.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_UP_THE_DEFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Energy Specializations[/abilityblue] produced</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>177</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>194</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

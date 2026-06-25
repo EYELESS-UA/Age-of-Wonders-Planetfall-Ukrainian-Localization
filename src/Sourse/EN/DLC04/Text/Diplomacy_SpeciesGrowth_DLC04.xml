@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <LastSaved>2020-02-17T09:59:25Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="146.25"/>
+   <Column ss:StyleID="s62" ss:Width="174.75"/>
+   <Column ss:StyleID="s62" ss:Width="337.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="204.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">DIPLOMACY_SPECIESGROWTH_DLC04</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">We trusted you, Symbiont, yet you have betrayed all life. We will crush you beneath our roots.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Symbiont refers to title given to player by Growth</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Trust the Mothernode’s guidance during this cataclysm. We should speak before the Voidbringers poison this soil.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Let us form a symbiosis and strengthen the roots of trust. In these terrible days, our reasons for war are as insignificant as wilted leaves in the wind.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Of all the ways an unknown seed can grow, you chose chaos. Our thorns will tear you asunder.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This refers to the potential of the player being wasted</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">These lands can be fertile for us all, but we must trust the Mothernode and fight back these aberrations before all earth is scorched.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Amidst ruined flesh and broken branches, our conflict is meaningless unless we work together against the Voidbringers</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">We expected nothing but destruction of life from you, {STR_LeaderName}. Continue to burn our leaves, to crush our branches and twist our roots, the Growth will ensure your kind is forgotten, buried under soil and ash.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Symbiont {STR_LeaderName}, you have respected our kind despite your conflicts with others. Help us resist these bringers of darkness, and we’ll grow together in the new light.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">As the Voidbringers ravage our forests, crack the earth and darken the land, even you, {STR_LeaderName}, can plant the seed of redemption if you forget this tangle of ours.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Forget this tangle of ours&quot; meaning to end hostilities between the Growth and player</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

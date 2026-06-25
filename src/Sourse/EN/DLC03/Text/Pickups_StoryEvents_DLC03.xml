@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Bas Staffhorst</Author>
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <Created>2019-06-04T10:45:44Z</Created>
+  <LastSaved>2020-03-19T10:10:24Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15735</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="51" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="273"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PICKUPS_STORYEVENTS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Star Union Diplomatic Data</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This event will reward the player with influence. And thusly the description should hint at materials/knowledge that would translate to influence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You find remnants of diplomatic reports dating all the way back to the golden age of the Star Union. Among the reports is data on several negotiation techniques which we can study to increase our influential power on this planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Learn from the past: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Influence is used to trade with NPC faction dwellings. It can also be used to convert outposts and to have NPC faction armies vacate from structures.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Influence is used to trade with NPC faction dwellings, it can also be used to convert outposts and have NPC faction armies vacate from structures.</Data></Cell>
+    <Cell><Data ss:Type="String">Influence description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propaganda Tools</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This event will reward the player with popular support. Popular support is the approval of your people for the wars you have going on.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Amongst the convoy, your troops find scattered materials and devices used to sway public opinion against a common enemy. No matter which nemesis of the Star Union this used to be targeted at, it can now be modified to target the current enemies of our burgeoning empire.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Amongst the convoy your troops find scattered materials and devices used to sway public opinion against a common enemy. Whichever nemesis of the Star Union this used to be targeted at, it can now be modified to target the enemies of our upcoming empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Utilize the Propaganda Devices: gain 200[popularsupport2/]Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Utilize the Propaganda Devices: Gain 200[popularsupport2/]Popular Support</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support improves the happiness and upkeep of your empire, but will diminish over time.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Popular Support improves happiness and upkeep of your empire. But will diminish over time.</Data></Cell>
+    <Cell><Data ss:Type="String">Popular support description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">Holopad Pickup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Race Relationships</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This event will reward the player with either with increasing their race relations with their own race, or with any race but their own. Which is the public image of your faction towards a specific race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The holopad is filled with collections of diplomatic techniques and their supposed effects. Among them is one that stands out; a technique to reform your public image of that of a protector of your race, or a welcoming xenophile.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Gain 100 [opinion6/] relation to your own race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Gain 100 [opinion6/] relation to every other race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Race relationships influence the outpost costs, upkeep costs and unit morale for that particular race.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Race relations description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Relationship Reset</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The captured holopad flickers on and the AI within the device offers two choices: it can either convince the local faction to forget your past misdeeds, allowing you to begin a new relationship with a clean slate, or it can provide information of the faction's unique negotiation techniques to teach to your diplomats.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Download the negotiation techniques: gain {STR_Rewards}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">influence reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">This will immediately stop the war with the NPC faction and reset your relation [diplomaticlinks/] with them to 0.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomacy Lesson</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You power the holopad on, and a holographic representation of a diplomat belonging to the local faction appears before you. It is very difficult to understand at first, but the holopad quickly adjusts to your speech patterns, and it determines that it can help initiate negotiations with its faction. Alternatively, it offers an advanced course in diplomacy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Take the diplomacy course: gain {STR_Rewards}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">influence reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Favor can improve your relationships [diplomaticlinks/] with NPC factions to higher states, unlocking new trading options and the ability to call them to war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Favor can get you into higher states of relationships with NPC factions, unlocking the ability to call them to war and new trading options.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Reset relations with the Autonom to neutral [nonagression/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">peace with npc faction reward</Data></Cell>
+    <Cell><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Autonom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">favor reward</Data></Cell>
+    <Cell><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Reset relations with the Paragon to neutral [nonagression/]</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Paragon</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Reset relations with the Growth to neutral [nonagression/]</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Growth</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Reset relations with the Forgotten to neutral [nonagression/]</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Forgotten</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Reset relations with the Spacers to neutral [nonagression/]</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Spacers</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_PSIFISH</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL1</Data></Cell>
+    <Cell><Data ss:Type="String">Reset relations with the Psifish to neutral [nonagression/]</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_PSIFISH</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL2</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Psifish</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lying Dormant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You spot a Forgotten casket submerged in the dirt. One of them lies sleeping within! It is clearly on life support. On the other hand, you could sell the precious materials that the casket is made from…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Save the Forgotten unit ({STR_UnitName}) inside.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">You receive: {STR_UnitName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Dismantle and sell the casket: gain {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">The nearest colony receives: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">An Untapped Font</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You come across a rusted old auto-scribe. The machinery still works, and it apparently contains ancient Es’Teq knowledge regarding the Forgotten.[br/][productioncol]This decision will affect relations with this Faction.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Deliver the auto-scribe to the Forgotten: gain {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">You receive: {STR_Rewards}, and your relations with [diplomaticlinks/] the Forgotten improve</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Keep the knowledge: gain {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">You receive: {STR_Rewards}, but your relations with the Forgotten declines</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>5</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

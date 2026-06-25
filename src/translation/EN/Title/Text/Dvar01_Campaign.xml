@@ -1,0 +1,1387 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2019-03-15T15:38:40Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8820</WindowHeight>
+  <WindowWidth>18060</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="264" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="323.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="368.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="185.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="198"/>
+   <Column ss:AutoFitWidth="0" ss:Width="264.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="259.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Mission Introduction - Part 1: When the Cataclysm erupted, bringing the Star Union to its violent end, our kind was stranded on the most inhospitable worlds. Our ancestors made do with what they had: mining equipment and perseverance. They suffered for generations in the harshest conditions. Many died, but the strong survived. Now, under the watchful eye of the Adamant Council, the Dvar Consortia thrive.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Korvin Zhelezo; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Mission Introduction - Part 2: I am Korvin Zhelezo&#160;, head of the Zhelezo Dvar Consortium&#160;&#160;. Before my rule, our house was weak. We were complacent with our position. I sparked ambition in my people. The Zhelezo Dvar rose rapidly in station, but the Adamant Council still ignored us. Today everything changes. Our prospectors have found the resource-rich world of Chimera-V. Once the Council&#160; grants us mining rights, the Zhelezo Consortium will finally attain the status it deserves.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Korvin Zhelezo; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Mission Introduction - Part 3: The Council is demented! Those bumbling fools granted our proposal to the disreputable Rassvet Consortium. We found this world. By traditional claimant rights, it should be ours. It’s clear to me that the Council will never trust us, so we must carve our own path. They will not stand in the way of the Zhelezo, and neither will Valodny Rassvet!</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Korvin Zhelezo; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Mission Introduction - Part 4: The world of Chimera-V lies below us, its stormy exterior hiding riches just ripe for plunder. As we descend, these storms will interfere with our ship's systems. I doubt it will be the last obstacle hiding this planet's secrets.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Korvin Zhelezo; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Mission Outro: Although we have lost the Vault and its Cosmite riches, the excavation of Chimera-V has proven as profitable for the Zhelezo as we had projected. Mining operations are running at peak efficiency. The Rassvet consortium is no longer a problem, and we have proven our rightful claim to this world. </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Spoken by Korvin Zhelezo; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_HOTSPOT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Virile Valley</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_HOTSPOT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Exposed Bounty</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_HOTSPOT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sharded Field</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ARENA_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Smothered Wastes</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_VALODNY_RASSVET_LANDING_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rassvet Landing Site</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_KORVIN_ZHELEZO_LANDING_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Zhelezo Crash Site</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_MALAI_ANTARES_LANDING_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Antares Landing Site</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_MEPHILAS_THE_REDEEMER_LANDING_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Redeemer base</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SURVEY_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Redcore Facility 7-5</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SHROUD_GENERATOR_ALPHA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shroudstation Alpha</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SHROUD_GENERATOR_BETA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shroudstation Beta</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SHROUD_GENERATOR_GAMMA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shroudstation Gamma</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_RITUAL_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Dark Beacon</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_LAVA_LAKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eye of Chimera</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CARMINIA_BLESSING_GOVERNMENT_PALACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carminia's Blessing Palace</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CLOUDBREAKER_MOUNTAINS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cloudbreaker Mountains</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_RASSVET_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Views the Zhelezo claim on Chimera Glacialis as illegal and illegitimate.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_MEPHILAS_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mephilas is intent on stopping Korvin from uncovering the source.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_MEPHILAS_RASSVET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mephilas seems to leave the Rassvet alone.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_RASSVET_MEPHILAS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Rassvet seem to begrudgingly leave the Redeemers be.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_MEPHILAS_ANTARES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mephilas seems to dislike the Syndicate of House Antares.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_ANTARES_MEPHILAS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">House Antares stands against the darkness.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_QUEST_REWARD_FORGIVENESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Your gift has appeased the Rassvet.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_QUEST_REWARD_FAVOR_FOR_A_FAVOR_ANTARES_ZHELEZO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">You fought alongside them and brought Mordechai back alive.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_QUEST_REWARD_FAVOR_FOR_A_FAVOR_ZHELEZO_ANTARES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">You fought alongside them and brought Mordechai back alive.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In-game modifiers that change relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_QUEST_REWARD_SETTLEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The grudge has been settled.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_MODIFIER_MEPHILAS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The path of redemption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_MODIFIER_PLAYER_MEPHILAS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Our claim must be enforced</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_STRUCTURE_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Dvar Settlement Arena Module</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_STRUCTURE_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Order this Colony to produce 'Arena Modules' to contribute to the construction of the Dvar Settlement Arena.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_STRUCTURE_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar Settlement Arena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_STRUCTURE_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">~UNUSED~</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Unused text. Tag is needed for game functionality. Please ignore.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_STRUCTURE_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LORE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Dvar Settlement arena, customarily built by the challenger according to ancient Dvarian custom. </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Settlement&quot; is a term used for a tradition used by the Dvar to settle disputes.</Data></Cell>
+    <Cell><Data ss:Type="String">For context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_STRUCTURE_VAULT</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Vault</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUEST_STRUCTURE_VAULT</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LORE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The unearthed entrance to an underground vault.</Data></Cell>
+   </Row>
+   <Row ss:Index="47" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_INESSA_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Inessa Zhelezo Must Survive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_INESSA_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inessa Zhelezo Must Survive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_INESSA_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Inessa Zhelezo must survive the conflict on Chimera Glacialis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_INESSA_ZHELEZO_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Inessa Zhelezo Alive: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Claim Chimera Glacialis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Claim Chimera Glacialis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Zhelezo Dvar found Chimera Glacialis. They should be the ones to exploit its riches. Secure your claim on this world's resources to win the mission and handle the competition through dominance or appeasement.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Claim Secured: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_LOCATE_SOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Locate the lost Cosmite shipments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_LOCATE_SOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find and claim the lost Cosmite shipments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_LOCATE_SOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An immense bounty of Cosmite was mined on this world, yet may never have left, recovering those shipments could redeem the expedition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_LOCATE_SOURCE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmite Shipments recovered: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:Index="60" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROSPECT_OUR_SURROUNDINGS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Sectors Prospected</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:Index="63" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_GIFT_TO_APPEASE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resolve the Zhelezo-Rassvet conflict</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">A_GIFT_TO_APPEASE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_KORVIN_ZHELEZO} has disobeyed the Adamant council, Consortium Rassvet has no doubt been informed and will be looking to enforce their claim, a great gift could ease the tentions however and perhaps avoid war.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESOLVE_THE_ZHELEZO_RASSVET_CONFLICT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resolve the Zhelezo-Rassvet conflict</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESOLVE_THE_ZHELEZO_RASSVET_CONFLICT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Rassvet were mandated by the Adamant Council to exploit this world, but as its finders it is the right of the Zhelezo to claim it. A grudge has stood between the Zhelezo and Rassvet Consortia for years, it will be resolved here, one way or another.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESOLVE_THE_ZHELEZO_RASSVET_CONFLICT_QUEST_MILITARY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{INT_1}/{INT_2} Valodny Rassvet defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESOLVE_THE_ZHELEZO_RASSVET_CONFLICT_QUEST_PEACEFUL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{INT_1}/{INT_2} Alliance reached with Valodny Rassvet</Data></Cell>
+   </Row>
+   <Row ss:Index="70" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTABLISH_MINING_OPERATIONS_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The way of the Dvar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROSPECT_OUR_SURROUNDINGS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prospect the surrounding sectors</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PROSPECT_OUR_SURROUNDINGS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our newly assembled prospector can be put to good use prospecting the surrounding sectors, collect additional resources through prospecting using the Prospector. [br/][br/][recommendedcol](Hint: Move a Prospector onto the center of a sector to use the 'Prospect Sector' strategic operation.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PROSPECT_OUR_SURROUNDINGS_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Director {STR_LeaderName_KORVIN_ZHELEZO}, forgive my intrusion, but we have assembled a Prospector with our remaining spare parts.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Directress {STR_LeaderName_KORVIN_ZHELEZO}, forgive my intrusion but we have assembled a prospector with our remaining spare parts.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Speaker: Dvar Foreman&#10;&quot;Prospector&quot; refers to an in-game unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">PROSPECT_OUR_SURROUNDINGS_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent! Put him to work prospecting the surrounding sectors immediately.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Speaker: Khorvin.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">EXPANSION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Settle a second Colony</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">EXPANSION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">One of the sectors you have uncovered presents an excellent opportunity for expansion, construct a Colonizer and settle a second colony.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Quest description.&#10;&quot;Colonizer&quot; refers to an in-game unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPANSION_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Settle a second Colony</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Colony&quot; refers to the colonies that the player builds in game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell><Data ss:Type="String">EXPANSION_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Optional) Settle the target sector</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPANSION_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Director {STR_LeaderName_KORVIN_ZHELEZO}, this sector looks like an excellent area to settle an additional colony on. Build a colonizer and use it to claim this sector for the Zhelezo Consortium.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Directress {STR_LeaderName_KORVIN_ZHELEZO}, this sector looks like an excellent area to settle an additional colony on. Build a colonizer and use it to claim this sector for the Zhelezo Consortium.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Speaker: Dvar Foreman&#10;&quot;Prospector&quot; refers to an in-game unit.</Data></Cell>
+   </Row>
+   <Row ss:Index="83" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_MEPHILAS_THE_REDEEMER_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see our unwelcome guests have arrived, just as she said you would. I am Mephilas the Redeemer, and I will lead my kin to salvation from these prisons of iron and flesh. Rejoice, for your fall will herald our salvation!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEPHILAS_THE_REDEEMER_DEFEATED_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Do not mistake my defeat for your victory. You may not realize it yet, but you stand alone, Zhelezo. We will meet again, and when we do you will understand the meaning of my words.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEPHILAS_THE_REDEEMER_DEFEATED_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A threat sounds very empty when every word is poison. Mephilas may have fled, but I suspect we will have the opportunity to settle this in due time. For now, he will no longer stand in our way.</Data></Cell>
+   </Row>
+   <Row ss:Index="89" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Appease the Rassvet with a gift</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Appease the Rassvet with a gift of Cosmite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Consortium Zhelezo has disobeyed the Adamant Council and is now mining this world illegally, the Rassvet will no doubt attempt to enforce their claim. Sending a large gift of Cosmite will make them more inclined to resolve this conflict peacefully.[br/][br/][recommendedcol](Hint: Once you have sufficient resources to complete the quest, reopen the quest from within the &quot;Objectives&quot; panel. There you can pay the resources.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Adamant Council&quot; refers to the elite ruling autority of the Dvar race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, I should have known you would not be able to let this lie. The Adamant Council pledged this world to us. You are a fool if you believe that the council will stand by and let you disobey them.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Zhelezo Dvar found this world, Rassvet. The Adamant Council disregards decades of tradition to deny us our rightful claim. We need not fight - you were once family. I will give you a choice: withdraw now, or we will take our due by force.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I will enforce the law of the council, my consortium relies on me, {STR_LeaderFirstName}, and I cannot show weakness. Alexandra would never have wanted this.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">I will enforce the law of the council, my Consortium relies on me, {STR_LeaderFirstName}. I cannot show weakness. Alexander would never have wanted this.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Father, there is plenty on this world for both our consortia. Cooperation is far less expensive than war. I know Uncle will avoid hostilities in favor of profit, so we should be able to avoid bloodshed by plying him with the right gifts.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mother, there is plenty on this world for both our Consortia. We should show them that we are willing to cooperate, wars are expensive. We can avoid bloodshed with the right gifts. I know Uncle will avoid hostilities in favor of profit.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)&#10;Text changes depending on player character's gender.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_COMPLETED_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Valodny Rassvet, in order to show our intent for a peaceful coexistence, we offer you a gift: a share of our profits. We must set aside our past differences if we are to be able to take advantage of this world’s riches.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Valodny Rassvet is the rival of Khorvin Zhelezo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORGIVENESS_HAS_A_PRICE_COMPLETED_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We accept this gift as a step towards peace, {STR_LeaderName_KORVIN_ZHELEZO}. I have ordered my forces to stand down and cease all hostilities against Zhelezo assets, so I suggest you do the same. Over time, and with the right incentives, you might just earn my trust.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VALODNY_RELATION_PEACE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see now that I misjudged you. I have by no means forgotten your transgressions, but my resources are best spent elsewhere. In the name of my late sister, let us bury this pickaxe.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">I see now that I misjudged you. I have by no means forgotten your transgressions, but my resources are best spent elsewhere. In the name of my late brother, let us bury this pickaxe.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VALODNY_RELATION_DEFENSIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandra was right about you. You’ve proven yourself willing to reconcile and make amends. Our forces will come to your aid should you need them.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexander was right about you. You’ve proven yourself willing to reconcile and make amends. Our forces will come to your aid should you need them.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VALODNY_RELATION_DEFENSIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then we share our steel again, just as we once did. We stand stronger together.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VALODNY_RELATION_ALLIANCE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_KORVIN_ZHELEZO}, at long last the rift between our Consortia is mended. The Rassvet will stand at your side once more. In memory of Alexandra, we will work together to better the future of all Dvar.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{STR_LeaderName_KORVIN_ZHELEZO}, at long last the rift between our Consortia is mended. The Rassvet will stand at your side once more. In memory of Alexander, we will work together to better the future of all Dvar.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VALODNY_RELATION_WAR_DECLARATION_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It saddens me it must come to this, but I will do my duty. In the name of the Adamant Council and all Dvar, we will assert our control over this world, as is our right. We’ll see you returned to the Council in chains.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="107" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROVE_YOUR_MIGHT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Construct the Settlement Arena</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROVE_YOUR_MIGHT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">In accordance to Dvar tradition, the challenger of a 'Settlement' must construct the 'Settlement Arena', the task in itself is a proof of worth and necessity of the duel.[br/][br/][recommendedcol](Hint: You can find any available quest production options in the &quot;Structure Production&quot; panel of the colony center.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Settlement&quot; refers to a Dvar tradition to settle disagreements.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROVE_YOUR_MIGHT_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Settlement Arena' Built</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROVE_YOUR_MIGHT_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Valodny, we still have a grudge to resolve. I challenge you to a Settlement.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROVE_YOUR_MIGHT_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Though I’m disappointed to hear this, I can’t say I didn’t expect it. Dvar custom demands that I accept your challenge. Prove your worth, fulfil your burden as challenger. Build the Settlement Arena, and my champion will come to face you.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Settlement Arena&quot; refers to a Dvar arena used to perform Settlements.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROVE_YOUR_MIGHT_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmpf, using a champion is your right, and nothing more than I expected of you. Send your best - I intend to settle this decisively.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PROVE_YOUR_MIGHT_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Father, this project will require a significant investment of our resources. If we truly wish to go through with this, we will need to turn our colonies' production towards this project.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mother, this project will require a significant investment of our resources, if we truly wish to go through with this, we will need to turn our colonies' production towards this project.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Depends on if the player character is male or female.</Data></Cell>
+   </Row>
+   <Row ss:Index="116" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Rassvet Champion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Arena is built, it is time to face the Rassvet Champion and settle this grudge.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Arena&quot; refers to a Dvar arena used to perform Settlements.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the Rassvet champion and emerge from the Settlement Victorious</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rassvet Champion defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The arena stands, Valodny, and the time has come for our Settlement. Send forth your champion, or face me yourself if you dare. Today you will pay for your part in Alexandra's fate!</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The arena stands Valodny, the time has come for our Settlement. Send forth your champion or face me yourself if you dare. Today you will pay for your part in Alexander's end.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I had no part in what happened to Alexandra! Someone had a hand in her death, but it was not one of us. You forget you are not the only one she was stolen from.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">I had no part in Alexander's fate! None of what happened to him I wanted. Someone had a hand in his death, but it was not ours. You forget you are not the only one he was stolen from.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Her death was no coincidence! She was murdered by cowards who feared her words, while you stood by and did nothing! I never stopped looking for the ones responsible, but you were so quick to abandon her memory. Your consortium were fools, unfit to protect her! You might as well have killed her yourself.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">His death was no coincidence! He was murdered by cowards who feared his words, while you stood by and did nothing! I never stopped looking for the ones responsible, but you were so quick to abandon his memory. Your consortium were fools, unfit to protect him! You might as well have killed him yourself.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is you who is the fool! You fight phantoms and make enemies where there are none! We are not your enemy, {STR_LeaderFirstName}. You are too stubborn to see reason, so let’s settle this your way: in the arena.</Data></Cell>
+   </Row>
+   <Row ss:Index="125" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_EPILOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enough! We concede defeat. What are your demands?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_EPILOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I demand an explanation, the whole truth. Why did you give up on her?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">I demand an explanation, the whole truth. Why did you give up on him?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_EPILOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I’ll tell you what I know. Alexandra was killed while visiting us. The escaping assassins eluded our best security. It all happened too quickly. We confirmed her lodgings were obliterated by Dvar explosives.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">I will tell you everything, though I don't know much… Alexander was killed while staying with us, the assassins were swift to retreat, but hardly subtle. The hold he stayed in had been completely destroyed, this was clearly the work of Dvar but we could hardly investigate the place before the council demanded to take over the investigation. Hardly surprising as he was a member of the Council, but the swiftness of their response seemed off...</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_EPILOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then the Council commandeered our investigation before we could review the incriminating chemical evidence. She was part of the Council, so I understand its interest, but I am still tormented by how quick they were to respond, how prepared they were to take control of the situation.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Council took over the investigation, this I knew… and it was 'clearly' the work of other Dvar… But the swiftness of the assassination and their eagerness to cover up any investigation seems to point to something else.... The assembly on this world have hunted us since we touched down, spouting something about 'they' having warned of our arrival, yet you remained unscathed.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_EPILOGUE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I knew the Council took over the investigation and Dvar weapons were used, but the assassination’s swiftness and the Council’s cover up points to conspiracy. The Assembly on this world have been hunting us since we touched down, spouting something about how they were warned of our arrival, yet you remained unscathed.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;Assembly&quot; refers to an in-game cyborg race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_EPILOGUE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, the Council warned us of the Assembly. They told us not to interfere. Perhaps the Adamant Council and these 'Redeemers' are in league together?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Redeemers&quot; refers to the cult that the Assembly are part of.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_SETTLEMENT_EPILOGUE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I’m certain they are. Standard operating procedure dictates the elimination of competitors. The Council’s neglect of these 'Redeemers' proves to me that they had something to gain by their continued survival.</Data></Cell>
+   </Row>
+   <Row ss:Index="133" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ALIED_RASSVET_REDEEMER_FOLLOWUP_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your seed of distrust has infected poor Valodny. My Mistress underestimates Dvar loyalty. No matter! We will excise this infection and use your heads to construct an Inspector.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Valodny&quot; is a Dvar male.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIED_RASSVET_REDEEMER_FOLLOWUP_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your 'Mistress'? You’ll regret interfering with the Consortia. You will not stand in the way of the Dvar!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ALIED_RASSVET_REDEEMER_FOLLOWUP_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bold words coming from a once-loyal puppet. The Dvar are her minions to toy with. All will be liberated from the burden of flesh. All will be reborn. Your meddling only heralds your doom.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NEUTRAL_RASSVET_DEFEATED_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It seems that I underestimated the danger of this world. Its riches are now yours to claim. Do the Dvar proud, for I no longer can.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">HOSTILE_RASSVET_DEFEATED_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I should have known that you would be my undoing in the end, {STR_LeaderName_KORVIN_ZHELEZO}... You were my blood, a part of my Consortium as much as any son or daughter of Rassvet. But when Alexandra died, you scorned our camaraderie. I see now that you would never have been able to accept us.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">I should have known that you would be my undoing, {STR_LeaderName_KORVIN_ZHELEZO}... You were my blood, a part of my Consortium as much as any son or daughter of Rassvet. But when Alexander died, you scorned our camaraderie. I see now that you never accepted us.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HOSTILE_RASSVET_DEFEATED_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I can only hope this reckless 'vengeance' brings you peace. I’m grateful Alexandra never saw what you’ve become.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">I can only hope this reckless 'vengeance' brings you peace. I’m grateful Alexander will never see what you’ve become. </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandra\Alexander's gender changes depending on the gender of the player. (Male/female or Female/Male)</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HOSTILE_RASSVET_DEFEATED_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You brought this upon yourself, Rassvet. The day you stopped searching for answers, and the day you decided to stand in my way.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="142" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIND_THE_SOURCE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Locate the source of the energy signature</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIND_THE_SOURCE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Find the mysterious source of energy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">APPROPRIATION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reclaim the old mining complex</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">APPROPRIATION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quartzite have overrun the nearby Imperial Mining Facility, this insult to the Dvar mining ancestors cannot be allowed. Claim it![br/][br/][recommendedcol](Hint: To be able to annex a sector to a colony, that colony must be a maximum of two sectors away and have the necessary population to support an additional sector.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Prospectors&quot; are the in-game Dvar units that act as scouts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">APPROPRIATION_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Father, the encampment is setting up as ordered. There has not yet been any sign of the Rassvet.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mother, the encampment is setting up as ordered. There has not yet been any sign of the Rassvet.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)&#10;Text changes depending on player character's gender.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">APPROPRIATION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good, we have chosen a fortunate landing site. One of the mining complexes of our ancestors lies dormant nearby; it would be a shame to see their creation decay without purpose. We must assemble a force and reclaim that facility.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">APPROPRIATION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With our prospectors deployed, we should see to it that they are put to work exploring and prospecting nearby sectors. It would benefit us to identify suitable settlement sites.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo&#10;(Dvar, female)&#10;&quot;Prospectors&quot; are in-game units that scout the map.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEARCH_THE_GOVERNMENT_PALACE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Search the local Government Palace</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SEARCH_THE_GOVERNMENT_PALACE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A rich bounty of Cosmite was mined on this world, the Government Palace's logs should have records of where it went. But first you need to overcome any still intact security systems.[br/][br/][recommendedcol](Hint: This is an adventure quest. Make sure to bring an army when you move to the target location. Some landmarks need to be entered to fight its defenders. Move your army onto the structure to be able to enter it.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SEARCH_THE_GOVERNMENT_PALACE_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The creations of our ancestors have a certain grace to them, do they not? Unburdened by the strife of the Cataclysm, the riches they attained were almost beyond measure. We will honor their creation by putting this place to good use.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)&#10;&quot;Their Creation&quot; refers to the Quarry which the Dvar consider to </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SEARCH_THE_GOVERNMENT_PALACE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Father, I have looked through the facilities logs, and it seems that they were tampered with. Someone tried to obscure it, but an immense quantity of Cosmite was mined on this world. It may never have been shipped off world!</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mother, I have looked through the facilities logs, and it seems that they were tampered with. Someone tried to obscure it, but an immense quantity of Cosmite was mined on this world. It may never have been shipped off world!</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo&#10;(Dvar, female)&#10;&quot;Cosmite&quot; refers to an in-game resource that is extremely rare and precious.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SEARCH_THE_GOVERNMENT_PALACE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Interesting… if this is true, recovering that shipment could well redeem this expedition, and get us back in the good graces of the council.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)&#10;&quot;Council&quot; refers to the &quot;Adamant Council&quot; the ruling body of the Dvar.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SEARCH_THE_GOVERNMENT_PALACE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This planet’s Government Palace should hold a more detailed record of where the shipments went. We should make our way there and search their logs; if we can recover that shipment, a confrontation with Uncle may not be necessary after all!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo&#10;(Dvar, female)&#10;&quot;Uncle&quot; refers to Valodny Rassvet, who is another player present on the map.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNCOVERING_THE_SOURCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Locate the lost shipment</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNCOVERING_THE_SOURCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the Cloudbreaker Mountains, where the trail ends.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNCOVERING_THE_SOURCE_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I’m recovering the logs, but the data seems incomplete… The Cosmite was not shipped off world, but all of the files report ‘Repurposed by CORE’. Here’s something else interesting, an immense supply of construction materials had been sent to ‘Cloudbreaker Mountains’ in the months before the shipments went missing.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo&#10;(Dvar, female)&#10;&quot;CORE&quot; refers to the AI that ruled the Star Union alongside the Emperor/Empress.&#10;&quot;Cloudbreaker Mountains&quot; is the name of a sector present on the map.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNCOVERING_THE_SOURCE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CORE? Old records speak of such an entity, but it fell with the Cataclysm. The drones that guarded this place must have acted on orders over 200 years old; they are only machines after all.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)&#10;&quot;CORE&quot; refers to the AI that ruled the Star Union alongside the Emperor/Empress.&#10;&quot;Cataclysm&quot; refers to the event that destroyed the Star Union.&#10;&quot;Irons in the fire&quot; is an english saying, that implies CORE had plans set out for this world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNCOVERING_THE_SOURCE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">That is not even all, father, look. These seem like blueprints for a structure, though damaged as they are, I can only make out its name: “CSF Vault-05” a vault! The shipments must have gone there!</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">That is not even all, Mother, look. These seem like blueprints for a structure, though damaged as they are, I can only make out its name: “CSF Vault-05” a vault! The shipments must have gone there!</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo&#10;(Dvar, female)&#10;Text changes depending on player character's gender.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Earth crack &quot;Cloudbreaker Mountains&quot;</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Closer inspection revealed that the source is buried deep beneath the earth, acquire an Earth Crusher in order to crack the sector and reach the treasure below. The Rassvet must have brought one along for their excavation efforts…[br/][br/][recommendedcol](Hint: Move an Earth Crusher onto the center hex of a sector to use the 'Earth Crack' strategic operation.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seismic scans indicate there is indeed a structure deep underneath the ground. That must be the vault!</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmm… there seems to be no way in, it is completely isolated. Our current tools cannot excavate this deep. We need to get our hands on an Earth Crusher to break open a path down into this vault.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)&#10;&quot;Earth Crusher&quot; refers to a Dvar unit that excavates the earth for mining purposes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_PAGE_02_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmm… there seems to be no way in, it is completely isolated. We should employ our newly acquired Earth Crusher to break open a path down into this vault.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Rassvet brought an Earth Crusher along with them as part of the contract. Maybe they’ll lend it to us if we can secure their alliance.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)&#10;&quot;Rassvet&quot; refers to the Rassvet Consortium, the main rival of Zhelezo. Valodny Rassvet is the leader of the Consortium.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your words are wise, my daughter. Forging an alliance with Rassvet may be quicker than designing and manufacturing an Earth Crusher for ourselves.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CRACKING_THE_EARTH_ALLIED_RASSVET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName_KORVIN_ZHELEZO}, I heard you needed an Earth Crusher. In light of our reconciliation, I will lend you ‘Old Thane’, one of the finest Earth Crushers in the Rassvet Consortium’s arsenal. Bring her back in one piece.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Valodny Rassvet&#10;(Dvar, always male, rival of Khorvin)&#10;&quot;Old Thane&quot; is the name of the Earth Crusher.&#10;A &quot;Consortium&quot; is a Dvar organization, usually ruled by a single family.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COMMANDEERED_AN_EARTH_CRUSHER_PAGE_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent work, Zhelezo! We should make use of our new acquisition. Bring it to the Vault - we will crack it wide open.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Valodny Rassvet&#10;(Dvar, always male, rival of Khorvin)&#10;&quot;the Vault&quot; refers to the hidden vault containing a massive stockpile of Cosmite.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKING_A_WITHDRAWAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Making a Withdrawal</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MAKING_A_WITHDRAWAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Vault has been opened and the extraction operation has begun, the vile Assembly refuse to let us claim our prize in peace and are gathering a strike force nearby. Secure the vault for the Zhelezo Dvar.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAKING_A_WITHDRAWAL_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The way to the vault is clear. Follow me, and prepare for the worst. This place was clearly not meant to be uncovered and could contain additional measures for repelling intruders.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MAKING_A_WITHDRAWAL_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Director {STR_LeaderName_KORVIN_ZHELEZO}! We’ve spotted Assembly nearby. We should be on alert in case they try to ambush us.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Directress {STR_LeaderName_KORVIN_ZHELEZO}! We’ve spotted Assembly nearby. We should expect an ambush.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Zhelezo Foreman&#10;(Random Dvar under Zhelezo's command)&#10;Text changes depending on player character's gender.&#10;&quot;Assembly&quot; refers to an in-game race.&#10;(see glossary)&#10;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">For context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKING_A_WITHDRAWAL_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Explore the Vault</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MAKING_A_WITHDRAWAL_EPILOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Vault's guardians lie defeated, and the Redeemer’s assault along with it. Now none can question our claim to the treasures within. Today, the Zhelezo Dvar make their name!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)&#10;&quot;Vault's guardians&quot; refers to the Assembly race.&#10;&quot;Redeemer&quot; refers to Mephilas the Redeemer, leader of said Assembly.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">For context.</Data></Cell>
+   </Row>
+   <Row ss:Index="179" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_MALAI_ANTARES_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You trespass in the territory of House Antares. We know from prior dealings that the Dvar are too stubborn to accept peaceable trading arrangements. We warned you once before - there will not be a third warning.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Malai of House Antares&#10;(Syndicate, female)&#10;&quot;you&quot; refers to Khorvin Zhelezo and can be either male or female.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_MALAI_ANTARES_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We are not Rassvet. I am {STR_LeaderName_KORVIN_ZHELEZO} of the Zhelezo Dvar Consortium. We’ve denied no such offer. Perhaps we can come to an understanding where the Rassvet would not.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_MALAI_ANTARES_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are bold, {STR_LeaderName_KORVIN_ZHELEZO}. I like that. We seek someone on this world, a man of our House named Mordechai Antares. He came here after witnessing a vision and he has no doubt gotten himself in trouble already. If you find him and convince him to return home, we will compensate you handsomely.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Malai of House Antares&#10;(Syndicate, female)&#10;&quot;you&quot; refers to Khorvin Zhelezo and can be either male or female.&#10;&quot;House&quot; is Syndicate terminology for their organization.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_MALAI_ANTARES_MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This Mordechai reminds me of you, father. Regardless, we must be careful when dealing with the Syndicate, they are rarely reliable.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This Mordechai reminds me of you, mother. Regardless, we must be careful when dealing with the Syndicate, they tend to enslave their business partners.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Speaker: Inessa Zhelezo&#10;Target is Khorvin Zhelezo and can be either male or female.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_MALAI_ANTARES_MESSAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are correct Inessa, but this House Antares seems to be driven by nobler motivations. Let’s find this Mordechai. We will need allies if we are to enforce our claim on this world.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)&#10;&quot;House Antares&quot; is the Syndicate House.</Data></Cell>
+   </Row>
+   <Row ss:Index="185" ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MALAI_RELATION_WAR_DECLARATION_MORDECHAI_RECRUITED_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Despite how you have so graciously helped me before, I cannot fight my sister. May the light of Antares grant you the wisdom to seek peace with my House. Goodbye, Director Korvin. May our houses resolve our differences peacefully.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">No matter what you have done for me in the past, I will not fight my sister. May the light of Antares grant you the wisdom to seek peace with my House. Goodbye Directress {STR_LeaderName_KORVIN_ZHELEZO}, may both our houses see this war through.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Speaker: Mordechai of House Antares&#10;(Syndicate, male)&#10;Target is Khorvin Zhelezo and can be either male or female.</Data></Cell>
+   </Row>
+   <Row ss:Index="188" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_FAVOR_FOR_A_FAVOR_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">An Unexpected Ally</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">A_FAVOR_FOR_A_FAVOR_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Syndicate representative of House Antares, Malai has promised aid in return for finding and returning a member of her house: Mordechai Antares.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINDING_THE_LIGHT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Lost Brother</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FINDING_THE_LIGHT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mordechai supposedly set off to Chimera Glacialis after a vision. There must be sites of particular strength to Psionics on this world. Perhaps Mordechai can be found there.[br/][br/][recommendedcol](Hint: This is an adventure quest. Make sure to bring an army when you move to the target location.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">&quot;Chimera-V&quot; is the name of the planet that the mission takes place on.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FINDING_THE_LIGHT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mordechai Antares Found</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:Index="195" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disrupt the Psynumbra Ritual</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We found Mordechai. He seeks to disrupt a vile psionic ritual, performed at an old cultist shrine. If we help him that will surely secure friendly relations with the Syndicate of House Antares.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Quest description.&#10;&quot;Mordechai&quot; refers to Mordechai of House Antares, the person the player is looking for. (Syndicate, male)</Data></Cell>
+    <Cell><Data ss:Type="String">For context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mordechai Kept Alive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You there, stay your weapons!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You must be Mordechai. Malai of House Antares bids you return to your house.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_01_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You must be Mordechai. Before she fell, the lady of House Antares requested your return.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My sister can wait. The heretics calling themselves 'Redeemers' are enacting vile rituals nearby. I cannot allow them to desecrate this world any longer. The Abyss's grip on this place tightens with every passing minute. I have already suffered losses and prospects were looking grim, but with your forces at our side we may be able to strike them down.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Speaker: Mordechai of House Antares&#10;(Syndicate, male)&#10;Target is Khorvin Zhelezo and can be either male or female.&#10;&quot;Redeemers&quot; refers to the Assembly in this mission.</Data></Cell>
+    <Cell><Data ss:Type="String">For context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_02_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If my sister has fallen, the least I can do is retaliate against these Redeemers. A contingent of the heretics is enacting vile rituals nearby. The Abyss's grip on this world tightens, and I have already suffered losses. Prospects are looking grim, but with your forces at our side, we may yet be able to avenge her.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Redeemers are a threat to us as well, father. Disrupting this ritual could hinder their efforts greatly, not to mention secure friendly relations with House Antares. Mordechai and his army could prove helpful, but perhaps we should send him back to his sister. What is your decision?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Redeemers threaten us as well, Mother. Disrupting this ritual could hinder their efforts greatly. Futher, it cements good relations with House Antares. Should we employ Mordechai’s help, or tell him to go home to his sister? </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_03_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Redeemers are a threat to us as well, father. Disrupting this ritual could hinder their efforts greatly, not to mention secure friendly relations with House Antares. Mordechai and his army could prove helpful – we should grant him the vengeance he seeks.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Redeemers are a threat to us as well, Mother. Disrupting this ritual could hinder their efforts greatly, not to mention secure friendly relations with House Antares. Mordechai and his army could prove helpful – we should grant him the vengeance he seeks.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_04_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My daughter speaks true, and there is wisdom in your words as well, Lord Antares. We accept your aid.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)&#10;&quot;Lord Antares&quot; refers to Mordechai of House Antares.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_05_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent! Let us not delay any longer. We await your signal. By the light of Antares, we will purge these abominations.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Speaker: Mordechai of House Antares&#10;(Syndicate, male)&#10;Target is Khorvin Zhelezo and can be either male or female.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_04_DECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I will not risk you and your already battered forces in this endeavor. Return to your sister. We’ll complete what you could not.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_05_DECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot be serious? The Redeemers will destroy you… Nevertheless, without your assistance, we have no choice but to return home and recover. Perhaps we shall speak again… if you are successful.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Speaker: Mordechai of House Antares&#10;(Syndicate, male)&#10;Target is Khorvin Zhelezo and can be either male or female.</Data></Cell>
+   </Row>
+   <Row ss:Index="210" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_06_COMPLETED_MORDECHAI_LIVES_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The cultist lay defeated at our feet, the ritual is disrupted. Regardless Malai's killers still remain out there… I cannot return home until those that wronged my house have been brought to justice. I will join you in your struggle {STR_LeaderName_KORVIN_ZHELEZO}, guide my hand to vengeance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_06_FAILED_MORDECHAI_DIED_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see now that my vision was but a herald of my end… my own, and my sister's… </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_06_ACCEPTED_COMPLETED_MORDECHAI_LIVES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is good to see you’re a Dvar of your word. My brother has returned to me and he speaks highly of your valor. I too shall keep my word. We shall direct our efforts towards stopping this Redeemer cult.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Malai of House Antares&#10;(Syndicate, female)&#10;&quot;brother&quot; refers to Mordechai of House Antares.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_06_ACCEPTED_FAILED_MORDECHAI_DIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This abhorrent world has killed my brother, and you let it happen. I see that your words are nothing but empty promises. We will bring his body home to rest. I shall mourn his loss… and think twice before trusting a Dvar again.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Malai of House Antares&#10;(Syndicate, female)&#10;&quot;brother&quot; refers to Mordechai of House Antares if he dies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">A_FRIEND_IN_NEED_PAGE_06_DECLINED_COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mordechai has returned to us. Although he grumbles about the honor he has been denied, I see that he’s impressed with your feat. I shall keep my word. House Antares will aid you in your conflict against the Redeemers.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Malai of House Antares&#10;(Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:Index="216" ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">HOUSE_ANTARES_ALLIED_MORDECHAI_ACCEPTED_HELP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings Master Zhelezo, I have seen the valor of the Dvar firsthand and I think there is much I we could learn from one another. I offer my service to you, let me fight alongside you and together we will show these Redeemers what happens to those that involve themselves with the Void.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Greetings Mistress Zhelezo, I have seen the valor of the Dvar firsthand and I think there is much I we could learn from one another. I offer my service to you, let me fight alongside you and together we will show these Redeemers what happens to those that involve themselves with the Void.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Speaker: Mordechai of House Antares&#10;(Syndicate, male)&#10;Target is Khorvin Zhelezo and can be either male or female.&#10;&quot;Void&quot; refers to the space and reality beyond the Star Union. People usually fear it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">HOUSE_ANTARES_ALLIED_MORDECHAI_DECLINED_HELP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings Master Zhelezo. I have been impressed by the valor of your forces at the ritual site, you prevailed despite the odds. I believe there is much I we could learn from one another so I offer my service to you, let me fight alongside you. Together we will show these Redeemers what happens to those that involve themselves with the Void.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Greetings Mistress Zhelezo. I have been impressed by the valor of your forces at the ritual site, you prevailed despite the odds. I believe there is much I we could learn from one another so I offer my service to you, let me fight alongside you. Together we will show these Redeemers what happens to those that involve themselves with the Void.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Speaker: Mordechai of House Antares&#10;(Syndicate, male)&#10;Target is Khorvin Zhelezo and can be either male or female.&#10;&quot;Void&quot; refers to the space and reality beyond the Star Union. People usually fear it.</Data></Cell>
+   </Row>
+   <Row ss:Index="219" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AUTONOM_FACTION_MEET_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Scanning bio-mass… unknown organic: database updated. Greetings, Ex-Star Union citizen. We are Autonom, the cognitive fork of the Conscientious Omnipresent Regency Engine, known to you as C.O.R.E. Present identification.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Speaker: Autonom Network&#10;(Autonom, gender-less, robot)&#10;&quot;Conscientious Omnipresent Regency Engine&quot; refers to the AI that controlled the Star Union, abreviated as &quot;C.O.R.E&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">For context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AUTONOM_FACTION_MEET_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, machine, we are the Zhelezo Dvar. We lay claim to this world's riches.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AUTONOM_FACTION_MEET_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Database update: Zhelezo Dvar. Autonom must learn through interactive queries. Current knowledge acquisitions inconclusive. We seek understanding: datadisk recovered, requires categorization. Autonom analysis ineffective. Biological analysis deviates from Autonom thought patterns. Request assistance with identification.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Autonom Network&#10;(Autonom, gender-less, robot)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AUTONOM_FACTION_MEET_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">That disk seems familiar… we will consider your request Autonom.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_BENEFICIAL_PARTNERSHIP_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dealing with Robots</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">A_BENEFICIAL_PARTNERSHIP_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Autonom on this world might be useful allies, appeasing them by helping them understand the world around them could prove beneficial.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:Index="227" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECRYPTING_THE_PAST_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the strange Datadisk</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DECRYPTING_THE_PAST_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Autonom are in posession of an encrypted Datadisk and have allowed our researchers access to it, we should set up an investigation if we want to get on the Autonom's good side, not to mention make use of its contents.[br/][br/][recommendedcol](Hint: You can still interrupt the quest research for more urgent research projects and resume it later by accessing the &quot;Special Research&quot; at the bottom of the research overview.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:Index="230" ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DECRYPTING_THE_PAST_COMPLETED_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Father, the research team has completed analysis of the Datadisk. It is a holotheater disk, manufactured for the ancient Stadia Arcadia. This one contains holoperformances from a band named 'Null Behavior'. It was imprinted in a Stadium Arcadium not far from here. The original recording might still be there. Even if the Autonom still won't understand, they might be grateful.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mother, the research team has completed analysis of the Datadisk. It is a holotheater disk, manufactured for the ancient Stadia Arcadia. This one contains holoperformances from a band named 'Null Behavior'. It was imprinted in a Stadium Arcadium not far from here. The original recording might still be there. Even if the Autonom still won't understand, they might be grateful.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)&#10;&quot;Stadia Arcadia&quot; refers to the stadiums used in the Star Union era for entertainment for the masses.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DECRYPTING_THE_PAST_COMPLETED_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Let us hope so. Not as useful as I would’ve hoped, but maybe we can gain their trust, regardless of the disk’s contents. Let’s share what we know with the Autonom.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Khorvin Zhelezo&#10;(Dvar, male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DECRYPTING_THE_PAST_COMPLETED_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Processing… analysis inconclusive, require further data. Stated terminal: Stadium Arcadium. Recover original imprint of data. Source code might provide solution to inquiry.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Autonom Network&#10;(Autonom, gender-less, robot)</Data></Cell>
+   </Row>
+   <Row ss:Index="234" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SOUND_OF_MUSIC_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Sound of Music</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_SOUND_OF_MUSIC_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Data Storage Chip contained a recording of an ancient Star Union band 'Null Behavior' the autonom are not satisfied with our answer so we must dig deeper, we should search for the location mentioned on the disk. Perhaps the original disk can be found there.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Quest description.&#10;&quot;Null Behavior&quot; refers to a famous Star Union era band.</Data></Cell>
+   </Row>
+   <Row ss:Index="237" ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">THE_SOUND_OF_MUSIC_COMPLETED_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We found the original datadisk, still intact. It holds a wealth of information: 'Null Behavior' was popular among a subculture known as 'Spacers'. They favored anarchistic tendencies which landed them on CORE's watchlist. The band disappeared without a trace a few months after allegations of cyber-terrorism ensued. CORE wanted the disks destroyed. It’s remarkable it survived this long.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Speaker: Inessa Zhelezo, daughter of Korvin.&#10;(Dvar, always female)&#10;&quot;Spacers&quot; refers to the in-game faction by the same name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SOUND_OF_MUSIC_COMPLETED_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Confirmed acquisition of uncorrupted data. Subject analysis inconclusive. Examining new data. Zhelezo Dvar is proven cooperative. Dispatching ambassador for field analysis.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Speaker: Autonom Network&#10;(Autonom, gender-less, robot)</Data></Cell>
+   </Row>
+   <Row ss:Index="240" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIGHT_THE_REDEEMER_THREAT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Combat the Redeemer threat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIGHT_THE_REDEEMER_THREAT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">{INT_0}/{INT_1} Assembly Units Slain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIGHT_THE_REDEEMER_THREAT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Assembly cult is interfering with your mining operations. Those abominations must be burned with fire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIGHT_THE_REDEEMER_THREAT_EPILOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You speak of redemption, yet you forge abominations of flesh and steel just like yourself! Why condemn others to an existence you seek to escape?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FIGHT_THE_REDEEMER_THREAT_EPILOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The second generation is nothing like us, Dvar. They are tools. No true life was ever breathed into them, no soul. I do what I must for the redemption of my kind, a plight I’m sure you can sympathize with.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIGHT_THE_REDEEMER_THREAT_EPILOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We are nothing like your kind! Our ancestors carved out new homes from the barren rocks of the harsh frontier. Pride and reverence are the least they deserve.[br/][br/]You and your abominations on the other hand have not earned your place in this universe. We will purge you with fire and melt your metal constructions into pick axes and mining carts.</Data></Cell>
+   </Row>
+   <Row ss:Index="247" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEFAULT_VICTORY_EPILOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chimera Glacialis is ours, none can question that now. Not even the Adamant Council will be able to overlook such an achievement. Every bit of ore we mine on this world will bring the Zhelezo closer to their rightful place among the Adamant.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DEFAULT_VICTORY_EPILOGUE_PAGE_02_VAULT_KNOWN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Father, I took the liberty of sending out prospectors to investigate the Cosmite vault. It seems the Redeemers got to it first; its contents are almost entirely destroyed. Perhaps this vault was their target all along?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mother, I took the liberty of sending out prospectors to investigate the Cosmite vault. It seems the Redeemers got to it first; its contents are almost entirely destroyed. Perhaps this vault was their target all along?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">DEFAULT_VICTORY_EPILOGUE_PAGE_02_VAULT_UNKNOWN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Father, our Prospectors have uncovered the remains a vault deep below the planet’s surface. However, it seems that the Redeemers got to it first: the structure is entirely destroyed and all its contents lost. Traces of Cosmite still litter the ruins; it would seem the entire worlds Cosmite shipments had been kept here. Perhaps this vault was the Redeemer’s target all along?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mother, our Prospectors have uncovered the remains a vault deep below the planet’s surface. However, it seems that the Redeemers got to it first: the structure is entirely destroyed and all its contents lost. Traces of Cosmite still litter the ruins; it would seem the entire worlds Cosmite shipments had been kept here. Perhaps this vault was the Redeemer’s target all along?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEFAULT_VICTORY_EPILOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmmm, they sought redemption. The destruction of the vault must have been part of the price they were asked to pay, but to whom? Regardless it is out of our hands now, we should focus on our mining operations and await the Council’s judgement.</Data></Cell>
+   </Row>
+   <Row ss:Index="252" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOLOGICAL_SCAN_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Initiate Geological Scan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GEOLOGICAL_SCAN_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use the Facilities' Intricate scanners to locate the source of the energy signature.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_SHROUD_GENERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disable Shroud Generator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_SHROUD_GENERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Disable this generator to remove it's interference of our scan.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INVESTIGATE_STADIUM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the Stadium</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INVESTIGATE_STADIUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the Stadium Arcadium's ruins for any information on the Autonom Data Storage Chip.</Data></Cell>
+   </Row>
+   <Row ss:Index="260" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_ACCEPT_ASSISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Accept Assistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_LABEL_DECLINE_ASSISTANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Decline Assistance</Data></Cell>
+   </Row>
+   <Row ss:Index="263" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_GRID_SKILL_DECRYPT_DATADISK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Decrypt Datadisk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_GRID_SKILL_DECRYPT_DATADISK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Decrypt the Autonom's ancient Datadisk.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>221</TopRowVisible>
+   <LeftColumnVisible>2</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>227</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

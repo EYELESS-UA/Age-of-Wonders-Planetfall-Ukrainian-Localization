@@ -1,0 +1,809 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-05-23T15:07:00Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12435</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="160" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="459"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="175.5"/>
+   <Column ss:StyleID="s62" ss:Width="289.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="399"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="399"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FACTION_INTERACTION</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Tell us what you seek, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We are happy to extend this favour to you, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We welcome you, {STR_LeaderName}. What can we do for each other?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, in light of our burgeoning relationship, we ask you to lend your assistance in this matter.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WAR_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">This is a regrettable situation, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Very well, we will act accordingly.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, let us stop this violence. Please accept our surrender.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">REQUESTED_PEACE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">In order to form a peace deal, we want the following things from you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_POINTS_RESET_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">This is unfortunate, {STR_LeaderName}, but in light of recent events, I think it is best if we start from a clean slate to give both sides another chance to prove that we can cooperate and coexist.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Hello {STR_LeaderName}. In light of your recent actions and our worsening relationship, I am afraid our diplomatic state has withered like a plant without water.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_NEW_STATE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings {STR_LeaderName}. Due to our continued coexistence and your recent actions to our favor, we have new diplomatic options we wish to discuss, should you feel so inclined.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARED_WAR_ON_PLAYER_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">You leave us no choice, {STR_LeaderName}. This is the last drop that overflows the bucket of blood to wash our empires red. War will be waged between our factions, and history will only remember the virtuous victor. The defeated will become dust and ash. History has no mercy for the weak.</Data></Cell>
+   </Row>
+   <Row ss:Index="19" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">State your business, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We shall leave. This time…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">What brings you before us, {STR_LeaderName}?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, we first have a test for you to prove your worth.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WAR_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">You have made an enemy this day, {STR_LeaderName}!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We can accept these terms.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We bow to your strength, {STR_LeaderName}. Please accept our surrender.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">REQUESTED_PEACE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">In order to form a peace deal, we want the following things from you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_POINTS_RESET_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">This is unfortunate, {STR_LeaderName}, but in light of recent events, I think it is best if we start from a clean slate to give both sides another chance to prove that we can cooperate and coexist.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Hello {STR_LeaderName}. In light of your recent actions and our worsening relationship, I am afraid our diplomatic state has withered like a plant without water.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_NEW_STATE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings {STR_LeaderName}. Due to our continued coexistence and your recent actions to our favor, we have new diplomatic options we wish to discuss, should you feel so inclined.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARED_WAR_ON_PLAYER_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">You leave us no choice, {STR_LeaderName}. This is the last drop that overflows the bucket of blood to wash our empires red. War will be waged between our factions, and history will only remember the virtuous victor. The defeated will become dust and ash. History has no mercy for the weak.</Data></Cell>
+   </Row>
+   <Row ss:Index="32" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Why have you approached us, {STR_LeaderName}?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We will leave this place, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Hello {STR_LeaderName}. Do you wish to talk?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We have a mission for you {STR_LeaderName}, should you choose to accept it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WAR_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Fine, {STR_LeaderName}. War it is.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Our relation has changed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We surrender, {STR_LeaderName}. You have won.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">REQUESTED_PEACE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">In order to form a peace deal, we want the following things from you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_POINTS_RESET_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">This is unfortunate, {STR_LeaderName}, but in light of recent events, I think it is best if we start from a clean slate to give both sides another chance to prove that we can cooperate and coexist.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Hello {STR_LeaderName}. In light of your recent actions and our worsening relationship, I am afraid our diplomatic state has withered like a plant without water.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_NEW_STATE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings {STR_LeaderName}. Due to our continued coexistence and your recent actions to our favor, we have new diplomatic options we wish to discuss, should you feel so inclined.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARED_WAR_ON_PLAYER_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">You leave us no choice, {STR_LeaderName}. This is the last drop that overflows the bucket of blood to wash our empires red. War will be waged between our factions, and history will only remember the virtuous victor. The defeated will become dust and ash. History has no mercy for the weak.</Data></Cell>
+   </Row>
+   <Row ss:Index="45" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_NEUTRAL_INTERACTION</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings. What do you wish to discuss?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_RELATION_IMPROVED</Data></Cell>
+    <Cell><Data ss:Type="String">We look forward to a prosperous future together.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_WAR_INTERACTION</Data></Cell>
+    <Cell><Data ss:Type="String">Speak quickly before I lose my patience.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_EVASION_INTERACTION</Data></Cell>
+    <Cell><Data ss:Type="String">What do you propose, {STR_LeaderName}?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_NEW_TRADE_AVAILABLE</Data></Cell>
+    <Cell><Data ss:Type="String">Now available for trade:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_JOINED_WAR_HOSTILE</Data></Cell>
+    <Cell><Data ss:Type="String">We have been requested to join this war. Prepare yourself, as our combined might will destroy you!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_JOINED_WAR_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">Together, we shall destroy them!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: destoy &#45;-&gt; destroy</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_RELATION_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We wish to change our diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We seek collaboration, to work together for a brighter future.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_EVASION_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We should each go our seperate ways in this world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We would like access to this location. Could you please leave? {INT_Cost}[influence/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Is there anything we can do for you?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_ALLIANCE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Integration ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DEFENSIVE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Friendship Pact ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_PEACE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Peace ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_NEUTRAL_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">GO_TO_DWELLING_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Please show us to your commander.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">To further our mutal goals, we will take care of this matter for you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_FACTION_END_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We accept your surrender. Let there be peace again.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_TRADE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We wish to trade with you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">REQUEST_PEACE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We propose a cease of hostilities.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We want you to join us in our war.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_PEACE_DEAL_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We accept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_PEACE_DEAL_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">We decline.</Data></Cell>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_RELATION_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We wish to change our diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">You would be wise to join us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_EVASION_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We do not care to associate ourselves with you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Withdraw your forces or face the consequences. {INT_Cost}[influence/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Do you have any tasks available?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_ALLIANCE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Integration ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DEFENSIVE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Friendship Pact ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_PEACE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Peace ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_NEUTRAL_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">GO_TO_DWELLING_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Take me to your commander.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We will complete this challenge.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_FACTION_END_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">You are defeated. Your submission is accepted.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_TRADE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Show me your goods.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">REQUEST_PEACE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We propose a cease of hostilities.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We want you to join us in our war.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_PEACE_DEAL_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We accept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_PEACE_DEAL_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">We decline.</Data></Cell>
+   </Row>
+   <Row ss:Index="91" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_RELATION_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We wish to change our diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We come in peace and offer you protection.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_EVASION_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We will each go our own way.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We require this location. Please vacate the area. {INT_Cost}[influence/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">What can we help you with?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_ALLIANCE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Integration ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DEFENSIVE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Friendship Pact ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_PEACE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Peace ({INT_RequiredRelValue}[diplomaticlinks/])</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_NEUTRAL_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">GO_TO_DWELLING_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We would like to talk with your commander.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Tell me what you need.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_FACTION_END_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Your surrender is accepted.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_TRADE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We are here to discuss a trade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">REQUEST_PEACE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We propose a cease of hostilities.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We want you to join us in our war.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_PEACE_DEAL_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We accept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_PEACE_DEAL_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">We decline.</Data></Cell>
+   </Row>
+   <Row ss:Index="110" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CLOSE</Data></Cell>
+    <Cell><Data ss:Type="String">Close channel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">BACK</Data></Cell>
+    <Cell><Data ss:Type="String">Back</Data></Cell>
+   </Row>
+   <Row ss:Index="113" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Change Relation[/popUpHeader][br/][popUpDesc]Change the relation with the {STR_FactionName} in question.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Integration[/popUpHeader][br/][popUpDesc]Start a flourishing relation with the {STR_FactionName}.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_EVASION</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Evasion[/popUpHeader][br/][popUpDesc]Declare that you will not interact with the {STR_FactionName}. In return, they will not interfere with your matters.[br/] NOTE: breaking this deal will result in war.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Withdraw[/popUpHeader][br/][popUpDesc]Spend influence to remove an army from this location.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Quest[/popUpHeader][br/][popUpDesc]Receive a quest from the {STR_FactionName} to improve your relation with them. [/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Integration[/popUpHeader][br/][popUpDesc]Enter the highest state of Integration with the {STR_FactionName}.[br/][br/] Required: {INT_RequiredRelValue}[diplomaticlinks/][/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Protective Integration[/popUpHeader][br/][popUpDesc]Enter a state of Protective Integration with the {STR_FactionName}.[br/][br/] Required: {INT_RequiredRelValue}[diplomaticlinks/] [br/]Bonus: when the {STR_FactionName} is attacked, you will receive a Casus Belli towards the aggressor.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Peace[/popUpHeader][br/][popUpDesc]Enter a peaceful relationship with the {STR_FactionName}.[br/][br/] Required: {INT_RequiredRelValue}[diplomaticlinks/][/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Neutral[/popUpHeader][br/][popUpDesc]Enter a neutral state with the {STR_FactionName}.[/br][/br] Required: {INT_RequiredRelValue}[diplomaticlinks/][/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]War[/popUpHeader][br/][popUpDesc]Declare war on the {STR_FactionName}.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">GO_TO_DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Go To Dwelling[/popUpHeader][br/][popUpDesc]Start negotiating with the dwelling.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">CLOSE</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Close[/popUpHeader][br/][popUpDesc]Close the panel.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">BACK</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Back[/popUpHeader][br/][popUpDesc]Return to the previous screen.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_FACTION_END_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]End The War[/popUpHeader][br/][popUpDesc]Accept the peace deal from the {STR_FactionName}. [/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Trade[/popUpHeader][br/][popUpDesc]Open the trade screen in the right panel to buy from the {STR_FactionName}. [/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">REQUEST_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Request peace[/popUpHeader][br/][popUpDesc]Request peace with {STR_FactionName} and see their peace proposal.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Call to War[/popUpHeader][br/][popUpDesc]Ask the {STR_FactionName} to declare war on a player you are at war with.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_PEACE_DEAL</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Accept[/popUpHeader][br/][popUpDesc]Accept peace deal. You will lose all items shown.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_PEACE_DEAL</Data></Cell>
+    <Cell><Data ss:Type="String">[popUpHeader]Decline[/popUpHeader][br/][popUpDesc]Decline peace deal. The war continues.[/popUpDesc]</Data></Cell>
+   </Row>
+   <Row ss:Index="133" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_SHOP_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">BUY_DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">Request ownership</Data></Cell>
+   </Row>
+   <Row ss:Index="135" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DWELLING_SHOP_BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">BUY_DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">Purchase ownership of this dwelling. This can only be done if you have a Colony near the sector that can accept the dwelling as a sector. Owning a dwelling means only you and your allies can interact with it. In addition, a dwelling sector functions as a fully upgraded sector in a single resource, shown in the sector overview panel.</Data></Cell>
+   </Row>
+   <Row ss:Index="137" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERNAL_EVENTS</Data></Cell>
+    <Cell><Data ss:Type="String">REQUEST_END_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">The {STR_FactionName} want peace</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERNAL_EVENTS</Data></Cell>
+    <Cell><Data ss:Type="String">QUEST_RECIEVED</Data></Cell>
+    <Cell><Data ss:Type="String">Message from the {STR_FactionName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERNAL_EVENTS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_JOINED_WAR_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">The {STR_FactionName} joined our war</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERNAL_EVENTS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_JOINED_WAR_HOSTILE</Data></Cell>
+    <Cell><Data ss:Type="String">The {STR_FactionName} were called to war against you</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERNAL_EVENTS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARED_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">The {STR_FactionName} declared war</Data></Cell>
+   </Row>
+   <Row ss:Index="143" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Call To War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ask the faction to take up arms in an ongoing war.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">INSTRUCTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Select an enemy Commander:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">The faction will not attack another player they are at relation state {XML_DIPLOMACY@FACTION_DIPLOMATIC_STATE@DEFENSIVEPACT} or {XML_DIPLOMACY@FACTION_DIPLOMATIC_STATE@ALLIANCE} with and can therefore not be called to war with this player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description explaining why a faction can't be called to war against a certain player. The relation states can be found in DIPLOMACY.XML, they are &quot;Friendship&quot; and &quot;Integration&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_TO_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_ALREADYATWAR</Data></Cell>
+    <Cell><Data ss:Type="String">The faction is already at war with this player and cannot be called to war against them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description explaining why a faction can't be called to war against a certain player.</Data></Cell>
+   </Row>
+   <Row ss:Index="149" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">QUEST_RELATION_WARNING</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I see that you are working with our rivals. We do not take kindly to those who aid our foes. Tread carefully!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">QUEST_RELATION_WARNING_TOOLTIP</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Doing quests for other factions will damage your relationship with this faction!</Data></Cell>
+   </Row>
+   <Row ss:Index="152" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">BOUGHT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">Bought unit</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">BOUGHT_DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">Bought dwelling</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">BOUGHT_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">Bought mod</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">QUESTFACTIONRIVALRY</Data></Cell>
+    <Cell><Data ss:Type="String">Completed quest for other faction</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DIPLOMATICSTATE</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomatic state changed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">Completed quest</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINED_DEMAND</Data></Cell>
+    <Cell><Data ss:Type="String">Demand was declined</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEMANDED_SECTOR_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Show us the demanded sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEMANDED_SECTOR_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Show the sector that will be given to the faction making the demand.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>135</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>162</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

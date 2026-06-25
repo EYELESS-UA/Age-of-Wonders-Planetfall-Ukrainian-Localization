@@ -1,0 +1,1918 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laszlo Pieper</Author>
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <Created>2018-10-11T08:22:20Z</Created>
+  <LastSaved>2019-10-04T12:20:55Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17025</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="307" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="252"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="435.75"/>
+   <Column ss:StyleID="s63" ss:Width="66.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="338.25"/>
+   <Column ss:StyleID="s63" ss:Width="150"/>
+   <Column ss:StyleID="s63" ss:Width="254.25"/>
+   <Column ss:StyleID="s63" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR01_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CUSTOM_SECTOR_CRASHED_SHIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desert of Lost Hopes</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CUSTOM_SECTOR_PSYNUMBRA_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chapel of Abyssal Edgelords</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CUSTOM_SECTOR_CELESTIAN_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shrine of the Smiling Dove</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CUSTOM_SECTOR_ELYSIUM_PARKS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Temple of Bling-Jack 90k</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_CUSTOM_SECTOR_HAND_OF_INFLUENCE_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hand of Rhemenses</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector. &#10;Rhemenses is the last name of a human character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CUSTOM_SECTOR_STARTING_BRONZE_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Leaking History Generator</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:Index="11" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: The Es'Teq Code</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Es'Teq Code</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can win this map by finding the remnants of the old Es'Teq religion.[br/][br/]Es'Teq found: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A task description.&#10;The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_ESTEQ_CODE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Es'Teq found: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The silver sparrow has landed and built its new nest. We scanned this area from orbit: there are plenty of ruins to comb through. Finding the Es’Teq within all this rubble will be like looking for a needle in a haystack.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is where you are at fault, my friend. When the Es’Teq religion was banned and my brothers and sisters went into hiding, we did not abandon our sanctuaries to later be stumbled upon by some lowly looters. Moving rocks is not going to do us any good without the insight of a true believer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="74.25">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Breaking the Es’Teq code is like solving a puzzle where the different pieces are revelations and the strings connecting them the memories of the right people from the right era. I carry the aspect of Ran Do’Lar in my mind and his intuition is telling me the next sign is close.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You speak in riddles wrapped in thick layers of mystery. But we have been through too much hardship together to doubt your judgment in this moment of truth. Go and follow the path that is laid out before you while I wait for my mother and the rest of House Faron to join us down here on the surface.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">First Revelations</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bring Hatyl Es'Ran to the place from his vision and let him commune with the Es'Teq artifact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Commune with Hand of Rhemenses</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_SEARCHING_FOR_CLUES_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Let Hatyl Es'Ran commune with the Es'Teq artifact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I recognize these patterns from the memories of my Es’Teq symbiont. The hand that takes is the hand that gives. I can trace the echoing Essence to its fountain, but it has dried out, lost its sustenance and function. By imbuing it with the Essence I collected during our journeys, I should be able to return it its purpose...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Passive scans conclusive: formula-E detected. Hibernation mode interrupted.[br/][br/]Updating pending orders… connection failed. Re-employing fallback protocols… Formula-E must be eradicated. Targets acquired. Termination in progress.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: RPR Stalker (genderless robot)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deadly Sins</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_SURVIVE_AMBUSH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The communion seems to have attracted enemies. It looks like those killer robots were waiting for someone to activate the Es'Teq artifact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hatyl! Are you alright?[br/][br/]What in the eight gilded dynasties were those things?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Liquidators from the second era! These robots are merciless killing machines. We presumed them lost in the dusts of time, but alas it looks like the scourge of the Es’Teq is still lingering on this world.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then let us make sure to be better prepared the next time we face them. Still the question remains how they found us so quickly. Could it have something to do with this Essence technology you’ve been using?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unfortunately, we were never able to fully understand the nature of the RPR robots. But it is true that the harvest of Essence can reap unexpected consequences. You may have already noticed the blight spread over Obolus-5, turning much of its surface into batches of badlands and cold barrens. I suspect this is a symptom of the planet slowly being drained of its Essence.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">When I communed with the Es’Teq artifact, I could trace the Essence through the unfolding land until I found a point of culmination where all the ley lines converged: a crypt-like structure hidden somewhere below Obolus-5’s surface. Sadly, my inner eye could not unravel its location, leaving us with another mystery.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_INTRO_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Speaking of mysteries: our database lists a number of religious sects centering their faith on Obolus-5 during Star Union days. I wouldn’t be surprised if some of their 'holy relics' turned out to be Es’Teq artifacts. Checking their cult sites could be a worthwhile endeavor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Find the Heritor Crypt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There is an Es'Teq crypt hidden on Obolus-5. This is precisely what Hatyl Es'Ran had been looking for. You will need to learn of its exact location.[br/][br/][recommendedcol](Hint: you can unlock more routes to completing this quest by exploring Obolus-5 and interacting with present factions.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_FIND_HERITOR_CRYPT_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Es'Teq Crypt Found</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Another Syndicate out to plunder the treasures of the past? I must say, your kind hasn’t changed one bit. Stay out of my way and I may consider you insignificant enough to spare your pitiful existence.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ebra Queztal&quot; (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Can this be true? Archpriestess Ebra – you honor us with your presence. Does this mean the signs have been interpreted correctly? The white raven has made its sacrifice and the great snake has retreated from the cosmic tree.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I did not realize there was a Precursor on this planet. You should be careful whose company you choose, brother.[br/][br/]What you say is not without wisdom. However, the time for Regenesis has not yet come. We owe my awakening to an unlikely admirer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ebra Queztal&quot; (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Archpriestess, if that is so and Regenesis must wait, should we not avoid any risks and escort you back to one of our sanctuaries? I could offer my humble assistance. There is good reason to believe that one of our Arks is here on Obolus-5.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_QUEZTAL_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your words are worthy of a Precursor, and I will take you up on them eventually. However, there are some things that first require my attention. For now, continue fulfilling your prophecy, Ran Do’Lar. Do not touch the Ark until I reach out to you again.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ebra Queztal&quot; (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prophecies, Precursors, Regenesis - I think you owe me some explanations, Hatyl. If this was indeed one of the Es’Teq, she did not seem very pleased to meet me.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Syndicate houses of old did not make many friends among the followers of our faith. But Archrpiestess Ebra is a wise woman. She will judge you fairly once you show her your good intentions.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Judge me fairly? I did not come to Obolus-5 to listen to another verdict. This Archpriestess of yours may have been a saint once, but now her aspect is trapped within the twisted body of an Assembly. I do not trust her and neither should you. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_MEET_EBRA_CONTINUATION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then don’t be surprised when others treat you with the same kind of prejudice. Life is an endless struggle of misconceptions. I can draw on the shared dreams of many Kir’Ko generations and the lifelong memories of a human symbiont, and I have yet to see the day when any universal truth isn’t defied by reality.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_THE_CRYPT_GUARDIAN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Crypt: Divine Favors</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_THE_CRYPT_GUARDIAN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ally Ebra Queztal to uncover the location of the Es'Teq crypt.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_THE_CRYPT_GUARDIAN_QUEST_SCRIPTED_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Ebra Queztal Allied</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_DIVINE_FAVORS_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Divine Favors</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ran Do’Lar… your time has come.[br/][br/]Entropy awaits!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Es'Teq Siphoner&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I feel that my strength is dwindling… {STR_LeaderFirstName}, my friend, flee if you can!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Call of Entropy</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_CALL_OF_ENTROPY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eliminate the cultists attacking Hatyl Es'Ran or escort your friend into safety!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_HERITOR_HERO_DEATH_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(In the heat of the battle, just as things start looking grim for him, you see Hatyl Es’Ran disappearing in a flicker of teal lightning.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Has no speaker. (Second person narration.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_HERITOR_HERO_DEATH_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By Ro’Qwer’Zs horn and tail, this was close! I had to use up all the Essence I had gathered to reach into the Void and escape through the folded space-time. Unfortunately, my stunt also depleted all our Cosmite reserves.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_HERITOR_HERO_DEATH_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I’m glad to see you’re still in one piece. Cosmite can be mined again. New friends, however, do not simply fall from the sky.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Now that we are all safe again, we need to talk, Hatyl. I recognized the markings on the attackers. They were using the same Essence technology you wield. Are these the Es’Teq 'friends' that were supposed to bring us redemption?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is worrisome indeed that my brothers are awake and would so openly turn against me. As Precursor, I am a herald of the Es’Teq prophecy. While I compile my litany, all believers should continue to sleep inside our sanctuaries. Archpriestess Ebra might know more…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…except that she won’t tell us. I didn’t want to bring this up without further proof, but I sent some of our most capable agents to keep an eye on your Archpriestess, and it looks like she already has been – quite literally – assembling her own host of Es’Teq reawakened.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The rise of a Heritor before Regenesis? Then it is true, and Archpriestess Ebra is no longer walking the path the prophecies laid down before us.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Whatever her plans are, it is quite clear that she doesn’t want us to find the Crypt. What’s more, I wouldn’t be surprised if she already found it herself. Going through her may not be pretty, but it could still be the most effective way to reach our goals.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_05_CRYPT_FOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Whatever her plans are, it is quite clear that she doesn’t want us to find what’s inside the Crypt. Going through her may not be pretty, but it could still be the most effective way to reach our goals.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_INTRO_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While I abhor the thought of violence within our faith, I cannot ignore the danger Ebra Queztal might pose for all Es’Teq. If stopping her is the price for Regenesis, then so be it!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Crypt: Divine Intervention</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Ebra Queztal to uncover the location of the Es'Teq crypt.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Ebra Queztal Defeated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Treason committed by a Syndicate? How original… You were never worthy of becoming joined. Now my scavengers will feast on your body and soul.[br/][br/]Ran Do’Lar, it is time to return to your fellow Es’Teq.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ebra Queztal&quot; (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I am sorry, Archpriestess Ebra, but my place is with my friend {STR_LeaderName}. You should not have sent our brothers after me. They deserved to see Regenesis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are exceeding your competences, Precursor! I do what must be done to protect our prophecy. Revoke your accusations now, and the Conclave will still consider granting you absolution.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ebra Queztal&quot; (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There is no absolution needed for the innocent. I have learned from my Kir’Ko host that tyranny can disguise itself in many forms. There won’t be a theocracy with Archpriestess Ebra at its reins.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DECLARE_WAR_ON_EBRA_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then your Essence is ours for the taking. Ran Do’Lar, you are hereby judged and found guilty of heresy of the gravest kind, proclaimed as such by Ebra Queztal, only present representative of the Es’Teq Conclave.[br/][br/]Entropy awaits!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ebra Queztal&quot; (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Surrender, Ebra Queztal of the Assembly! We have you cornered, with our guns ready and aimed at your position.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your primitive weapons cannot stop me! You think this is the only body I have at my disposal? With their cloning techniques and organ harvest, the Assembly are the perfect medium to bring forth the restoration of our divine order. My ascension is… inevitable!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ebra Queztal&quot; (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I don’t know if there was any merit to her bragging, but at least this incarnation of Ebra Queztal is dealt with! Now let’s take a look around…[br/][br/]According to these logs the Archpriestess had been quite busy before she got to Obolus-5. More than a dozen visited worlds and a list of names, most of them crossed out.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I recognize these names: Erees Caloque, Rhesha Ometi, Tlalo Potchilim… they were all Precursors of this era. If Archpriestess Ebra killed them, she clearly knew they would interpret the signs like I did… and that the time for Regenesis had come.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_EBRA_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">And there is more: it seems Ebra Queztal found the Es’Teq Crypt on Obolus-5 long before we arrived. Likely she only avoided entering it to not risk making us aware of its location.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_UNEARTH_CAULDRON_OF_SOULS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enter the Heritor Crypt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_UNEARTH_CAULDRON_OF_SOULS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found the entrance to the Es'Teq crypt. Enter and claim the reward for your efforts.[br/][br/][recommendedcol](Hint: you need a hero present at an anomalous site such as this to progress through its events.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_UNEARTH_CAULDRON_OF_SOULS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Anomalous Site Completed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There it is, the treasured artifact of the Es’Teq, shimmering like an obsidian obelisk. Tell me, Hatyl, what it is that we will find when we open it?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Redemption. A new life. Power. The responsibilities lying ahead will be a test of character and faith. I will be at your side if you need me during this new journey, my friend.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you, Hatyl. As the new head of House Faron, I say it is time to stop contemplating the past and start adding a fresh chapter to our family chronicles.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Open the Regenesis Ark</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Break the seal on the Regenesis Ark to access what's inside.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Open Regenesis Ark</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Break the seal on the Regenesis Ark to access what's inside.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rise, brothers, rise! Regenesis is at its dawn.[br/][br/]Let us greet the new Prophet that has come before the divine tribunal of our High Lord!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Es'Teq Minds&quot; (group of Es'Teq, various genders)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The contrast, the colors - I feel as though I could glimpse beyond the fabric of reality. My memories and past, all seem to have entered a new state of flux.[br/][br/]The flame of revelation, it burns away all sin. No, no... why won’t it stop?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_OPEN_MIND_ARK_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome, {STR_LeaderName}.[br/][br/]I have been expecting you…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Xito Rhemenses&quot; (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_FAMILY_SECRETS_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Family Secrets</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Silver sparrow calling the crow’s nest. We made it down without complications and are setting up operations. So far, no hostiles detected. What’s the status up there? Are the landing preparations progressing according to plan?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">So, your bug friend didn’t manage to get everybody killed yet? What a relief… Planetfall will proceed as scheduled, as had to be expected with someone capable in command. But for the last time, {STR_LeaderFirstName}, stop using your childish code names! I am to be addressed as Lady Ista of House Faron. That is even ignoring the eighteen honorary titles I inherited as head of our family...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ista of House Faron&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You mean the titles that we were stripped of when we lost all property and privilege? If it wasn’t for my ‘bug friend’ you would likely still be eking out your existence as a more decadent pleasure girl.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">HER01_THE_LANDING_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Guard your tongue, son! You are underestimating the influence I already had over Lord Ardelli. If you and your little rebellion hadn’t intervened, I would have had him wrapped around my little finger soon enough. But speak no more! It is time for the Lady of House Faron to withdraw and prepare her arrival.</Data></Cell>
+    <Cell><Data ss:Type="String">Guard your tongue, daughter! You are underestimating the influence I already had over Lord Ardelli. If you and your little rebellion hadn’t intervened, I would have had him wrapped around my little finger soon enough. But speak no more! It is time for the Lady of House Faron to withdraw and prepare her arrival.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Ista of House Faron&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_THE_LANDING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Landing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_THE_LANDING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Wait for the second mothership to land on Obolus-5.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_THE_LANDING_QUEST_SCRIPTED_OBJECTVIE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Mothership Landed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The time has come. They should be ready to descend.[br/][br/]What is the situation, mother? Will Lady Ista of House Faron bless this planet with her presence?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Why do I detect a slight note of cynicism in your voice? I hope you won’t continue to disappoint me with lapses of this kind…[br/][br/]The ship is ready for planetfall. We will be going down in 3… 2… 1…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ista of House Faron&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(The transmission is suddenly cut. All you can still hear are static noises.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Has no speaker. (Second person narration.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_LOST_CONTACT_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mother? What happened? Respond, for the love of your eighteen titles![br/][br/]Nothing, damn it! We need to quickly gather a rescue party and check the landing site.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_LOST_CONTACT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lost Contact</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Formula="=R101C1"><Data ss:Type="String">HER01_LOST_CONTACT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Check the landing site of the second ship.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_LOST_CONTACT_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Landing Site Reached</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The ‘Faron-2’! They smashed into the dunes of Obolus-5 like a humming bird into a Zenith barge. This shouldn’t have happened – my mother was the last one who knew the truth about our family’s downfall. With her gone, I may never be able to rightfully redeem the name of our house.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chief {STR_LeaderFirstName}, do not falter! The Faron-2 was a sturdy ship. Our scans are showing that it’s still partially intact. There may yet be hope for our companions.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Syndicate Indentured&quot; (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your optimism is inspiring, brother. And you are right: we wouldn’t be standing here, if we had been afraid of any odds in the past. Let’s pack up and search the wreck for survivors!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investigate the Crashed Ship</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Check the wreck of the Faron-2 for survivors and find out why it crash landed.[br/][br/][recommendedcol](Hint: you need a hero present at a anomalous site such as this to progress through its events.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Anomalous Site Completed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">House Faron Crash Site</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The second ship of House Faron made a violent crash-landing deep into Obolus-5's surface. At this point it is unclear how the tragedy occurred or if anybody survived the impact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your men have worked their way down the rocks and excavated the rear of the Faron-2. This part of the ship looks like it’s still mostly in one piece, at least from the outside. The force of the impact must have mainly affected the front that’s buried deeper underground. After some examination of the hull, your troops find a broken hatch and enter the ship’s cargo bay.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_INTRO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The crates and containers inside the cargo-bay lie scattered in destructive chaos. Next to the blocked door is a leaking PsiTec modulator engine. From the top, you can hear the sleek humming of the ventilation system.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_1</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pile up the crates and leave through the ventilation shafts.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Crawling through ventilation shafts...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action while being performed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_2</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Shoot the engine to blast the door open.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Aiming at the engine...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action while being performed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_3</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Repair the modulator and use it to interface with the door.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_OPTION_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Modulator repairs in progress...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action while being performed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It took some time to maneuver through the ventilation system, but at least the narrow self-contained shafts closed you off from any nasty surprises. Slowly but steadily, your troops have made their way to the ship’s command center.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your troops clearly know their weapon tech: one precise shot and the modulator engine goes off in a controlled blast, opening up a path deeper into the ship. Morale starts to sink however, as you start finding your dead companions. So far it doesn’t seem like anybody survived the impact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The shot misses, frying the navigation panel on the wall behind. It also seems to have triggered the ship’s alarm system, as moments later the door is opened by a group of recently-acquired security robots.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_AFTER_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shooting your own property is never pleasant, but at least now the path deeper into the ship is clear. Morale starts to sink, however, as you start finding your dead companions. So far it doesn’t seem like anybody survived the impact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_2_RETURN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A group of security robots you had recently acquired for the Faron-2 is still patrolling its cargo bay, ready to attack any intruders. Naturally, they no longer recognize any of your clearance codes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_2_RESULT_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">After enough tinkering with the modulator engine, it can be used to interface with the door to open it. Your troops keep the delicate device as they make their way deeper into the ship. Morale starts to sink, however, as you start finding your dead companions. So far it doesn’t seem like anybody survived the impact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_INTRO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The ship’s former command center is not a pretty sight. In between all the sheared metal and engines, the unrecognizable remains of your house members are spread. There was never any real chance to save them.[br/][br/]Unless… One of your void engineers notices that the main phase drive reactor is still partially intact. There are theories that by overcharging such a reactor while it is being pushed into another dimension, a feedback-loop with the past can be created, altering the existing timeline…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_1</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Let go of the past and build a memorial. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Building memorial...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action while being performed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_2</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Overcharge the phase drive reactor and disrupt the timeline.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_OPTION_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Altering history...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site action while being performed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With your mother’s death, not just her eighteen honorary titles but the burden of an entire house’s history has passed on to you. While you are placing the flowers on the memorial grave of the Faron-2 crew, you are wondering if your family’s redemption is a worthy goal, when it is really your own actions that you should be judged by.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This should be impossible!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The phase drive reactor is screeching in repeating sounds of distortion while it is slowly getting sucked into the Void. For a moment, reality starts to shift as the reactor overcharges with blue lightning: destroyed conduits become whole again, broken bodies rematerialize and start moving in reverse. But then another flash of lightning strikes, and the entire crash scene rewinds. You see everybody die a second time, except now their split echoes keep lingering on next to their smashed remains. And they are opening fire!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_AFTER_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The destabilized phase drive reactor vanishes into the Void anomaly, which is now consuming all that is left of the Faron-2. The experience with the phase echoes has given you new insights into Voidtech, but considering what happened, this seems like a small consolation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_CRASHED_SHIP_SURVEY_SITE_PHASE_3_RESULT_2_RETURN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The ship’s command center is guarded by echoes of the departed Faron-2 crew. They don’t seem eager to interact with any of their former friends and family.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An anomalous site description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, what have you done? Could you not leave us in peace?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ista of House Faron&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lady Ista… mother… I had to do everything in my power to save you. Our bloodline mustn’t end like this![br/][br/]What happened? Why did the Faron-2 crash?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorant child! Our house ceased to exist more than three decades ago. The betrayal cost us everything except our pride. I deserved to die before the last bit of nobility had vanished from our family.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ista of House Faron&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I don’t understand… We were supposed to lay open the injustice that was brought upon us, restore honor to the name of House Faron.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Honor? Don’t you dare use that word you have so little knowledge of! Learning that my son had broken his Indentured contract and acted up as leader of a silly slave rebellion... there could have been no greater shame. Or so I thought, until I saw you with that Kir’Ko – the last descendant of House Faron had become the servant of a bug!</Data></Cell>
+    <Cell><Data ss:Type="String">Honor? Don’t you dare use that word you have so little knowledge of! Learning that my daughter had broken her  Indentured contract and acted up as leader of a silly slave rebellion... there could have been no greater shame. Or so I thought, until I saw you with that Kir’Ko – the last descendant of House Faron had become the servant of a bug!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Ista of House Faron&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_INVESTIGATE_WRECK_QUEST_UPDATE_DIALOGUE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I crash-landed this ship onto Obolus-5’s surface! It is better for the Lady of House Faron to perish than to witness the last decline of her kin. Goodbye, {STR_LeaderFirstName}. The Abyss awaits me…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Ista of House Faron&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:Index="143" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CHURCHES_OF_THE_STAR_UNION_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sects of the Star Union</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_THE CRYPT_CHURCHES_OF_THE_STAR_UNION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Crypt: Sects of the Star Union</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_THE CRYPT_CHURCHES_OF_THE_STAR_UNION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">To uncover the location of the Heritor crypt, you should pay the various cult sites on Obolus-5 a visit and search their archives.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_THE CRYPT_CHURCHES_OF_THE_STAR_UNION_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Cult Sites Searched</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visit the Psynumbra Sect</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Find and enter the temple of the Psynumbra sect on Obolus-5.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Search Chapel of Abyssal Edgelords [firecol](Consumes Unit!)[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_VISIT_PSYNUMBRA_LANDMARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Go inside the Chapel and search for any hints on the Es'Teq and their Essense technology.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salvage Soul-Reaper Engine</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">One of the Es'Teq artifacts ended up inside the motorcycle of Empris Lox, a crazy Assembly and Psynumbra cultist. Defeat Empris Lox to recover what he calls the &quot;soul-reaper engine&quot;.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(It looked like the back door would be an easy way in, but as you enter the first chamber, a trap is set off, consuming one of your men in a purple flash of light.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Has no speaker. (Second person narration.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Visitors! Come and embrace the darkness! Beyond the Veil, your suffering will be rewarded.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Empris Lox&quot; (Assembly, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An Assembly worshipping the powers of evil? Why am I not surprised…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">False! I was a priest of the Abyssal Edgelords long before the masters of metal and flesh descended from the skies. While others fled the Reassembly, I was the first to happily line up for my body upgrade. Finally, I have the right appearance to ride my soul-reaper bike in style!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Empris Lox&quot; (Assembly, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Is it my imagination, or is this thing you’re driving powered by Essence technology?[br/][br/]I don’t suppose there is a nice way to convince you to leave the engine of your bike to us, Empris Lox?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_INTRO_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My bike’s engine is the most metal thing the Abyssal Edgelords ever dug up. It is fueled by the screaming souls of the living. You can have it… run over your dead bodies, haha!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Empris Lox&quot; (Assembly, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Urgh, you should have told me you’re serious. Here, take the damn engine! I’ll make my spacer-buds dig me up a new one!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Empris Lox&quot; (Assembly, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_ENTER_FORGOTTEN_WING_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Good. Now that this is dealt with… what’s your opinion on our newest acquisition, Hatyl?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visit the Celestian Sect</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Find and enter the temple of the Celestian sect on Obolus-5.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Search Shrine of the Smiling Dove</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Go inside the Shrine and search for any hints on the Es'Teq and their Essense technology.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">More lost souls have ventured the winding road to the Celestian shrines in need of guidance. I sense determination and a strong will, but also shame and the poisoned seed of vengeance from the shadows of a past injustice.[br/][br/]{STR_LeaderName}, what is it that you seek?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We came to Obolus-5 looking for the remnants of an ancient dynasty. There is reason to believe that one of their artifacts may be located inside your sanctuary. Maybe you can help us on our search? The object we are after would likely be emitting some teal glow when activated.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It would also make everything wither and drain the life force from anyone unfortunate enough to touch its cursed coat. I know very well which artifact you are talking about. Its evil has been safeguarded by my order for a long time after all attempts to root out its corruption failed. You must not have it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What if I assured you, I have no intention of using the artifact? It is merely a puzzle piece needed on our journey, a compass if you will. My friend may even find a way to destroy it after some observation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_VISIT_CELESTIAN_LANDMARK_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A path revealed by evil can only lead to more evil. Even the enlightened must be wary to walk in such darkness. If you truly seek to be allowed into the forbidden, you must first pass the Celestian judgment. Visit our gardens to clear your mind of sorrow. Return to me when you are ready.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pass the Celestian Trial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pass some time in the gardens of the Shrine of the Smiling Dove and meditate. When you are ready, return to Laila Dama to complete the Celestian Trial.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Meditate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sit down in the Celestian garden to meditate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_SCRIPTED_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Trial Completed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are in a desert. You see a vulture circling over a lifeless body still leaning with the back against a well. The well has a sign attached to it.[br/][br/]What does the sign say?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">“Out of order.” </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">“Refueling in progress.”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_01_PAGE_01_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">“Everyone who drinks this water will become a vulture.”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">In the kat-kit pub there are three black dogs playing poker. A pinto is spilling his drink over two grey geese while the white waiter goat has to listen to the vulgarities of a group of rose bachelor piglets.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What is the color of the cat?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">There is no cat in this story.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Black.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_02_PAGE_02_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Purple.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A fortune teller lets you glimpse into his crystal bowl to learn about the future.[br/][br/]What do you see?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">An Ascended Teacher.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">A Herald of Oblivion.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_03_PAGE_01_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">A maze.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_04_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I think I’ve had enough meditation for this lifetime. Can the trial finally begin?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_04_PAGE_02_PASS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The trial started the moment we first met, {STR_LeaderName}. But you need not worry, for the answers you gave have dispersed my initial doubts. You are allowed to take the forbidden artifact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_QUEST_UPDATE_MESSAGE_04_PAGE_02_FIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The trial started the moment we first met, {STR_LeaderName}. While some of your intentions may be noble, your words are still misguided and confused.[br/][br/]I have created a reflection of your inner struggle. Face those images from your mind and you can overcome your doubts.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_TRIAL_FIGHT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Trial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_TRIAL_FIGHT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat the reflections of your inner turmoil to still complete the Celestian trial.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_COMPLETION_MESSAGE_PAGE_01_AFTERFIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Walk with the stars, {STR_LeaderName}. You have passed the trial and are allowed to take the forbidden artifact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Laila Dama&quot; (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you, Laila Dama of the Celestian order. I will treat it with great care and caution.[br/][br/]Hatyl, did you get the artifact? Please tell me all this was worth the effort!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_PASS_CELESTIAN_TRIAL_COMPLETION_MESSAGE_PAGE_02_CRYPT_FOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you, Laila Dama of the Celestian order. I will treat the cursed item with great care and caution.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_ESTEQ_ARTIFACT_FOUND_FIRST_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is looking good. Even though diverted from its intended use, this artifact is clearly Es’Teq work. I can connect to the Essence that passed through it over the centuries, but the trail is too faint to follow. We will need to collect more Es’Teq items.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_ESTEQ_ARTIFACT_FOUND_SECOND_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We are on the right path. My brothers would turn over in their crypts if they saw the heretical use of our sacred technology, but at least we are getting closer. The Essence trail is slowly taking shape. Just one more item…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_ESTEQ_ARTIFACT_FOUND_LAST_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With all three items to commune with, the Essence trail is forming before my inner eye. I can follow it all the way through the centuries back to its source…[br/][br/]Yes…yes! This must be where the Heritor Crypt lies hidden!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visit the Divine Investments Sect</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Find and enter the Temple of the Divine Investments faith on Obolus-5.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Search Temple of Bling-Jack 90k</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Go inside the Temple and search for any hints on the Es'Teq and their Essense technology.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Come in, step inside! The booze is still sparkling and the dice and dimes keep rolling! There are fortunes to be made by every believer who dares to give their fate a spin in our illustrious Temple of Bling-Jack 90k!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hun Robbard&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Using a religion as a disguise for running another casino chain? I have to say, the Union must have been more corrupt than I ever gave it credit for.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Why worship an invisible god with no business in reality, when you can believe in the one tangible power that made entire empires rise and fall? Why dismiss a faith for being forthright and honest, when you could also play to win that… Cash Cow Converter 90k! It turns the Essence of everything it touches into pure energy – if needed even you mother-in-law!</Data></Cell>
+    <Cell><Data ss:Type="String">Why worship an invisible god with no business in reality, when you can believe in the one tangible power that made entire empires rise and fall? Why dismiss a faith for being forthright and honest, when you could also play to win that… Cash Cow Converter 90k! It turns the Essence of everything it touches into pure energy – if needed even you father-in-law!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Hun Robbard&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Did you just say ‘Essence’? You’ve got me interested. What do I need to do to win that thing?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">HER01_VISIT_ELYSIUM_PARK_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent! I figured you’d be a man who can appreciate a good gamble.[br/][br/]It’s rather simple really. All you need to do is beat the nine-armed bandit. You will find it’s quite an upgrade to the old octo-bandit.</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent! I figured you’d be a woman who can appreciate a good gamble.[br/][br/]It’s rather simple really. All you need to do is beat the nine-armed bandit. You will find it’s quite an upgrade to the old octo-bandit.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: &quot;Hun Robbard&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_WIN_JACKPOT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Win the Cash Cow Converter 90k</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_WIN_JACKPOT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gamble with the nine-armed bandit in the Temple of Bling-Jack 90k until you win the grand jackpot - which happens to be an Es'Teq artifact called the &quot;Cash Cow Converter 90k&quot;.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Jackpot Won</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_REPEATABLE_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gamble</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_REPEATABLE_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Starts the nine-armed bandit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome, follower of the Divine Investments faith, to your new game of Bling-Jack 90k! Pull the levers and receive your heavenly prize! The more you bet the higher the chances! Today’s jackpot is at 6 Carminias, 2 Tholians and 1 Mora.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;NAB&quot; (short for nine-armed bandit, a gambling machine)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_FIRST_GAME_OPTION_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Bet 10[energy/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_FIRST_GAME_OPTION_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Bet 50[energy/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_FIRST_GAME_OPTION_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Bet 90000[energy/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_SECOND_GAME_NEW_OPTION</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Bet 100[energy/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_THIRD_GAME_PLUS_NEW_OPTION_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Bet 200[energy/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_THIRD_GAME_PLUS_NEW_OPTION_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Bet 42[energy/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A story choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The RNG god is not smiling on you today.[br/][br/]You’ve gained 1[energy/]. Return for more.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;NAB&quot; (short for nine-armed bandit, a gambling machine)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_RESULT_LOW_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not enough [energy/][energy/][energy/]! Come back when you’ve been blessed with new fortune!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;NAB&quot; (short for nine-armed bandit, a gambling machine)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_GAMBLE_RESULT_WIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">JACKPOT!!! Praise the RNG god and praise the Divine Investments Church![br/][br/]Contact your local Cash Cleric to claim the rewards.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;NAB&quot; (short for nine-armed bandit, a gambling machine)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You think I’m the local Cash Cleric? It says so on my tag? Uh, of course. Um, congratulations then. You’ve unexpectedly won the grand prize: the Cash Cow Converter 90k! This is totally not ruining my establishment or anything… You surely want to gamble for more, don’t you? Don’t you?!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hun Robbard&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Absolutely not. You shouldn’t have allowed your slot machines to evolve this far.[br/][br/]Now on to the artifact, Hatyl…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_WIN_JACKPOT_QUEST_COMPLETION_MESSAGE_PAGE_02_CRYPT_FOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Absolutely not. You simply shouldn’t have allowed your slot machines to evolve this far.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_PRIESTS_JOIN_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chief {STR_LeaderFirstName}, the priests from the different cults you visited are asking to be taken on board and leave Obolus-5 along with us. Should we allow them to join?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Syndicate Indentured&quot; (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_PRIESTS_JOIN_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hm, given their contrasting beliefs, there would sooner or later be conflict. It would be unwise of us to accept all of them into our ranks. Considering our options, I’d say we best take along…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_FRIENDLY_COMPETITION_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vengeful Brethren</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Kss kss - more bleeders have come to Obolus-5 to feel the grip of the Abyss and Chax Uz’Kol’s revenge! The one of metal and flesh did right to guide the Kir’Ko Ula to this place.[br/][br/]But what do I spot here? Our beloved dream reader Hatyl Ur’Uk, once again shackled by the Syndicate? Grzz kl’tk rsh’nrr! The sack-bleeders must pay!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: &quot;Chax Uz'Kol&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hox’Krit’Pat, brother! I have received no harm from the ones you greet with curses. {STR_LeaderName} is not your enemy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh, brother! Like you I once trusted the words of the one called Eva Montinga. Until the metal-grafters revealed to me her crimes against our ancestors. That’s when I learned there are no trustworthy sack-bleeders. They taught our race the meaning of agony. Now the Kir’Ko Ula feed them to the Abyss.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: &quot;Chax Uz'Kol&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What do you advise me to do, my friend? I would hate to cause your people any harm, but a confrontation with Chax Uz’Kol’s colony may be inevitable.[br/][br/]Also, I didn’t realize you had a separate Kir’Ko name.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_MEET_CHAX_UZ_KOL_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is not uncommon for a host to adopt a part of his symbionts name after being joined. Hatyl Ur’Uk is what I was called in the past. Hatyl Es’Ran is my Heritor name.[br/][br/]Chax Uz’Kol has chosen the darkest path. To reach him, I will have to go to the place where no light can dwell.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bring Hatyl to the Psynumbra Chapel</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hatyl Es'Ran wants to reach Chax Uz'Kol on a spirtitual level. To this end, he needs to travel to the dangerous remnants of the Psynumbra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Hatyl Es'Ran brought to Chapel</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This place is old and yet an infant next to the monuments of the Es’Teq. It has seen much hatred and suffering, nurturing an evil that should have never been allowed to enter this world.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ancestral agony, suffering and vengeance… Hatyl Ur’Uk, the sack-bleeders will feast on your soul!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Sinister Voice&quot; (incorporeal, ethereal being, same gender as Marlok Tenor, so potentially either male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Back off, foul spawn! Your kind has no influence in this reality!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We were called here… invited by the ones seeking comfort – and power. They always hunger for more. Look and see the true nature of {STR_LeaderName}! The sack-bleeder is treacherous. Leave him to us… and we leave Obolus-5!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Sinister Voice&quot; (incorporeal, ethereal being, same gender as Marlok Tenor, so potentially either male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Attack the Shadow Image</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore the Image and take the Psi-Stone</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_05_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your words are poison, but no thrax could veil your ill intentions. I will cast you back into the Abyss you came from!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_05_IGNORE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your illusions cannot fool me. I did not come to face you, Lohikarne. The Psi-Stone of Malice, spreader of your corruption, is what I came for.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_BRING_HATYL_TO_PSYNUMBRA_LM_COMPLETION_MESSAGE_PAGE_06_IGNORE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Then you have chosen death, old fool.[br/][br/]Lohikarne will not be denied his prize!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Sinister Voice&quot; (incorporeal, ethereal being, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Shadow Image</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Kill the Shadow Image that has been trying to turn Hatyl Es'Ran against you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Shadows Killed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Echo of Lohikarne</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lohikarne has manifested an echo of itself to protect the Psi-Stone of Malice. Destroy the echo and take the Psi-Stone!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The suffering… the agony![br/][br/]The Abyss will swallow you, Hatyl Es’Ran… one day!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Sinister Voice&quot; (incorporeal, ethereal being, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By Ro’Qwer’Zs horn and tail! I could follow your death struggle with the sack-bleeder through the whispers of the Void. It is exhilarating to see Hatyl Ur’Uk swarm with his people again! Blessed like this, the Kir’Ko Ula will strike their enemy with sharpened claws and minds!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: &quot;Chax Uz'Kol&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_SHADOW_IMAGE_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You misunderstand, brother. I was not fighting {STR_LeaderName}, but a shadow image from the Abyss, mimicking my human friend.[br/][br/]Alas, it’s too late… Chax Uz’Kol will only see what he prefers to see. I failed because I only paid attention to the clearest path.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The suffering… the agony![br/][br/]The Abyss will swallow you, Hatyl Es’Ran… one day!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: &quot;Sinister Voice&quot; (incorporeal, ethereal being, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Echo of Lohirkarne is retreating, the path to the Psi-Stone of Malice clear.[br/][br/]Swarm Herald Chax Uz’Kol, in these claws I hold the true source of our people’s continued agony. While we preserve and nurture the suffering within our ancestral dreams and kindle our hatred with forbidden artifacts, the scars from the past will never heal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">How can you say that the swarm should not remember, when it is all that is left of our Hive since the unspeakable act that initiated the Zok’Shiar? If we forget the suffering of our ancestors, we will return to suffer their fate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: &quot;Chax Uz'Kol&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We can honor our forefathers without constantly reliving the horrors they had to endure. The dreams are an important part of our heritage, but we should not allow them to define who we are. Each dream is interpreted and perceived in a different way. I urge you to visit the Swarm Herald of the Kir’Ko Terym. Listen to his journey and you’ll find that there is another path.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_ECHO_OF_LOHIKARNE_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I see now that your mind is still in unity with the swarm. When the famous Dream Reader of my people asks me to consult the Swarm Herald that returned us to our home world Xa’Kir’Ko, I will not refuse to show some good faith. Still, you must in turn allow the Kir’Ko Ula to stay until your safety on Obolus-5 is ensured.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: &quot;Chax Uz'Kol&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is General Jack Gelder of the Egalitarian League of Planets. Listen up, members of House Nydar, 'cause I’m only gonna say this once: Drop your weapons, and there won’t be any need for a shootout. We’ve tracked you all to Obolus-5. There is nowhere left to run.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Jack Gelder&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">House Nydar? It seems you’ve followed the wrong track, General. As some future advice, you can best recognize a Syndicate by his robes. House Nydar usually wear red satin with an embroidered Sentinel as their insignia.[br/][br/]My lot on the other hand… well, as you can see, we like to be colorful.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your talk about fashion doesn’t interest me, kid. As far as I’m concerned, a Syndicate dressed in any color is not to be trusted.[br/][br/]But... aren’t you the leader of that Minerva-2 slave rebellion? In that case I’ll say well met. It was about damn time you drudges started to fight back!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Jack Gelder&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An easy thing to say when you have no collar choking on your neck, isn’t it? Either way, I’ll return the good regards, General. I did not realize the tale of our little mutiny had traveled this far.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It surely has. In times where the ELOP Confederation is negotiating with the Syndicate Houses, urging them to abolish their feudal practices, there is great interest in any favorable voices for our cause from within the Syndicate. Once my mission to deal with House Nydar is over, I could take you to Mora Secundis. First Minister Tholian likes to have a word with you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Jack Gelder&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A flattering offer, but I’m afraid your First Minister will have to wait. I can’t leave my squadron without leadership while we are still the declared enemy of half the Syndicate Houses. As a Vanguard officer I’m sure you’ll understand.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_MEET_JACK_GELDER_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very well, {STR_LeaderName}. We’ll check on your status later on. But remember: we won’t be far off, so if you get into trouble out there, just give a shout!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Jack Gelder&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_NYLA_ABAZ_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Would you look at that: if it isn’t the rebellious Indentured from Minerva-2! House Faron truly has become a pitiful disgrace to all Syndicate. First the attempt to loot the Aureate Treasury, and now this…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Nyla Abaz&quot; (Syndciate, female(</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_NYLA_ABAZ_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">My grandfather was a great man. As warden of the Aureate Treasury he enjoyed the trust of the Ruling Seven, and had no reason to risk the position of our house. It should have been obvious that he was framed for someone else’s crime.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER01_MEET_NYLA_ABAZ_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You haven’t seen the riches of the Aureate Treasury, have you? Your grandfather wasn’t the first one to yield to its temptation, though he may have come closest to getting away with it. Luckily, we can soon conclude the last chapter of your house’s sorry tale. The bounty on your head will be a convenient way to cover our expenses on Obolus-5.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Nyla Abaz&quot; (Syndciate, female(</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_BOUNTY_HUNTER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bounty Hunter</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_BOUNTY_HUNTER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nyla Abaz has made it very clear that she wants to claim the bounty on your head for starting a Syndicate slave rebellion. In order to be left in peace, you will need to crush her.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_BOUNTY_HUNTER_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Nyla Abaz Defeated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_NYLA_ABAZ_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">How is this possible? You lowly slaves should have bowed before my Overseers, polished the chairs of my Subjugators![br/][br/]You can take my life, but you cannot take my nobility. We will never surrender to the plebs!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Nyla Abaz&quot; (Syndciate, female(</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_NYLA_ABAZ_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Who said anything about taking your life? You have hands to work like anybody else. Our community is small. We don’t have the luxury to execute everyone we disagree with.[br/][br/]Appreciate this new life we have to offer, or throw it away. It’s up to you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_JACK_GELDER_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have a code red situation down here, I repeat, code red! Colonel Jiang, this would be a good moment to test your new atmospheric thrusters. Take us out of here, NOW!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Jack Gelder&quot; (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_DEFEAT_CHAX_UZ_KOL_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Poison, blight, death! Grzz kl’tk rsh’nrr! I curse all sack-bleeders with my last breath. Avenge me, my brothers! The Abyss shall devour them all…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: &quot;Chax Uz'Kol&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All faithful rejoice, for Creator sends us his emissary! With the return of the Es’Teq our curse will be lifted. Our endurance and suffering will finally be rewarded!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Golem&quot; (Forgotten, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The obsidian guardians… I recognize the ornate husks from my symbiont’s memories. This isn’t good. Those that cannot see Regenesis should never return to the waking world. Why did you leave your post in the eternal vaults, guardian?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We… don’t remember. Since the curse inflicted us, we are rotting away, our Essence leaking into the fangs of Entropy. There was nothing left in the underworld to consume. Here, on the surface, we can continue to fulfill Creator’s commandments.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Golem&quot; (Forgotten, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_MEET_FORGOTTEN_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are one of the Es’Teq, your Essence still preserved in the holy image of Creator. You must lift our curse, end the corruption that is tormenting us. Take one of our Desolate brothers. Let him feast on the holy sites. Speak the incantations and purify him through the Essence he consumes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Golem&quot; (Forgotten, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Essential Cure</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Take the Forgotten to the holy sites of the Es'Teq and let them consume new, purified Essence to cure their sickness.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devour Essence</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Set free the Essence stored in the holy Es'Teq site to let it be consumed by the Forgotten.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_UPDATE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We were entombed alive, fulfilling our duty that should only have ended through death or the coming of our Creator. When the Essence started to run dry, we were facing eternal Entropy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Desolate&quot; (Forgotten unit, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_UPDATE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There was no escape to the overworld, the only sustenance within reach the subjects of our protection. So, we started to consume our brothers and sisters, feeding on their Essence like leeches on their victim’s blood.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Desolate&quot; (Forgotten unit, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But soon it wasn’t enough to take their Essence. The entire body had to be devoured, consumed for every droplet of life force that could prolong our existence. This is when we became cursed, condemned to feed on corpses for eternity. We are the living dead, and we always hunger for more…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Desolate&quot; (Forgotten unit, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Stop! Enough, Essence fiend! There is no absolution for the atrocities you committed. Even if I had the means and the knowledge, no Essence should be wasted on the unholy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You entombed us, abandoned us, left us forgotten. We were doomed even before the curse condemned our existence. And now that Creator sent you, you deny us our salvation?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Golem&quot; (Forgotten, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The wretched creature has a point. If the Es’Teq truly played their part in the creation of the Forgotten, you cannot simply leave them to their fate. Isn’t mercy one of the first virtues you tried to teach me?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_ESSENTIAL_CURE_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are right, my friend. In my horror I chose wrath over conciliation. But the corruption of the Forgotten runs deep. I would need the knowledge of the High Es’Teq Lords before I could even start working on a cure. At the moment, there is nothing I can do for them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I hate to bring it up, Hatyl, but there could be another way of finding the Es’Teq Crypt. In their hunger, the Forgotten have become like tracking dogs when it comes to locating any larger pools of Essence. If we offer them something in return…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Asking the damned for help in our sacred mission? I am… hesitant to heed this advice, my friend. I need to learn more about the Forgotten, see if their corruption has only twisted their bodies, or if their minds have become rotten as well.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Crypt: Forgotten Knowledge</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hatyl is not convinced that learning the location of the Es'Teq Crypt from the Forgotten is a good idea. To change his mind, intensify your diplomatic efforts with the Forgotten to get a better understanding of their nature.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">While their fear of death has led the Forgotten to embrace false idols and terrible sin, there are still sparks of decency and good faith left in some of their actions. We can trust them enough to ask about the Crypt.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER01_CRYPT_FORGOTTEN_KNOWLEDGE_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yes… there is a sanctuary of the old faithful. We have sensed its precious Essence many times, yet the sacred barriers protecting the Es’Teq denied us all passage. If you venture into their halls, remember the Forgotten and their curse. Creator’s emissary must not fail.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Storye message. Speaker: &quot;Golem&quot; (Forgotten, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFAULT_VICTORY_CRYPT_NOT_FOUND_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With the planet under our control, our troops had the time to systematically search Obolus-5 for the legacy of the Es’Teq. They found the Es’Teq Crypt buried below the sand from which they eventually recovered an Ark.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_DEFAULT_VICTORY_CRYPT_UNKNOWN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With the planet under our control, our troops had the time to systematically search Obolus-5 for the legacy of the Es’Teq. They found a Crypt of Es’Teq origin buried below the sand from which they eventually recovered an Ark.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER01_HATYL_LEAVES_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Why, {STR_LeaderName}? Has your prejudice really led you to seek war with the ones that were supposed to bring you redemption? Then it is with great sadness that I have to leave you, my friend. May you return to a path of enlightenment before it is too late.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Hatyl Es'Ran&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER01_HATYL_LEAVES_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Without Hatyl to guide us, all hope of claiming the legacy of the Es’Teq is lost. Our rebellion has reached a dead end.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Marlok Tenor&quot; (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_RELATION_MOD_EBRA_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Respects Hatyl Es'Ran</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_RELATION_MOD_EBRA_TOWARDS_PLAYER_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sentenced by the Es'Teq Conclave</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_RELATION_MOD_JACK_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Leader of a slave rebellion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_RELATION_MOD_NYLA_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Outlawed by the Ruling Seven</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CB_NYLA_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rebelled against Syndicate Law</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a casus belli (war reason).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_CB_PLAYER_TOWARDS_EBRA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tried to assassinate Hatyl</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a casus belli (war reason).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER01_RELATION_MOD_CHAX_TOWARDS_HUMANS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Death to the Sack-Bleeders</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>288</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>298</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

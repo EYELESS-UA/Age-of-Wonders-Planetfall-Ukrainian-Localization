@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-08-07T10:01:54Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="44" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.857142857142854"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="129"/>
+   <Column ss:StyleID="s63" ss:Width="104.14285714285714"/>
+   <Column ss:StyleID="s63" ss:Width="409.71428571428572"/>
+   <Column ss:StyleID="s63" ss:Width="110.14285714285714"/>
+   <Column ss:StyleID="s63" ss:Width="228"/>
+   <Column ss:StyleID="s63" ss:Width="85.714285714285708"/>
+   <Column ss:StyleID="s63" ss:Width="409.71428571428572"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIES_OATHBOUND</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Race name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Race name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef=""><Data ss:Type="String">{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus: [/sand]Extra terrain revealed near starting colony[/bullet][bullet][sand]Long-Term Bonus: [/sand]Positive Reputation Modifiers last 50% longer.[/bullet][bullet]Battlesuits use [hyperlink,0000039E0000000D]Arc[/hyperlink] based melee attacks[/bullet][bullet]Seers manipulate probability to control the battlefield.[/bullet][bullet]Use the [hyperlink,0000039E0000000D]Arc[/hyperlink] and  [hyperlink,000003E900000096]Entropy[/hyperlink] damage channels.[/bullet][bullet]Racial Ability: Oathbound heroes can link to colonies for economic bonuses.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.&#10;Racial description text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">The [hyperlink,000003F600000318]Oathbound[/hyperlink] are a feudal society led by the wise Seers and their predictions of the future, guiding the honor-bound Paladins in their powerful battle suits to maintain order.[br/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short race description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound Settlement</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic map structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic map structure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Migrate Colony: Oathbound</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic structure operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Migrate the population of this colony to Oathbound. The colony will become an Oathbound colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic structure operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Colony is currently being migrated to an Oathbound population. Process will complete in [INT_duration].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic structure operation description in progress</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to migrate this colony to an Oathbound colony?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warning tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">At War (Player)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_NPC</Data></Cell>
+    <Cell><Data ss:Type="String">At War (NPC Faction)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scryer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SCRYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Normally, I distrust powerful organizations. Absolute power corrupts. But what if the Oathbound discovered the perfect technology for a perfect society? I was wary of the Scryers hovering around our homes, but then it warned me when I was using a meat-grinder. It flashed a vision of me turning my hand into sausage, because I assembled the safety guard improperly. It’s stuff like that. They warn me about danger before it happens. What oppressive society cares so much for its lowliest citizens enough to protect them from their own stupidity? The Oathbound are alright by me.” – Beaver McSnubbins, “RV-93824C: Testimonials”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_ASPIRANT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Aspirant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PALADIN_ASPIRANT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Lots of us Vanguard turned to the Oathbound. Pay is the same, but citizens respect you. I don’t police people, I serve them. We neutralize local hostiles, but even the lethal tech stuns first. Advancement is trust-based, rather than a race for who can hoard enough power to take control. Those caught abusing power either leave or are demoted to Aspirant to relearn a Paladin’s core mission: Service before Self. I am myself protecting the innocent instead of kissing up to high-ranking whack-jobs that want me to prove my loyalty by abusing vulnerable populations.” – Walter Jones, “RV-246014M: Recruitment”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATCHER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Watcher</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">WATCHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Imagine if we could harness these Seers' ability to predict fate. Clearly, it’s tech, not magic—though they want you to think that. This is all that stands between us and galactic dominance. Yet how can you steal from one that sees what you’re going to do before you do it? Even their low-level Watchers see our weaknesses—always learning—constantly recording our attempts at espionage. Then they hit us with their ‘Curse of Adversity’, and then they observe as our plots fall apart on their own.” – Lady Kay of Syndicate House Tee, “RV-347223: Fate and Destiny”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_PROTECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Protector</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PALADIN_PROTECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We endured Spacer savagery for decades. En masse, they’d descend from their gaming arena for a ritual they called ‘the Munchies.’ Their hedonistic barbeque consumed our family members who couldn’t flee in what they demanded as gruesome tributes. We had no one to protect us until the Oathbound Protectors arrived. Brave souls fought with lightning lances, bearing shields that sheltered us all. The Spacers brought out their terrible constructs, but it only emboldened our defenders to fight harder. We are no longer bothered by Spacers. The Oathbound brought us peace.” – Quarla Arx, “RV-9444490T: Deliverance”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;Oathbound and Spacers are an in-game faction&#10;&#10;The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_WARDEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Warden</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_WARDEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Like a congregation of true believers, we are strongest together, united in our common cause. I admire the strength in us all. Today, I serve as a Warden. When I draw back my bow, I deliver lightning darts to my enemies that hide in the sky or snipe us from afar. When the enemy surrounds us, I erect my banner and thwart their assault no matter how they try to outflank us. Should I falter, I may again become an Aspirant. Be it as the Seers foresee. No matter how lowly, I am forever Oathbound.”—Warden Ullen Strig, “RV-030422V: Solemn Devotions”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;Aspirant is a unit as well&#10;&#10;The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUGUR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Augur</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">AUGUR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“There’s finality to the universe. Fate. No one is so important that they cannot fall. Once you mattered, then you return to matter. We, the Augurs, are scarecrows posted on Fate’s crossroad. Feathery finality flurries like a flock of entropic birds, swirling with possibility. We reach out a hand. We don’t change Fate. We provide the raven of doom a place to perch and then we wait. Waiting. That is when we are most vulnerable. The Augur holds until Doom perches. One may soar, another will fall.” – Cortex Chambo,  “Training Seers and Soothsayers”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GALLEON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Galleon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">GALLEON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The ship cut the water like a swan, its bow and keel extended high and graceful. As it passed we could hear it hum and smell the distinct wafting of ozone as it pulled pulsating energy from the air. The marauding ships scattered as arcs of blue lightning snapped from the galleon’s Volt Bow. The ship was like a storm itself, and none of the vessels dared weather it. We salute these newcomers—these Oathbound. They do not allow injustice to persist—not even on the lonely seas.” – Captain Marshal Brightwater, “RV-577753C: Nautical Wisdom”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_CHAMPION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Champion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_CHAMPION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“As our defenses broke and the bedraggled Oathbound faithful teetered on the edge of their resolve. A champion appeared wreathed in lightning, drawing arcs that crackled over us, pulling every hair to attention like a magnet. We cried out as it plummeted from the sky delivering decisive judgement with every swing of its Volt Greatsword. Every person that day who stood to fight for our noble cause vowed one day to be worthy to serve the people as a Champion and deliver the righteous will of justice.” – Danika Blaze, Paladin Champion Pilot, “RV-475888M: Why We Serve.”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIVINER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Diviner</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DIVINER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Some consider me a diviner. That’s a false attribution. I’m just always running away. Diviners read ripples in the waves of chaos. They see invisible currents of inevitability. They perceive gaps, eddies and blurs in the flow of causality. What will, won’t or can’t be. I once met a true Diviner, but he could not perceive me at all. His friends had to assure him that I was not a prank. I figure I’ve always known I was good at avoiding fate. Maybe that’s my fate then: to have no fate.” – Mah Reg’Nib, “RV-00004300T: Oracles and Orioles”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_EXEMPLAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Exemplar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PALADIN_EXEMPLAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Like a war god from legend, the mech rose to protect its subjects. The enemy encircled it, but with its shields extended the shots rang like rain upon a well-built rooftop. We thought perhaps that was it, until it shifted and struck an enemy artillery unit with its massive electrified glaive weapon. In a flash the towering titan shattered the enemy’s defenses, sending them spiraling in retreat. Clearly, the Oathbound Exemplar proves these newcomers will defend their ideals with more than just pleasing words.” – General Otis Falk, Horde Captain. “RV-422241M: Oathbound Force Assessments”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_WARLORD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Warlord</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_WARLORD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;I’ve never been one for mechanized armored suits, even if they make you feel large and in charge. Just know that the Paladin Warlord’s Volt Surge is not a toy, but delivers arc energy to clusters of enemies. Also, those twin axes are not designed for living out lumberjack fantasies. The charged axes make trees explode, completely destroying the timber’s value. Not that I admit I ever tried that—Oathbound are very serious about whom they entrust with their equipment.” – Mah Reg’Nib, “RV-9110066T: Oracles and Orioles&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_MARQUIS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Marquis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_MARQUIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;The inner animal lives by instinct. All flesh forgets vows. The Oathbound cannot make others virtuous. The way to Oathbound Honor is never forced. Virtue is a personal choice. We inspire the soul to change, aspiring to greater visions. Justice is not punishment. When Paladins mount their Marquis, fly their banners, and sound honor’s hymns, we all remember and regain our power. Ride on paladins to every low valley and upon every clime. Voyage until every ear hears the glorious news: we can free ourselves.” – Tedora Publia RV-453009E: The Paladin Poet&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description&#10;&#10;The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data ss:Type="String">With guidance from your Seers, you must remain confident that you will not falter in your mission.[br/][br/]Battlesuits piloted by the elite and just Paladins under your command will inspire your people and strike fear in the minds of those that would threaten your kin. As Oathbound, you have enjoyed a perfect society in isolation, but now it is time to enlighten those who have fallen from grace in these savage times.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person that speaks this is a Seer female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_OF_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banner of Protection</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell><Data ss:Type="String">BANNER_OF_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Assess Oathbound power anomaly. &#10;Observation: a single Oathbound Banner rallies their weak to strength. &#10;Q1: Does power reside in the cloth or the words emblazoned upon it? &#10;A1: Unknown. &#10;Q2: How does merely publicly displaying their standards transmit power? &#10;A2: Unknown. &#10;Q3: From whence does this prowess originate (or) counter inquiry: was it within them all along?&#10;A3: Wasteful. Inefficient. Why not always use it? &#10;Risk Assessment: what if this power was replaced with inferior prosthetics during the Assembly subject creation process?&#10;Mitigation: unknown.” – Assembly Threat Assessor, “RV-332876X: Inferiority Complex&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structured like a question and answer list&#10;&#10;The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_LIGHT_BRINGER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Light Bringer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_PURIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Purifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_ECHO_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Echo Walker</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

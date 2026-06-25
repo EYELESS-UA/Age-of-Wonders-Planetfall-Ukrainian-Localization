@@ -1,0 +1,1051 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <LastSaved>2019-09-20T13:31:10Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="182" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="184.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="351.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="129"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="273"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="315"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TUTORIAL</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GAME_START</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">GAME_START</Data></Cell>
+    <Cell><Data ss:Type="String">TUTORIAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome Commander! I am A.I.V.A., your Autonomous Integrated Virtual Assistant, standard issue for every planetary governor of the Star Union.[br/][br/]My messages will appear when important actions are undertaken for the first time. They can be reviewed at any time in the [hyperlink,00000322000000E0]Imperial Archives[/hyperlink], in The Basics section.[br/][br/]The [recommended/] icon and color will assist in early decisions by recommending certain choices to direct the development of your starting empire.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">All mentions to Commander are towards the Player behind the computer screen, not the Leader or hero unit in game. The mention of AIVA is a female AI program (voice-over will be female). All mentions of 'you' is also direct to the player behind the screen. &#10;&#10;Added periods in the name A.I.V.A.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GAME_START</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@GAME_START@TUTORIAL_DESCRIPTION%7D[br/][br/]These messages can be disabled or reset at any time in the Options menu of your command interface, which can be accessed via the button in%"><Data
+      ss:Type="String">{XML_TUTORIAL@GAME_START@TUTORIAL_DESCRIPTION}[br/][br/]These messages can be disabled or reset at any time in the Options menu of your command interface, which can be accessed via the button in the top right of the interface.[br/][br/]Do you wish to enable the help messages?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONTROLS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Controls</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CONTROLS</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can pan the camera using the arrow keys or {KEYBIND_ID_6}/{KEYBIND_ID_7}/{KEYBIND_ID_8}/{KEYBIND_ID_9} keys, and zoom in and out using the [middlemousebutton/] on your mouse. Additionally the camera can be moved by holding down  the [leftmousebutton/] button and moving the mouse. [br/][br/]Selecting is done by clicking the [leftmousebutton/] button. To deselect something, use the [leftmousebutton/] button anywhere else.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CONTROLS</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can pan the camera using [controllerprompt][xbox_ls/][/controllerprompt], and zoom in and out using [controllerprompt][xbox_rs/][/controllerprompt]. Selecting is done with [controllerprompt][xbox_a/][/controllerprompt] and deselecting is done with [controllerprompt][xbox_b/][/controllerprompt]. [controllerprompt][xbox_y/][/controllerprompt] brings up a radial menu, which allows access to the in-game menus.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFO_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Info Mode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INFO_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Accessing Info Mode provides more information on various aspects of the most relevant interfaces. You can enter info mode by pressing the [controllerprompt][xbox_windows/][/controllerprompt]button and using[controllerprompt][xbox_ls/][/controllerprompt] to move to different elements of the interface.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is the [hyperlink,000003AC00000047]Colony[/hyperlink] interface. It allows you to inspect and control your settlements on this planet. The tabs at the top left cycle through the production and colonist options.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In this document, all words in between the [Hyperlink] sections are imperial archive entries, our manual in game, and will need to have the same name as those imperial archive entries, though they can be plural or singular, as is fitting for the sentence (colony or colonies is fine)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESOURCES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resources</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESOURCES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Under this colony's name, you can see the amount of each [hyperlink,0000039F00002DF4]Resource[/hyperlink] this colony generates. [br/][br/]A description and a breakdown of the colony's income can be found in the tooltips of each resource.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESOURCES</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@RESOURCES@DESCRIPTION%7D[br/][br/][recommendedcol]Tooltips%20can%20be%20viewed%20by%20hovering%20over%20an%20interface%20element%20with%20the%20mouse.[/recommendedcol]"><Data
+      ss:Type="String">{XML_TUTORIAL@RESOURCES@DESCRIPTION}[br/][br/][recommendedcol]Tooltips can be viewed by hovering over an interface element with the mouse.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESOURCES</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@RESOURCES@DESCRIPTION%7D[br/][br/][recommendedcol]Tooltips%20can%20be%20seen%20in%20Info%20Mode%20by%20pressing%20[controllerprompt][xbox_windows/][/controllerprompt]%20on%20your%20controller%20and%20using%20[controllerprompt][xbox_l"><Data
+      ss:Type="String">{XML_TUTORIAL@RESOURCES@DESCRIPTION}[br/][br/][recommendedcol]Tooltips can be seen in Info Mode by pressing [controllerprompt][xbox_windows/][/controllerprompt] on your controller and using [controllerprompt][xbox_ls/][/controllerprompt] to move to each individual element.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Production</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNIT_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The currently selected colony tab is ‘Unit Production’. All [hyperlink,000003AC0000009A]Units[/hyperlink] available for construction are listed here. More units are unlocked through research and by building their prerequisite structure.[br/][br/]Units cost both production and energy to build, and higher tier units also cost [hyperlink,0000039F000024D8]Cosmite[/hyperlink] [tricorium/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNIT_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@UNIT_PRODUCTION@DESCRIPTION%7D[br/][br/][recommendedcol]You%20can%20add%20a%20unit%20to%20the%20production%20queue%20by%20double-clicking%20[leftmousebutton/]%20or%20by%20selecting%20it%20and%20clicking%20the%20'Produce'%20button.[/r"><Data
+      ss:Type="String">{XML_TUTORIAL@UNIT_PRODUCTION@DESCRIPTION}[br/][br/][recommendedcol]You can add a unit to the production queue by double-clicking [leftmousebutton/] or by selecting it and clicking the 'Produce' button.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNIT_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@UNIT_PRODUCTION@DESCRIPTION%7D[br/][br/][recommendedcol]You%20can%20scroll%20through%20the%20list%20of%20available%20units%20using%20[controllerprompt][xbox_ls/][/controllerprompt],%20and%20select%20a%20unit%20to%20be%20produced%20us"><Data
+      ss:Type="String">{XML_TUTORIAL@UNIT_PRODUCTION@DESCRIPTION}[br/][br/][recommendedcol]You can scroll through the list of available units using [controllerprompt][xbox_ls/][/controllerprompt], and select a unit to be produced using the [controllerprompt][xbox_a/][/controllerprompt] button.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_QUEUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Production Queue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PRODUCTION_QUEUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units and structures can be built in a colony by selecting the ‘Produce’ option, which places them in the [hyperlink,000003AC00000295]Production Queue.[/hyperlink]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PRODUCTION_QUEUE</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@PRODUCTION_QUEUE@DESCRIPTION%7D[br/][br/][recommendedcol]The%20order%20of%20the%20production%20projects%20in%20the%20queue%20can%20be%20changed%20by%20hovering%20over%20them%20and%20selecting%20the%20up%20arrow%20that%20appears.%20Cl"><Data
+      ss:Type="String">{XML_TUTORIAL@PRODUCTION_QUEUE@DESCRIPTION}[br/][br/][recommendedcol]The order of the production projects in the queue can be changed by hovering over them and selecting the up arrow that appears. Clicking the 'X' will remove a production project from the queue altogether.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PRODUCTION_QUEUE</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@PRODUCTION_QUEUE@DESCRIPTION%7D[br/][br/][recommendedcol]The order of the production projects in the queue can be changed by selecting them using [controllerprompt][xbox_ls/][/controllerprompt] and%2"><Data
+      ss:Type="String">{XML_TUTORIAL@PRODUCTION_QUEUE@DESCRIPTION}[br/][br/][recommendedcol]The order of the production projects in the queue can be changed by selecting them using [controllerprompt][xbox_ls/][/controllerprompt] and pressing the [controllerprompt][xbox_x/][/controllerprompt] button. Pressing the [controllerprompt][xbox_a/][/controllerprompt] button will remove a production project from the queue altogether.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Structure Production</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">STRUCTURE_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is the Structure Production tab. [hyperlink,000003AC00000299]Colony Structures[/hyperlink] can be built from here to unlock new units, strengthen the economy and bolster the colony's defenses.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRUCTURE_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@STRUCTURE_PRODUCTION@DESCRIPTION%7D[br/][br/][recommendedcol]You%20can%20add%20a%20structure%20to%20the%20production%20queue%20by%20double-clicking%20the%20[leftmousebutton/]%20button%20or%20by%20selecting%20it%20and%20clicking%20the"><Data
+      ss:Type="String">{XML_TUTORIAL@STRUCTURE_PRODUCTION@DESCRIPTION}[br/][br/][recommendedcol]You can add a structure to the production queue by double-clicking the [leftmousebutton/] button or by selecting it and clicking the 'Produce' button.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">STRUCTURE_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@STRUCTURE_PRODUCTION@DESCRIPTION%7D[br/][br/][recommendedcol]You can scroll through the list of available structures using [controllerprompt][xbox_ls/][/controllerprompt], and select a structure to be%"><Data
+      ss:Type="String">{XML_TUTORIAL@STRUCTURE_PRODUCTION@DESCRIPTION}[br/][br/][recommendedcol]You can scroll through the list of available structures using [controllerprompt][xbox_ls/][/controllerprompt], and select a structure to be produced using [controllerprompt][xbox_a/][/controllerprompt].[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sector Production</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SECTOR_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Sector Production tab lists the structures that can be built in any of the [hyperlink,000003BD00001314]Province Sectors[/hyperlink] of the colony.[br/][br/]A sector can be [hyperlink,000003AC000002A6]Exploited[/hyperlink] in one of four resources (energy[energy/], food[supply/], knowledge[research/] or production[production/]) by building the appropriate building in that sector. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECTOR_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@SECTOR_PRODUCTION@DESCRIPTION%7D[br/][br/][recommendedcol]You%20can%20add%20a%20structure%20to%20the%20production%20queue%20by%20double-clicking%20[leftmousebutton/]%20or%20by%20selecting%20it%20and%20clicking%20the%20'Produce'%20but"><Data
+      ss:Type="String">{XML_TUTORIAL@SECTOR_PRODUCTION@DESCRIPTION}[br/][br/][recommendedcol]You can add a structure to the production queue by double-clicking [leftmousebutton/] or by selecting it and clicking the 'Produce' button.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SECTOR_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@SECTOR_PRODUCTION@DESCRIPTION%7D[br/][br/][recommendedcol]You%20can%20scroll%20through%20the%20list%20of%20available%20structures%20using%20[controllerprompt][xbox_ls/][/controllerprompt]%20and%20you%20can%20select%20a%20structure"><Data
+      ss:Type="String">{XML_TUTORIAL@SECTOR_PRODUCTION@DESCRIPTION}[br/][br/][recommendedcol]You can scroll through the list of available structures using [controllerprompt][xbox_ls/][/controllerprompt] and you can select a structure to be produced using the [controllerprompt][xbox_a/][/controllerprompt] button.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist Tab</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The colonist tab lists details of the colony's  [hyperlink,000003AC000002B7]Growth[/hyperlink] and [hyperlink,000003AC00000026]Happiness.[/hyperlink] The colony’s output can be fine-tuned by assigning [hyperlink,000003AC0000002D]Colonists[/hyperlink] to [hyperlink,000003AC000002B6]Resource Slots.[/hyperlink][br/][br/] New Commanders can best keep Colonist Management and Food Sharing on the default settings.  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Research</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome to the Research Center, Commander. Here we allocate [hyperlink,000003AC00000025]Knowledge[/hyperlink] [research/] to rediscover the technologies of the Star Union and search for new frontiers. The two tracks can be reseached in parallel:[br/][br/][bulletlist][bullet]Military Research[/bullet][br/][bullet]Society Research[/bullet][/bulletlist][br/][br/][hyperlink,000003AC00000025]Knowledge[/hyperlink] is applied to both types of research equally at the end of each turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@RESEARCH@DESCRIPTION%7D[br/][br/][recommendedcol]You%20can%20click[rightmousebutton/]%20on%20the%20components%20the%20research%20skills%20unlock%20to%20go%20to%20the%20relevant%20Imperial%20Archive%20entry[/recommendedcol]"><Data
+      ss:Type="String">{XML_TUTORIAL@RESEARCH@DESCRIPTION}[br/][br/][recommendedcol]You can click[rightmousebutton/] on the components the research skills unlock to go to the relevant Imperial Archive entry[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@RESEARCH@DESCRIPTION%7D[br/][br/][recommendedcol]Pressing%20[controllerprompt][xbox_x/][/controllerprompt]%20will%20show%20more%20information%20on%20the%20components%20of%20the%20currently%20highlighted%20research%20skill.[/recommend"><Data
+      ss:Type="String">{XML_TUTORIAL@RESEARCH@DESCRIPTION}[br/][br/][recommendedcol]Pressing [controllerprompt][xbox_x/][/controllerprompt] will show more information on the components of the currently highlighted research skill.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MILITARY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Military Research</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MILITARY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003AC00000262]Military Research[/hyperlink] concerns unit unlocks, unit mods and military operations. It is divided into three categories:[br/][br/][bulletlist][bullet]Racial research[/bullet][br/][bullet]Weapons research[/bullet][br/][bullet]Secret Technology research[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOCIETY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Society Research</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SOCIETY_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003AC00000263]Society Research[/hyperlink] concerns economic development, governmental policies and espionage. It is divided into three categories:[br/][br/][bulletlist][bullet]Doctrine research unlock governmental policies to steer your empire.[/bullet][br/][bullet]Economy research focuses on the development of your colonies.[/bullet][br/][bullet]Operations research increases operation effectiveness, and unlocks covert operations[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNITS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Units</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNITS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is an [hyperlink,000003AC0000009B]Army.[/hyperlink] Armies contain up to 6 units on a single [hyperlink,000003AC000000BD]Hex,[/hyperlink] and are used to explore the world, attack enemy armies and defend colonies.[br/][br/]Selecting a unit's portrait in the army panel below will display its abilities.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNITS</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@UNITS@DESCRIPTION%7D[br/][br/][recommendedcol]Clicking%20[leftmousebutton/]%20on%20a%20unit's%20portrait%20in%20the%20army%20panel%20below%20will%20open%20the%20unit%20panel%20for%20that%20unit.[/recommendedcol]"><Data
+      ss:Type="String">{XML_TUTORIAL@UNITS@DESCRIPTION}[br/][br/][recommendedcol]Clicking [leftmousebutton/] on a unit's portrait in the army panel below will open the unit panel for that unit.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNITS</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@UNITS@DESCRIPTION%7D[br/][br/][recommendedcol]By%20pressing%20the%20[controllerprompt][xbox_dp_up/][/controllerprompt]%20button,%20the%20army%20panel%20can%20be%20accessed%20where%20individual%20units%20in%20the%20army%20can%20be%20s"><Data
+      ss:Type="String">{XML_TUTORIAL@UNITS@DESCRIPTION}[br/][br/][recommendedcol]By pressing the [controllerprompt][xbox_dp_up/][/controllerprompt] button, the army panel can be accessed where individual units in the army can be selected. Pressing the [controllerprompt][xbox_x/][/controllerprompt] button will open the unit panel of the currently selected unit.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOVEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Moving Armies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MOVEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">To move an army, select it and then move the cursor to the hex you want it to go to. A preview of the route is shown, with a blue path to indicate how far the army can move this turn.[br/][br/]Each hex has a [hyperlink,000003AC000000DC]Move Point[/hyperlink] cost, and each unit has a set number of move points per turn. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MOVEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@MOVEMENT@DESCRIPTION%7D[br/%5d%5bbr/%5d%5brecommendedcol%5dUnits%20can%20be%20selected%20using%20%5bleftmousebutton/%5d;%20clicking%20%5brightmousebutton/%5d%20over%20a%20hex%20will%20move%20the%20selected%20army%20towards%20that%20h"><Data
+      ss:Type="String">{XML_TUTORIAL@MOVEMENT@DESCRIPTION}[br/][br/][recommendedcol]Units can be selected using [leftmousebutton/]; clicking [rightmousebutton/] over a hex will move the selected army towards that hex.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MOVEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@MOVEMENT@DESCRIPTION%7D[br/][br/][recommendedcol]Units can be selected using [controllerprompt][xbox_a/][/controllerprompt]; pressing [controllerprompt][xbox_a/][/controllerprompt] over a hex will move the%2"><Data
+      ss:Type="String">{XML_TUTORIAL@MOVEMENT@DESCRIPTION}[br/][br/][recommendedcol]Units can be selected using [controllerprompt][xbox_a/][/controllerprompt]; pressing [controllerprompt][xbox_a/][/controllerprompt] over a hex will move the selected army towards that hex.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARMY_SPLITTING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Army Splitting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ARMY_SPLITTING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Armies with multiple units can be split into smaller, separate armies. To split an army, select the move point button positioned above the portrait of the unit(s) you want to remove from the selected army. When all units that you want to split off are selected, move the units as normal to create a new army. The army's other units will stay in place.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ARMY_SPLITTING</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@ARMY_SPLITTING@DESCRIPTION%7D[br/][br/][recommendedcol]By%20pressing%20[controllerprompt][xbox_dp_up/][/controllerprompt],%20the%20army%20panel%20can%20be%20accessed%20where%20individual%20units%20in%20the%20army%20can%20be%20selecte"><Data
+      ss:Type="String">{XML_TUTORIAL@ARMY_SPLITTING@DESCRIPTION}[br/][br/][recommendedcol]By pressing [controllerprompt][xbox_dp_up/][/controllerprompt], the army panel can be accessed where individual units in the army can be selected. Pressing the [controllerprompt][xbox_a/][/controllerprompt] button will highlight units to split off from the main army. [/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Panel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNIT_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is the unit panel where all the information on a unit can be viewed, including their active and passive abilities in the list on the left side.  [br/][br/]Once researched, [hyperlink,0000039E00000063]Unit Mods[/hyperlink] can be assigned to a unit using the mod slots on the right.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNITS_ROLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Role</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">UNITS_ROLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units can have different roles in combat.[br/][br/][bulletlist][bullet][hyperlink,000003AC0000029B]Core units[/hyperlink] are a race's scouts and baseline infantry.[/bullet][br/][bullet][hyperlink,000003AC0000028B]Skirmisher units[/hyperlink] are focused on dealing damage.[/bullet][br/][bullet][hyperlink,000003AC0000028A]Specialist units[/hyperlink] have non-damaging support abilities in addition to their attacks.[/bullet][br/][bullet][hyperlink,000003AC0000028C]Elite units[/hyperlink] are higher tier units that have strong damage and support abilities.[/bullet][/bulletlist][br/][br/]A colony can only produce skirmisher, specialist and elite units if it has built special [hyperlink,000003AC000002A4]Unit Unlock Structures.[/hyperlink]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MODS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Mods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNIT_MODS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mods allow you to improve your units later in the game, and allow you to adapt your arsenal to ever-evolving threats. [hyperlink,0000039E00000063]Unit Mods[/hyperlink] include a variety of offensive and defensive modifications, while others provide entirely new abilties.[br/][br/]Unit Mods can be unlocked through [hyperlink,000003AC000000C9]Research[/hyperlink] or bought from [hyperlink,0000039E00000075]NPC Factions.[/hyperlink]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Template</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNIT_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Once mods have been assigned to a unit, a new template needs to be made for the modified unit. Every template is unique, with its own name and icon, and changing the mods on a unit with an existing template will prompt the creation of a new template for that unit. A template can also be used to simultaneously upgrade all existing units of the same type.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERO_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hero Panel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">HERO_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003AC000000C1]Heroes[/hyperlink] are special units that lead your armies. [hyperlink,000003AC0000009D]Commander,[/hyperlink] you are also represented as a hero on the map. [br/][br/]As heroes level up, they gain [hyperlink,000003AC00000328]Skill Points[/hyperlink] that can be spent to unlock unique hero abilities using this interface. Many hero abilties buff the entire army they are leading. Next to unit mods, heroes have the ability to wield legendary Hero Items that can be found while exploring the strategic map.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARAUDERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marauders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MARAUDERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These are [hyperlink,000003AC000000A3]Marauders,[/hyperlink] hostile armies that either roam around the planet looking for locations to attack or camp on [hyperlink,0000039A00000928]Spawners[/hyperlink] to defend them. Spawners will periodically spawn roaming marauder armies. Spawners can be destroyed by defeating its defenders and moving an army on top of it.[br/][br/]Marauders will increase in strength the longer the game goes on, so exterminate them early! </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INDEPENDENTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marauder Guards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INDEPENDENTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These are [hyperlink,000003CF0000009E]Marauder Guards.[/hyperlink] Having taken a location of value, they will remain there and protect it with their lives. As with regular marauders, they do not engage in diplomacy, and will grow stronger as the game goes on.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">NPC Factions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FACTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is an army belonging to an [hyperlink,0000039E00000075]NPC Faction,[/hyperlink] a group of sentient beings native to this planet. NPC Factions can be interacted with, and will provide quests and issue demands. Appeasing an NPC faction leads to diplomatic benefits, such as the ability to purchase their units or to call the faction to [hyperlink,000003AC00000310]War[/hyperlink] as allies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sector Information</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Planets are divided into geographical sectors that contain natural resources or valuable remnants of the Star Union. Sectors can be settled with colonizers or annexed as provinces to existing colonies by interacting with the central sector map marker.[br/][br/]Actions available to take within the sector are listed in the bottom panel.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_ANALYSIS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sector Analysis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">SECTOR_ANALYSIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sectors usually have both a [hyperlink,000003BD00001313]Clime[/hyperlink] and [hyperlink,000003AC000000D1]Terrain[/hyperlink] feature that determine their economic potential.[br/][br/]In addition, sectors can contain locations such as [hyperlink,0000039A00000924]Resource Nodes,[/hyperlink] [hyperlink,0000039A00000925]Visit Sites[/hyperlink] and [hyperlink,0000039C00001C1A]Hazards[/hyperlink] which can add economic or strategic value to the sector.[br/][br/]Hazards and special combat effects are also listed in this panel.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_ANNEXATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sector Annexation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SECTOR_ANNEXATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">To make your colonies thrive, sectors need to be annexed to colony centers. This turns them into [hyperlink,000003BD000016D5]Province Sectors[/hyperlink] that add income to their parent colony once they are further developed.[br/][br/]Through experience, you will learn how to optimize sector choices and colony upgrades. For now, pick any habitable sector adjacent to your starting colony, and annex it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_EXPLOITATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sector Exploitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell><Data ss:Type="String">SECTOR_EXPLOITATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have just annexed a sector, and it can now be [hyperlink,000003AC000002A6]Exploited[/hyperlink] for one of the main resources. Ideally, the chosen exploitation type matches the terrain and clime features of the sector for future leveling potential. [br/][br/]Exploitations are built via the colony center interface, in the Sector Production tab. The higher the [hyperlink,000003AC000002B8]Level[/hyperlink] of the exploitation, the more income it provides.[br/][br/]After the sector has been exploited, a [hyperlink,000003AC000002A7]Specialization[/hyperlink] can be built in it for more benefits. Conduct [hyperlink,000003AC000000C9]Research[/hyperlink] to unlock sector specializations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PICKUPS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pickups</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PICKUPS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,0000039A00000929]Pickups[/hyperlink] are one-time collectables that provide [hyperlink,0000039F00002DF4]Resources[/hyperlink] or other rewards. They are instant bonuses that are given to the player who first collects them by moving a unit on top of them. [br/][br/]Once a pickup is collected, it is removed from the world. Better pickups are often defended by armies that need to be defeated before the pickup can be collected.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VISIT_SITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visit Sites</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VISIT_SITES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,0000039A00000925]Visit Sites[/hyperlink] are remnants of the Star Union that give a visiting army a boost. This can either be an instant effect or an effect that lasts until the end of the units' next combat.[br/][br/]Visit sites also provide minor economic benefits when their sector is [hyperlink,000003BD00001316]Annexed[/hyperlink] to a colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESOURCE_NODES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resource Nodes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">RESOURCE_NODES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,0000039A00000924]Resource Nodes[/hyperlink] are remnants of the Star Union that provide economic bonuses when their sector is [hyperlink,000003BD00001316]Annexed[/hyperlink] to a colony.[br/][br/]Resource nodes give a synergy bonus when their sector's [hyperlink,000003AC000002A6]Exploitation[/hyperlink] matches the resource that they provide.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">HAZARDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,0000039C00001C1A]Hazards[/hyperlink] linger as a reminder of weapons of mass destruction that were deployed in the past. They have a sector-wide effect on any armies in their sector, both on the world map and in tactical combat in that sector.[br/][br/]Hazards apply an economic penalty to the colony center when they are in one of its sectors. A hazard can be removed by using the [hyperlink,000003BD000011CB]Remove Hazard[/hyperlink] operation while a unit is standing on top of it. [hyperlink,000003AC000000C9]Research[/hyperlink] must be conducted to unlock this operation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imperial Defense</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">IMPERIAL_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003AC000000F1]Imperial Defenses[/hyperlink] are remnants of Star Union planetary defense systems. They have a sector-wide effect on any armies in the sector they are in, including tactical combat maps in the sector.[br/][br/]Clearing and claiming these structures allows the owning commander to use unique [hyperlink,0000039E00000073]Strategic Operations[/hyperlink] within this sector on an owned colony.[br/]These operations are available only when the Imperial Defense structure remains owned by that commander.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARKS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Landmarks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">LANDMARKS</Data></Cell>
+    <Cell><Data ss:Type="String">TUTORIAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,0000039E0000007A]Landmarks[/hyperlink] are remnants of powerful Star Union structures. There are three kinds of landmarks: Bronze[monumentbronze/], Silver[monumentgrey/] and Gold[monumentgold/], with increasing economic value. [br/][br/]Landmarks have an inherent [hyperlink,000003AC000002A6]Exploitation[/hyperlink] with Gold and Silver landmarks automatically counting as a Level 5 sector. Landmarks unlock special [hyperlink,000003890000060F]Doctrines[/hyperlink] and [hyperlink,000003AC000002D8]Colony Structures[/hyperlink] when they are [hyperlink,000003BD00001316]Annexed.[/hyperlink]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LANDMARKS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@LANDMARKS@TUTORIAL_DESCRIPTION%7D[br/][br/]Gold%20and%20Silver%20landmarks%20first%20need%20to%20be%20entered%20to%20defeat%20the%20guards%20within."><Data
+      ss:Type="String">{XML_TUTORIAL@LANDMARKS@TUTORIAL_DESCRIPTION}[br/][br/]Gold and Silver landmarks first need to be entered to defeat the guards within.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dwelling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This location belongs to an [hyperlink,0000039E00000075]NPC Faction[/hyperlink] who may provide you with quests and make demands of you. Appeasing an NPC faction leads to diplomatic benefits, such as the ability to purchase their units and being able to call the faction to [hyperlink,000003AC00000310]War[/hyperlink] as allies.[br/][br/]On the right side of the interface, further information on the relation state is shown as well as the NPC Faction Shop, where the various trading options with the faction are located. Don't anger too many NPC factions at once, Commander, or your stay on this planet will be short-lived indeed!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Events</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003AC000002E5]Events[/hyperlink] listed in the right side of the screen are significant developments that happen during the course of a game. They include diplomatic messages, battle reports and notifications from your colonies. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TASK_NOTIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Task Notifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TASK_NOTIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [hyperlink,000003AC000000B9]Task Notifier[/hyperlink] shows actions available during the current turn, as well as urgent matters that require attention. The task notifier is located below the event list and above the [hyperlink,000003AC000002E0]Minimap.[/hyperlink][br/][br/]Selecting a message from the task notifier will either center the camera on the relevant location or open the relevant interface. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TASK_NOTIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@TASK_NOTIFIER@DESCRIPTION%7D[br/][br/][recommendedcol]You%20can%20cycle%20through%20events%20using%20[rightmousebutton/].[/recommendedcol]"><Data
+      ss:Type="String">{XML_TUTORIAL@TASK_NOTIFIER@DESCRIPTION}[br/][br/][recommendedcol]You can cycle through events using [rightmousebutton/].[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TASK_NOTIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@TASK_NOTIFIER@DESCRIPTION%7D[br/][br/][recommendedcol]Pressing%20[controllerprompt][xbox_rt/][/controllerprompt]%20will%20cycle%20through%20the%20different%20events.[/recommendedcol]"><Data
+      ss:Type="String">{XML_TUTORIAL@TASK_NOTIFIER@DESCRIPTION}[br/][br/][recommendedcol]Pressing [controllerprompt][xbox_rt/][/controllerprompt] will cycle through the different events.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBAT_ENTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Combat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COMBAT_ENTER</Data></Cell>
+    <Cell><Data ss:Type="String">TUTORIAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This combat preview is shown prior to any attack. All participating armies are shown, and you will also see an indication of the enemy army's strength compared to your own forces.[br/][br/]When an army is attacked, the [hyperlink,000003AC000000B1]Adjacent Hex Rule[/hyperlink] will cause adjacent armies to be drawn in.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBAT_ENTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_TUTORIAL@COMBAT_ENTER@TUTORIAL_DESCRIPTION%7D[br/][br]At the bottom of the interface, the choice between [hyperlink,000003AC000002EE]Manual and Auto Combat[/hyperlink] is available, as well as the option%"><Data
+      ss:Type="String">{XML_TUTORIAL@COMBAT_ENTER@TUTORIAL_DESCRIPTION}[br/][br]At the bottom of the interface, the choice between [hyperlink,000003AC000002EE]Manual and Auto Combat[/hyperlink] is available, as well as the option to abort the attack.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">REQUIRED FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADJACENT_HEX_RULE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Adjacent Hex Rule</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ADJACENT_HEX_RULE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">When engaging an [hyperlink,000003AC0000009B]Army[/hyperlink] in combat, all armies [hyperlink,000003AC000000B1]adjacent[/hyperlink] to the defending army that are allied to either the defending army or the attacking army are drawn into combat as well.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_MILITIA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Militia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">COLONY_MILITIA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colony militia has joined this battle, meaning the defender has extra units involved. When engaging in combat on a [hyperlink,000003AC000000E0]Colony Center[/hyperlink] or [hyperlink,000003BD000016D6]Province Sector Base,[/hyperlink] there is always a colony militia present. The colony militia can be upgraded by building the [hyperlink,000003AC000000D5]Militia Structures[/hyperlink] in the colony center.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_COMBAT_PROMPT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tactical Combat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TC_COMBAT_PROMPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Commanders can choose to lead battles themselves using the [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink] system. Help messages are available for new commanders to learn the basics of combat.[br/][br/]Start the Combat tutorial?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ATTACK_ARMY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tactical Combat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ATTACK_ARMY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The battle has started, Commander! The defending army always gets to act first, followed by the attackers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_FIRST_TURN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Action Points and Move Points</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">TC_FIRST_TURN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">During a combat turn, each unit has 3 [hyperlink,000003AC0000028D]Action Points[/hyperlink] to spend on using their abilities, which can cost between 1 and 3 action points. Regardless of cost, using an ability always ends the unit’s turn.[br/][br/]The [hyperlink,000003AC00000333]Tactical Movement Colors[/hyperlink] on the ground indicate how many action points the unit will have left after moving there. The red overlay on the ground means the unit will be left with no action points after movement. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_SELECT_LEADER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Commanders and Heroes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TC_SELECT_LEADER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003AC0000009D]Commanders[/hyperlink] and [hyperlink,000003AC000000C1]Heroes[/hyperlink] are some of the strongest units in any army, capable of wielding a variety of powerful weapons and even piloting vehicles. They level up as they gain experience, allowing them to unlock new abilities and buffs.[br/][br/]If a commander is defeated in combat, they will return to their faction's [hyperlink,000003AC000000E3]Headquarters[/hyperlink] after a certain number of turns. Heroes do not have this special protection.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_ABILITIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abilities</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TC_ABILITIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Each unit has active abilities that they can use during combat. Next to attacks, they have a [hyperlink,000003AC000002E6]Guard Ability[/hyperlink] which increases the unit’s defenses until the start of their next turn. Guard abilities always cost 1 action point.[br/][br/]The maximum range of the unit's currently selected ability will be displayed using a white line on the battlefield.[br/][br/]You can select enemy units to see their abilities and how they can use them.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TC_ABILITIES</Data></Cell>
+    <Cell><Data ss:Type="String">PC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@TC_ABILITIES@DESCRIPTION%7D[br/][br/][recommendedcol]Holding%20down%20the%20ALT%20button%20will%20allow%20your%20units%20to%20target%20obstacles%20or%20the%20ground,%20which%20is%20useful%20when%20using%20Area%20of%20Effect%20abiliti"><Data
+      ss:Type="String">{XML_TUTORIAL@TC_ABILITIES@DESCRIPTION}[br/][br/][recommendedcol]Holding down the ALT button will allow your units to target obstacles or the ground, which is useful when using Area of Effect abilities.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TC_ABILITIES</Data></Cell>
+    <Cell><Data ss:Type="String">CONSOLE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@TC_ABILITIES@DESCRIPTION%7D[br/][br/][recommendedcol]To%20allow%20your%20units%20to%20target%20obstacles%20or%20the%20ground,%20the%20Free%20Targeting%20option%20can%20be%20toggled%20on%20and%20off%20using%20the%20[controllerprompt]["><Data
+      ss:Type="String">{XML_TUTORIAL@TC_ABILITIES@DESCRIPTION}[br/][br/][recommendedcol]To allow your units to target obstacles or the ground, the Free Targeting option can be toggled on and off using the [controllerprompt][xbox_rs_press/][/controllerprompt] button. This functionality is useful when using Area of Effect abilities.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT FOR VOICE-OVER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_TUTORIAL_SUGGESTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forming a Gunline</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">TC_TUTORIAL_SUGGESTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Try moving your units forward to form a gunline, Commander. There are several nearby obstacles that your Vanguard Troopers can take cover behind, symbolized by a shield icon when hovering over the hex in cover.[br/][br/]Try putting your Troopers in cover and enable [hyperlink,000003AC000000C8]Overwatch[/hyperlink] on them (the red eye symbol). The Assault Bike has great mobility and is best moved into a flanking position to engage in combat next turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_UNIT_STAGGERED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Stagger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TC_UNIT_STAGGERED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unit has been [hyperlink,000003AC000002DE]Staggered,[/hyperlink] causing it to lose an action point![br/][br/]Most melee attacks and explosives will stagger units. If a unit is in [hyperlink,000003AC000000C8]Overwatch[/hyperlink] or [hyperlink,000003AC000002E6]Guard Mode,[/hyperlink] they are canceled when the unit is staggered. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_UNIT_GRAZE_MISS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Accuracy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TC_UNIT_GRAZE_MISS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Most abilities that are used on enemy units have an [hyperlink,000003AC0000030C]Accuracy[/hyperlink] [accuracy/] rating, which is the chance that the ability hits the intended target. [br/][br/]If an ability misses, it will either strike another target or do nothing at all. Some abilities can also [hyperlink,000003AC0000030D]Graze,[/hyperlink] meaning that the ability affected its target but with reduced strength.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_CRIT_FUMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Morale</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TC_CRIT_FUMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units with high [hyperlink,000003AC000000C3]Morale[/hyperlink] [happiness/] have a chance to score a [hyperlink,000003AC000002DC]Critical Hit[/hyperlink] when using offensive abilities. Critical hits always hit the target and deal increased damage.[br/][br/]Units that have low morale [anger/] have a chance to [hyperlink,000003AC000002DC]Fumble[/hyperlink] their attacks. Fumbled attacks always miss the intended target, but can still hit other targets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_COVER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cover</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">TC_COVER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A friendly unit has moved into [hyperlink,000003AC000000B3]Cover.[/hyperlink] Cover protects the unit by making it harder for enemies to hit them with abilities. Cover is directional, and only protects against attacks if it is between the targeted unit and the enemy.[br/][br/]Some units are too large to use cover, but they can be used as cover by other, smaller units.[br/][br/]Throughout the combat map, there are also large [hyperlink,000003AC00000320]Obstacles[/hyperlink] that block line of sight, allowing units hiding behind them to avoid being targeted altogether.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tactical Operations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TC_OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">After the first round of combat, [hyperlink,0000039E00000072]Tactical Operations[/hyperlink] can be launched by both sides. Tactical operations can be accessed using the operations interface button in the bottom right of the screen.[br/][br/]A player can only launch a tactical operation during their turn, and only one can be launched each turn. Launching tactical operations costs energy [energy/] and [hyperlink,000003AC0000002C]Operation Points[/hyperlink] [castingtactical/].</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TC_OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TUTORIAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_TUTORIAL@TC_OPERATIONS@DESCRIPTION%7D[br/][br]You%20can%20open%20the%20operations%20interface%20and%20launch%20the%20'Laser%20Strike'%20operation%20to%20deal%20heavy%20Thermal[damageThermal/]%20damage%20and%20stagger%20your%20opponents."><Data
+      ss:Type="String">{XML_TUTORIAL@TC_OPERATIONS@DESCRIPTION}[br/][br]You can open the operations interface and launch the 'Laser Strike' operation to deal heavy Thermal[damageThermal/] damage and stagger your opponents.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">The part between {} brackets is a linking to the message referenced in the link, above this entry, and inserting that message before this message.</Data></Cell>
+    <Cell><Data ss:Type="String">REQUIRED FOR VOICE-OVER / The thing between brackets at the start is the message referenced in the link, above this entry (cell C129). This message will read as C129 + C130.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_FLANKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Flanking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TC_FLANKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unit attacked from the sides or back is considered [hyperlink,000003AC000002DB]Flanked[/hyperlink] and takes increased damage. Units in [hyperlink,000003AC000002E6]Guard Mode[/hyperlink] cannot be flanked.[br/][br/]Units can be [hyperlink,000003AC000000D2]turned[/hyperlink] to face any direction, but units that have used an ability can no longer be turned. Abilities that require a target will always turn a unit towards that target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_OVERWATCH_RANGED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ranged Overwatch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="138.75">
+    <Cell><Data ss:Type="String">TC_OVERWATCH_RANGED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Some units with ranged attacks can enter [hyperlink,000003AC000000C8]Overwatch.[/hyperlink] While in overwatch mode, the unit will have a red eye icon above its head. This unit will fire its primary ranged attack at any enemy unit that moves or uses an ability on a hex within this unit's field of view.[br/][br/]Overwatch can only trigger once per unit, and if a unit using overwatch is [hyperlink,000003AC000002DE]Staggered,[/hyperlink] the overwatch mode is canceled.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_OVERWATCH_MELEE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Melee Overwatch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">TC_OVERWATCH_MELEE</Data></Cell>
+    <Cell><Data ss:Type="String">GENERAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units with melee attacks will enter [hyperlink,0000039F00002DF7]Melee Overwatch[/hyperlink] at the end of their turn, denoted by a red sword icon above their heads. While this unit is in melee overwatch, they will use their primary melee ability against any enemy unit that moves or uses an ability next to them[br/][br/]Melee overwatch can only trigger once per unit. If this unit is [hyperlink,000003AC000002DE]Staggered,[/hyperlink] the overwatch is canceled.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Adjusted duplicate text to work via string insert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TC_OVERWATCH_MELEE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unit has just entered Melee Overwatch adjacent to one of its enemies![br/][br/]{XML_TUTORIAL@TC_OVERWATCH_MELEE@GENERAL_DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Adjusted duplicate text to work via string insert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC_OVERWATCH_MELEE_HIT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Melee Overwatch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TC_OVERWATCH_MELEE_HIT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unit has just been hit by Melee Overwatch![br/][br/]{XML_TUTORIAL@TC_OVERWATCH_MELEE@GENERAL_DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Adjusted duplicate text to work via string insert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPERIENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Combat Experience</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">EXPERIENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units that survive a combat encounter gain [hyperlink,000003AC000000A1]Experience[/hyperlink] based on the number of enemies that were defeated during that combat. A unit that has earned sufficient experience levels up and can gain various bonuses.[br/][br/]Each unit in the battle earns experience equal to the total combat experience divided by the number of friendly units that entered the battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomacy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All rival [hyperlink,000003AC0000009D]Commanders[/hyperlink] and native [hyperlink,0000039E00000075]NPC Factions[/hyperlink] you encounter on the planet are listed in the [hyperlink,000003AC00000330]Diplomacy[/hyperlink] interface, along with faction information and their relation towards you. [br/][br/]You can start negotiations by selecting the faction you wish to speak with.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEGOTIATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Negotiations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">NEGOTIATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is the [hyperlink,000003AC000000E4]Negotiations[/hyperlink] interface. Diplomatic alliances can be forged and trade can be conducted here. The left list contains things that you can offer, and on the right list are things you can request from the other faction. The current offer is located in the bottom on each side. The options in the middle allow you to send the proposal, cancel it, or request that the other faction balances the trade to their satisfaction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUESTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quests</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">QUESTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Objectives interface gives an overview of available objectives. [hyperlink,000003AC000000D9]Quests[/hyperlink] can come from [hyperlink,0000039E00000075]NPC Factions[/hyperlink] or from special sources during the campaign.[br/][br/]Quests given by NPC factions can offer military or economic rewards, and will improve your relations with that faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_TASKS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Empire Tasks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EMPIRE_TASKS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">In addition to regular quests, the game features [hyperlink,000003AC00000270]Empire Tasks.[/hyperlink] These are divided into three categories, each representing an important pillar of your faction. Progressing through these empire tasks yields rewards and sets you on a path to victory. Being the first commander to complete a task gives you an extra pioneer reward.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Conditions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">VICTORY_CONDITIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The active [hyperlink,000003AC00000324]Victory Conditions[/hyperlink] for the current session can be seen here, as well as your progress in each condition. Once researched, a [hyperlink,000003AC000002B0]Capability Rank[/hyperlink] is shown for each category, showing how well you are doing compared to the other players in the game.[br/][br/][hyperlink,000003AC00000099]Covert Operations[/hyperlink] can be used to gather extra information on non-allied players.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fixed issue with [br/][br/] tags being placed at the wrong place (before the a, instead of before the Cov Ops link)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_TEMPLATE_MANAGER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Template Manager</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNIT_TEMPLATE_MANAGER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Unit Template Manager interface shows you mod templates for units under your control. [br/][br/]Templates can be removed, and new templates can be created by modifying an existing template.[br/][br/]You can toggle the visibility of the templates in the colony production screen using the checkbox next to each template.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_OVERVIEW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Overview</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COLONY_OVERVIEW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Colony Overview interface shows important information on all your colonies. Your HQ colony is marked with the [throne/] icon. The icons at the top can be used to sort the list based on the category selected.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MILITARY_OVERVIEW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Military Overview</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MILITARY_OVERVIEW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Military Overview interface shows important information about your armies, heroes and items. All military assets you control are listed here and selecting an army or hero will take you to their position on the world map. The Items tab lists all items currently in the shared inventory which all heroes have access to.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_ARCHIVES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imperial Archives</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">IMPERIAL_ARCHIVES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Imperial Archives is a collection of all the information currently known to the Star Union. The tabs at the top can be used to navigate different categories of the archives and the filters at the top left of each category can be used to filter out sub-categories. The search function can be used to find specific topics within the archives and is not bound to the category you are currently in.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">END_TURN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">End Turn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">END_TURN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">When all suggested actions from the [hyperlink,000003AC000000B9]Task Notifier[/hyperlink] above the minimap have been handled, the option will automatically change to 'End Turn'.[br/][br/]Since you've moved your units and started production in your colony, no more actions can be undertaken, so all that's left is to end the turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Operations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Operations ('ops') form a flexible toolkit that allows commanders to support military actions and steer government policies.[br/][br/]Ops of increasing strength are unlocked through research, and are listed on the left side of the operations interface. They are subdivided into three categories: [hyperlink,0000039E00000072]Tactical Operations,[/hyperlink] [hyperlink,0000039E00000073]Strategic Operations[/hyperlink] and [hyperlink,000003890000060F]Doctrines.[/hyperlink]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMING_OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Priming Operations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PRIMING_OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Strategic and doctrine operations need to be primed before use. The priming process takes a number of turns pending the op's cost and your available Strategic [hyperlink,000003AC0000002B]Operation Points[/hyperlink] [casting/].[br/][br/]Doctrine operations are automatically activated when they finish priming. Strategic operations, such as air strikes, can be launched on your orders. Note you can keep multiple ops primed at once.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unhappiness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Commander, one of our colonies is unhappy! Growing populations generate unhappiness as each colonist adds an amount of happiness upkeep. Certain enemy actions can also cause unrest. [br/][br/]Unhappiness is remedied by building certain structures in the colony center, or by assigning colonists to [hyperlink,000003AC00000026]Happiness[/hyperlink] slots.[br/][br/]Once colony unhappiness reaches a particular threshold, an [hyperlink,000003AC000002BE]Unhappiness Event[/hyperlink] will occur, leading to [hyperlink,000003AC000002B4]Riots[/hyperlink] and loss of income for the colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150" ss:StyleID="Default">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">To create Xenoplague units, you will need to infect enemy units in tactical combat with 'Parasitic Infection' by using unit mods and tactical operations that are unlocked through research.[br/][br/]At the end of a successful combat, the more enemy units that were infected, the higher the chance that you will gain a Xenoplague unit, or evolve an existing Xenoplague unit. The spawn chance increases the higher the tier of the infected units that died.[br/][br/]Each combat, multiple units can be spawned, evolved or a combination of both. Before Xenoplague units can be evolved, they need to be researched. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">COMBAT_CARDS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Combat Cards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75" ss:StyleID="Default">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMBAT_CARDS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Combat cards allow you to fight manual combat in a multiplayer game. You need at least one combat card to initiate manual combat, and that card will be consumed upon doing so. In classic turns, combat cards are only spend against other human players. You only have a limited amount of combat cards and will regain a combat card after a set amount of turns, unless you already have the maximum amount of combat cards.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ANOMALOUS_SITES</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Anomalous Sites</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75" ss:StyleID="Default">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ANOMALOUS_SITE</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">[hyperlink,000003AC000003E1]Anomalous Sites[/hyperlink] can be explored by a hero to earn rewards such as resources, equipment, or new units.[br/][br/]Occupy the site to discover how to explore it using combat, resources, or patience. Anomalous sites increase in difficulty from small to large, granting better rewards for higher risks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Default" ss:Span="7"/>
+   <Row ss:Index="182" ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s69"/>
+    <Cell ss:Index="5" ss:StyleID="s69"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>51</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>54</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

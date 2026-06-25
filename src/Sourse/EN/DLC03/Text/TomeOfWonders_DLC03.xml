@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-09-24T14:04:41Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11550</WindowHeight>
+  <WindowWidth>25410</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="139.5"/>
+   <Column ss:StyleID="s63" ss:Width="39"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="468.75"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="240.75"/>
+   <Column ss:StyleID="s63" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="240">
+    <Cell><Data ss:Type="String">TOMEOFWONDERS_DLC03</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">If some concepts in the text are unclear or do not make sense, try looking that concept up in this xml as the text in this xml serves as an encyclopeadia you have a good chance of finding it. Unclear terms can be found in the AoW_Glossary.  Do not change anything that is between [ and ] because it could break the hyperlink and strip it of its function. Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_UNITS_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Forgotten Units</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Forgotten faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_UNITS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Heritor Units</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_MODS_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Essence Weapons and Mods</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Essence using units (Forgotten)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_MODS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Heritor Weapons and Mods</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_SKILLS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Heritor Hero Skills</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_RESEARCH_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Heritor Tech and Upgrades</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_OPERATIONS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Heritor Operations</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECRET_TECH_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Secret Tech: Heritor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECRET_TECH_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_HERITOR_TECHGROUPS@HERITOR@DESC%7D[br/][br/]%7BXML_HERITOR_TECHGROUPS@HERITOR@FEATURES%7D[br/][br/]ORIGIN: The Es'Teq faith is centered around their god Artok, the Great Creator. They believe all life comes%2"><Data
+      ss:Type="String">{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}[br/][br/]ORIGIN: The Es'Teq faith is centered around their god Artok, the Great Creator. They believe all life comes from his holy Essence, and it is their divine service to collect and guard his Essence against the entropy of the universe. The technology and philosophy of the Heritor all stem from this ideology.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANOMALOUS_SITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Anomalous Sites</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="225">
+    <Cell><Data ss:Type="String">ANOMALOUS_SITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The worlds of the Star Union are filled with mysteries and anomalies for your heroes to discover and explore. These anomalous sites are often dangerous, filled with traps and powerful foes, but great secrets and unique rewards await those who dare to face them.[br/][br/]Anomalous sites are [hyperlink,000003AC000000CD]Locations[/hyperlink] on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink] identified by a purple marker. To interact with a site, you will have to send an [hyperlink,000003AC0000009B]Army[/hyperlink] containing a [hyperlink,000003CF0000008C]Hero or Commander[/hyperlink] to the location. Each anomalous site presents you with several options on how to approach it. Each option will have different durations and chances of success. After making the choice, your hero will have to remain on the site for the duration of the process. During this time, they will gain experience every[hyperlink,000003AC0000002E]Turn[/hyperlink].[br/][br/]The different options will result into different outcomes upon success, like providing unique rewards, spawning a new location or revealing a new anomalous site with a higher rarity, in addition to always granting XP. Anomalous sites with higher rarities will yield greater rewards and increased XP. If the action fails, something negative might happen, such as a [hyperlink,0000039C00001C1A]Hazard[/hyperlink] spawning in the sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NPC_FACTION_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">NPC Faction: Forgotten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">NPC_FACTION_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletlist][bullet]Ancient and corrupt Es'Teq[/bullet][bullet][hyperlink,000003E900000096]Entropy[/hyperlink] Damage Type[/bullet][bullet]Trying to survive and endure in the pain of the Rot, for that is better than True Death[/bullet][/bulletlist][br/][br/]ORIGIN: These ancient Es'Teq were never meant for reawakening. Some were entombed for faults of the body or mind, some for being criminals and undesirables, all were sealed off in vaults to sleep eternally. Eaters of the Dead roamed these halls, making sure no resident died from a lack of Essence. They were instead devoured, a great honor for those entombed in these sanctums, for they would live eternally inside the Eater.[br/]When the Collapse occurred, these hospice-like vaults were shaken by the Void Storm that swept the galaxy, awakening the inhabitants and corrupting their Essence. Now they live on a painful substance known to them as Rot, and make outfits of metal and gears to carry the weakened and impaired, for living in pain is certainly better than facing True Death.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Essence</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Essence technology was harnessed by the ancient Es'Teq dynasty to drain the life force from their enemies whilst strengthening themselves.[br/][br/]All units may gain Essence charges, increasing their damage by 10% per charge. These charges can be used to activate Es'Teq [hyperlink,0000039E00000063]Mods[/hyperlink] and abilities.[br/]Races equipped with Es'Teq equipment or [hyperlink,000003AC00000329]Secret Technology[/hyperlink] can increase the amount of Essence charges a unit may hold.[br/][br/]Essence based attacks use the Entropy [damageentropy/] [hyperlink,000003AC00000290]Damage Channel[/hyperlink].</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>13</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

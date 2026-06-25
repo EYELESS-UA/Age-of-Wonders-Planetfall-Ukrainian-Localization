@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2019-02-08T10:37:44Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="184" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="305.25"/>
+   <Column ss:StyleID="s62" ss:Width="75.75"/>
+   <Column ss:StyleID="s62" ss:Width="447.75"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="315"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SCENARIODEFINITIONS_HERITORCAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">General Loca Notes for this XML: For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.&#10;&#10;In the text below, text is spoken by a character who can be either male or female (except for Amazon, which is always female). If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="6" ss:Height="30">
+    <Cell><Data ss:Type="String">MISSION_HERITOR01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A liberated Indentured seeks to restore the name of his House.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;House&quot; as in Syndicate noble house.&#10;Indentured is a Syndicate unit in the game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Log in exile, entry 7321</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">The bigger they are, the harder they fall. House Faron was once great among the Syndicate, respected by its rivals and feared by its enemies. Until the unthinkable happened, and my grandfather brought poverty and shame to our family. We were dispossessed, banned from business and our bloodline sold into slavery. I served our sentence as an Indentured soldier, fighting foreign wars until my freedom would be earned.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;House Faron&quot; is the name of a Syndicate noble house.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Log in exile, entry 7337</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">HERITOR01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">In my misery, I’ve found the most unlikely of all companions: a re-enslaved Kir’Ko! Though his fate was worse than mine, Hatyl Es’Ran’s spirits were high and his will unbroken. He told me of the ancient Es’Teq, who had chosen him as their Prophet and could lead my family to redemption. At first, I laughed at him, but when he drained the very Essence from one of our Overseers, the situation changed. Together, we made our escape.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Hatyl Es'Ran&quot; is the name of a male Kir'Ko character.&#10;&quot;Es'Teq&quot; is the name of an ancient human theocratic dynasty.&#10;&quot;Prophet&quot; is a title within the Es'Teq religion.&#10;&quot;Essence&quot; is a term for life essence used by the Es'Teq. It is also present in inanimate objects, and machinery.&#10;&quot;Overseer&quot; is the name of a Syndicate unit in the game.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Log in exile, entry 7339</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">My new ranks filled with liberated Indentured and exiles continue to grow. We are now on our way to Obolus-5, a planet once famous for its rich history and ruins. At least officially, but away from touristic attractions, adventurers and raiders from all across the Union followed the allure of the past and its secrets. According to Hatyl Es’Ran, this is where the Es’Teq went into hiding many millennia ago.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Obolus-5&quot; is the name of a planet.&#10;&quot;Union&quot; refers to the Star Union.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Log in exile, entry 7373</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">HERITOR01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Obolus-5 is in visual range. I see why so many treasure hunters were once drawn here: the entire planet seems to breathe mystery. Despite all this, the Es’Teq have never been found. Sounds like unearthing their history will require more than some old-fashioned tomb-raiding…</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Obolus-5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR01_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Find the legacy of the Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Log in exile, entry 7581</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Opening the Regenesis Ark was an act of divine providence. As the beacon was lit its echoing signal spread to all Star Union worlds, releasing billions of Es’Teq minds from their ancient slumber. I, myself, became joined with their High Lord Xito Rhemenses. By accepting my role as Heritor Prophet, I will bring redemption not only to my own House, but to the sinners of other cultures and races alike.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;High Lord&quot; is a religious title of the Es'Teq and the name of an Es'Teq unit in the game.&#10;&quot;Xito Rhemenses&quot; is the name of a male human character.&#10;&quot;Regenesis Ark&quot; is the name of an Es'Teq artifact.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_HERITOR02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">On a Nexus Node gone dark, the Es'Teq face their old nemesis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For &quot;Nexus Node&quot; see the entry on the Nexus Network in the glossary.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Litany of the Es'Teq, chapter 37 verse 28</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">HERITOR02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Before Artok, the Creator, there was darkness in the universe. No matter or antimatter, only Entropy. But then Artok ignited the spark of creation, splitting his body into shards of Essence from which all life became born. We Es’Teq inherited his holy Essence, collecting and preserving it inside the pure until our God can be restored. Together we will build a paradise anchored in reality, where we ward off Entropy, and death is a stranger to all believers.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Artok&quot; is the name of a male god that the Es'Teq believe in.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Litany of the Es'Teq, chapter 37 verse 43</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">But there are always those that blindly oppose divine rule. With the creation of artificial intelligence, the greatest sin against the sanctity of life was born. The mundane temptations of a virtual life corrupted the gullible masses, denying them any salvation within this reality. After their last holy war, the Es’Teq were forced to retreat. But now that Regenesis has occurred, the culling of AI can be resumed.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Litany of the Es'Teq, chapter 37 verse 47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR02_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">All of this was revealed to me through my symbiont, Xito Rhemenses. He is guiding me to CNex Omega, the Union’s infamous center of cyber-crime, from where traffickers and Outlander rebels once launched most of their hacker attacks. After the Cataclysm, more ambitious forces took over the planet: there is word of a new master AI being created, another CORE to dominate us all! If this is true, I can only pray we arrive in time for a divine intervention.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;CNex Omega&quot; is the name of a planet.&#10;For &quot;Outlander&quot;, &quot;Cataclysm&quot; and &quot;CORE&quot; see the respective entries in the glossary.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Litany of the Es'Teq, chapter 37 verse 50</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">HERITOR02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">CNex Omega is engulfed in a red web of rogue satellites, greeting us with the looping transmissions of long-dead hackers. It is often said that even history keeps repeating itself. But not this time: We will purge the AI followers and their new CORE from this world!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">CNex Omega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltrate CNex Omega with the Heritor technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Find and delete the new CORE AI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Litany of the Es'Teq, chapter 38 verse 1</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">The sky shimmered like a heavenly dome as the Elevation Crystal started to breathe new circulating Essence into the veins of the Nexus Network. I was there, at the heart of the communion, listening to the voices of the faithful from all across the galaxy. Molded by the Es’Teq Conclave, their chant grew into an angelic chorus, ready to spread the words of salvation. Anyone touched by its lucent grace will either join in or perish.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Elevation Crystal&quot; is the name of an Es'Teq artifact.&#10;&quot;Es'Teq Conclave&quot; is the name of a religious tribunal of the Es'Teq.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR02_DEBRIEFING_REFORMATION_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">With the destruction of the Omega Server the followers of the AI and the Es’Teq have both been denied their weapon of mass conversion. No belief or doctrine should be forced upon anybody, but can only develop through reflection and gnosis. I have learned this from Hatyl Es’Ran, who has encouraged me to continue our reformation of the Es’Teq faith. Kir’Ko and Syndicate, host and symbiont – all can prosper as long as each mind retains its freedom.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;Omega Server&quot; is the name of a Synthesis server build on CNex Omega.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60" ss:Span="2"/>
+   <Row ss:Index="44" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="49" ss:AutoFitHeight="0" ss:Height="60" ss:Span="1"/>
+   <Row ss:Index="54" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="56" ss:AutoFitHeight="0" ss:Height="60" ss:Span="2"/>
+   <Row ss:Index="67" ss:AutoFitHeight="0" ss:Height="75" ss:Span="4"/>
+   <Row ss:Index="77" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="82" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="84" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="88" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="90" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="95" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="97" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="99" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:Index="101" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="103" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:Index="105" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="109" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="116" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="118" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="120" ss:AutoFitHeight="0" ss:Height="60" ss:Span="2"/>
+   <Row ss:Index="129" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="131" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:Index="133" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="138" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1"/>
+   <Row ss:Index="144" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:Index="146" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="151" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1"/>
+   <Row ss:Index="162" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="169" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="176" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="178" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="182" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75" ss:Span="1"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>23</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>34</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

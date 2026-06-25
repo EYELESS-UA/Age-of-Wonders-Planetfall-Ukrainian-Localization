@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2019-02-13T14:46:48Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11190</WindowHeight>
+  <WindowWidth>24015</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="170" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="95.25"/>
+   <Column ss:StyleID="s62" ss:Width="121.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="315.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="342.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="139.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TITLEQUESTS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Invader</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">This planet is filled with resources and riches, but they are guarded by savages and dusty old remnants of the past. We should take up arms against these people so that the treasures of this world will be ours!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war on an NPC faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Kill {count} armies belonging to an NPC faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Invader</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Extensive propoganda and indoctrination leads your troops to believe in their inherent superiority to the natives of this planet.[br/][br/]Units gain {moraleBonus}[happiness/] morale in battle against independent units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit reward </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Receive a tier 1 unit at your capital colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Invader</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_INVADER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Invader</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Emissary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">This world teems with life and opportunity. The natives here have a rich culture and could teach us much. We should send an emissary to make contact with these people and begin a new era of peace!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Do {numQuests} quests for an NPC faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Achieve Peace with an NPC faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Emissary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hiring a dedicated team of xenologists aids your communication with the natives on this planet.[br/][br/]You get {bonusPercentage} more influence[influence/] from quests.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Influence reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Receive {influenceAmount} [influence/] influence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Emissary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMISSARY</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Emissary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Builder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The colony that we have built is just the beginning, the first step on the road to our mighty empire. Our focus should be on construction and growth; the colonies we build now are the bedrock of our future!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Add a sector to your capital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Exploit a colony sector</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_3</Data></Cell>
+    <Cell><Data ss:Type="String">Found a second colony</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Builder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By employing specialist teams of architects, we can build much faster than normally.[br/][br/]Colony structures require {percentage} less [production/] production to build.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonist reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A free colonist [population/] appears in one of your colonies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Builder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_BUILDER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Builder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Warmonger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Others have come to this world to steal its treasures and horde its secrets. This must not stand! Send forth your armies to punish these thieves and claim what is rightfully yours!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Meet another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Enter a war with another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Kill {count} units belonging to another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Warmonger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By dedicating resources to the creation of detailed training simulations against the armies of our foes, we will ensure our forces have the upper hand in battle.[br/][br/]Units gain {moraleBonus}[happiness/] in battle against other players.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unit reward </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Receive a tier 2 unit at your capital colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Warmonger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_WARRIOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Warmonger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Diplomat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We are not alone on this world: others have come to share it with us. We should make contact with them, make peace with them! From peace comes friendship, and from friendship comes unity, and united we shall make this planet our own!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Meet another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Sign a Non-Aggression Pact with another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Maintain a peaceful relationship for {numberOfTurns}[turn/] consecutive turns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Diplomat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A well-funded and dedicated diplomatic core is essential to our mission on this planet, and will ensure that others always see us in the best light.[br/][br/]You gain {opinionBonus} opinion with other players.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Happiness reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All your colonies instantly gain {happinessAmount}[happiness/] happiness.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Diplomat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Diplomat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Operator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We have our armies, with boots on the ground and guns in their hands. But there are other ways, subtler, safer and smarter. It is time we explored our options on this planet. If we out-think our foes, then the battle may be won before the first shot is fired.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Research any Covert or Strategic operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Research the Operation Effectiveness 1 skill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Strategic operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_3</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Covert operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_4</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Doctrine Operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Operator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A coordinated, cross-governmental operational command can see massive savings in the deployment of agents and other assets.[br/][br/]Covert and Strategic operations now cost {discountPercentage} less energy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Energy reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Receive {energyAmount}[energy/] energy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Operator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OPERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Operator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Economist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The engines of our war machines are nothing without the engines of industry and economy. We have land and colonies, but we could have so much more! It is time for us to find ways to fully exploit this world, so that we might gain riches beyond imagining.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete The Builder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Research any Resource improvement in the Economy tree</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_3</Data></Cell>
+    <Cell><Data ss:Type="String">Build a sector specialization</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_4</Data></Cell>
+    <Cell><Data ss:Type="String">Upgrade a sector to level {requiredLevel}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Economist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Careful market manipulation and a state-controlled economy lead to a healthy, growing tax income.[br/][br/]Basic structures built in your colonies now give {basicIncome} additional income of their resource.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Energy reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You receive {energyAmount}[energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Economist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_ECONOMIST</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Economist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Technologist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">If a man with a spade could build a hovel, imagine what he might build with all the tools that technology provides! It is time for us to give our armies the tools that they need to build our glorious new empire!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Research any Unit Mod or Tactical Operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Apply unit mods to {count} separate units</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Use {count} Tactical operations in combat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Technologist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By embedding specialist support personnel with our armies, we can better coordinate our tactical strikes.[br/][br/]Gain {TcOpPoints}[castingtactical/] Tactical Operation points.[br/]Tactical Operations are {discountPercentage} cheaper to use.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hero item reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your commander recieves a random hero item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Technologist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Technologist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Negotiator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">We have worked hard to forge friendships with the peoples of this world, and it is time for us to reap the rewards of our labors. We should use our newfound influence to learn secrets, hire mercenaries, and to sign treaties that will give us allies in times of war!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete The Emissary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Sign a Friendship Pact with a faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Buy {count} items from a faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Negotiator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced market analysis combined with xeno-psychological assessments of our partners allow us to always get the best deals when trading.[br/][br/]Items bought from Dwellings cost {discountPercentage} less [influence/].[br/][br/][firecol]Dwelling Shop discounts can never exceed {MaxDiscountPercentage}[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resources reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Receive {influenceAmount} [influence/] influence and {energyAmount} [energy/] energy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Negotiator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Negotiator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_NEGOTIATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_WITH_DISCOUNT</Data></Cell>
+    <Cell><Data ss:Type="String">The Negotiator: {discountPercentage}[influence/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Patron</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Scattered, the people of this world are weak, but with our patronage and guidance, they can become so much more! We should invite our friends to join our great nation, so that we can share of their strength, and achieve our true potential together!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete The Negotiator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Buy {count} dwellings from an NPC faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Patron</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A policy of multicultural integration, leads to mutual respect and understanding, both on the battlefield and off it.[br/][br/]All NPC faction units gain {moraleBonus}[happiness/] morale, {healthBonus}[hp/] and {damageBonus} extra damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has {moraleBonus}[happiness/] morale, {healthBonus}[hp/] and {damageBonus} extra damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Army reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A small army of NPC faction units appears at your capital colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Patron</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_AMBASSADOR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Patron</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Conqueror</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Too long have we allowed our rightful heritage to be occupied by rogue AIs and alien rabble. It is time for us to reclaim these worlds for ourselves, and our first step is to capture the dwellings where these creatures nest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete the Invader</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Conquer {count} Dwellings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Conqueror</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use psi-ops and propoganda to spread wild rumours and tales about the terrifying combat prowess of your generals.[br/][br/]Your commander and heroes gain [abilityblue]Terrifying Reputation[/abilityblue], which causes all enemy units to suffer a {moralePenalty}[happiness/] penalty.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Army reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A small army of racial units appears at your capital colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Terrifying Reputation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All enemy units suffer {moralePenalty}[happiness/] morale while this unit is in combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Conqueror</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_CONQUEROR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Conqueror</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Spymaster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge is power, and what power we have to show to you. Set your agents loose on our foes, seek out their secrets, sabotage their strength. We shall fight a war in the shadows, to ensure our victory in the light!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete the Operator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Use {count} different Covert operations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Spymaster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Set up a body to unify intelligence and military agencies to share knowledge and coordinate operations.[br/][br/]You gain {strengthBonus}[operationStrength/] operation strength and {defenseBonus}[operationDefense/] operation defense.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hero item reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gain a powerful item that allows your heroes to make an army invisible.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Spymaster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SPYMASTER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Spymaster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Unifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The friendships we have forged are strong and bountiful, but they could be so much more! It is time for us to forge alliances, to build a great coalition, a new Union that can stretch to the stars!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete the Diplomat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Make an alliance with {count} different players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Maintain an alliance for {count} consecutive turns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Unifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By assuming a utopian stance of harmony and unification, your reputation rises and your armies are inspired to perform incredible feats.[br/][br/]All your units gain {moraleBonus}[happiness/] morale and you gain {ReputationPositive}[reputation6/].</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: reputation typo fix, raises &#45;-&gt; rises</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resources reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You receive {influenceAmount}[influence/] and {energyAmount}[energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Unifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Unifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Emperor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Until now, we have been one amongst many, but it is time for us to prove our greatness to the weaklings who would take this world from us. We shall crush their armies, raze their colonies, and build our empire upon their ashes!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete the Warmonger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat {count} players by capturing their capitals or killing their commanders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Emperor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dedicate the entirety of your empires resources to the concept of victory through war.[br/][br/]You have an extra {PopularSupportIncrease}[popularSupport0/] Popular Support while this Doctrine is active.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Army reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An army of racial units appears at your capital.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Emperor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Empress</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Harbinger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">FLUFF_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">This world remains blanketed by the darkness of ignorance, but our studies are beginning to reveal a greater truth. It is up to us to use this knowledge to build a mighty edifice, a beacon that shines with the light of salvation!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">PREREQUISUITE</Data></Cell>
+    <Cell><Data ss:Type="String">Unlock your Secret Tech's Doomsday weapon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_1</Data></Cell>
+    <Cell><Data ss:Type="String">Build a Doomsday structure in one of your colonies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">TASK_2</Data></Cell>
+    <Cell><Data ss:Type="String">Launch a Doomsday operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Harbinger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The energy cost of Doomsday structures and Operations is reduced by {percentageDiscount}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Happiness reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All your colonies instantly gain {happinessAmount}[happiness/] happiness.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_MALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Harbinger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_HARBINGER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_FEMALE</Data></Cell>
+    <Cell><Data ss:Type="String">The Harbinger</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>98</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>111</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>3</Index>
+    <RGB>#000000</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#C0C0C0</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15735</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Default">
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="65535" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="164.25"/>
+   <Column ss:StyleID="s62" ss:Width="92.25"/>
+   <Column ss:StyleID="s62" ss:Width="362.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="164.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">STATUSEFFECTS_UNITPROPERTIES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.3125">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESONANCE</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resonance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESONANCE</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{ResonanceChance}[strengthPhysical/] strength chance to apply [abilityred]Resonance[/abilityred] to units for {duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESONANCE</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has -{ResonanceResistance}[DefensePhysical/] per stack.[br/]Can stack up to {StackAmount} times.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISORIENTED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disoriented</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DISORIENTED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{DisorientedChance}[StrengthPhysical/] strength chance to apply [abilityred]Disoriented[/abilityred] to non-Ethereal targets for {duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISORIENTED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has a {FumbleChance}% chance of fumbling attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REVERB</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reverb</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REVERB</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{ReverbChance}[strengthPhysical/] strength chance to apply [abilityred]Reverb[/abilityred] to units for {Duration}[turn/]. If resisted, apply [abilityred]Resonance[/abilityred] instead.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REVERB</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER_NO_RESONANCE</Data></Cell>
+    <Cell><Data ss:Type="String">{ReverbChance}[strengthPhysical/] strength chance to apply [abilityred]Reverb[/abilityred] to units for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REVERB</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER_CERTAIN</Data></Cell>
+    <Cell><Data ss:Type="String">Applies [abilityred]Reverb[/abilityred] to units, for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REVERB</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">At {StackAmount} stacks, this unit and all adjacent units friendly to this one take {DamageAmount}[damagePhysical/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPAIRED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Impaired</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IMPAIRED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">Apply [abilityred]Slow[/abilityred] with a {ImpairedChance}[strengthPhysical/] strength chance to apply [abilityred]Impaired[/abilityred] for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">IMPAIRED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER_NO_SLOW</Data></Cell>
+    <Cell><Data ss:Type="String">{ImpairedChance}[strengthPhysical/] strength chance to apply [abilityred]Impaired[/abilityred] for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPAIRED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has its mods disabled.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANALISED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Analyzed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ANALISED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{AnalysedChance}[strengthPhysical/] strength chance to apply [abilityred]Analyzed[/abilityred] to units for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANALISED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has -{WeaknessAmount} to all damage resistances.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUBJECT_OF_FIXATION</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Subject of Fixation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUBJECT_OF_FIXATION</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{FixationChance}[strengthPhysical/] strength chance to apply [abilityred]Subject of Fixation[/abilityred] to units for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUBJECT_OF_FIXATION</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has -{FixationResistance} to all damage resistances, and is {FixationHitChance} easier to hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_RESONANCE_PILLAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resonance Pillar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55.6875">
+    <Cell><Data ss:Type="String">HAZARD_RESONANCE_PILLAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Will explode when destroyed, {ReverbChance}[strengthPhysical/] strength chance to apply [abilityred]Reverb[/abilityred] to units within a {Radius} hex radius. Deals {Obstacledamage}[damagePhysical/] damage to each other obstacle in combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625" ss:Span="229"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <x:WorksheetOptions/>
+ </Worksheet>
+</Workbook>

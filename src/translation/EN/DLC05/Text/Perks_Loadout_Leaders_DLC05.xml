@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-07-07T15:19:40Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="201.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="66.857142857142861"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="463.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="221.14285714285717"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">LOADOUT_PERKS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Volt Pike[/AbilityGreen] that deals repeated [DamageWave/] Arc damage at close range.[br/]An [AbilityGreen]Entropy Revolver[/AbilityGreen] that deals [DamageEntropy/] Entropy damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Volt Pike and Volt Pistol are Oathbound weapons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/][AbilityGreen]Volt Pike[/AbilityGreen] that deals repeated [DamageWave/] Arc damage at close range.[br/]An [AbilityGreen]Static Bomb[/AbilityGreen], that when used causes [DamageWave/] Arc Damage in a 1 hex radius.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting&#10;&#10;EXAMPLE: &quot;Hero gains {PersonaAccDmg} increased damage and accuracy &quot; looks in-game like &quot;Hero gains +5 increased damage and accuracy&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Protector Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [AbilityGreen]Protector[/AbilityGreen] is a melee-focused battlesuit vehicle made specifically to protect its allies.[br/][br/]You have the following skill:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Protector[/AbilityGreen], which possesses powerful melee [Damagewavel/] Arc capabilities.[br/]A [AbilityGreen]Volt Pistol[/AbilityGreen], that when used causes [Damagewave/] Arc damage to a single target.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Protector is an Oatbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Warden Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [AbilityGreen]Warden[/AbilityGreen] is a battlesuit vehicle dedicated to medium-ranged attacks and support.[br/][br/]You have the following skill:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Warden[/AbilityGreen], which possesses powerful ranged [Damagewave/] Arc capabilities.[br/]A [AbilityGreen]Static Bomb[/AbilityGreen], that when used causes [DamageWave/] Arc Damage in a 1 hex radius.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warden is an Oathbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Warlord Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DAREDEVIL_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [AbilityGreen]Warlord[/AbilityGreen] is a mobile, melee-focused battlesuit vehicle given to you for your display of skill in combat.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Warlord[/AbilityGreen], which possesses powerful [DamageWave/] Arc and movement capabilities.[br/]A [AbilityGreen]Volt Pistol[/AbilityGreen], that when used causes [Damagewave/] Arc damage to a single target.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warlord is an Oathbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPORT_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Marquis Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SUPPORT_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [AbilityGreen]Marquis[/AbilityGreen] is a battlesuit vehicle specialized in backline support.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] hit points.[br/][br/]The loadout includes:[br/]A [AbilityGreen]Marquis[/AbilityGreen] with various support abilities.[br/]The [AbilityGreen]Watcher's Scrolls[/AbilityGreen], granting [abilityblue]Gift of Providence.[/abilityblue]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Marquis is an Oathbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Light Bringer Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CELESTIAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [AbilityGreen]Light Bringer[/AbilityGreen] is a battlesuit vehicle based on a Paladin Warden. It has Celestian ranged attacks.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] hit points.[br/][br/]The loadout includes:[br/]A [AbilityGreen]Light Bringer[/AbilityGreen] with a ranged attack and a banner spreading [abilityred]Soulburn[/abilityred] and [abilityred]Burning[/abilityred] plus a [AbilityGreen]Mod[/AbilityGreen][br/]An [AbilityGreen]Entropic Revolver[/AbilityGreen], a pistol dealing [damageentropy/] damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Light Bringer is an Oathbound Celestian vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROMETHEAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin Purifier Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PROMETHEAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [AbilityGreen]Purifier[/AbilityGreen] is a battlesuit vehicle based on the Warlord. It has Thermal attacks.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Close Quarters Specialization I[/AbilityGreen] - greatly increases your melee damage.[br/][br/]The loadout includes:[br/]A [AbilityGreen]Purifier[/AbilityGreen] vehicle with a multi-target melee attack and an artillery attack.[br/]A [AbilityGreen]Entropic Revolver[/AbilityGreen], a pistol dealing [damageentropy/] damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Purifier is an Oathbound Promethean vehicle unit</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>11</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

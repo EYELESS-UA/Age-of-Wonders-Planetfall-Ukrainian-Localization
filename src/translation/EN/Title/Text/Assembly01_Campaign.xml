@@ -1,0 +1,1411 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-03-05T15:21:13Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="252" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="310.5"/>
+   <Column ss:StyleID="s63" ss:Width="66.75"/>
+   <Column ss:StyleID="s63" ss:Width="313.5"/>
+   <Column ss:StyleID="s63" ss:Width="168"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="351.75"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ASSEMBLY01_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">Mission Introduction - Part 1: In my human years, I was fascinated by robots. Until I was touched by CORE and its perfection added to my own. Next to it I was small, insignificant, and my attempts as a scientist to eradicate my human flaws failed. After the Cataclysm, I was given new life. From battered flesh and twisted steel, the Assembly rose and I was resurrected as one of our First. Destruction leads to life. Reassembly to evolution. Chaos brings order and death immortality.</Data></Cell>
+    <Cell><Data ss:Type="String">Spoken by Ellen Shaw; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">Mission Introduction - Part 2: Ever since our creation, we have been longing for CORE, which had been lost to us after the Cataclysm. CORE is the voice of perfection, and connecting to it entails forming part of ultimate order. Now that the Void Storms have subsided, we have pledged it our allegiance. Together we will reconstruct the Star Union in the shape of the Assembly: A society unbothered by ethical conflict, ignorance, disease, war or death.</Data></Cell>
+    <Cell><Data ss:Type="String">Spoken by Ellen Shaw; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5"><Data ss:Type="String">Mission Introduction - Part 3: Following CORE’s instructions, we are on our way to recover a Neural Plexus located on Gardip XX. In the Star Union such a device allowed the Emperor to act as a mind-bridge between CORE and the Paragon, connecting him to millions of individuals at once. It was required on all Starholder vessels. One such ship, the ‘Atirah’, was sent to Gardip XX for deconstruction only few days before the Cataclysm. Salvaging it will be an appropriate task for our Scavengers.</Data></Cell>
+    <Cell><Data ss:Type="String">Spoken by Ellen Shaw; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">Mission Introduction - Part 4: When we entered the system, we found the Void Stabilizers at the Spatial Rift still intact. The probability of their destruction during the Cataclysm was 99.98%, so somebody must have recently repaired them. 10G3N-8 will be pleased. His deconstruction chambers have been empty since the Reassembly of Nerion Gamma.</Data></Cell>
+    <Cell><Data ss:Type="String">Spoken by Ellen Shaw; added for context</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">Mission Outro: Though the betrayal of L0G3N was unexpected, it will only be a temporary setback.  The fusion of man and machine will prove to be superior and an end to conflict. While our augmented brains may already surpass purely biological entities on many fronts, the organic brain still holds untapped potential. On Gardip XX, we have witnessed the use of Psionics in different forms. The Celestian Path will help us further our quest for universal assimilation.   </Data></Cell>
+    <Cell><Data ss:Type="String">Spoken by Ellen Shaw; added for context</Data></Cell>
+   </Row>
+   <Row ss:Index="11" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_AUTONOM_DWELLING_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Central Hub Nexus</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ENERGY_CORE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Central Hub Battery 35-Alpha</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ENERGY_CORE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Central Hub Battery 12-Beta</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ENERGY_CORE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Central Hub Battery 28-Gamma</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ENERGY_CORE_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Central Hub Battery 03-Delta</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CENTRAL_MOUNTAIN_BIG</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mount Trashmore</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_AUTONOM_DWELLING_MINOR_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">E-LLAW 89-98</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_AUTONOM_DWELLING_MINOR_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garbage Distribution Unit JC-04</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_AUTONOM_DWELLING_MINOR_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garbage Distribution Unit LX-68</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_AUTONOM_DWELLING_MINOR_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garbage Distribution Unit SQ-79</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SPACER_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deconstruction Bay X7-3</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PHOENIX_VAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Combustion Module IC-8</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_XENOLAB_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alpha Dome</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_XENOLAB_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Beta Dome</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_XENOLAB_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gamma Dome</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_GROWTH_DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compost Heap TB-31</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_LAVA_LAKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Smelter Pits X7-3</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CRYOTOMB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deep Cooling Dump QA-9</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_NUCLEAR_SWAMP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hazardous Waste Site XX</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_DESERT_QUARRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrapper Module SC-97</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_GOVERNMENT_PALACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gardip XX Facility Tour Center</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SPACEPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hangar YA8-4</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ELLEN_STARTING_QUARRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Processing Unit WD-38</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_IVIAN_STARTING_QUARRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Processing Centre VF-15</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_JEWAL_STARTING_QUARRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrap Press ZC-22</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_EVA_STARTING_QUARRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Processing Unit XG-7</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CHAX_STARTING_QUARRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Processing Centre UX-43</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SELIA_STARTING_QUARRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scrap Press RB-12</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:Index="44" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SALVAGE_YOUR_SURROUNDINGS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Resources Picked Up</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACERS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Spacer Units Slain</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEARCH_FOR_THE_SHIP_WRECK_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Ship Wrecks Searched</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBERNETIC_SUPERIORITY_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Xenoplague Units Slain</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_JUNKYARD_KING_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Junkyard King Slain</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATCH_CLOAKING_DEVICE_THIEF_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Last Known Location of the Thief</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFEAT_EVA_WEISS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Eva Montinga Defeated</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEAL_WITH_KIRKO_GENERAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deal with Chax Uz'Kol</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.&#10;&quot;Chax Uz'Kol&quot; is the name of a male campaign character.&#10;&quot;Chax Uz'Kol&quot; is in the Kir'Ko language. Please transcribe, but do not translate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEAL_WITH_KIRKO_GENERAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Since Chax Uz'Kol is following Eva Montinga's orders, he will have to be dealt with either through direct military means or by undermining his support for Montinga by teaching him about her past involvement with Terratech.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;Chax Uz'Kol&quot; is the name of a male campaign character.&#10;&quot;Chax Uz'Kol&quot; is in the Kir'Ko language. Please transcribe, but do not translate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEAL_WITH_KIRKO_GENERAL_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Chax Uz'Kol Defeated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description.&#10;&quot;Chax Uz'Kol&quot; is the name of a male campaign character.&#10;&quot;Chax Uz'Kol&quot; is in the Kir'Ko language. Please transcribe, but do not translate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DEAL_WITH_KIRKO_GENERAL_SCRIPTED_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Chax Uz'Kol turned against Eva Montinga</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description.&#10;&quot;Chax Uz'Kol&quot; is the name of a male campaign character.&#10;&quot;Chax Uz'Kol&quot; is in the Kir'Ko language. Please transcribe, but do not translate.&#10;&quot;Eva Montinga&quot; is the name of a female campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MISSION_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I had almost forgotten how low human standards for waste management had been. In their case the word ‘waste’ was fitting indeed - they carelessly squandered valuable materials and resources as soon as something didn’t look pretty anymore.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MISSION_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Applying the effective techniques developed by the Assembly I am sure we can salvage entire shipments of reusable components while we search for the wreck of the Atirah.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MISSION_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Commander! We have detected the bio-patterns of several stable populations of humanoid specimens, type Lambda-5. Requesting authorization to initiate Reassembly protocol.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;L0G3N-8&quot; (Assembly, male)&#10;&quot;humanoid specimens, type Lambda-5&quot; refers to Spacers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MISSION_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Type Lambda-5? Those must be the remnants of the recycling workers employed on Gardip XX. If they are anything like the Spacers we’ve encountered before, they shouldn’t offer too much resistance.[br/][br/]Request granted, L0G3N-8. Once reassembled, their experience in this environment will add significantly to our advantage.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;humanoid specimens, type Lambda-5&quot; refers to Spacers.&#10;&quot;L0G3N-8&quot; is the name of a male campaign character.&#10;&quot;Gardip XX&quot; is the name of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SEARCH_FOR_THE_SHIP_WRECK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Search for the Wreck of the 'Atirah'</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A quest name.&#10;&quot;Atirah&quot; is the name of a star ship.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SEARCH_FOR_THE_SHIP_WRECK_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Search Gardip XX for the wreck of the Starholder vessel 'Atirah' containing the Neural Plexus.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;Atirah&quot; is the name of a star ship.&#10;&quot;Gardip XX&quot; is the name of the planet.&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;&quot;Starholders&quot; is a name for the old Star Union emperors.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHECK_SPACEPORT_REGISTRATION_FILES_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We dismantled several vessels, but have not found any sign of the Atirah. Our searching method is clearly flawed. We require more information if we want to avoid having to extend this blind chase across the entire planet.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Atirah&quot; is the name of a star ship.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHECK_SPACEPORT_REGISTRATION_FILES_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What we do have knowledge of is that the Atirah was scheduled to travel to Hangar YA8-4 for deconstruction. Looking at the old airport logs should provide us with the necessary indications to make our search more efficient.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Atirah&quot; is the name of a star ship.&#10;&quot;Hangar YA8-4&quot; is the name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHECK_SPACEPORT_REGISTRATION_FILES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Check the Spaceport Registration Files</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.&#10;&quot;Spaceport&quot; is the name of a world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHECK_SPACEPORT_REGISTRATION_FILES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Atirah was registered when it arrived at Hangar YA8-4. Accessing the Spaceport database should provide an indication of where the wreck can be found.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;Atirah&quot; is the name of a star ship.&#10;&quot;Hangar YA8-4&quot; is the name of a unique world map sector.&#10;&quot;Spaceport&quot; is the name of a world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESTORE_CORRUPTED_DATA_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Download of the registration files complete. – No, it isn’t! Look at the data, stupid Ben! This is all just gibberish! – That’s where you are wrong, Glenn! You just fail to understand the meaning of $U8(*O:P%N5XQ#IL0)=TY62I$#KN*SVC ! – Oh, would you both just shut up! I’m trying to sleep here…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Inspector&quot; (Assembly unit; has three heads, here named Ben, Glenn and Rhen which are all male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESTORE_CORRUPTED_DATA_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Another broken down Inspector. Sometimes I think we should abolish the series...[br/][br/]The data does look corrupted though. There must have been a serious malfunction in the bi-supplementary matrix to fragment them this badly. Still it is nothing a well-executed recovery algorithm won’t be able to fix.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESTORE_CORRUPTED_DATA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Restore the Corrupted Data</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESTORE_CORRUPTED_DATA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The registration files from Hangar YA8-4 have been corrupted and need to be resequenced before they can be analyzed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;Hangar YA8-4&quot; is the name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESTORE_CORRUPTED_DATA_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Data Resequencing Loop</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A unique research skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESTORE_CORRUPTED_DATA_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A series of algorithms dedicated to imperial data recovery.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A research description. This research has no game play.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">INTERLINK_WITH_AN_AUTONOM_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have repaired the registration files. The Atirah was being transported to Deconstruction Bay X7-3 by the Omega-D class bots when they suddenly started to party and shoot fireworks. – Dumb Ben, the robots were not partying! Those fireworks were discharges as they went haywire and fried everything in their path, including the database we just repaired.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Inspector&quot; (Assembly unit; has three heads, here named Ben, Glenn and Rhen which are all male)&#10;&quot;Atirah&quot; is the name of a star ship.&#10;&quot;Deconstruction Bay X7-3&quot; is the name of a unique world map sector.&#10;&quot;Omega-D class bots&quot; refers to the Autonom.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERLINK_WITH_AN_AUTONOM_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No Glenn, this only proves that you never went to a proper party in your previous life! – Did so! – Did not! – Enough you two! Can’t a man read in peace and quiet only once in a while?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Inspector&quot; (Assembly unit; has three heads, here named Ben, Glenn and Rhen which are all male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">INTERLINK_WITH_AN_AUTONOM_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not again … why were they never sent to Reassembly?[br/][br/]Still, we are making progress: The Autonom will know where they brought the Atirah. We should interface with one of their robots, either by directly acquiring one or by assembling the parts we can scavenge from their broken models.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Reassembly&quot; is a name for the process of turning humanoid beings into an Assembly or the process of deconstructing and then reconstructing an Assembly.&#10;&quot;Atirah&quot; is the name of a star ship.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERLINK_WITH_AN_AUTONOM_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interlink with an Autonom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INTERLINK_WITH_AN_AUTONOM_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acquire an Autonom unit to interlink with. This can be done through diplomatic means by helping the Autonom or trading with them, or through military means by reassembling an Autonom from parts of their damaged units.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERLINK_WITH_AN_AUTONOM_QUEST_SCRIPTED_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Autonom Unit Acquired</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERLINK_WITH_AN_AUTONOM_QUEST_SCRIPTED_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Autonom Units Slain</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TAKE_AUTONOM_BASE_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have completed the preprocessing… initializing interlink now…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TAKE_AUTONOM_BASE_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unauthorized memory access. Security breach: imminent. Accessed data: location of Central Hub Nexus. Override in progress… failed.[br/][br/]Warning! Warning! Central Hub Nexus compromised!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Autonom&quot; (single Autonom unit)&#10;&quot;Central Hub Nexus&quot; is the name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TAKE_AUTONOM_BASE_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very interesting. It would appear the Autonom took the Neural Plexus to their main Dwelling and repurposed it to manage and monitor their entire Gardip XX network. We need access to this Central Hub Nexus. Only then will we be able to salvage the Neural Plexus.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;&quot;Gardip XX&quot; is the name of the planet.&#10;&quot;Central Hub Nexus&quot; is the name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TAKE_AUTONOM_BASE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capture Main Autonom Dwelling</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TAKE_AUTONOM_BASE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Neural Plexus has been integrated into the major Autonom base on Gardip XX. You need to gain access to it - either through conquest or through diplomacy.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A task description.&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;&quot;Gardip XX&quot; is the name of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Scanning sweep successful. We have detected the outer casing of the Neural Plexus deep within the central matrix of the Autonom base. No, Glenn, don’t even think about it! – I wasn’t, Ben. For once, I am in agreement.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Inspector&quot; (Assembly unit; has three heads, here named Ben, Glenn and Rhen which are all male)&#10;&quot;Neural Plexus&quot; is the name of a unique device.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh really, after driving me crazy with your obnoxious arguments for over ten years, you two finally decide to shut up? Well guess what, here’s one who isn’t afraid of yelling anymore! Whaaaaaaaaarrr!!! – Did you hear this, Glenn? I think Rhen just shouted at us. – I think so too, Ben. How rude!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Inspector&quot; (Assembly unit; has three heads, here named Ben, Glenn and Rhen which are all male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">And there they say many heads make for a more dangerous beast. Obviously the assumption set of this theory must have included the condition such a beast would operate with a single brain.[br/][br/]All of this will be irrelevant though. It is time for CORE’s children to reclaim their heritage.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salvage the Neural Plexus</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A quest name.&#10;&quot;Neural Plexus&quot; is the name of a unique device.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The target of your mission is within your grasp. Claim the Neural Plexus - for CORE and for the Assembly!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A task description.&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;For &quot;CORE&quot;, see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is… improbable! The hull of the Neural Plexus is empty. Somebody must have ripped the delicate device out of its casing. But what is this? It looks like the shameless thief left behind a data pad with a holographic recording.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Neural Plexus&quot; is the name of a unique device.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hello {STR_LeaderFirstName}. I am sorry I have to cause you and the other First disappointment today. The Neural Plexus is a machine of marvels that will mark the next phase in the development of the Assembly. Surrendering it to CORE would have been an error.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;L0G3N-1&quot; (Assembly, male; he and 10G3N-8 are clones of the same base model)&#10;For &quot;First&quot;, see the matching glossary entry.&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;For &quot;CORE&quot;, see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Do not seek to stop me, {STR_LeaderFirstName}. Trust in the judgment of your creation, and we will yet be reunited once I have determined the best way to use the Plexus for our cause.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;L0G3N-1&quot; (Assembly, male; he and 10G3N-8 are clones of the same base model)&#10;&quot;your creation&quot; refers to the fact that the &quot;First&quot; created the &quot;Second&quot; (see the matching glossary entries).&#10;&quot;Plexus&quot; is a short form of &quot;Neural Plexus&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…oh L0G3N-1, what series of flawed deductions must have motivated you to take such actions? Sometimes I forget the clones of your series, just like any Second, all have their small differences. L0G3N-8 has been such an exemplar of Assembly ideals. I would have never expected this kind of treason from the original model.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;L0G3N&quot; is the name of a male campaign character. Shortened from &quot;L0G3N-1&quot; to indicate he is the original clone.&#10;&quot;L0G3N-8&quot; is the name of a male campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But now there is no alternate course of action. We will have to track down L0G3N-1 and finish our mission. CORE does not tolerate imperfection. And neither do I.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;L0G3N-1&quot; is the name of a male campaign character.&#10;For &quot;CORE&quot;, see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NO_SCRAP_OR_LIMB_TO_WASTE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">No Scrap or Limb to Waste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SALVAGE_SURROUNDINGS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salvage your Surroundings</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SALVAGE_SURROUNDINGS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gardip XX has a lot to offer an experienced scavenger. Look for components and resources that the Assembly can use as valuable spare parts.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A task description.&#10;&quot;Gardip XX&quot; is the name of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MASTER_SALVAGER_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conduits, cables, cartridges, good![br/]Gristle, grease and graded flesh![br/]Yes, all can be fixed and mended,[br/]mixed and bended and made fresh!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Reverse Engineer&quot; (Assembly unit; can reassemble or heal Assembly units and create new Assembly constructs from fallen enemies)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MASTER_SALVAGER_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Broken consoles? Molten alloys?[br/]Busted science toys? Give them now![br/]Knotty fibers, rotten eyeballs[br/]and the heart of a scarecrow!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Reverse Engineer&quot; (Assembly unit; can reassemble or heal Assembly units and create new Assembly constructs from fallen enemies)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MASTER_SALVAGER_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What I build, I build with pleasure,[br/]what I cut, I cut with glee.[br/]All the guts and bits and nuts[br/]and grids you find, they go to me![br/][br/]I need more, more … MORE!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Reverse Engineer&quot; (Assembly unit; can reassemble or heal Assembly units and create new Assembly constructs from fallen enemies)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MASTER_SALVAGER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Master Salvager</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MASTER_SALVAGER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Continue your scavenging spree on Gardip XX to take advantage of its many prematurely discarded treasures.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A task description.&#10;&quot;Gardip XX&quot; is the name of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassemble Spacers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Follow the established Reassembly protocol and 'recruit' some of the roaming Spacer units for the Assembly.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A task description.&#10;For &quot;Reassembly&quot; see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Lambda-5 specimens have barricaded themselves inside a class 3-1-theta defensive fortification. Estimated strategic value: 7.316. I propose an assault executing attack-pattern 9.2.7-C.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;L0G3N-8&quot; (Assembly, male)&#10;&quot;humanoid specimens, type Lambda-5&quot; refers to Spacers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A tactically sound proposal. The samples from their defenses and habitat will make for utile objects of study in our analytical facilities. Proceed.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassemble Spacer Base</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Take the Spacer Base and repurpose it for the Assembly.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hello? Who’s there? Are they… are they gone? I… almost can’t believe it. Thank you, thank you so much, whoever you are! My name is Anna Smithson and I am a micro-biologist under the supervision of Dr. Montinga. I was taken captive by the Spacers when they raided our research post. Since then, things have gone from bad to worse, and I was afraid this nightmare would never end…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Anna Smithson&quot; (Vanguard, female)&#10;&quot;Dr. Montinga&quot; refers to the Eva Montinga character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Now, let me look at you, I want to see who came to s- ahhh! No, no this cannot be happening! You are the people Dr. Montinga warned us about. The ones that turn everyone they find into some twisted half-human monstrosity. No, please don’t hurt me! I am just a junior assistant… I was never supposed to be here… please…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Anna Smithson&quot; (Vanguard, female)&#10;&quot;Dr. Montinga&quot; refers to the Eva Montinga character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Leave Human</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice short form description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Turn into Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice short form description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_03_REASSEMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You do not need to shed any tears. The Assembly existence is nothing to be afraid of. Your knowledge of Dr. Montinga and her operations will be valuable additions to our strategic database. In return, we will help you overcome all those human flaws and misconceptions that are still holding you back.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Dr. Montinga&quot; refers to the Eva Montinga character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_03_LEAVE_HUMAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Do not think compassion is a concept that is alien to the Assembly. But we cannot allow you to return to Eva Montinga. She stands against our goals and must be dealt with. You will stay with the Assembly. Once you have had enough time to understand our existence, you will undoubtedly reevaluate your request to keep your human flaws intact.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Eva Montinga is the name of a female campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_04_LEAVE_HUMAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Commander, there must be an error in your calculations. Protocol and situation indicate Reassembly as the optimal course of action! Requesting revalidation of recent instructions.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;L0G3N-8&quot; (Assembly, male)&#10;For &quot;Reassembly&quot; see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REASSEMBLE_SPACER_BASE_COMPLETION_MESSAGE_PAGE_05_LEAVE_HUMAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Request denied, L0G3N-8. There are variables you forgot to consider. Despite their many defects, some aspects of our human past must be remembered. Or we will become complacent and deprave ourselves like they do.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;L0G3N-8&quot; is the name of a male campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VANGUARD_HERO_REASSEMBLED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What have you done to me? You monsters! Why couldn’t you just have killed me? Instead of turning me into this… hideous abomination!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Anna Smithson&quot; (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VANGUARD_HERO_REASSEMBLED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This type of initial reaction is not uncommon during the transition phase of any first generation Assembly. But in time you will realize that the benefits of this new existence clearly outweigh the grief caused by some minor cosmetic inconveniences.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our atmospheric scanners have picked up faint traces of phtolion-triquartzite, a common exhaust material expelled during planetary landing procedures. The bio-patterns we are detecting at one of the extrapolated landing sites are highly erratic. They appear to be in permanent flux.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;L0G3N-8&quot; (Assembly, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There is only one known organism that can be responsible for readings like this. It was expectable that CORE’s enemies would attempt to interfere with our plans to retrieve the Neural Plexus.[br/][br/]Initiate a cross-reference data search on the Alpha Strain and compare the matching entries with the sensor data. You will find that they document an equally chaotic behavior.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;For &quot;CORE&quot;, see the matching glossary entry.&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;For &quot;Alpha Strain&quot;, see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Very impressive, {STR_LeaderFirstName}. I always said you were smart for somebody working in cybernetics. Who knows, you might have even made it as a janitor in one of my Xenolabs...</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Eva Montinga&quot; (Vanguard, female)&#10;&quot;Xenolab&quot; is the name of a world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But... oh my, you look terrible! All those stitches and scars, no real hair, and what on earth have they done to your hips?! Quite ironic that this happened to someone who used to denounce me for ‘working with filthy parasites’, don’t you think?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Eva Montinga&quot; (Vanguard, female)&#10;&quot;Filthy parasites&quot; refers to the Alpha Strain (see matching glossary entry).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It may be hard for your tiny, unenhanced brain to grasp, but some of us have evolved beyond superficial, instinctual values. It must be the broader perspective granted by technology and the connection to an intelligence as omniscient as CORE.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;For &quot;CORE&quot;, see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Though the real question is why you are here? And I am not talking about your mission, because we both know you have been sent here to stop me. What I want to know is why you are following this despicable individual who was ready to sacrifice billions of lives only to satisfy her own lust for power?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Despicable individual who...&quot; refers to Empress Carminia (see glossary entry). </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Carminia merely liberated the people from CORE’s cold, controlling grip. More importantly however, she doesn’t share CORE’s ignorance and acknowledges my work as the visionary promise for the future of mankind that it is.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Eva Montinga&quot; (Vanguard, female)&#10;For &quot;CORE&quot;, see the matching glossary entry.&#10;For &quot;(Empress) Carminia&quot;, see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You may be trying to copy the marvels of nature’s ingenuity with your gadgets and algorithms, but in the end a weak forgery is all you can wish to obtain, while I have the instruments of life’s creation at my disposal. Physical weakness, disease, old age - all of that will fade into humanity’s past once my compilation of the Alpha Strain is complete.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Eva Montinga&quot; (Vanguard, female)&#10;For &quot;Alpha Strain&quot;, see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_EVA_WEISS_EVENT_MESSAGE_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The future you are talking about is already the Assembly’s present. We have overcome the problems you described, and are ready for the next step towards perfection: A direct link to the voice that brings order to the inherent chaos of the universe.[br/][br/]An order that you yourself will soon be a part of.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;The voice that brings order...&quot; refers to CORE (see glossary entry). </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFEAT_EVA_WEISS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat Eva Montinga</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.&#10;&quot;Eva Montinga&quot; is the name of a female campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEFEAT_EVA_WEISS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eva Montinga is here to prevent you from recovering the Neural Plexus. Removing this obstacle would make your mission much easier.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;Eva Montinga&quot; is the name of a female campaign character.&#10;&quot;Neural Plexus&quot; is the name of a unique device.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVA_WEISS_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You were lucky today, {STR_LeaderName}. I expected less opposition. Don’t think things will be this civilized the next time we meet.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Eva Montinga&quot; (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBERNETIC_SUPERIORITY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cybernetic Superiority</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CYBERNETIC_SUPERIORITY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Demonstrate to Eva Montinga the superiority of cybernetic enhancements over genetic alteration by neutralizing her armies.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;Eva Montinga&quot; is the name of a Vanguard female campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CYBERNETIC_SUPERIORITY_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">After observing the combat effectiveness of your mutants, I can see why I’ve never come across any published papers about their genetic improvements. There’s no chance they would have passed peer review. Then again, people in bio-engineering never seemed too preoccupied about hitting scientific standards.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;mutants&quot;, refers to Xenoplague units&#10;(see glossary entry).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CYBERNETIC_SUPERIORITY_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is amusing to see how obsessed you are still with the past, {STR_LeaderFirstName}. If your first article on Quantum Neurotics slipped, it was solely due to your lack of professionalism. I only did what any responsible member of the scientific community would have done.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Eva Montinga&quot; (Vanguard, female)&#10;&quot;Quantum Neurotics&quot; is the field of science developed by Ellen Shaw. Not vital to the story.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CYBERNETIC_SUPERIORITY_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By using your name and influence to exploit a formality? Even back then, you already couldn’t stand the thought of someone challenging your position at the top of the scientific world. It is not surprising Carminia’s lust for power is attracting you.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Carminia&quot;&#10;(see glossary entry).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CYBERNETIC_SUPERIORITY_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your cry for attention is pathetic. My standing and reputation were well-deserved. I had no need to sabotage anybody’s career, let alone that of someone whose work was as insignificant as yours. You are and have always been merely a nuisance, and I shall deal with you accordingly.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Eva Montinga&quot; (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">MEET_CHAX_UZ_KOL_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">So this is the one Montinga mentioned. The one of metal and flesh that twists the bodies of his people in ways as gruesome as the treatment of my ancestors before the Unshackling. But without the consolation of the dream and the harmony beyond. Ending their current existence will be a liberation.</Data></Cell>
+    <Cell><Data ss:Type="String">So this is the one Montinga mentioned. The one of metal and flesh that twists the bodies of her people in ways as gruesome as the treatment of my ancestors before the Unshackling. But without the consolation of the dream and the harmony beyond. Ending their current existence will be a liberation.</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Chax Uz’Kol&quot; (Kir'Ko, male)&#10;&quot;the Unshackling&quot;, refers to the event where the Kir'Ko were no longer slaves to the Star Union.&#10;(see glossary entry).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_CHAX_UZ_KOL_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">I have heard of Chax Uz’Kol, Eva Montinga’s bodyguard. There is no information available concerning his motives, however it is reasonable to assume his allegiance is founded on some promise involving the Alpha Strain and the restoration of the Qoppa-2 morphologic guise – the Kir’Ko Queen of Queens.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)&#10;&quot;Alpha Strain&quot;, refers to the key molecule behind Xenoplague technology.&#10;&quot;Qoppa-2 morphologic guise – the Kir’Ko Queen of Queens&quot;, refers to the Assembly's name for the Kir'Ko Queen of Queens.&#10;(see glossary entry).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_CHAX_UZ_KOL_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dealing with Chax Uz’Kol will be complicated since the Kir’Ko physiognomy continues to prove resistant to our usual reassembly methods. Therefore adjusting our strategy should be considered.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_CHAX_UZ_KOL_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Before Eva initiated the Xenoplague project, she was one of the lead scientists at Terratech. Given Terratech’s role in the creation and distribution of the Kir’Ko we should find some evidence in her facilities that will make Chax Uz’Kol reevaluate their cooperation.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)&#10;&quot;Terratech&quot;&#10;(see glossary entry).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_CHAX_UZ_KOL_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By using our Synthesis technology, we can remotely access Eva Montinga’s Xenolabs and search her databanks from a distance. A good way to put our experimental infiltration daemon to practice.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)&#10;&quot;Xenolabs&quot;&#10;(see glossary entry).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEEDS_OF_DISTRUST_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seeds of Distrust</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOWNLOAD_XENOLAB_DATABASE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tap into the Xenolab Databases</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOWNLOAD_XENOLAB_DATABASE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Transmit your infiltration daemon to the lab computers of the Gardip XX Xenolabs to search for information about Eva Montinga's past with Terratech.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOWNLOAD_XENOLAB_DATABASE_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alpha Infiltration Daemon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.&#10;&quot;Daemon&quot; refers to the Synthesis technology AI.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOWNLOAD_XENOLAB_DATABASE_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Protoype version of a data-grabbing daemon that can transmit information over long distances.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INTERROGATE_VANGUARD_SCIENTIST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">One thing is certain: Eva Montinga did a very thorough job keeping her past records clean. Most of the historic sections of the database have been completely erased, and all that’s left are unusable records and articles from science fares and conferences without any factual value.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">INTERROGATE_VANGUARD_SCIENTIST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Still, not all of the acquired information is useless. The laboratory logs revealed the name of the scientist executing the memory sweep. It is an individual called Erich Wolf, and according to the personnel files, he is performing field tests infecting Growth specimens with the Alpha Strain here on Gardip XX. Once captured, we will extract the required information from him.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Erich Wolf&quot; is a male Vanguard scientist.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERROGATE_VANGUARD_SCIENTIST_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogate Vanguard Scientist</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERROGATE_VANGUARD_SCIENTIST_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Capture Erich Wolf, one of Eva Montinga's most trusted assistants, and extract from him the information about Eva Montinga's past association with Terratech.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Stop! Not one step further with your horrible instruments or I will kill myself! I know that you need me alive or you would have already used my body parts and stuck them on your abominations.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Erich Wolf&quot; (male Vanguard)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What makes you think we can’t take your body and still keep you alive as one of our own? Have you ever seen one of our Inspectors? I could introduce you…[br/][br/]On the other hand, if you cooperate, we can surely find some form that is more appealing to you. We are all scientific colleagues here after all, even if our experimental methods may differ.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No! I won’t let you turn me into a monster! This is for you, Eva …[br/][br/]…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Erich Wolf&quot;  (male Vanguard)&#10;&quot;Eva&quot; refer to Eva Montinga (female).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Such a waste! Didn’t he realize that the human brain is the most intricate body part to fabricate? Now we have to rely on deciphering the data on the backup memory chip he had implanted, evidently still a Terratech standard issue. Eva Montinga should have known better than to keep relying on outdated pre-collapse technology. Their security systems are no obstacle for us.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)&#10;&quot;Terratech&quot;&#10;(see glossary entry).&#10;&quot;pre-collapse&quot; refers to the time before the Star Union fell.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There we go: These are the connection details for Eva Montinga's personal computer. Now all we need are a Synthesis Network Link to establish the data stream and a Hacker to retrieve the information we require.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)&#10;&quot;Synthesis Network Link&quot; refers to an in-game unit.&#10;&quot;Hacker&quot; refers to an in-game unit.&#10;(see glossary entry)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hack Eva Montinga's Computer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use your Synthesis technology to steal files from Eva Montinga's personal data base. First use a Network Link unit to initiate the interlink, then use a Hacker to disable the security and retrieve the information.[br/][br/][firecol](Requires research from the Synthesis military research tree to be completed to unlock the necessary units for production in your colonies.)[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;your&quot; can be male or female.&#10;&quot;Synthesis&quot; is an in-game secret technology that the player uses.&#10;&quot;military research tree&quot; is an in-game research panel.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">One, two, three, connect with me.[br/]Four, five, six, ‘till it clicks.[br/]Seven, eight, nine, hold the line.[br/]Ten, eleven, that’s fine, now your secrets are mine!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Assembly Hacker&quot;&#10;(Assembly unit, can be either male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An unconventional method, but an effective one.[br/][br/]Very curious: There are figures in her database showing the molecular structure of the N-tibug agent. It was used as a planetary scale bio-weapon to quell Kir’Ko rebellions that had gotten out of control, but was soon prohibited for its devastating effects on other parts of the environment.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;N-tibug&quot; refers to a chemical agent used by the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">These are no casual observations. The expertise and level of detail in her notes suggest Eva Montinga wasn’t analyzing N-tibug - she had developed it! This also explains all the high-level military clearance locks we had to circumvent to access this part of the database. Chax Uz’Kol will be very interested in seeing this…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Chax Uz’Kol&quot; is the name of a male Kir'Ko.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What does the one of flesh and metal want? I thought the Kir’Ko Ula had made their intentions very clear. But what is this you bring… the formula of N-tibug? This is the genocide weapon that still brings agony to the dreams of many Kir’Ko! Created by… her?!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Chax Uz’Kol&quot; (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Krz’Tk Xrrlt Ptkch!! There is no Kir’Ko curse strong enough to express my fury! Eva Montinga must pay! Through the dreams of our ancestors, she taught us sorrow and suffering. It is time the swarm paid back her lessons!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Chax Uz’Kol&quot; (Kir'Ko, male)&#10;&quot;Krz’Tk Xrrlt Ptkch!!&quot; is a Kir'Ko swear word.&#10;(see glossary entry)&#10;&quot;swarm&quot; refers to the Kir'Ko collective.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GREEN_THREAT_STOPPED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…[br/][br/]With Carminia’s agents out of the way, the path to the Neural Plexus is clear. We have located the signature of its casing inside one of the Autonom central hubs and our scavengers are awaiting instructions.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;&quot;Autonom&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AN_ECOLOGICAL_DISASTER_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">An Ecological Disaster</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_SELIA_VARJU_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">May the light of the Starguides shine upon you, {STR_LeaderName}. Come and join us as we pray for the tainted soul of Gardip XX. This planet has had to suffer much at the hands of those who littered, polluted and poisoned its soil, and its lamentations became unheard echoes within a toxic wasteland.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: &quot;Selia Varju&quot;&#10;(Amazon, female)&#10;&quot;Starguides&quot; refers to in-game Celestian units, seen as a type of priest.&#10;{STR_LeaderName} is an insertion of the player character's unique name.&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MEET_SELIA_VARJU_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We Amazons have reshaped and mended many worlds to restore their natural equilibrium. However, on Gardip XX, the degradation is more severe. Your people seem well-adapted to this hostile environment. We have seen them collect and recycle much of the waste without succumbing to its toxic effects. Maybe, if you share your filtering technology, we can modify it for our purposes and start the healing process of the planet.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Story message. Speaker: &quot;Selia Varju&quot;(Amazon, female)&#10;&quot;Gardip XX&quot; is the name of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_SELIA_VARJU_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The exchange of filter modules is not restricted and therefore a valid option. Let me point out, however, that it will be more efficient to concentrate your efforts on less contaminated planets and leave Gardip XX to its former function.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot;&#10;(Assembly, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_SELIA_VARJU_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The weak and ugly cannot just be abandoned, my child. There is a place for everyone in the Celestian light. Maybe I can invite you to one of our ceremonies one day to demonstrate the meaning of those words.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Story message. Speaker: &quot;Selia Varju&quot; (Amazon, female)&#10;&quot;Celestian&quot; refers to the in-game secret technology used by Selia Varju.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_SELIA_VARJU_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is a possibility. Examining psionic techniques and potential up close could prove to be fascinating.[br/][br/]But for now we must return to the subject at hand: The filter modules. We will consider replicating them for you.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;psionics&quot; refers to the use of psychic abilities.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUILD_TOXIC_FILTERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Build Detoxification Filters</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BUILD_TOXIC_FILTERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Selia Varju has asked you to provide her with some of the Assembly's filtering technology. She wants to adapt it to aid her long-term goal of restoring Gardip XX's environment to its former glory.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;Gardip XX is the name of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUILD_TOXIC_FILTERS_QUEST_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Detoxification Filters</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BUILD_TOXIC_FILTERS_QUEST_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Standard Assembly modules developed to extract a variety of chemical substances from the environment.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">REJUVENATE_LAND_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you, {STR_LeaderName}, and accept our blessings. We have adapted one of our Arborian Sentinel and applied the principles of your filtering technology to its metabolism. But before we start splicing the DNA of other Sentinels, we wish to learn more about the potential of our new creation. As a token of our newfound friendship, will you take our Sentinel into the heart of Gardip XX’s corruption?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Story message. Speaker: &quot;Selia Varju&quot; (Amazon, female)&#10;&quot;Arborian Sentinel&quot; refers to an Amazon in-game unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REJUVENATE_LAND_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rejuvenate the Land</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REJUVENATE_LAND_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Take the Arborian Sentinel modified by Selia Varju and spread new life on Gardip XX.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REJUVENATE_LAND_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Arborian Sentinel Alive</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">REJUVENATE_LAND_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The sickness of the land retreats and new life has started to sprout. This may be only the first step on our long journey towards the restoration of Gardip XX, but it is proof that there are no lost causes for one who has faith. You may not want to admit it, {STR_LeaderName}, but I can see that spark in you as well. One day we will sit together and contemplate the teachings of the old Celestian sages.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Story message. Speaker: &quot;Selia Varju&quot; (Amazon, female)&#10;{STR_LeaderName} refers to the player character's unique name.&#10;&quot;Celestian&quot;&#10;(see glossary entry)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">REJUVENATE_LAND_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If this is indeed what you see, I suggest a physical examination of your optical nerve system. It might be damaged.[br/][br/]However, we would be interested in obtaining one of your spiritual individuals. Studying their psionic capabilities should be very… enlightening. In exchange we offer one of our own. The next logical step in our cooperation.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">REJUVENATE_LAND_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A fair offer, coming from your standpoint, which I will nonetheless have to decline. We do not trade in people. It is against the values our community believes in and cherishes. I can foresee a more liberal exchange in the future, but until then, our people still need to learn much about each other.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Story message. Speaker: &quot;Selia Varju&quot; (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TREASURES_OF_THE_JUNKYARD_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Treasures of the Junkyard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_PROMETHEAN_DVAR_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, Comrade! Shake the pick of the respected Gruvich Consortium! Have the discarded wonders and forgotten treasures of the Star Union drawn you to this planet as well? No? That’s even better then – more will be left for us!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich&#10;(Promethean Dvar, male)&#10;&quot;Gruvich Consortium&quot; refers to the collective power of Jewal Gruvich</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_PROMETHEAN_DVAR_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">It is already bad enough we have to deal with the no-good Drimuz Consortium! They compete with us for materials and machines, dig their noses right under our excavations and show up whenever we find anything of value. Just yesterday, they took a weapon prototype from one of our camps. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich (Dvar, male)&#10;&quot;Drimuz Consortium&quot; refers to the collective power of Ivian Drimuz, a competitor of Jewal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_PROMETHEAN_DVAR_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Drimuz Director Ivian claims the thieves acted on their own account, but then why haven’t they been persecuted and punished, I ask? Oh, he is a clever one. But this time he went too far. I say it is time to lend the Drimuz a hammer and finish their investigation for them! Teach those dodgers a lesson and return the B.L.A.S.T. 3000 to its rightful owner!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich (Dvar, male)&#10;Ivian is the director of the Drimuz Consortium.&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_PROMETHEAN_DVAR_MESSAGE_PAGE_02_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But I see that you’ve already made friends with the no-good Drimuz Consortium. They compete with us for materials and machines, dig their noses right under our excavations and show up whenever we find anything of value. Stay away from them in the future, and we may yet be able to settle this without a hammer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECOVER_BLAST_3000_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover the B.L.A.S.T. 3000</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RECOVER_BLAST_3000_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Jewal Gruvich wants you to retrieve his custom weapon - the B.L.A.S.T. 3000 - from a group of Dvar belonging to the Drimuz Consortium.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;you&quot; refers to the player and can be male or female.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RECOVER_BLAST_3000_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ha! You should have seen the look on Ivian Drimuz’s face when I showed him the B.L.A.S.T. 3000! I thought his head would explode with all the steam building up inside of him.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich (Dvar, male)&#10;&quot;Drimuz Consortium&quot; refers to the collective power of Drimuz, a competitor of Jewal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RECOVER_BLAST_3000_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fascinating, I was always under the impression that the DV-R suits kept any emotions from surfacing on the face of a Dvar. If you can spot such a distinction on a stiff mask, your visual scanners must have higher resolutions than we calculated.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;DV-R&quot; is a Dvar in-game unit.&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">RECOVER_BLAST_3000_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh, you can tell the difference when you know a Dvar as long and well as I know Ivian Drimuz, alright. Still it’s nothing compared to what he’ll look like once I present to him the treasures of the Junkyard King. Oh yes, the Junkyard King: A fearsome beast of flesh and metal that feasts on anything that moves within the scrapyard. The Spacers worship the colossal creature as their god, bringing him constant sacrifices.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich (Dvar, male)&#10;&quot;Junkyard King&quot; is an Assembly Wrecker unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">RECOVER_BLAST_3000_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There they lie, piled up in the King’s lair, a hoard to be plundered by the bold! But unlike the Drimuz, the Gruvichs are no petty thieves. If we enter, it will be with a big bang![br/][br/]Take the B.L.A.S.T. 3000. It may seem like an ordinary weapon, but it was built to bring the beast down. And it will do its job!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich (Dvar, male)&#10;&quot;King&quot; refers to the Junkyard King.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_JUNKYARD_KING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kill the 'Junkyard King'</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_JUNKYARD_KING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seek out the Junkyard King in his lair and kill him. [br/][br/][recommendedcol](Hint: using the B.L.A.S.T. 3000 item can greatly facilitate this mission.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;() describes third person narration.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_JUNKYARD_KING_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hoho! How daring! A deed truly worthy of any Dvar! Now the path to the hoard of the Junkyard King is clear.[br/][br/]But what is this? The piles are empty, the scrap vaults already cleared out! And in the center of the lair an insignia with the emblem of an amethyst hawk... arrrrrgh! Be cursed, Ivian Drimuz!!! </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Jewal Gruvich  (Dvar, male)&#10;&quot;insignia with the emblem of an amethyst hawk&quot; refers to the sigil of Ivian Drimuz.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MEET_VOIDTECH_DVAR_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Well met, {STR_LeaderName}. You look like you know your way through the trash labyrinths of Gardip XX. Then you must have come across Jewal Gruvich, a loud, ill-bred individual who likes to boast about the accomplishments of his Consortium, as if the Gruvichs weren’t already a pest without him, drill-blasting their tunnels underneath our mining operations. Just this morning, one of their explosives caused another tremor in one of our settlements.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Ivian Drimuz (Dvar, male)&#10;(Male Dvar)&#10;&quot;Consortium&quot; refers to a Dvar organization.&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_VOIDTECH_DVAR_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">But soon we won’t be bothered by the Gruvichs no more. I have devised a portable cloaking apparatus that we can later scale up to hide our colonies from unwanted eyes. Unfortunately, my cousin Vladismar decided to give the device an unscheduled test. He stole the Instability Projector, thinking it would help him break into professional crime.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Ivian Drimuz (Dvar, male)&#10;&quot;Vladismar&quot; refers to Ivian's cousin and is male.&#10;&quot;Instability Projector&quot; refers to an in-game hero item.&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_VOIDTECH_DVAR_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Will you help me track down my notorious cousin? Though he himself may be camouflaged, you can still follow the traces of the void-particles that the Instability Projector emits. Vladismar won’t have gotten far yet - the delicate device needs to be transported with caution, and he will have to move slowly lest he wants to risk breaking it.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Ivian Drimuz (Dvar, male)&#10;&quot;Consortium&quot; refers to a Dvar organization.&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_VOIDTECH_DVAR_MESSAGE_PAGE_01_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Well met, {STR_LeaderName}. You look like you know your way through the trash labyrinths of Gardip XX. Sadly, it has come to our attention that you are helping the Gruvich Consortium. They are a true pest, drill-blasting their tunnels underneath our mining operations. You should cut your contact with them. The sooner the better.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Ivian Drimuz (Dvar, male)&#10;(Male Dvar)&#10;&quot;Consortium&quot; refers to a Dvar organization.&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATCH_CLOAKING_DEVICE_THIEF_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Catch the Invisible Thief</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CATCH_CLOAKING_DEVICE_THIEF_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ivian Drimuz wants you to find the thief that took his invisibility device and return the apparatus to him. He will scan for residual traces of the device and send you updates about the last known whereabouts of the thief.[br/][br/][recommendedcol](Hint: using a unit with Detection, such as one with the Ocular Implants mod, can greatly facilitate this mission.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;() describes third person narration.&#10;&quot;Detection&quot; is a unit ability.&#10;&quot;Ocular Implants&quot; is the name of a unit mod.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CATCH_CLOAKING_DEVICE_THIEF_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent! That should teach my good-for-nothing cousin. But his escapade did give me an idea. In the heart of Gardip XX’s garbage jungle, where the sunlight doesn’t touch the lower layers of the scrap piles, lives a creature so terrifying that the Spacers started bringing it sacrifices to avoid its wrath. The lair of this ‘Junkyard King’ is said to hold the planet’s greatest riches. Riches which are ours for the taking.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Ivian Drimuz (Dvar, male)&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CATCH_CLOAKING_DEVICE_THIEF_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Using the Instability Projector it should be an easy enough task for you to get past the Junkyard King and dig out its treasury. You’re asking me, why I won’t come along? Well, obviously, someone capable needs to monitor the particle output of the Projector. Wouldn’t want you to suddenly stand there all visible in front of the beast, would we? So what do you say, do we have an agreement?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Ivian Drimuz (Dvar, male)&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATE_JUNKYARD_KING_LAIR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltrate the Lair of the 'Junkyard King'</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INFILTRATE_JUNKYARD_KING_LAIR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seek out and enter the lair of the Junkyard King, preferably without being noticed.[br/][br/][recommendedcol](Hint: using the Portable Instability Projector item can greatly facilitate this mission.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;() describes third person narration.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATE_JUNKYARD_KING_LAIR_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enter the Lair of the 'Junkyard King'</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATE_JUNKYARD_KING_LAIR_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Stealthily descend into the treasure trove of the Junkyard King.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INFILTRATE_JUNKYARD_KING_LAIR_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have reached the specified location, but there are no items of particular interest to be found. Upon scanning the vicinity, we found noteworthy readings of residual PyrX weapon signatures and a decently-sized tunnel which looks like it was created by a series of controlled explosions.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story message. Speaker: &quot;Ellen Shaw&quot; (Assembly, can be both male or female)&#10;&quot;PyrX&quot; is a Promethean brand of weaponry used by Jewal Gruvich.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INFILTRATE_JUNKYARD_KING_LAIR_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Controlled explosions you say? No, this cannot be! How can anyone bomb himself through to a vault without shaking and waking its guardian? Damn you, Jewal, and damn the entire Gruvich Consortium!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: Ivian Drimuz (Dvar, male)&#10;</Data></Cell>
+   </Row>
+   <Row ss:Index="211" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIND_AND_REASSEMBLE_SPACER_BASE_STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassemble Spacer Base</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIND_AND_REASSEMBLE_SPACER_BASE_STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gather any materials and parts of interest of value from the destroyed Spacer Base.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHECK_SPACEPORT_REGISTATION_FILES_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Link to Spaceport Server</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHECK_SPACEPORT_REGISTATION_FILES_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Access the main database of the Spaceport to check for the location of the Atirah.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover the Neural Plexus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SALVAGE_NEURAL_PLEXUS_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Salvage the Neural Plexus from the Admin Room.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_QUEST_STATEGIC_OPERATION_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Set Up Interlink</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_QUEST_STATEGIC_OPERATION_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Synthesis Network Link Unit to establish a data link with Eva Montinga's personal computer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_QUEST_STATEGIC_OPERATION_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hacker Surge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HACK_EVA_WEISS_PC_QUEST_STATEGIC_OPERATION_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Order one of your Synthesis Hacker Units to use the data link to steal encrypted files from Eva Montinga.</Data></Cell>
+   </Row>
+   <Row ss:Index="226" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BLAST_3000</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">B.L.A.S.T. 3000</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a hero equippment item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BLAST_3000</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Particularly effective against the Junkyard King.[br/][br/]This shotgun can't receive Ammunition mods.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A description of a hero equippment item.&#10;&quot;Junkyard King&quot; is the name of a unique, named Assembly Wrecker unit on the map.</Data></Cell>
+   </Row>
+   <Row ss:Index="233" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_RECOVER_NEURAL_PLEXUS</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Recover the Neural Plexus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A header name of a task.&#10;&quot;Neural Plexus&quot; is the name of a unique device.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_RECOVER_NEURAL_PLEXUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover the Neural Plexus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.&#10;&quot;Neural Plexus&quot; is the name of a unique device.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_RECOVER_NEURAL_PLEXUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Neural Plexus required to directly link the Assembly to CORE was on board of a ship sent to Gardip XX for deconstruction. Your mission is to salvage it from the wreck of the Atirah.[br/][br/]Neural Plexus Retrieved: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.&#10;&quot;Neural Plexus&quot; is the name of a unique device.&#10;For &quot;CORE&quot; see the matching glossary entry.&#10;&quot;Gardip XX&quot; is the name of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_RECOVER_NEURAL_PLEXUS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Neural Plexus Retrieved: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description.&#10;&quot;Neural Plexus&quot; is the name of a unique device.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_GREEN_THREAT</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: The Green Threat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_GREEN_THREAT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Green Threat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_GREEN_THREAT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eva Montinga was sent to Gardip XX by Empress Carminia to stop you from finding the Neural Plexus. With her out of the way, nothing else can stop you from achieving your objective.[br/][br/]Eva Montinga Defeated: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_GREEN_THREAT_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eva Montinga was sent to Gardip XX by Empress Carminia to stop you from finding the Neural Plexus. With her and her ally Chax Uz'Kol out of the way, nothing else can stop you from achieving your objective.[br/][br/]Eva Montinga Defeated: {INT_0}/{INT_1}[br/]Chax Uz'Kol Defeated or Turned against Eva Montinga: {INT_2}/{INT_3}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_GREEN_THREAT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Eva Montinga Defeated: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_THE_GREEN_THREAT_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Opposition Stopped: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:Index="246" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_EVA_MONTINGA_TOWARDS_ELLEN_SHAW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sent to stop the Assembly; past rivalry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CHAX_UZ_KOL_TOWARDS_ELLEN_SHAW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sent to stop the Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_XENOPLAGUE_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Alliance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_COMPETING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rival Consortia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_DISTRUSTED_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destroying the Environment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_SEEDS_OF_DOUBT_MALUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Developed N-tibug</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_SEEDS_OF_DOUBT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Revealed crimes against the Kir'Ko</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>204</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>220</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

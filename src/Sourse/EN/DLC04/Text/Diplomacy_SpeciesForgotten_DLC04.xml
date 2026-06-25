@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-09-16T12:40:31Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11550</WindowHeight>
+  <WindowWidth>25410</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="142.5"/>
+   <Column ss:StyleID="s62" ss:Width="174.75"/>
+   <Column ss:StyleID="s62" ss:Width="336.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="204.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DIPLOMACY_SPECIESFORGOTTEN_DLC04</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">The Creator gifted you with life; we offered you the path of devotion. Instead, Entropy’s corruption has consumed your very being. Why else would an Essence Keeper join these heretics?[br/][br/]The Forgotten will outlast you, {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Darkness creeps ever nearer, threatening all that the great Creator watches over. The parasites from the Void prey upon all Essence holders, yet our faith remains while Friend of Life {STR_LeaderName} is present. What have we to discuss?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">There are plans set in motion by the Creator that even we, in all our faith, are blind to. Despite our conflict, we have remained intact with our Essence. Join us, {STR_LeaderName}, and push back this tide of entropic parasites.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Of all the paths you could have walked, you chose corruption. Your very existence, heretical and in defiance of the Creator, shall be cleansed from this world.[br/][br/]Surrender your Essence, {STR_LeaderName}, and the Creator may be more forgiving than your Voidbringer masters.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Creator being the god-like deity of the Forgotten</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Speak with haste, Essence Keeper {STR_LeaderName}. The corruption of the Voidbringers is spreading.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Corruption meaning the damage and influence of the Voidbringers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">We offer forgiveness, and a path to redemption, if you lay to rest your warring state with the Forgotten. Greater foes have shown themselves, a threat to all Essence and life itself. Will you fight the coming tide with us?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The coming tide meaning the threat of the Voidbringers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">So the Essence Taker has forsaken their kind in favor of servitude and enthrallment. Consider this war, {STR_LeaderName}. You will not taint the Essence gifted to you by the Creator any longer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Enthrallment refering to being under the control of the Voidbringers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">The once-promising Essence Keeper has betrayed all that is pure in the eyes of the Creator. War approaches us all, {STR_LeaderName}. Now we must discuss the fight against our common enemy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">There is hope for you yet, Essence Keeper {STR_LeaderName}. We offer you a path of redemption if you join our righteous struggle against the parasitic Voidbringers.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>1</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

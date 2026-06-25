@@ -1,0 +1,638 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Kyle</LastAuthor>
+  <LastSaved>2020-02-28T15:10:49Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="92" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="173.25"/>
+   <Column ss:StyleID="s62" ss:Width="196.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="404.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="410.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="226.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="240">
+    <Cell><Data ss:Type="String">PLAYER_INTERACTION_PERSONALITY</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. {STR_leaderName} refers to the name of avatar of the player. Note that all the texts in this document that refer to two people - the speaker (NPC) and the one spoken too - that can both be male or female. All texts refer to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.&#10;&#10;Note that use of the 'localized' and 'alternative localized string' only applies for the gender of the speaker.&#10;&#10;If the gender of the person spoken to requires inflection, please try to translate the text in a way that doesn't require such inflection. If this is impossible, please get in touch with us informing us of which lines this concerns and how they would be inflected in the language you are translating too.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Great to meet another stranger! Welcome, {STR_leaderName}. I hope we can learn from each other.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The xenophile likes players with different races and likes good relations with NPC factions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Surprising to hear from you, because it seems you like fighting others more than listening to them. What do you want?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">The xenophile likes players with different races and likes good relations with NPC factions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. May those who think differently provide you with wisdom.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Good to hear from you, {STR_leaderName}. May all our interactions allow us to grow.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">I cannot allow your xenophobic actions to continue. You would not listen to reason, so now you will listen to force. This means war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_NPCRELATION_GOOD_01</Data></Cell>
+    <Cell><Data ss:Type="String">Many ignore or fight the native inhabitants of the planets we land on, but we can learn so much from them if we listen to their wishes and wisdom. It is refreshing to see you think the same. Well done, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have a good relation with one or multiple NPC factions. Native inhabitants refer to the NPC races and dwellings on the planet.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have a good relation with one or multiple NPC factions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_ABSORBED_01</Data></Cell>
+    <Cell><Data ss:Type="String">A colony can only grow to greatness when you accept and embrace the ideas of those that differ from you. We appreciate seeing you do exactly this, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have colonies of different races in their empire. Colony refers to the colony/empire the player is building on this planet</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have colonies of different races in their empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_SETTLEMENT_INFLUENCE_01</Data></Cell>
+    <Cell><Data ss:Type="String">It is good to see you are on speaking terms with the settlements of this planet, {STR_leaderName}. Not all conflicts have to be resolved with violence, and not all that is different is bad.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have helped out settlements by buying them with influence. Settlements are an in-game term.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have helped out settlements by buying them with influence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_NPCRELATION_BAD_01</Data></Cell>
+    <Cell><Data ss:Type="String">The way you antagonize the natives of this planet saddens me, {STR_leaderName}. There is so much we can learn from this planet's inhabitants. Why not try to see things from their side?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have a bad relation with one or multiple NPC factions.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have a bad relation with one or multiple NPC factions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_SETTLEMENT_ATTACK_01</Data></Cell>
+    <Cell><Data ss:Type="String">Your attacks on the settlements here do not impress me. Do you really wish to be known as a leader that would harm those that think differently?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have attacked settlements. Settlements are an in-game term.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have attacked settlements.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">We are honored to have you here, {STR_leaderName}! You are an inspiration not only to us, but to many other inhabitants on this planet as well.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHILE_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are nothing but a chauvinist. Cover your ears and hide behind your walls; no-one wants to talk to you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Another arrival on this planet? As if there weren't enough strangers around here already. May you stand strong amongst all these impurities, {STR_leaderName}. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The xenophobe prefers monoculture empires and doesn't like good NPC faction relations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Why should I even speak to you, {STR_leaderName}? You bring nothing but impurity and alien concepts to my people.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative. &quot;Alien&quot; relates more to different than literally otherworldly.</Data></Cell>
+    <Cell><Data ss:Type="String">The xenophobe prefers monoculture empires and doesn't like good NPC faction relations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. May your people be protected from all that is alien.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral. &quot;Alien&quot; relates more to different than literally otherworldly. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. May you stay as pure of blood and as free from alien influence as you are now.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive. &quot;Alien&quot; relates more to different than literally otherworldly. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">I've seen enough of your corrupted actions, {STR_leaderName}. You are tainted and spoiled with impurity. No choice but to remove you for good.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_NPCRELATION_BAD_01</Data></Cell>
+    <Cell><Data ss:Type="String">There is no use trying to talk to the natives here, {STR_leaderName}. I am glad you think the same. They simply cannot be trusted.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have a bad relation with one or multiple NPC factions.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have a bad relation with one or multiple NPC factions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_MIGRATED_01</Data></Cell>
+    <Cell><Data ss:Type="String">Purity is strength, I am glad we share that sentiment. Too many cooks spoil the broth, and I like my broth as clear as can be.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that only have colonies of a single race in their empire.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that only have colonies of a single race in their empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_ABSORBED_01</Data></Cell>
+    <Cell><Data ss:Type="String">You would allow these strangers into your colonies, free to poison the minds of your own people? A dangerous decision, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have colonies of different races in their empire.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have colonies of different races in their empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_NPCRELATION_GOOD_01</Data></Cell>
+    <Cell><Data ss:Type="String">You talk a lot with these native strangers. Can you truly trust them? Think carefully of your answer, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have a good relation with one or multiple NPC factions.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have a good relation with one or multiple NPC factions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are a prime example of purity and strength of character, {STR_leaderName}. I look up to you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPHOBE_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">Your colonies are dirty cesspools of impurity and degradation. It is only a matter of time before they collapse.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Another player in this grand game of world domination! We may even call each other allies, if you prove yourself worthy of my time. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The topdog/kissup likes dealing with high ranking players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName}, you are still here? I forgot you were even on this planet. What do you want?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">The topdog/kissup likes dealing with high ranking players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. I hope to see you climbing the ranks soon.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral. Ranks refers to the player's overall rank in this scenario.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">I am honored you would talk to me, {STR_leaderName}. Please, tell me what you need.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are not even a footnote in the history of this planet. It is time we remove you from it altogether. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war on the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_CAPABILITY_HIGH_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}! I am impressed by how well you are doing in the grand scheme of things. Consider me a fan!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have a high capability ranking and are better than them.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have a high capability ranking and are better than them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_CAPABILITY_LOW_O1</Data></Cell>
+    <Cell><Data ss:Type="String">Currently you are not even worth the resources this transmission costs. Come back when you actually achieve something.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have a low capability ranking and are worse than them.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have a low capability ranking and are worse than them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">I am glad to bask in your glory. You are a shining example to everyone on this planet!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TOPDOG_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName}, I just wanted you to know you are so forgettable I had to be reminded several times to even send this message to you. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome on this planet, {STR_leaderName}. Do not worry, if you ever feel like things are not going well, I am here to help you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The compassionate/underdog likes dealing with weaker commanders (low ranking in this scenario)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">It must be pretty windy all the way on the top. What makes you speak to us lowly underdogs?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">The compassionate likes dealing with weaker commanders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. It's lonely at the top, but here is where your true friends are.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Good day, {STR_leaderName}. I hope you are faring well.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">You may act all high and mighty, but I will prove that even the biggest threats can fall. Consider this an announcement from below: this is war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Below refers to lower on the ranks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_CAPABILITY_LOW_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are alright, {STR_leaderName}. Rank is not all that makes a commander. We can work together.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have a low capability ranking and are worse than them.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have a low capability ranking and are worse than them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_CAPABILITY_HIGH_01</Data></Cell>
+    <Cell><Data ss:Type="String">The bigger they are, the harder they fall. Ambition may be a virtue to most, but it makes you blind for what truly matters. Do not forget your friends, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have a high capability ranking and are better than them.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have a high capability ranking and are better than them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">It is great to know you, {STR_leaderName}. No matter what others may say, I appreciate your company!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERDOG_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You may think you have got it made, but you are nothing but a haughty windbag. Enjoy the fame while it lasts. In the end, you will die alone.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Good to meet you, {STR_leaderName}. I look forward to seeing your military in action.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The militarist likes dealing with players that have a high military ranking and low reputation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">I have no time for militaristic failures like you. What do you want?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">The militarist likes dealing with players that have a high military ranking and low reputation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. May your colonies be strong, and your armies even moreso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral. Colonies and armies are terms used in-game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Always great to exchange ideas with another martial mastermind. How can we aid you, {STR_leaderName}?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">Let us see how you fare in a game of war, {STR_leaderName}. Enjoy a lesson from the best.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war on the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_MILITARY_HIGH_01</Data></Cell>
+    <Cell><Data ss:Type="String">The strength of your military is something to look up to, {STR_leaderName}. May you continue on this path. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players with a high military capability ranking.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players with a high military capability ranking.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_PLAYER_DEFEATED_O1</Data></Cell>
+    <Cell><Data ss:Type="String">Glory through strength, {STR_leaderName}! Congratulations on your martial victory.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have defeated another player.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have defeated another player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_MILITARY_LOW_O1</Data></Cell>
+    <Cell><Data ss:Type="String">Leaders are measured through the strength of their military, {STR_leaderName}. Currently you seem very, very small.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players with a low military capability ranking.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players with a low military capability ranking.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">They say history is written by the victors, and you are making history here, {STR_leaderName}!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">MILITARIST_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are laughable, {STR_leaderName}. I'd ask you to meet me on the battlefield on equal terms, but then I'd have to arrive naked and alone.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Good to meet you, {STR_leaderName}. Are you here to bring peace to this planet?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The pacifist likes dealing with players with a low military ranking and high reputation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Surprising to hear from you, because it seems you enjoy fighting others more than talking to them. What do you want, {STR_leaderName}?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">The pacifist likes dealing with players with a low military ranking and high reputation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. May you bring peace wherever you go.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Good to hear from you, {STR_leaderName}. May all our interactions allow us to bring peace to this world. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">You have pushed us to the very limit of our patience – keeping peace with you only seems to lead to more bloodshed elsewhere. This means war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war on the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_MILITARY_LOW_O1</Data></Cell>
+    <Cell><Data ss:Type="String">I am glad you seem to prioritize diplomatic goals over military ones. There are many ways to victory besides martial prowess.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Prefers players with a low military capability ranking.</Data></Cell>
+    <Cell><Data ss:Type="String">Prefers players with a low military capability ranking.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_PLAYER_DEFEATED_O1</Data></Cell>
+    <Cell><Data ss:Type="String">Some will say history is written by the victors, but I wonder if this murderous rampage is how you want to be remembered, {STR_leaderName}. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have defeated another player.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have defeated another player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_MILITARY_HIGH_01</Data></Cell>
+    <Cell><Data ss:Type="String">The amount of energy you spend on martial endeavors makes me doubt your capabilities on other fronts, {STR_leaderName}. War is not the only way to victory. Maybe it is time to rethink your priorities and focus on a less violent approach.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have a high military capability ranking.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have a high military capability ranking.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are a shining example of peace and prosperity! This world looks up to you, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This world refers to the planet the player is currently playing on</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">PACIFIST_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are a warmongering brute and a disgrace to your kind! You see nothing beyond the scope of your weapon. Shame on you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome, {STR_leaderName}. Do not worry about me going behind your back. If we were to quarrel, I would speak to you directly.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Loyal doesn't like players that break treaties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, the treacherous {STR_leaderName}. I wonder why you even speak, seeing as your words are so meaningless.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">Loyal doesn't like players that break treaties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. May your words be true and your honor unblemished.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Finally, a leader I can trust. Tell me what you like to discuss, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">Your disloyalty can no longer go unpunished. This is war, {STR_leaderName}. If you face me in battle you may die with some dignity left.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war on the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_TREATIES_HELD_01</Data></Cell>
+    <Cell><Data ss:Type="String">Leaders can only be measured by their honor and the weight of their words. I am glad to see you are keeping yours, {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have not broken any treaties. (this will show after X turns unless the player has broken a treaty in the meantime)</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have not broken any treaties. (this will show after X turns unless the player has broken a treaty in the meantime)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_TREATIES_BROKEN_01</Data></Cell>
+    <Cell><Data ss:Type="String">Your words and treaties seem to mean nothing, {STR_leaderName}. I will keep this in mind when dealing with you in the future.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have broken one or multiple treaties.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have broken one or multiple treaties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">This world can learn from an honorable leader like you, {STR_leaderName}. Your name will be sung in the songs of my people!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">LOYAL_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are a blemish on our shared history, and unworthy of your title. I feel dirty just by speaking to you. Get out of my sight.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Another player on the field. Pleased to meet you, {STR_leaderName}. Explain how you can be of use to me.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Treacherous has messages that do not always show their true intent. So likely always positive/sarcastically positive messages even if their opinion is bad.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_FIRSTMEET_NEUTRAL_02</Data></Cell>
+    <Cell><Data ss:Type="String">Finally we meet, {STR_leaderName}. No need to worry about me going behind your back. If we were to quarrel, I would definitely speak to you directly.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alternative first-meet message for the Treacherous, very close to the first-meet message of the Loyal but with some differences.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, the -great- {STR_leaderName}, here to enlighten us with their presence. To what do I owe the honor of this -amazing- conversation?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">Treacherous has messages that do not always show their true intent. So likely always positive messages even if their opinion is bad.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. Let us see what way the wind blows.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}! May the winds of fate always blow in your favor. Or better yet, may you bend with them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">You have annoyed me long enough, {STR_leaderName}. Be sure to watch your back from now on, or you may find a knife or two there. This is war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war on the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_TREATIES_BROKEN_O1</Data></Cell>
+    <Cell><Data ss:Type="String">Treaties and deals are formed under certain circumstances. When these circumstances change, it is fair to re-evaluate these deals. I am glad you and I share this conviction.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have broken one or multiple treaties.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have broken one or multiple treaties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_WAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">I see you are having some trouble with other players on this planet, {STR_leaderName}. Aren't we -glad- we have our earlier deal to rely upon?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players when they (the other player) are at war and The Treacherous at least shares a non-aggression pact with that (other) player. (To make sure they backstab that player, because this AI is treacherous the message does not have to show true intent or opinion. It could be something sarcastic.)</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players when they (the other player) are at war and The Treacherous at least shares a non-aggression pact with that (other) player. (To make sure they backstab that player, because this AI is treacherous the message does not have to show true intent or opinion. It could be something sarcastic.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">In this game of diplomacy and war you are doing well for yourself, {STR_leaderName}! You could say I look up to your wit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TREACHEROUS_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">Can I just say… you are awfully boring, {STR_leaderName}. You do not want to find out what happens to those that bore me.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">So we meet, {STR_leaderName}. I have little time for chit-chat; I have a world to conquer. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ruthless doesn't have any real preferences, but when it fights it fights to the death</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_GREET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">What do you want, weakling? Act fast before I crush you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is negative</Data></Cell>
+    <Cell><Data ss:Type="String">Ruthless doesn't have any real preferences, but when it fights it fights to the death</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Talking is for the weak. What do you want, {STR_leaderName}?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is neutral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_GREET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, {STR_leaderName}. I hope we can fight side by side one day!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Greeting when relationship with the player is positive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_DECLAREWAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">This was the last straw. I will end you if it is the last thing I do. This is war!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC declares war on the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_SETTLEMENT_ATTACK_01</Data></Cell>
+    <Cell><Data ss:Type="String">Show these wimps who's boss, {STR_leaderName}! Take from the weak and annihilate those who oppose you – that is the way the universe works.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Likes players that have attacked a settlement.</Data></Cell>
+    <Cell><Data ss:Type="String">Likes players that have attacked a settlement.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_SETTLEMENT_INFLUENCE_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are wasting your time talking to puny losers when actions speak so much louder, {STR_leaderName}. Are you really this weak?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players that have helped a settlement by paying influence.</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players that have helped a settlement by paying influence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OPINION</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_CASUSBELLI_01</Data></Cell>
+    <Cell><Data ss:Type="String">Let me tell you what I told others: if you cross me, I will end you. Consider this a final warning.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dislikes players when the player has one or multiple Casus Belli points against them. (on top of the opinion penalty they already get for that)</Data></Cell>
+    <Cell><Data ss:Type="String">Dislikes players when the player has one or multiple Casus Belli points against them. (on top of the opinion penalty they already get for that)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_COMPLIMENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">Great to see a Leader who knows what true force is! Crush them, {STR_leaderName}! Let them tremble before you!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">RUTHLESS_INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">You are so weak I will not even feel it when I crush you beneath my feet. Ants show more resistance and courage than you do. </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>76</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>90</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

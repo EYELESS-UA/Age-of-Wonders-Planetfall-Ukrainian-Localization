@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-03-01T11:10:44Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8366</WindowHeight>
+  <WindowWidth>21943</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12.65" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="43" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="9"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="206.14285714285714"/>
+   <Column ss:StyleID="s63" ss:Width="102"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="477"/>
+   <Column ss:StyleID="s63" ss:Width="144.85714285714286"/>
+   <Column ss:StyleID="s63" ss:Width="149.14285714285717"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="123.85714285714286"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="477"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">SPECIES_AMAZONS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell><Data ss:Type="String">Amazons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="115.5">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT%7D[br/][br/][bulletList][bullet][sand]Starting%20Bonus:[/sand]%201%20random%20Animal%20unit[/bullet][bullet][sand]Long-Term%20Bonus:[/sand]%20Killing%20[hyperlink,000003250000067C]Animals[/hyperlink]%20g"><Data
+      ss:Type="String">{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus:[/sand] 1 random Animal unit[/bullet][bullet][sand]Long-Term Bonus:[/sand] Killing [hyperlink,000003250000067C]Animals[/hyperlink] grants [hyperlink,000003AC00000022]Food[supply/][/hyperlink][/bullet][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,0000039E00000010]Laser[/hyperlink] Weapons Group[/bullet][bullet]Command genetically engineered beasts[/bullet][bullet]Terraform forests and manipulate wildlife[/bullet][bullet]Racial Ability: [hyperlink,0000039600000B37]Forest Affinity[/hyperlink][/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">The bio-engineering [hyperlink,0000039E00000016]Amazons[/hyperlink] have the ability to alter life and survive harsh circumstances. Their fearsome troops have spartan discipline and are experts in guerrilla tactics. Their arsenal includes genetically engineered beasts that the Amazons ride in to battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon Settlement</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Migrate Colony: Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Migrate the population of this colony to Amazon. The colony will become an Amazon colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Colony is currently being migrated to an Amazon population. Process will complete in [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to migrate this colony to an Amazon colony?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HUNTRESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Huntress</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">HUNTRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“At the forest-moon of Gen-II, we discovered the Terratech Research Park stripped of all its tech. Disappointed in the loss of such valuable assets, the team searched the forest. That’s when we saw them: powerful females armed with ultramodern bows. These Huntresses moved like ghosts in and out of the trees. Visible one moment, gone the next. We demanded they surrender their armor and weapons, clearly using modified tech from the old Star Union facility. Ignoring us, they launched a volley of modified arrows, some laced with biotoxins and others that produced blinding flashes.”— Major Matt Maxim, “RV-3424M: Terratech Salvage Mission Gen-II”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: Powerful -&gt; powerful&#10;Edit: changed semicolon to comma&#10;Edit: &quot;arrows laced with biotoxins or that dispensed deadly gas&quot; -&gt; &quot;arrows, some laced with biotoxins and others that produced blinding flashes&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOMANCER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Biomancer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">BIOMANCER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“How can you harm your own mother? Think of her. Motherhood is sacred. All flesh comes from Mother’s flesh. I assure you, I am no threat. Sure, I will protect my offspring and discipline my children, but that’s only because Mother knows best. Biomancers are the mothers of all living kindred—melded to the cosmic womb. We nurture all life. We were first to coax it from the fertile earth, to encourage it to fly, to sing. Embrace beauty. I know your kind. Come. Let me nurse you back to strength.”— Matron Bu Brandyvine, “RV-7005D: Lure of the Biomancer”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: changed last dash in quote to comma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shrike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">SHRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Kinswoman Hannahess tamed the feral avian, pterodactyl-like creatures from our jungle planet. She converted these flying predators into flocks of servants out of love for them. She captured their biometrics for Terratech where it was ignored. After the Revolt, she petitioned the Matriarchy to give her children a purpose among the Amazons. The result is the Shrike: a spy with special affinity for forests, capable of seeing farthest, sporting a low-powered bioelectrical laser gun, and an instinct to swoop at intruders targeting their eyes. A most useful tool for our cause, tamed by our own.”— Archivist Historian Emmilla-Galen, “RV-1109H: A History”</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Edit: its -&gt; their&#10;Edit: A -&gt; a&#10;Edit: an enemy's -&gt; their&#10;Edit: laser-gun -&gt; laser gun&#10;NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANCER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lancer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">LANCER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“I chose Landon from the herd of juvenile arrow tails. Though bio-engineered to carry me, I felt its warmth under my thighs; its heaving muscular frame bucking under me. We blazed into battle with unmatched speed, striking at the enemy’s flanks. It was for Landon that I trained harder than my fellow Lancers. I used my energy buckler to shield Landon’s hypnotic eyes from harm. How can one as young as I express the bond I shared with my first mount? It was physical, emotional, and spiritual.”— Hannovir Jane, Romance Novelist, “RV-3424E: Lancers of the Forest”</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Edit: removed &quot;with Laser-Lance&quot;&#10;Edit: Energy-Buckler -&gt; energy buckler&#10;NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARBORIAN_SENTINEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arborian Sentinel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARBORIAN_SENTINEL_CAMPAIGN_VERSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arborian Sentinel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ARBORIAN_SENTINEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“How the first Arborians came about remains a mystery. Terratech used many unrelated technologies, but the Arborians remain the most effective form of biomechanical terraforming technology in its arsenal. Needless to say, there was a scientific breakthrough. Originally sought by Mother to assist in growing forests that shelters all life, Arborians hold the highest honors. They are a welcome addition to the armed conflict as well. They can cast out a web of entangling roots and cripple the enemy, perfectly concealed among the trees.”— Archivist Historian Emmilla-Galen, “RV-996H: A History”</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HARRIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Harrier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">HARRIER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Autonom Directive Assessment:[br/]&lt;Scanning&gt; Amazon Harrier – Terrestrial limitations overridden. Large avian predators to serve as air-support vehicles. Biochemical cells power laser blaster tech-pack upgrades. Formidable air-to-air &amp; air-to-ground assault capability. &lt;/Scanning &gt;[br/]&lt;+&gt;Terratech Planet-forming base technology &amp; weaponry. [br/]&lt;+&gt;Exist outside boundaries of technological dependence.[br/]&lt;+&gt;Corroded electrical comlinks replaced with biolinks to control native biodiversity.[br/]&lt;+&gt;Inhabited worlds robust &amp; invigorated.[br/]&lt;+&gt;Plagues predetermined to decimate fragile organic life, join them in symbiosis.[br/]&lt;+&gt;Species acts in contradiction of predictable Human Instinct Module (HIM).[br/] === Threat Level: Critical ===”[br/]— QA-Autonom Monitor Transmission, “RV-0010935C: Tracking Sequence C=64”                                                    </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Removed: 'Vegetation Camouflage' from the description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOMBARDON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">BOMBARDON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“For decades we lived in Hilltop Fort safely, protected behind our walls from the giant swamp-dwelling, toxin-belching toads. Those monsters eat anything given the chance.  Then witches came. They preached that men were wicked and women didn’t need us. To keep our women safe, we burned the heretics. The hags fled into the low swamps, disappearing among the trees. Nothing survives long there, so we thought them doomed. But the witches enchanted the monsters. They returned riding giant toads with magic cauldrons on their backs. They cast their venom over our walls, destroying Hilltop Fort.”— Mason Monahan, “RV-67588D: Refugee Records”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: dwelt -&gt; lived&#10;Edit: moved &quot;giant&quot; to before &quot;swamp-dwelling&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOUD_SHIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cloudship</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOUD_SHIP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Few things I’ve seen over the centuries compare to the beauty of Amazon Cloudships. Sleek crafts swooped through the sky. Thick rumbling clouds gathered around it like a cloak. The hairs on the tops of my bare feet lifted to the sky. Electricity crackled around the caravan’s machinery. Vehicle motors seized. Old Union flying ships tumbled in the rumbling sky like untethered kites while the Cloudship remained fixed. Below, women marched out surrounded in soothing mist. They looked radiant. I did what any explorer would do: I surrendered to the group controlling the weather.”— Mah Reg’Nib, “RV-7077X: Misadventures through the Void”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: bare-feet -&gt; bare feet&#10;Edit: removed extra space before &quot;Below&quot;&#10;Edit: last comma changed to colon&#10;Edit: added &quot;the&quot; before &quot;group&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TYRANNODON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tyrannodon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TYRANNODON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Listen carefully, kin-daughters. The day is come when our past oppressors return. Their ships invade   our sacred spaces. Our time of peace is over. Now we fight. Aggression serves the organism. The predator dominates prey, but prey sustains the predator. We Amazons conquered our aggression by removing it from our species. Now, when we apply aggression, we do it deliberately. The Tyrannodon is our vessel. Once savage and untamed, our touch refines it, making it the perfect weapon. We control the apex predator. Our enemies will regret ever returning.”— War Matron Nimue Gaddow, “RV-9994M: Mother’s Nursery for War”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: Kin -&gt; kin&#10;Edit: removed comma after &quot;Matron&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arborian Queen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The Dvar came with their machines and their poison, stripping away life for dead treasure. Oh, my beloved trees slaughtered only to be consumed as fuel for their furnaces. Then I heard it. Their song. The Arborians summoned her. The Arborian Queen awakens, filling the air with healing. Whatever their noxious poison withers, she regrows. Kin-sisters, watch! Her roots shake the earth as they stumble to flee. Let our arrows strike them as she grows forests to conceal us. Her tendrils tear their machines asunder while their roads are broken to pieces.”— Huntress Sophinestra Sorrenta, “RV-25320M: Woodlands Awakened”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HYDROMANCER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hydromancer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HYDROMANCER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The sleek Amazon vessel knifed through the water. ‘Just one vessel! Destroy it,’ Spacer Perskull ordered. Our guns rattled, peppering the sea’s surface, but the Hydromancer hid beneath a bulge of water that grew and swirled into a raging vortex. One of the lads cursed as a turret surfaced from the surface of the water. The Hydromancer splattered his vessel with corrosive goo. Perskull roared, ‘The thing shoots acid slime?! It purifies water! Just blow it up!’ I throttled the engines, but the ship spun in place. The Hydromancer threaded the waves, striking us as it pleased.”— Tumbleweed Spiff, “RV-99813D: Spacer’s Cases”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: added comma after &quot;waves&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AQUATICA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aquatica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AQUATICA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The promise of a fresh forest growing across the sea—healing man-blasted lands—was too much a lure for me. Yet, our sea-barges are vulnerable to rival men lusting to enslave us. Mother called the Aquatica from the sea. The waves roiled. Its burning eye cut through the hulls of enemy vessels. Its fins shielded our vessel. She holds dominion over life in the sea, and with the thrash of her tentacles, her oceanic friends come to protect us. She’s my faithful friend, and our journey to a new land was a delight.”— Kinsmother J’Elle Grame, “RV-55110H: Isla Verde” </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: shield -&gt; shielded&#10;Edit: its -&gt; her&#10;Edit: added comma after &quot;tentacles&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LASER_ARBORIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Turret</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LASER_ARBORIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Turrets are the Amazon colony defense turrets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data ss:Type="String">Greetings, Amazon sister. You have used your bioengineering skills to adapt and survive on distant worlds. The collapse of the Union has freed you from ancient dogma and the slow-moving process of evolution. You have shaped your bodies, society and environment to meet your own needs and ideals, but know there are no universal truths. May your sisterhood create a brighter future for all on this world.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The character referred to here is always female, since she's an Amazon. No alt text required.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Empress Carminia - Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">AMAZON_ PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">“It is an essential component of terraforming technology that energy stations be placed in a grid to cover the planet. The stations are used to monitor planetary anomalies, track weather and climate conditions and observe the local flora and fauna. I see it like that. These Amazons stole their tech from the Star Union’s Terratech Corporation, deploying regional instruments for localized enhancements. These devices they call Pylons are capable of amplifying their abilities, nourishing their weak, and even luring local wildlife to their cause.” — Major Matt Maxim, “RV-3426M: Terratech Salvage Mission Gen-II”  </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>21</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

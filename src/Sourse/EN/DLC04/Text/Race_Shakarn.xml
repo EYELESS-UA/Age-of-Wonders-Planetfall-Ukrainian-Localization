@@ -1,0 +1,880 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <LastSaved>2020-01-23T11:17:38Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="136" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="389.25"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="80.25"/>
+   <Column ss:StyleID="s62" ss:Width="78.75"/>
+   <Column ss:StyleID="s62" ss:Width="106.5"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="388.5"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">RACE_SHAKARN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">Ajaya </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">Amaranth Fortress</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">Argos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Auric Fastness</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">Auric Summit</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">Auros </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">Autytomos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">Azure Basin</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">Baryos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Benya </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">Black Fin  Fortress</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_12</Data></Cell>
+    <Cell><Data ss:Type="String">Brass Garrison</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_13</Data></Cell>
+    <Cell><Data ss:Type="String">Brass Tower</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_14</Data></Cell>
+    <Cell><Data ss:Type="String">Bright Bow</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_15</Data></Cell>
+    <Cell><Data ss:Type="String">Cerulean Castle</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_16</Data></Cell>
+    <Cell><Data ss:Type="String">Cerulean Port</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_17</Data></Cell>
+    <Cell><Data ss:Type="String">Chrome Citadel</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_18</Data></Cell>
+    <Cell><Data ss:Type="String">Chrome Fortress</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_19</Data></Cell>
+    <Cell><Data ss:Type="String">Cobalt Keep</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_20</Data></Cell>
+    <Cell><Data ss:Type="String">Copper Stronghold</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_21</Data></Cell>
+    <Cell><Data ss:Type="String">Crescent Castle</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_22</Data></Cell>
+    <Cell><Data ss:Type="String">Crimson Fastness</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_23</Data></Cell>
+    <Cell><Data ss:Type="String">Cyan Castle</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_24</Data></Cell>
+    <Cell><Data ss:Type="String">Cyprokos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_25</Data></Cell>
+    <Cell><Data ss:Type="String">Danyos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_26</Data></Cell>
+    <Cell><Data ss:Type="String">Erudite Keep</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_27</Data></Cell>
+    <Cell><Data ss:Type="String">Erudite Summit</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_28</Data></Cell>
+    <Cell><Data ss:Type="String">Eruditos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_29</Data></Cell>
+    <Cell><Data ss:Type="String">Exalted Fortress</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_30</Data></Cell>
+    <Cell><Data ss:Type="String">Fynia </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_31</Data></Cell>
+    <Cell><Data ss:Type="String">Genios </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_32</Data></Cell>
+    <Cell><Data ss:Type="String">Gold Haven</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_33</Data></Cell>
+    <Cell><Data ss:Type="String">Great Indytia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_34</Data></Cell>
+    <Cell><Data ss:Type="String">Halilos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_35</Data></Cell>
+    <Cell><Data ss:Type="String">Heros </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_36</Data></Cell>
+    <Cell><Data ss:Type="String">Iakopea </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_37</Data></Cell>
+    <Cell><Data ss:Type="String">Illomos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_38</Data></Cell>
+    <Cell><Data ss:Type="String">Indytia </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_39</Data></Cell>
+    <Cell><Data ss:Type="String">Iridium Acropolis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_40</Data></Cell>
+    <Cell><Data ss:Type="String">Iridium Halls</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_41</Data></Cell>
+    <Cell><Data ss:Type="String">Iron Plateaus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_42</Data></Cell>
+    <Cell><Data ss:Type="String">Ivory Fortress</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_43</Data></Cell>
+    <Cell><Data ss:Type="String">Ivory Tower</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_44</Data></Cell>
+    <Cell><Data ss:Type="String">Jaffeteos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_45</Data></Cell>
+    <Cell><Data ss:Type="String">Kalinos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_46</Data></Cell>
+    <Cell><Data ss:Type="String">Karkolos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_47</Data></Cell>
+    <Cell><Data ss:Type="String">Kypia </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_48</Data></Cell>
+    <Cell><Data ss:Type="String">Lacyrta </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_49</Data></Cell>
+    <Cell><Data ss:Type="String">Lead Garrison</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_50</Data></Cell>
+    <Cell><Data ss:Type="String">Lylaea </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_51</Data></Cell>
+    <Cell><Data ss:Type="String">Malachite Dome</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_52</Data></Cell>
+    <Cell><Data ss:Type="String">Malachos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_53</Data></Cell>
+    <Cell><Data ss:Type="String">Mikaelos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_54</Data></Cell>
+    <Cell><Data ss:Type="String">Myckos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_55</Data></Cell>
+    <Cell><Data ss:Type="String">Mygaera </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_56</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Cyros </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_57</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Maryos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_58</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Novos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_59</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Rhenya </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_60</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Shakor </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_61</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Tortylos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_62</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Tyrannos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_63</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Vasylos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_64</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-Yorea </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_65</Data></Cell>
+    <Cell><Data ss:Type="String">Nyckos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_66</Data></Cell>
+    <Cell><Data ss:Type="String">Opal Dome</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_67</Data></Cell>
+    <Cell><Data ss:Type="String">Opal Stronghold</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_68</Data></Cell>
+    <Cell><Data ss:Type="String">Orreos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_69</Data></Cell>
+    <Cell><Data ss:Type="String">Pale Halls</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_70</Data></Cell>
+    <Cell><Data ss:Type="String">Palladyos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_71</Data></Cell>
+    <Cell><Data ss:Type="String">Parodos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_72</Data></Cell>
+    <Cell><Data ss:Type="String">Platinum Acropolis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_73</Data></Cell>
+    <Cell><Data ss:Type="String">Platinum Spire</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_74</Data></Cell>
+    <Cell><Data ss:Type="String">Portos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_75</Data></Cell>
+    <Cell><Data ss:Type="String">Promethium Pier</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_76</Data></Cell>
+    <Cell><Data ss:Type="String">Radiant Acropolis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_77</Data></Cell>
+    <Cell><Data ss:Type="String">Radykos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_78</Data></Cell>
+    <Cell><Data ss:Type="String">Ronovos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_79</Data></Cell>
+    <Cell><Data ss:Type="String">Royal Citadel</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_80</Data></Cell>
+    <Cell><Data ss:Type="String">Ryptilos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_81</Data></Cell>
+    <Cell><Data ss:Type="String">Sanctos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_82</Data></Cell>
+    <Cell><Data ss:Type="String">Sapphire Citadel</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_83</Data></Cell>
+    <Cell><Data ss:Type="String">Sassos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_84</Data></Cell>
+    <Cell><Data ss:Type="String">Sekrya </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_85</Data></Cell>
+    <Cell><Data ss:Type="String">Shimmering Fortress</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_86</Data></Cell>
+    <Cell><Data ss:Type="String">Shimmering Tower</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_87</Data></Cell>
+    <Cell><Data ss:Type="String">Silicon Halls</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_88</Data></Cell>
+    <Cell><Data ss:Type="String">Silicon Valley</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_89</Data></Cell>
+    <Cell><Data ss:Type="String">Silver Tower</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_90</Data></Cell>
+    <Cell><Data ss:Type="String">Steel Garrison</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_91</Data></Cell>
+    <Cell><Data ss:Type="String">Sunstone Demesne</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_92</Data></Cell>
+    <Cell><Data ss:Type="String">Titanyos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_93</Data></Cell>
+    <Cell><Data ss:Type="String">Uranium Port</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_94</Data></Cell>
+    <Cell><Data ss:Type="String">Vermillion Fastness</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_95</Data></Cell>
+    <Cell><Data ss:Type="String">Violet Halls</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_96</Data></Cell>
+    <Cell><Data ss:Type="String">Vivid Fortress</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_97</Data></Cell>
+    <Cell><Data ss:Type="String">Yakopos </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_98</Data></Cell>
+    <Cell><Data ss:Type="String">Ygeana </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_99</Data></Cell>
+    <Cell><Data ss:Type="String">Zaffre Keep</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">Attuned</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">Autotomic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">Brilliant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Cold-Blooded</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">Commanding</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">Controlled</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">Crested</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">Dominating</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">Domineering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Enlightened</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">Epimorphosic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_12</Data></Cell>
+    <Cell><Data ss:Type="String">Gilded</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_13</Data></Cell>
+    <Cell><Data ss:Type="String">Glistening</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_14</Data></Cell>
+    <Cell><Data ss:Type="String">Glorious</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_15</Data></Cell>
+    <Cell><Data ss:Type="String">Honoured</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_16</Data></Cell>
+    <Cell><Data ss:Type="String">Ivory</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_17</Data></Cell>
+    <Cell><Data ss:Type="String">Majestic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_18</Data></Cell>
+    <Cell><Data ss:Type="String">Noble</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_19</Data></Cell>
+    <Cell><Data ss:Type="String">Pretender</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_20</Data></Cell>
+    <Cell><Data ss:Type="String">Reptillian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_21</Data></Cell>
+    <Cell><Data ss:Type="String">Royal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_22</Data></Cell>
+    <Cell><Data ss:Type="String">Scaled</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_23</Data></Cell>
+    <Cell><Data ss:Type="String">Sharptongue</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_24</Data></Cell>
+    <Cell><Data ss:Type="String">Shimmering</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_25</Data></Cell>
+    <Cell><Data ss:Type="String">Silver</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_26</Data></Cell>
+    <Cell><Data ss:Type="String">Strategic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_27</Data></Cell>
+    <Cell><Data ss:Type="String">Subjugating</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_28</Data></Cell>
+    <Cell><Data ss:Type="String">Titanium</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_29</Data></Cell>
+    <Cell><Data ss:Type="String">Triumphant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_30</Data></Cell>
+    <Cell><Data ss:Type="String">Turncoat</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_31</Data></Cell>
+    <Cell><Data ss:Type="String">Two-Sided</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_32</Data></Cell>
+    <Cell><Data ss:Type="String">Ultrasonic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_33</Data></Cell>
+    <Cell><Data ss:Type="String">Unveiled</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_34</Data></Cell>
+    <Cell><Data ss:Type="String">Warborn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_35</Data></Cell>
+    <Cell><Data ss:Type="String">Waterborne</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>132</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>141</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

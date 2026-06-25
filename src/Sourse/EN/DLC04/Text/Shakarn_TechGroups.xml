@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2020-02-27T14:22:13Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8670</WindowHeight>
+  <WindowWidth>14475</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="73" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="234.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="117"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="237.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="402"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="270.75"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHAKARN_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dwelling Intimidation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By using a combination of blackmail and direct threats the Shakarn can intimidate their foes into profit.[br/][br/]Gain a {InfluenceDiscount}%[influence/] discount when dealing with NPC Factions. Faction War Quest rewards trigger at {NewNumberOfUnits} units defeated, instead of {StandardNumberOfUnits}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Faction War Quests is a special mechanic that rewards players who do well when fighting against a NPC Faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Homeworld Reminiscence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Shakarn’s homeworld is 90% oceanic, covered by atolls and archipelagos. Through promoting festivities next to bodies of water, the Shakarn colonists  can reminisce about their homes and those they left behind.[br/][br/]Colonies gain +{FoodAmount}[supply/] and +{HappinessAmount}[happiness/] if the coastal or river feature is in their domain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">&quot;An atoll, sometimes called a coral atoll, is a ring-shaped coral reef including a coral rim that encircles a lagoon partially or completely.&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scorched Earth Policy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your people are attuned to the rhythm of war and will be faster and more efficient when razing enemy colonies.[br/][br/]Resources gained from razing enemy colonies and sector bases is increased by {RazeBonus}% and it takes {TurnsSpeedUp}[turn/] less to raze.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Active Agent Networks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By facilitating communication between active agents, intelligence travels faster.[br/][br/]Gain +{Strength}[operationstrength/] when using [abilityblue]Infiltrate Operations Center[/abilityblue][br/]Gain +{InfluenceAmount}[Influence/] and +{KnowledgeAmount}[Research/] per turn for each active infiltration on a unique player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Heightened Domok Regimen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Increasing the presence of veteran Domok advisers helps you with military training and conscription, increasing the efficiency of all units and reducing their maintenance.[br/][br/]All units deal +{DamageIncrease}% damage, gain +{AccuracyIncrease}% accuracy, and have their [energy/] upkeep reduced by {ReductionPercentage}%.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">This unit deals +{DamageIncrease}% damage and has +{AccuracyIncrease}% accuracy. In addition, its upkeep is reduced by {UpkeepDiscount}%.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Holocrafted Zardas Channels</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Increasing the number of Zardas advisors helps you craft and maintain a holocrafted network of signals, allowing your agents to communicate through subtle holographic codes hidden in plain sight, while confounding your enemies.[br/][br/]Covert Operations cost {OpDiscount}% less to prime and you gain +{DefenseAmount}[operationDefense/] Operational Defense.[br/]Infiltrators now deal +{Damage}% damage, even when Holoshifted.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">holocrafted - created through holograms</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Replicating Restoration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Remove target friendly unit's negative Status Effects and heal it for {HPAmount}[hp/]. This effect jumps to {OtherTargets} other units within {HexRange} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hololusion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hologram + Illusion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All friendly units in a {HExRad} hex radius gain a {EvasionAmount}% evasion and +{ShieldAmount}[Shield/] for {BuffDuration}[turn/]. All enemy Biological and Cyborg units in the area have a {DisorientedChance}[StrengthPhysical/] strength chance of getting [abilityred]Disoriented[/abilityred], gaining a {FumbleChance}% fumble chance for {DisorientedDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has +{Evasion}% evasion and +{Shields}[shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Orbital Abduction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target unit has a chance, based on how low its [hp/] is, of being transported into the orbital layer for research, killing the unit.[br/]Chance increases further if the unit is [abilityred]Concussed[/abilityred], [abilityred]Disorientated[/abilityred], [abilityred]Impaired[/abilityred],[br/][abilityred]Stunned[/abilityred], [abilityred]Sleeping[/abilityred] or [abilityred]Disabled[/abilityred].[br/]Gain {KnowledgeAmount}[research/] per tier of the abducted unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Omni Flare</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Omni Flare deals {ThermalAmount}[damageThermal/] and {SoundAmount}[damagePhysical/] to units in a {HexRange} hex range. Has a {ImpairedChance}[strengthPhysical/] strength chance of applying [abilityred]Impaired[/abilityred], disabling unit mods and applying [abilityred]Slow[/abilityred] for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disinformation Campaign</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Spread disinformation through the media channels of target player, reducing their relation with all races by -{RaceReduction}[opinion0/] for {Duration}[turn/].[br/]On failure, applies -{RaceReductionFailure}[opinion0/] instead.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Our agents successfully infiltrated the enemy's news networks and social media, spreading false information undetected.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Our agents successfully infiltrated the enemy's news networks and social media, spreading false information, but the enemy identified and banned our accounts, and is now aware of our involvement.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Our agents didn't get the media traction they needed to damage the enemy's reputation. Luckily for us, the enemy couldn't identify our agents or track our accounts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Our agents didn't get the media traction they needed to damage the enemy's reputation. Even worse, our influencers and news anchors were caught and broke under enemy interrogation, revealing our involvement.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy agents infiltrated our news networks and social media, misdirecting and deceiving the populace, portraying our government as corrupt and immoral! Regardless of the accuracy of these attacks, we caught the agents and now know who is responsible, but our race relations have been reduced until we can clean our image.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">We discovered enemy agents infiltrated on our social media, but our counterintelligence operatives caught them, blocked their accounts and identified the source of this attack. Unfortunately, the small amount of misinformation they spread still damaged race relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy agents infiltrated our news networks and social media, misdirecting and deceiving the populace, portraying our government as corrupt and immoral! Truthful or not, our race relations have been reduced until we can clean our image.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">We discovered enemy agents infiltrated on our social media, but our counterintelligence operatives were too late to stop them. Fortunately, they lacked the traction to make their claims go viral and only a small amount race relations was lost.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Race relations drop by -{RaceRelation}[opinion0/] for {Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motivating Broadcasting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All colonies with a [abilityblue]Propagation Tower[/abilityblue] gain +{ProductionColony}[production/].[br/][br/]In addition, during combat on the domains of these colonies, all units gain +{MoraleAmount}[happiness/].[br/]All friendly Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">The Propagation Towers are now spreading motivational imagery.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_PROPAGATOR_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagation: Motivation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">When this unit enters combat, it grants +{Morale}[happiness/] to all friendly units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units of the owner of the broadcast gain {MoraleIncrease}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unsettling Propaganda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Attempt to spread false and disturbing propaganda on target enemy colony, causing {Unhappiness}[anger/] for {Duration}[turn/] as well as up to {RioterAmount}[rioter/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">We have successfully spread propaganda on the enemy colony that is so unsettling that it would make even a Kir'Ko blush!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy counterintelligence stopped our agents from doing their work properly, though the attempt has left the colony in a state of civil unrest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Someone spread distasteful propaganda through our colony, unsettling the local population.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">An attempt was made to spread vile propaganda on our colony, but our counterintelligence team stopped them in time, though the attempt has left our colony in a state of civil unrest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">{UnhappinessAmount}[anger/] for {Duration}[turn/] as well as gaining {RioterAmount}[rioter/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vigilant Broadcasting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All colonies with a Propagation Tower gain +{OperationalDefense}[OperationDefense/][br/][br/]In addition, during combat on the domains of these colonies, all units gain +{ShieldGain}[shield/].[br/]All Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">The Propagation Towers are now spreading messages of vigilance and holoreal shields.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_PROPAGATOR_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagation: Shields</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">When this unit enters combat, it grants +{Shields}[shield/] to all friendly units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units of the owner of the broadcast gain {ShieldIncrease}[shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Holoreality Broadcasting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All colonies with a Propagation Tower gain +{Happiness}[happiness/][br/][br/]In addition, at the start of each turn in combat on the domains of these colonies, all enemy non-Mindless units have a {HallucanationChance}[strengthPsyche/] chance of becoming [abilityred]Hallucinating[/abilityred] for {Duration}[turn/].[br/]All Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">The Propagation Towers are now spreading holoreal objects and entertainment to your citizens while confusing and befuddling enemies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_PROPAGATOR_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagation: Illusions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">At the start of each comabt turn, non-Mindless enemy units have a {HallucinatingChance}[strengthPsyche/] chance to become [abilityred]Hallucinating[/abilityred] for {duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">At the start of each turn, non-Mindless enemy units have a {HallucinateChance}[strengthPsyche/] of becoming [abilityred]Hallucinating[/abilityred] for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Weighted Holograms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Infiltrator units you control gain +{Armor}[armor/] and {DamageIncrease}% damage increase, even when Holoshifted.[br/]Holoshift can now target Mechanical units. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Holoshift can now target Mechanical units.[br/]This unit gains +{Armor}[armor/] and deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lifelike Holograms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All Infiltrator units you control gain +{Shield}[shield/] and {DamageIncrease}% damage increase, even when Holoshifted.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit gains +{Shield}[shield/] and deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASTING_INSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">COLONY_FRIENDLY_PROPAGATION</Data></Cell>
+    <Cell><Data ss:Type="String">Affects all friendly colonies with Propagation Towers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_3_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>45</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>54</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

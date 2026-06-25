@@ -1,0 +1,1823 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tom Bird</Author>
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <LastPrinted>2019-08-01T11:36:28Z</LastPrinted>
+  <Created>2019-05-07T15:06:48Z</Created>
+  <LastSaved>2019-09-25T10:40:00Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13635</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="218" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="139.5"/>
+   <Column ss:StyleID="s62" ss:Width="201"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="317.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:Width="262.5"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SURVEYING_UNIQUE</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UNIQUE_SURVEY_SITE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Large Anomalous Site</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UNIQUE_SURVEY_SITE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This anomalous site can be explored by a hero to recover research data and reveal secrets of the Star Union.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Lost Legion</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A massive Paragon estate, guarded by a static legion of Paragon soldiers.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paragon are an in game faction</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">While setting up the perfect selfie, we stumbled upon a vast subterranean ruined city. Descending into a vertical airshaft, we located a well-preserved Paragon estate, still properly shielded. Just outside the safety of the secured perimeter, and powerful ranks of shield troopers stood in formation, unmoving as though frozen in stasis. Legions of elite Paragon forces arrayed in all their impressive power encircled the estate, doing nothing, standing perfectly still.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The legion remained transfixed as we passed. The shielded gate swung aside with a deafening hiss. Just beyond, a Paragon Governor greeted us with weapons trained in our direction. His augments were immaculate, and his hands crackled as he discharged a surge of energy through powerful implants. The arc of energy was a warning shot. Elite soldiers in perfect working order stood beside him, targeting us with their weapons. They regarded us as though not aware of the Star Union's fall, nor that they live in a ruin.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paragon Governor is male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Perform the Vanguard Greeting Protocol</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vanguard are an in game playable race</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Conducting the Vanguard Greeting Protocol according to doctrine</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We hailed the Paragon with codes given to our expedition. Recognition flickered like a smile in the Governor's expression, and he explained that a Synthesis AI weapon named NEKRIS has besieged them for over a century, turning his troops into mindless drones. Decade after decade, they retreated into an ever-smaller shielded area as the city fell block by block. The Governor looked to us to assist them and destroy NEKRIS to free him and his men from their tyranny.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NEKRIS is a Synthesis AI weapon</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Let our diplomats diffuse the situation </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Our diplomats are negotiating with the ancient Paragon Governor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Our diplomats found that traditional greetings alleviated their alarmed state. The Paragon leader explained his predicament. For over a century, an AI weapon codenamed NEKRIS, capable of seizing control of cybernetics, assaulted their city. Little by little, the governor's forces withdrew. He lost territory to its relentless advance. He claimed NEKRIS was a Synthesis tool that objected to his affiliation with CORE. He gestured to his frozen legions and begged us to find NEKRIS and set them free.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CORE is an omnipotent interplanetary governing AI</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Attack the Governor and loot the estate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The governor scoffs at your brazen insult, and with a short, dignified gesture, orders his men to engage. Paragon Guard immediately form a protective wall between us and the governor as his other men dart for cover, ready to engage!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paragon Guard is a nomer for a unit of multiple guards (so it's plural)</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paragon Elite troops stand at the gate of a Paragon estate, guarding their master zealously, prepared to repel any invader.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paragon Elite are male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">With the Governor and his elite guard defeated, our troops swiftly turned to looting the estate, finding much of value. Most notable amongst the findings was a vast library, a database containing classified information of all kinds. Our scientists recovered a wealth of useful knowldge!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mention of specific secret tech has been removed</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Let the Paragon vouch for us</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Negotiating with Paragon assistance</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We already knew the Paragon were willing to diffuse the situation, and the governor of the underground ruin told us his story. He and his city were isolated nearly a century ago by a Synthesis AI weapon codenamed NEKRIS. It commandeered his legions and pushed his forces deeper into the city center. The Paragon asked for our assistance in fighting NEKRIS so that they may all be set free.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As the gate closed behind us, we looked around us at the ruins. There were decayed Paragon legions scattered all around the city. NEKRIS could have been hiding in any of them. We were fortunate to have made it to the center without being attacked, but now we feel strangely trapped. We assembled some equipment and prepared for an ambush. Our presence alone was apparently not enough to trigger the NEKRIS daemon's hostility matrices. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Find and destroy NEKRIS manually</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We march over the path, troops inspecting the fallen cybernetic legions for signs of the virus. Suddenly, several of the troops awaken. Network activity spikes as their eyes lock onto us. Soldiers move to defend the network monitor. NEKRIS is on the move! We must destroy the hosts around it to prevent its escape. Deprive it of hosts and it will fall!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NEKRIS certainly senses our mission, for it awakened the statuesque soldiers to attack us. It is spreading through them, activating them one by one. We must act quickly or they will all be lost, and this terrible weapon will attempt to escape.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As the last of the infected troopers fell, NEKRIS fell with it, losing its grip on all the frozen legions. It seems these soldiers were decayed well beyond a salvageable point, mind scrambled by the enemy AI weapon. Our researchers, after a quick study of the remnants of NEKRIS and its effect on the troopers, have uncovered new insights into computing and cybernetics!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Use a Synthesis Daemon to lure out and attempt to capture NEKRIS</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Our hackers infuse the nearest troopers with a modified Countermeasure Daemon. It swiftly possesses and purges the stunned trooper of compromised decision circuits. It propagates from troop to troop, countering the damage done by NEKRIS and removing its ability to control the legions. Suddenly, several of the troops awaken, their eyes locked onto us. NEKRIS knows we are to blame. It is trying to physically counteract our attempts to control it. The awakened troopers move to destroy us. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Countermeasure Daemon is a Synthesis hacking device</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Unfortunately, our Countermeasure Daemon is detected and we cannot move quickly enough to counter NEKRIS's defenses. We must fight the activated troopers to give our Countermeasure Daemon time to nullify the rest of NEKRIS's control.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We did it! Fighting the troopers gave our Countermeasure Daemon time to spring its trap. NEKRIS is trapped in a single disabled system. It cannot activate its own control circuits thanks to our clever hackers and mad coding skills. Our Hackers get to work disassembling the NEKRIS's core subroutines and examining its exotic code features. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Use an EMP to thin out NEKRIS's potential hosts</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We discharged an EMP to disable the most immediate threat, only to discover NEKRIS was backed up in some of the more shielded implants. It is moving to counter our hostile attack with its own version of hostility. The Paragon troopers lurch forward and begin discharging their weapons!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NEKRIS is on the move, searching for our threats and eliminating any hostile entities in the area&#45;-in this case, anything that breathes. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As the last of the infected troopers falls, NEKRIS is left bound in the body of a decayed and damaged cybernetic servo, twitching with frustration. Unfortunately, none of the troopers is salvageable, having decayed beyond the point of repair, but the remnants of NEKRIS will serve our researchers quite well. We will dissect it shortly. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Returning to the Governor, the Paragon hailed us with gratitude. He kept unconciously pawing at his own cybernetic implants, as if not quite believing that the threat to his being had ended. True to his word, he renounced his love of CORE and promised his fealty to us. He then addressed us, asking us quite pointedly why we came to this world in the first place.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">To conquer this world</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Governor shook his head wearily and said, &quot;There's never enough world for that type of ambition, but we will aide you nonetheless.&quot; His elite troopers fell into formation behind him, and their implants suddenly took on the appearance of our own insignias.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">To bring peace to this world</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Governor gave a half grin and stated, &quot;The only true peace is the extinction of sentience. Life is nothing but conflict.&quot; Finding his answer unnerving, we countered that our way of life is far superior and more evolved than his. He nodded and offered to help train our diplomatic envoys in the detailed nature of civil discourse and universal greetings. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">To uncover secrets of the past</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Governor nodded and then stated with a laugh, &quot;So you do not wish to sleep well?&quot; We didn't quite know how to respond, but he reassured us that he has a vast library of technology and research projects from the past, and that part of his previous duties entailed maintaining Star Union projects and secrets. He offered his vast stores of understanding to us.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">COUNTERMEASURE_DEAMON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Countermeasure Daemon</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Name of a Combat Effect</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">COUNTERMEASURE_DEAMON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Daemon we unleashed among the frozen legion is eliminating hosts one by one. Every [turn/], {Killcount} unawakened soldier is destroyed.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Description of a Combat Effect</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FORGOTTEN_EMP_COMBAT_EFFECT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EMP</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Name of a Combat Effect</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FORGOTTEN_EMP_COMBAT_EFFECT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The EMP we prepared is ready to detonate and will wipe out {KillCount} potential hosts.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Description of a Combat Effect</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GOVERNORS_BOON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Forgotten Paragon's boon</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Name of a Sector Feature</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_FORGOTTEN_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SIDE_EFFECT_ESTATE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The sector gains the [abilityblue]Paragon Estate[/abilityblue] feature.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Description of a Sector Feature</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Reality Anchor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A timeless Voidtech facility. A gate is found that leads to a facility built in a different dimension entirely, a gateway to the earliest successes of Voidtech development</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Voidtech is in-game playable secret tech</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We discovered a pocket dimension hidden in a subterranean complex. A veritable fortress gate looms within it. Clearly Voidtech in origin, a crackling energy device whirs at the gate's center. At the foot of the gate, armed Echo Walkers stand with weapons trained against a horde of Psi-Fish. The Psi-Fish are trying to enter the gate.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Psi-Fish are an in-game NPC faction. Phase Walkers are a Voidtech unit</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The battle must be resolved. It's a simple decision between joining the Voidtech defenders or helping the Psi-Fish reach the gate.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Take advantage of this assault and attack the Echo Walkers</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Psi-Fish must be capable of telepathy or something, because they immediately stand aside as if they can read our minds. The Echo Walkers train their weapons on us now. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Echo Walkers stand guard to defend the gate, while the Psi-Fish are ready to help us break through the Voidtech defenses.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Psi-Fish were delighted by our help, filling our bodies with sensations of ecstasy and delight. In our minds, we all sensed gratitude and something vague about how delicious our brains felt. They give us a gift before proceeding on through the gate. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Help the Phase Walkers defend against the Psifish</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Echo Walkers nod as though they're familiar with this scene and knew it would come. Ironically, we can't surprise the Psi-Fish with our intention of ambush either, as they can read our intentions. They turn dark red in color and prepare to defend themselves.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Psi-Fish swirl angrily, emanating waves of fear and revulsion at our decision to interfere in their business. The Echo Walkers cautiously watch as we approach. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Echo Walkers returned to their posts, nodding gratefully that the hostile psychic entities were dealt with. There was a loud pop, and before us appeared a small gift enclosed in fancy Voidtech packaging. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As we approached the gate, a loud voice boomed, &quot;What makes you worthy of the Reality Gate?&quot; A massive eye emerged from the warbling energies, narrowing its focus on us expectantly. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Try the phrase &quot;Hail our Penguin overlords&quot;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Communicating with the entity in the Reality Anchor…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Humored, the automated entity jittered and skipped. For a moment, a dozen flux images of possible realities cycled before us, before an Ethereal Penguin emerged, under our command, granting us access to its energy stores. Who would have thought that this universe really likes penguins?</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The automated eye blinked, then rolled upwards and jittered as though having a seizure. A shower of sparks coughed from the gateway as dozens of realities flashed within. None of the images stay long, as though none of them quite fit our request. With its energy stores depleted, we eventually gained access to the gates.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Enter the gate under Voidtech code Sigma-Chimera-45</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The code granted us access as Voidtech scientists. The gateway is full of energy reserves, which is now open to us. It also granted us full access to a time-controlling assistant known simply as a Phase Manipulator. We all laughed at the idea of such a simple label for the complexity of time, as though it were merely a phase of reality?!  </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ask scientists to bypass the gate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The scientists are working on the gate and the entity within…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Using our depth of scientific knowledge, we resorted to the age-old theory known as &quot;pull the plug&quot;. We know that even a gate of significant complexity cannot function without a connection to its energy reserves. So we drained them first, rendering the gate compliant, and the extra energy is always a welcome prize.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Beyond the gate, we found a reality-branching Julia-bridge, leading to a multi-dimensional rift nexus. Floating in the space between, like a cloud of sorrow, we saw the remains of bodies and fragments of armor. Clearly, many expeditions have failed in their mission, and these are the remnants of their catastrophe. Further exploration would be dangerous, but stabilizing such a rift could be quite a find for the empire.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We can use the gate to provide Echo Walker support in combat!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">By cross coupling the phase capacitance in the Julia-bridge, our scientists were able to stabilize the reality gate's echo operations. We can now deploy it in tactical operations. Science: what can't it do?</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">First sentence is technobabble</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Preparing the gate for Voidtech Echo Walker support…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">It is our duty to find and rescue those lost expeditions!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We braved the random uncertainty of the high probability of certain death, and found the lost Voidtech expeditions trapped in a recursive dimensional fold. The Voidtech engineers, delighted by our foolish bravery, set to rectifying the issues with causality. By looping the trailing rift tentrites back upon themselves in an array of cycling maglev rings, we converted the Julia-bridge into a Voidtech landmark. They then rewound spacetime to retrieve the splattered expeditions, and a colony of grateful citizens reforms before our eyes.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;tentrites&quot; is techno babble</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_REALITY_ANCHOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rescuing the interdimensional survivors…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tyre's Tomb</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tyre is the name of a male Heritor Lord, Oreus Tyre</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A tomb of ornate wonder. The finely detailed golden tomb is believed to be final resting place of the great Es'Teq Lord Oreus Tyre.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We've uncovered a tomb of ornate wonder. The detailed filigree of flowers and vines, birds and strange creatures, twist up and around the entrance of this ancient tomb. All is covered in finely hammered gold leaf. The fact that the gold has not been stripped away bodes well for this expedition. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">There are few clues emblazoned upon the gate, but judging from the fixation on once-living creatures, and the joyous nature of the carvings, the whole place represents Es'Teq mythology. The Es'Teq believe the mind of man was meant to be immortal, and that the Creator intended life to live on forever. A strange device stands in front of the gate, about the size of a hand. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Es'Teq is the technology beloning to the ancient Heritor faction</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As a hero of my people, I must bear this burden</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bearing the burden for the legacy of the Es'Teq…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Our hero approached the device and placed a palm onto the strange surface. It hummed to life, and our hero was racked with terrible pain. Our troops watched in sympathy, but could do nothing to prevent the gate from taking its due. It is the nature of a hero to bear the pain of the people. A chime sounded, and the tomb door activated, revealing a chamber beyond.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Make the troops bear the burden</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As the device was activated, the whole crowd swooned with weakness. It is was though our very living essence is pulled from us, and we all stumbled and struggled to stay on our feet. After what felt like an eternity of torture, the device activated and the tomb entrance swung open, revealing a chamber within.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Forgotten must be able to unlock this gate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Forgotten is an in-game NPC faction</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Forgotten approach and raising a glowing rod to infuse the device with the flow of essence. As the rod dimmed, the device activated and the tomb entrance swung open, revealing a chamber within. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A large chamber lined with crystalline machinery glowed faintly. The walls were lined with an assembly line for constructing tools to serve the tomb guardians. The Golemforge, a construction for creating Es'Teq Golems sprawls through this chamber. It is well-known that every Es'Teq tomb is guarded, and like bas-relief leaping to life figures float from the walls to intercept our explorers. There is a moment of pause as the Drained make their way around the equipment to approach us.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Drained is the name of a Heritor unit&#10;Changed to mention the Golemforge</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Destroy these abominations</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We prepare to fight an assortment of Drained and their strange tomb guardians.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The tomb guardians lurk ready to stop our intrusion. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Drained guardians fell. Their last words shook in our minds, like the prayers of the damned&#45;-futile and faithless, they crumbled to dust. The Golemforge fell silent. Golems built in this chamber would have had to be infused with essence to be of any use. The only source of essence most likely lies deeper within this tomb. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">They seem to bear no hostile intent... Try to communicate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Communicating with the Drained….</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Drained guardians fell. Their last words shook in our minds, like the prayers of the damned&#45;-futile and faithless, they crumbled to dust. The Golemforge fell silent. Golems built in this chamber would have had to be infused with essence to be of any use. The only source of essence most likely lies deeper within this tomb. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As an Es'Teq Prophet, they must submit to me</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Drained paused and bowed when they noticed we are willing to communicate rather than mindlessly attack them. They explained that their High Lord 'Oreus Tyre' gave his being to save them from the Rot that was overtaking the tomb. The tomb was cleansed, and the Drained were saved, but the High Lord still bore the Rot's corruption within himself. They have offered an item if we would enter the tomb's heart and save their High Lord. It's an artifact for cleaning Rot.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We entered the cavernous tomb's heart. A rusty stream of Rot turns the essence flows a sickly red. On the platform at the top of the corrupted stream floats what is left of Oreus Tyre. He is no longer an entity we would recognize, but is now a dark god of terrible malice and entropic spite known as &quot;The Eater of the Dead&quot;. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Eater of the Dead is the name of an-game unit</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Engage the Corrupted High-Lord</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As we move to the platform to engage the monstrous thing that Oreus has become, the golem statues lining the walkway awaken, shining red with crimson Rot. Oreus Tyre awakens from his trance. He unleashes a deafening roar. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Eater of the Dead descends to attack, his golem servants eager to drain us of our living essence. They desire the life we take for granted. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The corrupted High Lord faltered along with the golems that guarded him. The hideous creature screamed in pain, and then fell silent, defeated.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Find a weakness in the golems using the Golemforge</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Finding a weakness in the golems using the Golemforge…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The golems in the center of the tomb served to ward the heart from intruders. They suddenly awakened and descended from their plinths to consume any who dared enter the area. Using what we learned from the golemforge, our engineers managed to dismantle the golems' mobility actuators, leaving them clawing helplessly on the ground. Now that they are disabled, we can now approach the High Lord.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The corrupted High Lord lingers here still, guarding at the tomb's heart.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The corrupted High Lord faltered, the Rot-corrupted essence of his being still flowing within the construct...  The hideous creature screamed in pain, and then fell silent, defeated.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Oreus Tyre lies helpless on the ground. His corrupted form sprawls before us, hungrily opened to take life from any who are foolish enough to give it. The artifact could be used on Oreus, but what do we really owe him? We could use this artifact to repair the tomb itself and use the equipment here to build Forgotten units. The temptation of choice is why we are alive. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Use the artifact to save Oreus Tyre</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We used the artifact to save Oreus Tyre, purifying his being. The ancient Es'Teq Lord stirs, pushing his way out of the horrible construct in which he was confined, rising in a new form. He is grateful, and offers to join our cause to repay the debt he owes us.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Use the artifact to purify the tomb</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TYRES_TOMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Oreus can blow in the Void. We focus the power of the artifact on cleansing the Es'Teq tomb. The artifact loses its strength, but combined with the broken High Lord's power, the monolithic structure purges the poisonous Rot and glows turquoise with life essence again. The tomb's golemforge powers up and grants us the ability to produce Forgotten Units. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Dvar Forge City</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Dvar are an in-game playable race</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">An ancient Dvar Forge City where Dvarnos's Forge stood. His gauntlet is an artifact of legend, capable of leveling mountains and armies alike. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dvarnos is a legendary historic Dvar figure (male)</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We uncovered a tangle of pipes snaking in and out of the walls of the forge city. Scorch marks scar the walls. Charred encounter suits lie dormant and empty. Walkways spiral through the rings of concentric outer walls, leading to a massive fortress furnace chamber suspended above a pool of roiling magma.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A thick brass gate leans heavily to one side of the fortress forge. Many scorched cadavers litter on the floor just outside the gate. Most notably on the platform lies a gold-accented DV-R suit of what must have been a director. The gate bears the ironic inscription &quot;Prosperity brings responsibility. Impatience brings ruin.&quot; </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DV-R suits are the suits worn by the Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">These scriptures mean nothing, so destroy the gate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Expertly placed charges erupted in a chorus of booms. The massive brass gate seemed unmoved for just a moment, then slowly tilted and fell open with a creaking groan. We followed the chamber passage past a dozen proud bronze statues, each more grandiose than the prior. At the final statue, though, we paused. This one was missing its head.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We've tried a dozen configurations on the gate, but with each barrage of explosives, the gate settled deeper into its place. Fire and concussive force echoed through the whole underground complex, rupturing pipes and spitting gouts of fire all about us. A final blast breaks a small hole in the gate. We were able to pry it apart, and clear the massive damage we did to the interior. After some effort, we start up mining production once again. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pay the gate's due</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paying the gate's due…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We placed a large pile of Cosmite onto a loading platform, and the gate lifted up, swallowing our offering in the opening. The interior structure is immaculate, each hall lined with large brass statues depicting important figures of Dvar history. The last director statue is missing its head. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cosmite is a rare in-game material</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Just behind the strange statue, the room opened to a Dvar workshop. A massive statue of bolted iron presided over a court of anvils and forges. Molten steel flowed through composite ducts, glowing crimson hot. This place requires a DV-R suit. The statue at the door bore an inscription: &quot;Only work pays for work. Only hardship produces perfection.&quot; It appeared to be another secret trial that craftsmen should understand. We think it requires that we sacrifice an item of quality craftsmanship...</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Attempt to fool the arbitrator by using our current weapon</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We placed a worthless weapon clip onto the arbiter's hands, and the intricate workings of the device whirred to life. For a moment, we feared it might reject our &quot;insulting&quot; gift, but what does a statue know of value? Suddenly, the wall next to the statue opened. Pipes and plates retracted to reveal a fortified hallway. At the far end, a large vault door is sealed shut.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Thinking that no statue is smart enough to discern our deception, we placed a worthless weapon clip onto the arbiter's hands. There was a loud crack as the statue crushed the clip. The whole cavern began to rumble. The ceiling collapsed in places, crushing many good astro-archaeologists and one very mouthy mathematician. Magma rose from the cracks in the floor. The rest of us escaped with our lives. The fortress-forge sunk beneath the molten earth, leaving the facility only partly useful.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Forge a weapon to prove our worth</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Forging a weapon to prove our worth….</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Our craftsmen may not be expert Dvar, but they found the tools and machinery of such fine quality that even simplest items they created were of the highest grade. Using refined Cosmite, they crafted a weapon of impressive power. After placing it onto the arbiter's hands, the statue whirred to life. The wall next to the statue transformed into a hidden vault door. We retrieved the weapon and headed towards the door. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Forge armor to prove our worth</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Forging armor to prove our worth….</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Our craftsmen get to work using the fine Dvar tools. Though they've never used them, the tools are of such fine quality that they could not help but create a masterwork of armor. Once the final touches were applied, the armor was placed upon the arbiter statue's hands, and a loud crank wheel rolled away the pipes and levers to reveal a hidden passage behind the statue. At the end of it was a sealed vault door. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_4_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Let our Forgemasters work their craft in the venerable forge</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Our Forgemasters are working their craft…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_4_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Forgemasters are in awe at the quality of tools in this impressive facility. Finely-crafted Cosmite items become precious relics at their hands. We were meant to work with these tools, and each one filled a deep-ringing purpose within us. Reluctantly, we placed our crafted items onto the arbiter statue's hands. There was a shifting and cranking of pipes, and behind us, we saw a passage to a vault door.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As we approached, the vault opened. Molten steel cascaded down the walls. This was not itself the forge, at least not originally, but our researchers thought it serves the same purpose as the massive heatsinks found on Dvar deep-earth drills. At the center of the large chamber rested a fortified container, a gauntlet glimmering within it that was not unlike that of a Dvar Foreman. But it shone with a beauty unheard of in Dvar craftsmanship. Someone murmured, &quot;The legendary Gauntlet of Empires!&quot;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Claim the gauntlet</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We approach the ornate gauntlet. The vault door slams shut behind us. Large hydraulic doors pull open, revealing high-caliber mounted turrets. The Dvar statues suddenly animate and train their weapons upon us.  </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Dvar trap of weapons and deadly animatronic statues are ready to riddle us all with pain. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_DVAR_FORGE_CITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The final defenses fell before us. A voice crackled through a hidden speaker, &quot;You have done well, unlike Director Ragnar. You have proven a dedication to creation and craft. My gauntlet is yours to take; wield it well. Destruction comes easier than creation. Balance it wisely.&quot; The case slid open with a depressurizing hiss, and the Gauntlet of Empires is now ours!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ragnar was an ancient Dvar Director</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Sanctum of Awakening</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Es'Teq Crypt, buried below the sands of Obolus-5. Its imposing architecture leaves no doubt that this is where the legacy of the Es'Teq is still hidden.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We expected to find beauty on this world, but Hatyl Es’Ran's descriptions could not do this place justice. The Sanctorum stands monolithic in the cavern that shielded it for centuries; a miracle it has never been discovered.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hatyl Es'Ran is a male Kir'Ko character</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sadly, our joy is interrupted by a sensor reading. RPRs were ghosting our exploration sensors, and we've identified their tell-tale destructive marks on the exterior seal of the Sanctorum. Unable to reach the inner parts of the complex, they are marking us as their new extermination targets.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RPR or Reapers are an-game mechanical unit type</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assault the RPRs</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The RPRs know we've discovered their presence and have enough tactical sense not to fight both us and the Es'Teq they seek to annihilate. We have this chance to destroy them. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The RPRs are programmed to prevent any and all of the Es'Teq from escaping, including artifacts, so they will destroy us if we come closer to the Sanctorum.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We cut the RPRs down. Good riddance to a terrible idea stuck in the past. The war that lead to their creation ended ages ago. These are relics best left decommissioned. So, we've done our duty to the universe today by destroying them.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Attempt to distract the RPRs with an Essence filled crystal</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Attempting to distract the RPRs with an Essence filled crystal…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We transferred some Essence into a crystal and tossed it down a ravine. The RPRs swiftly locked on, assuming it to be a Heritor attempting to flee. While they were in pursuit, we slipped into the unattended Sanctorum entrance.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We attempted to distract the RPRs with an essence crystal, but the crystal shattered at the bottom of the ravine, enraging the RPRs and making them all the more determined to cut us to ribbons. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ask Jack Gelder and his troops to intervene</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jack Gelder is a male Vanguard character</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Keeping his earlier promise, Jack Gelder didn't hesitate to send in his Purifiers to our aid. Their PyrX fires made quick work of the Reapers, clearing the path for our further advance.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The inner sanctum is gated. Upon the emerald structure is an inscription that reads, &quot;All must contribute an equal share.&quot; We believe it is either a warning that if we enter we will die, or that we should pay a tithe of Essence to be admitted beyond the point of the gate.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Set up a temporary phase portal and attempt to bypass the gate entirely</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Setting up a temporary phase portal to attempt to bypass the gate entirely…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Using the science of VoidTech, we bypassed the gate altogether, moving matter into an alternate phase and passing through the gate as though it wasn't even there. Once again, VoidTech scientists prove that their scientific principles have outgrown the quaint concepts of solid matter and typical space-time.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The phase portal should have worked, since all sensible people recognize the superiority of VoidTech science, but an interaction with the Es'Teq device must have created a matter resonance field that caused it all to explode. Nobody died, but we've all had better days. Even so, the tithe doesn't need to be paid, because we blasted a hole clean through the gate.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Es'Ran is an Es'Teq Precursor, so he will know the proper rites</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hatyl Es'Ran is performing his rites…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hatyl Es'Ran placed his hand upon the gate, and chanted a rhythmic melody. Then he made us each hold a part of the gate. There was a warm feeling, as though we were sharing a part of our deepest feelings with the structure itself. Without even being coached, we all started what can best be described as singing. Then the gate glowed bright and opened to us. Instead of feeling drained, we feel invigorated!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pay the tithe</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We each touched the gate as instructed, and sure enough, we felt weaker: the gate drained our Essence. Little by little, we saw the structure pulse with life, and the gate opened. We are weaker but we have passed another obstacle.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We entered a chamber glowing with life. Pools of clean water teemed with jewels of Essence, which flows there like a wellspring. In the center, we see an obsidian Ark flanked by two Forgotten constructs. Es'Ran said that the guardians are the &quot;Hands of Artok&quot;. One is called &quot;The Hand that Gives&quot; and the other &quot;The Hand that Takes&quot;. They did not recognize us and prepared to attack. Es'Ran held out a hand, but they did not respond. Something was wrong.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Face the Guardians</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Hands of Artok hum with immense power. They look ready to crush us, but hold&#45;-perhaps in deference to Es'Ran&#45;-for us to make the first move. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Ark in the center of the chamber is shimmering with undeniable beauty. However, the Hands of Artok are still blocking our path to it.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We laid low the Hands of Artok and approached the Ark. The platform ascended as the apex of the Sanctorum shook and cracked to behold a field of stars. Exposed to the night sky, the Ark is resting there, waiting for us to crack its last seal.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Contact the Forgotten about the uncorrupted guardians</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Contacting the Forgotten about the uncorrupted guardians…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Es'Ran hesitates to contact the Forgotten. They are corrupted Heritors, focused on revenge, but they share an origin. We figure they could help control the Hands of Artok. At first, we think they came just to feed upon the essence here, but once within the Sanctorum's heart, the red ire of Forgotten suffering changed. Something in this place purified them. The Hands of Artok and the Forgotten embrace each other. We are free to activate the Ark.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Regenesis Ark pulses at the heart of the Sanctorum. The Hands of Artok, ancient guardians of the Ark, watch over it, preventing us from claiming the artifact. Meanwhile, the Forgotten await our signal to assist in our assault. They are hoping to gain acces to the two exalted guardians.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SANCTUM_OF_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The platform ascended, lifting the Ark of Regenesis up to the ceiling. The whole top of the Sanctorum's pyramid unfolded like a flower in bloom, unveiling the stars before our eyes, tears streaming down our faces. The Forgotten glowed in silent awe at their progenitors, watching and waiting. We felt the Ark pulsate, and as if in chorus, the stars blinked back at us with the same fervent throbbing. Something greater than us all has awakened in the universe this day. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">House of Emperors</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A massive temple complex built around the world's government palace, a great cult lives here. Thriving, regardless of species, united under their worship of the emperors as deities. The cult features several sects attempting to rebuild the emperors in their own way.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We unearthed a government palace complex. Star Union banners lined the walls. Small statues representing all the known emperors and empresses of the Union filled the rooms. Judging from the artifacts we've unearthed thus far, there must have been a terrible siege here, and sometime afterwards the whole place became a shrine complete with scented cred-sticks for burning offerings to various historical figures. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">In the spacious halls of the palace sat a construct shaped like a man, bearing a lifelike face. Shadows drifted around the room, seemingly stalking the figure as one of our historians explained that the man-bot was constructed to be a likeness of Emperor Lennick Tennebres. He appeared to be in agony. Are there creatures lurking in the shadows of this room as well? We all felt an uneasy agitation as we consider what to do.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lennick Tennebres is a historic male figure</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">He must need help; destroy these shadow monsters!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We step forth, weapons at the ready to engage the shadow monsters. They swarm behind Tennebres. He rises, eyes filled with black mist. He may not be on our side, and may resist being rescued!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A shadow-possessed Emperor Tennebres paces around the main hall, surrounded by creatures of darkness. We should probably just destroy them all.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">With the last of the shadows purged, the Emperor Tennebres construct collapsed on the floor. His last words in his final moments were exhaled and barely audible. &quot;Thank... you...&quot; He reached up and handed us his insignia. &quot;Take it. Free... the... others...&quot; Others? We are left pondering what other constructs are being tormented by the shades of this strange complex. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Leave the man to the shadows</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We've left Tennebres to remain in the shadows. Nothing good comes from meddling with a dreaming man. Though his presence was unsettling, it leaves us to wonder just how authentic the Emperor's simulacrum really was to the long dead version. Perhaps this place will yield further answers as we continue on our journey.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Celestian teachings may calm this troubled man's mind…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Celestian is an-game religious secret tech</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Calming the troubled man's mind with Celestian teachings…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Celestians can disperse shadows quite handily, so we set about calling upon our inner light. Letting our minds connect, we drew out the young Tennebres kept within his mind, but he recoiled. Descending deeper, his mind unfurled into a blackened wasteland. We reached out and grasped at his true conciousness. Upon guiding him gently away from the darkness, the construct's face filled with surprise. As it passed it whispered &quot;Thank you...&quot;.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We discovered another artificial emperor in a palace armory. He was a hulking figure, dressed in only a loincloth. His skin glistened black as that of Khansu, the Burning Emperor, his choice of dress a sign of defiance. In life, he despised the wealth of his station, calling it decadence. He burned worlds for the downtrodden and underprivileged. He knew tragedy. Many historians supposed he lost his mind to madness before his own homeworld was destroyed.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Khansu is an ancient male emperor. The Burning Emperor is his title because he lit a world on fire with him still in it to defeat that world's CORE AI</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This man was a monster, and his memory should be dealt with as such</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The false Khansu watches as we approach, our weapons ready. The Burning Emperor's expression twists into a scornful glare. Indignation rises in his voice, &quot;You would assault your Emperor?&quot; He snaps his fingers and a mob of plasmoids skitter into the room. The air warps in the heat. We are trapped in his flaming rage.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The palace's armory is wreathed with fire, plasmoids skittering around the silhouette of The Burning Emperor. They must be dealt with if we are to be able to make any more progress.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Khansu fell to our assault. Looking up, he cried out, &quot;I know I was never him, but his memories are mine. The good he did could not erase the tragedy he caused. I see that. I see their faces burning. I see it all.&quot; He toppled over, life leaving his body. This might have been but an imposter, but it was an echo of what once lived, and we are left to ponder the dark past of the Star Union. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Emperor Khansu, our forefathers speak fondly of your reign. Will you grant us your boon?</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by the Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Emperor Khansu's expression changed to recognition, his eyes taking on the look of an endearing father. He spoke, &quot;In the miners, I saw something of my home before it became my pyre, flourishing in the fires of industry.&quot; His enthusiasm slackened as he continued, &quot; I understand I am not who you think I am, young one, but I bear Khansu's memories. Know that Khansu would have been proud to see what your people have become.&quot; </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bow to Emperor Khansu, grandfather of the Promethean!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by the Promethean</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_3_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Emperor's simulacrum grinned from ear to ear. He spoke of divinity and the fires that were started to end all worlds. He proclaimed our leader a herald of rebirth, granting him the title of Sol Paramount. Though this may only be an artificial approximation of the Burning Lord, his proclamations inspire our troops. They glow like healthy embers at his endorsement.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As we ascended the complex's main spire, we entered a vaulted chamber lined with cryopods. Each pod was charged and held a life in stasis. Standing in the room's center as if he stepped from a page of history was the Emperor Tholian. His charismatic smile and icy eyes pierced us. He was blocking the only way out of this room: a spiral staircase. &quot;The Architect is not receiving visitors.&quot; it's damaged voice shrieked.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We must free these people; destroy the abomination</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We approach the doppelganger. In the voice of the Tholian, it warns us, &quot;The Architect is not expecting visitors. But perhaps your parts can be of use to him.&quot; Tholian draws his weapon and charges us in a very undignified fury.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Architect is male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Access to the central control chamber is blocked by a mad Emperor Tholian intent on destroying us for some weird agenda that only the insane might guess.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tholian's double collapsed as we finished our assault. With his last breath, he called out, &quot;I may look like him, but I was not trained by the actual Emperor. He knew CORE would require it of him, and saw to it that there was very little left of his mind for the Union's benefit.&quot; We turned our attention to the cryopods, freeing the disturbed victims from their frozen stasis. The thawed people form a caravan willing to join our side. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lie that their logs must be incomplete, and that the Architect requested us himself</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;So I see... I am aware of my... limitations... I am missing my personality... I must have missed this too... You may pass.&quot; He slumped dejectedly to the side, strangely unlike an Emperor in demeanor, and freely surrendered access to the next chamber.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&quot;I may be imperfect, but I understand my master's wishes, and you were not a part of them. Though perhaps he can use your... parts...&quot; The oddly disingenuous Tholian then activates a dozen constructs that swarm the room as he readies his weapon. He clearly didn't buy our lie.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Access to the central control spire is blocked by this mad-emperor and his weapon-bots. He guards the cryopods too.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The mockery of Tholian crumpled to the ground, and with his last breath, he cries out, &quot;Incomplete! If I had his knowledge, I could defeat you! But he robbed us all of his mind!&quot; Then with dramatic seizures, he claws the air and cackles out loud. The pods are damaged and of no use to us anymore. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Destroy the abomination and siphon the pods' essence - their time passed long ago</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Attacking the abomination…</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_3_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We approach the creature wearing Tholian's face as it warns us, &quot;The Architect is not expecting visitors. Perhaps you can give yourselves to him, the way I did not. Perhaps your minds will be intact enough to be copied. Mine was not. Mine was not. Mine was not!&quot; His arms twitch violently and he draws his weapons with which to destroy us.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_3_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fake Emperor Tholian is armed and guards access to the control chamber stairwell, but when we attempted to siphon the cryopods, he trained his weapons on us and fired a warning shot. We must obliterate this obstacle.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_4_CHOICE_3_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tholian's lifeless corpse lies splayed across the floor. We ignored his last words. The pods are ours now. Each one is being transformed into a historical celebrity. Our Siphoners attached Es'Teq probes to them. Soon, the imposters of the past are transformed into brightly glowing turquoise essence. Strangely, the amount of essence in our stores is nearly twice that of what we would anticipate from draining this number of victims, almost as if they each had second lifeforce within them...</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_START</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">In the Consul's spire, we found a workshop. Bodies littered the room, each wearing a face of historical significance. An unfinished simulacrum sat at the room's center. Its face was that of Emperor Mora. An old human was tinkering with a device attached to his arm. His tottering voice called out, &quot;I found their minds, so many minds. CORE used them. I copied them. They said I was mad, but I can bring them back! Who are you foil an old man's dream?&quot;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Consul is a location in this site</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">These creations disturb those who should be put to rest.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Architect laughs, getting to his feet. He is amused. &quot;Is that so? Ignorance. That's the foolish nonsense these told me.&quot; He points to the bodies. &quot;It is time I show you the only way out.&quot; The man's expression turns grim, he snaps his fingers, and the unfinished works littering the room stir to life! His latest creation comes to his side. The Architect's form changes&#45;-more menacing&#45;-as a massive abyssal creature materializes behind him!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">In the government palace's spire lies a workshop where the Architect of these artificial emperors loiters with his abyssal allies. He must be taken care of.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_1_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The Architect has been destroyed. His body was more machine than man. It was not even clear whether his mind was his own. We have no idea how old this being was, but there is plenty here to learn from.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Your work can serve the Union's rebirth... if you join us</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOUSE_OF_EMPERORS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_5_CHOICE_2_RESULT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The ancient Architect laughs. &quot;Enlightened. Finally, one who understands. They said I was mad, but now the world is mad. Yes. Yes. The minds I've copied will benefit your empire. Imagine it, a whole cadre of emperors at your command. Yes. All those minds.&quot; A disturbing glint reflects in his drifting eyes. &quot;Yes. I will give my arts. We will create masterworks! You will see... the art comes first.&quot;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>80</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>87</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

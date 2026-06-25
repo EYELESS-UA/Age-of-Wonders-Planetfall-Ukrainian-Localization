@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="42" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="51.857142857142854"
+   ss:DefaultRowHeight="15">
+   <Column ss:Width="106.71428571428572"/>
+   <Column ss:Width="102"/>
+   <Column ss:StyleID="s63" ss:Width="285.85714285714289"/>
+   <Column ss:Width="144.85714285714286"/>
+   <Column ss:Width="165.85714285714283"/>
+   <Column ss:Width="117.85714285714286"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SPECIES_SYNDICATE</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Syndicate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Syndicate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:%7BXML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT%7D[br/][br/][bulletList][bullet][sand]Starting%20Bonus:[/sand]%20Start%20with%2025[influence/]%20[hyperlink,000003AC0000001B]Influence[/hyperlink][/bullet][bullet][sand]Long-Term%20Bonus:[/sand]%20+1%20[hyperlink,0000039F000024DA]Doctrine%20Slot[/hyperlink][/bullet][bullet][hyperlink,0000039E0000000D]Arc[/hyperlink]%20Weapons%20Groups[/bullet][bullet][hyperlink,0000039E00000011]Psi[/hyperlink]%20Weapons%20Groups[/bullet][bullet]Indentured%20slave%20units%20ignore%20morale%20penalties[/bullet][bullet]Excellent%20stealth%20capabilities%20and%20covert%20operations[/bullet][/bulletList]"><Data
+      ss:Type="String">{XML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus:[/sand] Start with 25[influence/] [hyperlink,000003AC0000001B]Influence[/hyperlink][/bullet][bullet][sand]Long-Term Bonus:[/sand] +1 [hyperlink,0000039F000024DA]Doctrine Slot[/hyperlink][/bullet][bullet][hyperlink,0000039E0000000D]Arc[/hyperlink] Weapons Groups[/bullet][bullet][hyperlink,0000039E00000011]Psi[/hyperlink] Weapons Groups[/bullet][bullet]Indentured slave units ignore morale penalties[/bullet][bullet]Excellent stealth capabilities and covert operations[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The [hyperlink,0000039E0000001B]Syndicate[/hyperlink] are a group of ruthless trading Houses from the frontiers of the Empire. With the Star Union gone, they see a universe of opportunity.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Syndicate Settlement</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Migrate Colony: Syndicate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="61.5">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Migrate the population of this colony to Syndicate The colony will become an Syndicate colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Colony is currently being migrated to an Syndicate population. Process will complete in [INT_duration].</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Are you sure you want to migrate this colony to an Syndicate colony?</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RUNNER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Runner</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RUNNER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“With anti-gravity boots, a scout like me can earn a decent wage in the service of the family. I try to steer clear of conflicts. I’ve no gift for Psi-tech. I don’t have the tech for heavy battles, but what’s the harm in sharing a little information for the thrill of speeding over water and land alike? Slavery. Corruption. Smuggling. Sure, the Syndicate has its questionable parts, but what doesn’t have its questionable parts these days?  We do what we can to survive. It beats starving. It’s a living.”—Manti Yed, “RV-00098A: Come Fly with the Runners”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">INDENTURED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Indentured</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">INDENTURED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“The Narkuu Family purchased my family’s debt. It originated from my great grandfather. When he failed to profit from the venture, the debts fell into collection for up to five generations. That’s the terms. I pay it off through indentured servitude. I do what they want. Fight or die. I belong to the owner. Many folks lost their livelihoods when the bloody Star Union crashed. I don’t blame anybody really. I live, many didn’t survive. So that’s that. I’ll do whatever it takes to pay down the principal—even wield a gun.”—Xircon Marq, “RV-3499F: Memoir of one Indentured”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENFORCER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Enforcer</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENFORCER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“The protestors were fools. Syndicate noble-merchants all have money and power. A bunch of shouting people won’t change that. Who fights the Syndicate Enforcers expecting to get away without some kind of injury? Each punch with their Psi-powered gauntlet is the equivalent force of being beaten by an angry mob. Their Psi-tech weaponry can create shields and if things get out of control, inflicts crippling wounds on the unruliest dissidents. In the Syndicate, if you want a long life, you should lay low, keep quiet, and obey.”—Nozefur Aatu, Propagandist, “RV-9527H: Revisions of Syndicate History”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OVERSEER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Overseer</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OVERSEER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“If I had to choose order or profits, I’d choose profits. Profitability is paramount. Order is something you purchase with sufficient profit. As an Overseer, I can unlock a man’s profitability. Developers, engineers and tech workers are paid to do their job, but even the best worker is but a resource to be used. Their lives don’t matter unless they produce a profit. It is the nature of the common worker to be undisciplined. With the Psi-tech powers I’ve mastered, I inspire discipline. Indentured are my best tools. For me, they fight even when exhausted.”—Valorix S’nau, “RV-9000F: Horde Management”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUILD_ASSASSIN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Guild Assassin</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUILD_ASSASSIN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“My skillset is purchased to maintain decorum in the highest echelons of the Syndicate aristocracy. The rich and powerful must always appear to have control, following their own exclusive code of dignity. They abhor open acts of aggression, demanding balance and stability. If one gains too much power too quickly, gives too generous a gift, threatens the wrong house, or even marries the wrong person, they risk discrete and decisive assassination. It’s the assassin’s guild that is entrusted with deadly secrets and weaknesses to sabotage even the most powerful enemies. Knowledge truly is power.”—Sir Hao Pearce, “RV-88434A, Assassin’s Credo”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIRAGE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mirage</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIRAGE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“As we traveled closer to our destination, the road just seemed to disappear. Out of the obstacles came brigands demanding a tribute. They accomplished their trickery using a strange aircraft that could project mental images to confuse and disorient the caravan guardians. I didn’t understand at the time, but rogue agents had commandeered a Syndicate Mirage aircraft, using it to blast us with psionic energy. I lost track of the caravan as a wave of mind-bending energy convinced me I was being attacked by a giant muffin. I now realize that I was hallucinating.”—Mah Reg’Nib, “RV-8576X: Syndication Vindication”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WRAITH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Wraith</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WRAITH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“As the enraged mob rushed the palace gates, a Syndicate Wraith tank materialized in their midst.  All around it, angry people fell, clawing their skulls. The tank’s gun rippled with a cone of destructive mind-altering energy.  Hundreds of civilians collapsed. The tank’s gravity engines crushed any obstacle caught beneath it. Those with sense ran for their lives. It seems cruel to inflict so many civilian casualties. If they survived, they would have brain damage. We should acknowledge this as a feature. Brain damage pacifies dissident civilians.”—Su Mon Li, Syndicate Subjugator, “RV-5699M: Maximum Effectiveness &amp; Order”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SENTINEL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sentinel</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SENTINEL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“You don’t just walk into a Syndicate Vault and help yourself with their most precious treasures. This is no market place. We’ve been assigned to infiltrate the most complex security in the known universe. Proximity quantum phase locks, psi-tech mind scramblers, and holographic portals are standard issue, but the most terrible is the Syndicate Sentinel. It floats high, with a full 360 degrees defensive overwatch. It can phase into and out of locations with ease. Armed with a heavy pulse cannon and pulse lance, the Syndicate executes justice with impunity.”—Chemish Abbadon, “RV-6554F: Escapades in Stealth”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SUBJUGATOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Subjugator</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SUBJUGATOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“I was supposed to clean Subjugator Toh-Toh’s hoverchair while he got a snack. Maybe it’s my bad luck, but the chair floated up and the Psionic control orbs activated. Poor Toh-Toh came running just as the Psi-tech repeaters suddenly started firing. More than meatballs and marinara sauce splattered everywhere. I’d seen the Reanimation Collars completely revive a fallen Indentured, so I tried to use it on Toh-Toh’s remains, but I mistakenly pressed the Agony Field projector. The hangar guards around the chair screamed, blood spurted from their eyes. It only got worse from there.”[br/]—Mah Reg’Nib, “RV-8577X: Syndication Vindication[br/]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ZENITH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Zenith</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ZENITH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“Although it looks spacious, much of the Zenith’s hold space is occupied with Psi-tech powerpacks to charge its Pulse Turrets. The whole bow of this floating warship conceals the huge Cataclysm Cannon.  Forget about cover if that hidden cannon is ever discharged at you. It is often documented how Syndicate troops seem to have high morale as the monstrous cannon rolls by. Even the look of it instills a profound sense of confidence.”—Mah Reg’Nib, “RV-8578X: Syndication Vindication</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUILD_CRUISER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Guild Cruiser</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUILD_CRUISER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“I knew entering Syndicate waters would be risky. These masters of surveillance intercepted us with a blockade of Guild Cruisers. Captain Televant tried claiming diplomatic immunity. They trained their Pulse Repeaters on our ship and explained that by entering their domain, we had joined the Guild. They demanded we pay dues for the ‘benefit’ of membership. I tried to explain that losing half our cargo was cheaper than our lives. The Captain tried to bargain… quite aggressively. That’s when he ‘fell’ into the sea. I was promoted by the Syndicate to captain.”—Captain Lars Sitwell, “RV-44499D: Trade Routes”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOVERBIKE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Hoverbike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135" ss:StyleID="s63">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HOVERBIKE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">“The Hoverbike whizzed smoothly across the Pitted Plains. The psion-pistons kept the light craft anticipating and correcting for any uneven impediments in my path. I knew I’d have to get to the slave auction before Toh-Toh or my true love would spend the rest of her days in his slave collar. I zipped up to the auction block just in time to place the winning bid and declare my love for Lol Inx Ahn Kah by attaching my own slave collar to her. #BestWifeEver”—Tor Val Lor Dok, “RV-10053E: True Syndicate Romance”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SUPPRESSOR_TOWER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Suppressor Tower</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SUPPRESSOR_TOWER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Suppressor towers are the Syndicate defense turrets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Salutations, scion of the Syndicate. Your ancestors led the earliest conquest of space, gathering fortunes and establishing aristocratic houses across the galaxy. Despite having to submit to the Star Union, wealth, influence and a caste of servants have followed your houses to this day. Nobility brings obligations - don’t let the collapse of the Union turn you into a petty robber baron. Restore this planet to civilization. </Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Empress Carminia - Female</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

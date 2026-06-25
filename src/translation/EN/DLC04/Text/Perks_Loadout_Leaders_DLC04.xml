@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Arnout Sas</Author>
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <Created>2019-10-30T10:28:35Z</Created>
+  <LastSaved>2020-01-09T12:24:06Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17325</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="185.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="440.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="221.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">LOADOUT_PERKS_DLC04</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Omni Carbine[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic and [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Sono Pistol[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic sonic damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/] [AbilityGreen]Reverb Dagger[/AbilityGreen] that deal repeated [DamagePhysical/] Kinetic sonic damage at close range.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen], that when used causes [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Omni Carbine[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic and [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Sono Pistol[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic sonic damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Heavy Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Omni Cannon[/AbilityGreen] that deals a single burst of [DamagePhysical/] Kinetic and [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Sono Pistol[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic sonic damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Assault Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The [AbilityGreen]Glaukus[/AbilityGreen] is a vehicle you commissioned from an eccentric Zardas scientist who saw sound waves as the tides of the ocean.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Glaukos[/AbilityGreen], which possesses powerful [DamagePhysical/] Kinetic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen], that when used causes [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Glaukos is a Shakarn Vehicle Unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] hit points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen], that when used causes [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

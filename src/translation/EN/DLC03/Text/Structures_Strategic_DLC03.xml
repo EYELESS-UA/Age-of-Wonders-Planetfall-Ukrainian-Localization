@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Elliott Van Neste</Author>
+  <LastAuthor>Bas Staffhorst</LastAuthor>
+  <Created>2018-10-30T08:44:30Z</Created>
+  <LastSaved>2019-09-26T07:28:13Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="42" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="285.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="244.5"/>
+   <Column ss:StyleID="s62" ss:Width="168.75"/>
+   <Column ss:StyleID="s62" ss:Width="546"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="309"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">STRUCTURES_STRATEGIC_DLC03</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSED_MINERAL_VEIN_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exposed Mineral Vein</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A vein in this context can also be called a crack. The Exposed Mineral Vein is basically a giant crack within the ground which contains a lot of minerals for mining.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSED_MINERAL_VEIN_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A vein of minerals has been pushed up to the surface by tectonic activity. Grants {Production} Production to the colony it is linked to.[br/][br/]Grants an additional {SynergyProduction} Production when in a Production Exploitation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Production Exploitation refers to the sector upgrade that players can built from a colony.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EXPOSED_MINERAL_VEIN_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOUL_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Soul Beacon</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SOUL_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Soul Beacon is an ancient Heritor device used to sap Essence on a large scale and redistribute them among the owner's troops. [br/][br/]While within this sector: [bulletList][bullet][abilityred]Enemy[/abilityred] units do not regain [hp/] out of combat.[/bullet] [bullet][abilityblue]Friendly[/abilityblue] units heal to full [hp/] at the start of each strategic turn.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">“Heritor” is a the new secret tech introduced in Planetfall’s first expansion. “Essence” refers to an type of life force/energy that is repeatedly mentioned within the Heritor secret technology.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SOUL_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turns}[turn/] combat turns: [bulletList][bullet]Each [abilityred]enemy[/abilityred] unit has a {strength}[strengthentropy/] strength chance to suffer [abilityred]Energy Drained[/abilityred] for {drainedturns} [turn/].[/bullet] [bullet]In addition, each [abilityblue]friendly[/abilityblue] unit gains an [abilityblue]Essence Charge[/abilityblue].[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cluster Mine Launcher</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Cluster Mine Launcher uses a relatively primitive but effective system that harasses enemy troops by launching mines in the enemy's close vicinity. [br/][br/]While within this sector:</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turns}[turn/] combat turn: [bulletList][bullet]{mineamount} mines will be placed at random locations in the map.[/bullet] [bullet][abilityred]Enemy[/abilityred] non-Flying, non-Floating units passing over or starting their turn on a mine get a {strength}[strengthphysical/] strength chance to suffer {minedamage}[damagekinetic/] damage.[/bullet][bullet][abilityblue]Friendly[/abilityblue] units are not affected by the mines.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_SILO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firestorm Missile Silo</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_SILO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Firestorm Missile Silo is an automated installation which launches thermal missiles at hostile entities during engagements. They were often part of Purifier forward bases. [br/][br/]While within this sector:</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_SILO</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turns}[turn/] combat turns: [bulletList][bullet]A random enemy unit gains [abilityred]Firestorm Missile Lock.[/abilityred][/bullet][bulletList] [bullet]After another turn, that unit will be struck by a Firestorm Missile.[/bullet] [bullet]Firestorm Missile deals {damagecenter}[damagethermal/] damage with [abilityred]Massive Impact[/abilityred] on the center target hex.[/bullet] [bullet]It also deals {damage2}[damagethermal/] with [abilityred]High Impact[/abilityred] within a 2 hex radius.[/bullet] [bullet]Additionally, it will leave fire hazards on all affected hexes.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIRESTORM_AUTOMATED_MISSILE_LAUNCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Automated Firestorm Missile Launch</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FIRESTORM_AUTOMATED_MISSILE_LAUNCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turns}[turn/] turns: [bulletList][bullet]A random enemy unit gains [abilityred]Firestorm Missile Lock.[/abilityred][/bullet][bulletList] [bullet] After another turn, said unit will be struck by a Firestorm Missile.[/bullet] [bullet]Firestorm Missile deals {damagecenter}[damagethermal/] damage with [abilityred]Massive Impact[abilityred/] on the center target hex.[/bullet] [bullet]It also deals {damage2}[damagethermal/] with [abilityred]High Impact[/abilityred] within a 2 hex radius.[/bullet][bullet]Additionally, it will leave fire hazards on all affected hexes.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_LOCK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firestorm Missile Lock</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_LOCK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is locked onto by the [abilityred]Firestorm Missile Silo[/abilityred]. It will be hit by a Firestorm Missile at the start of the next turn, hitting both this unit and any other unit within a 2 hex radius.[br/][br/]If the unit dies before this status expires, no missile will be fired.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:Height="60">
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Es'Teq Essence Pool</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Es’Teq is an ancient society that is part of the Heritor secret technology. “Essence” refers to an type of life force/energy that is repeatedly mentioned within the Heritor secret technology.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Es'Teq Essence Pool is an ancient ritual place that has reemerged after lying dormant for an undefined amount of time. It is used to bestow Essence draining infusions upon weaponry.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Es’Teq is an ancient society that is part of the Heritor secret technology. “Essence” refers to an type of life force/energy that is repeatedly mentioned within the Heritor secret technology.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grants [abilityblue]Es'Teq Enhancements[/abilityblue] for the next combat, granting them {strength} [abilityred]Energy Drain[/abilityred] on their non-[damageentropy/]Entropy attacks. [br/][br/]The Es'teq Essence Pool grants {Income} when it's within a colony's domain.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Entropy is a new damage channel featured in Planetfall’s first expansion.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Heritor Sanctorum</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Heritor Sanctorum's sacred underground vaults contain massive complexes that in turn are filled with hieroglyphs and imagery of Heritor history and prophesies alike.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Heritor refers to the new secret technology that is featured in Planetfall’s first expansion</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark is an advanced energy sector, and gives the following when annexed:[br/]{EnergyFlat}, {EnergySlot}.[br/]{ResearchFlat}, {ResearchSlot}.[br/][br/]In addition, it unlocks the following building in your colony: [hyperlink,000003E4000002B0]Crystal Altar[/hyperlink]&#10;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Heritor Sanctorum: Overflowing Essence</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turns}[turn/], the Sanctorum's Overflowing Essence provides for all... for a price.[br/]Attacking units with Essence Charges lose {Essenceloss} Essence Charge, units without essence charges have a {OverflowingEssenceStrength}[strengthentropy/] strength chance to suffer [abilityred]Etropic Decay[/abilityred] for {Duration}[turn/]. Any defending units with Essence charges gain {OverflowingEssenceHeal}[HP/] per essence charge.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sun Shard</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Sun Shard crashed into the surface. It provides [abilityblue]Unwavering Will[/abilityblue] to units built in the owning colony.[br/][br/]The Sun Shard adds {Research} when it is within a colony's domain.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Valentine Manor</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An excavated estate that belonged to the Valentine family. Its extravagant exterior shelters a large weapons development plant, which used to provide cutting edge weaponry to the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This landmark is an advanced production sector, and gives the following when annexed:[br/]{ProductionFlat}, {ProductionSlot}.[br/]{ResearchFlat}, {ResearchSlot}.&#10;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_DWELLING_SLUMBERING_GUARDIANS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Slumbering Guardians</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_DWELLING_SLUMBERING_GUARDIANS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every [turn/] the Forgotten guardians of the Es'teq stir, causing one of the previously slumbering Golems to awaken and join the defense.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERITOR_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;There could be no faults, no lack of offerings, nothing less than perfection for our High Lords to accommodate their slumber.&quot; - Final vow of the faithful</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERITOR_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;More than mere cultists, the Es'Teq had become architects of immortality, as long as their followers remained willing.&quot; - General Ashen, RPR tactician</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

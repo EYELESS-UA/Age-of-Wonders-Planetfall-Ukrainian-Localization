@@ -1,0 +1,972 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11175</WindowHeight>
+  <WindowWidth>25200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="153" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="87.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="360.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RACE_ASSEMBLY</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">Axiod</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">Aydron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">Ax-9DX</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Avd-X5R</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">Boxoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">Byd-RX4</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">Budrion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">Banadron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">Cielyx-9</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Crahzz-22</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">Cinxr-3</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_12</Data></Cell>
+    <Cell><Data ss:Type="String">Caltron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_13</Data></Cell>
+    <Cell><Data ss:Type="String">Dvion-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_14</Data></Cell>
+    <Cell><Data ss:Type="String">Dayd-X</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_15</Data></Cell>
+    <Cell><Data ss:Type="String">Dovinoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_16</Data></Cell>
+    <Cell><Data ss:Type="String">Dax9-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_17</Data></Cell>
+    <Cell><Data ss:Type="String">Dyxtron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_18</Data></Cell>
+    <Cell><Data ss:Type="String">Evenoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_19</Data></Cell>
+    <Cell><Data ss:Type="String">Equitron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_20</Data></Cell>
+    <Cell><Data ss:Type="String">Eyx-ZR4</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_21</Data></Cell>
+    <Cell><Data ss:Type="String">Eqyl-7DX</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_22</Data></Cell>
+    <Cell><Data ss:Type="String">Fernzr-8</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_23</Data></Cell>
+    <Cell><Data ss:Type="String">Forynoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_24</Data></Cell>
+    <Cell><Data ss:Type="String">Fen8-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_25</Data></Cell>
+    <Cell><Data ss:Type="String">Frixion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_26</Data></Cell>
+    <Cell><Data ss:Type="String">Gyx-7</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_27</Data></Cell>
+    <Cell><Data ss:Type="String">Govinoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_28</Data></Cell>
+    <Cell><Data ss:Type="String">Gyrion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_29</Data></Cell>
+    <Cell><Data ss:Type="String">Gabbtron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_30</Data></Cell>
+    <Cell><Data ss:Type="String">Hyperion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_31</Data></Cell>
+    <Cell><Data ss:Type="String">Hivx-7D9</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_32</Data></Cell>
+    <Cell><Data ss:Type="String">Hoffdron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_33</Data></Cell>
+    <Cell><Data ss:Type="String">Hasinoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_34</Data></Cell>
+    <Cell><Data ss:Type="String">Halifrx</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_35</Data></Cell>
+    <Cell><Data ss:Type="String">Idron-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_36</Data></Cell>
+    <Cell><Data ss:Type="String">Imyoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_37</Data></Cell>
+    <Cell><Data ss:Type="String">Ixi-8</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_38</Data></Cell>
+    <Cell><Data ss:Type="String">Ivindron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_39</Data></Cell>
+    <Cell><Data ss:Type="String">Jund-R8</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_40</Data></Cell>
+    <Cell><Data ss:Type="String">Jven-5X</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_41</Data></Cell>
+    <Cell><Data ss:Type="String">J6-nevix</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_42</Data></Cell>
+    <Cell><Data ss:Type="String">Jydroid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_43</Data></Cell>
+    <Cell><Data ss:Type="String">Kuzdron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_44</Data></Cell>
+    <Cell><Data ss:Type="String">Kyvx-6F</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_45</Data></Cell>
+    <Cell><Data ss:Type="String">Kazynoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_46</Data></Cell>
+    <Cell><Data ss:Type="String">Korz-9X</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_47</Data></Cell>
+    <Cell><Data ss:Type="String">Lamynoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_48</Data></Cell>
+    <Cell><Data ss:Type="String">Lgon-1XR</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_49</Data></Cell>
+    <Cell><Data ss:Type="String">Lavyx-3R</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_50</Data></Cell>
+    <Cell><Data ss:Type="String">Menzys-6Y</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_51</Data></Cell>
+    <Cell><Data ss:Type="String">Myndron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_52</Data></Cell>
+    <Cell><Data ss:Type="String">Mux-CR4</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_53</Data></Cell>
+    <Cell><Data ss:Type="String">Myval-5</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_54</Data></Cell>
+    <Cell><Data ss:Type="String">Neo-N3B</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_55</Data></Cell>
+    <Cell><Data ss:Type="String">Navynoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_56</Data></Cell>
+    <Cell><Data ss:Type="String">Nast-1ZR</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_57</Data></Cell>
+    <Cell><Data ss:Type="String">Nyx-DR1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_58</Data></Cell>
+    <Cell><Data ss:Type="String">Omyoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_59</Data></Cell>
+    <Cell><Data ss:Type="String">Ovydron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_60</Data></Cell>
+    <Cell><Data ss:Type="String">Oxyr-D2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_61</Data></Cell>
+    <Cell><Data ss:Type="String">Oni-451</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_62</Data></Cell>
+    <Cell><Data ss:Type="String">Quix-5R</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_63</Data></Cell>
+    <Cell><Data ss:Type="String">Qyr6-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_64</Data></Cell>
+    <Cell><Data ss:Type="String">Qaztron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_65</Data></Cell>
+    <Cell><Data ss:Type="String">Raz-AL9</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_66</Data></Cell>
+    <Cell><Data ss:Type="String">Ryvtron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_67</Data></Cell>
+    <Cell><Data ss:Type="String">Ruyz-6XR</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_68</Data></Cell>
+    <Cell><Data ss:Type="String">Revnoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_69</Data></Cell>
+    <Cell><Data ss:Type="String">Syndroid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_70</Data></Cell>
+    <Cell><Data ss:Type="String">Syx-5ZR</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_71</Data></Cell>
+    <Cell><Data ss:Type="String">Sovtron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_72</Data></Cell>
+    <Cell><Data ss:Type="String">Sum-ZR1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_73</Data></Cell>
+    <Cell><Data ss:Type="String">Tyndroid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_74</Data></Cell>
+    <Cell><Data ss:Type="String">Tax-9R</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_75</Data></Cell>
+    <Cell><Data ss:Type="String">Tyxnoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_76</Data></Cell>
+    <Cell><Data ss:Type="String">Taq-DR4</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_77</Data></Cell>
+    <Cell><Data ss:Type="String">Ubrtron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_78</Data></Cell>
+    <Cell><Data ss:Type="String">Uqynoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_79</Data></Cell>
+    <Cell><Data ss:Type="String">Uxydron-6</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_80</Data></Cell>
+    <Cell><Data ss:Type="String">Unyx-8G</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_81</Data></Cell>
+    <Cell><Data ss:Type="String">Veryn-9X</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_82</Data></Cell>
+    <Cell><Data ss:Type="String">Vonoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_83</Data></Cell>
+    <Cell><Data ss:Type="String">Vuq-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_84</Data></Cell>
+    <Cell><Data ss:Type="String">Vanyn-5G</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_85</Data></Cell>
+    <Cell><Data ss:Type="String">Wuqx-4H</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_86</Data></Cell>
+    <Cell><Data ss:Type="String">Wvyn-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_87</Data></Cell>
+    <Cell><Data ss:Type="String">Wynz-89R</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_88</Data></Cell>
+    <Cell><Data ss:Type="String">Waqz-59F</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_89</Data></Cell>
+    <Cell><Data ss:Type="String">Xnynoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_90</Data></Cell>
+    <Cell><Data ss:Type="String">Xr-B8</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_91</Data></Cell>
+    <Cell><Data ss:Type="String">Xaztron</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_92</Data></Cell>
+    <Cell><Data ss:Type="String">Xon-98R</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_93</Data></Cell>
+    <Cell><Data ss:Type="String">Ynq-45</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_94</Data></Cell>
+    <Cell><Data ss:Type="String">Yvndroid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_95</Data></Cell>
+    <Cell><Data ss:Type="String">Yxdr-7ZR</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_96</Data></Cell>
+    <Cell><Data ss:Type="String">Ynoid-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_97</Data></Cell>
+    <Cell><Data ss:Type="String">Zynoid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_98</Data></Cell>
+    <Cell><Data ss:Type="String">Zyfr-core</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_99</Data></Cell>
+    <Cell><Data ss:Type="String">Zorx-89X</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_NAME_00</Data></Cell>
+    <Cell><Data ss:Type="String">Zuq-D4</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are city names, please transcribe - e.g. to Cyrillic - but do not localize</Data></Cell>
+   </Row>
+   <Row ss:Index="104" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">Augmented</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">Enhanced</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">Reborn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Cyber Warrior</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">Terminator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">Calibrated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">Storm Lord</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">Galvanized</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">Voltaic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Charged</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">Forged</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_12</Data></Cell>
+    <Cell><Data ss:Type="String">Catalyst</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_13</Data></Cell>
+    <Cell><Data ss:Type="String">Pariah</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_14</Data></Cell>
+    <Cell><Data ss:Type="String">Hawkeye</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_15</Data></Cell>
+    <Cell><Data ss:Type="String">Advanced</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_16</Data></Cell>
+    <Cell><Data ss:Type="String">Superior</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_17</Data></Cell>
+    <Cell><Data ss:Type="String">Eternal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_18</Data></Cell>
+    <Cell><Data ss:Type="String">Hybrid</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_19</Data></Cell>
+    <Cell><Data ss:Type="String">Bionic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_20</Data></Cell>
+    <Cell><Data ss:Type="String">Cybernetic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_21</Data></Cell>
+    <Cell><Data ss:Type="String">Dominant</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_22</Data></Cell>
+    <Cell><Data ss:Type="String">Unchained</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_23</Data></Cell>
+    <Cell><Data ss:Type="String">Orion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_24</Data></Cell>
+    <Cell><Data ss:Type="String">Doctor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_25</Data></Cell>
+    <Cell><Data ss:Type="String">Reforged</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_26</Data></Cell>
+    <Cell><Data ss:Type="String">Observer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_27</Data></Cell>
+    <Cell><Data ss:Type="String">Watcher</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_28</Data></Cell>
+    <Cell><Data ss:Type="String">Raider</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_29</Data></Cell>
+    <Cell><Data ss:Type="String">Neo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_30</Data></Cell>
+    <Cell><Data ss:Type="String">Motorized</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_31</Data></Cell>
+    <Cell><Data ss:Type="String">Electronic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_32</Data></Cell>
+    <Cell><Data ss:Type="String">Integrated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_33</Data></Cell>
+    <Cell><Data ss:Type="String">Decoder</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_34</Data></Cell>
+    <Cell><Data ss:Type="String">Coder</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_35</Data></Cell>
+    <Cell><Data ss:Type="String">Temporary</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_36</Data></Cell>
+    <Cell><Data ss:Type="String">Utility</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_37</Data></Cell>
+    <Cell><Data ss:Type="String">Synchronized</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_38</Data></Cell>
+    <Cell><Data ss:Type="String">Simulator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_39</Data></Cell>
+    <Cell><Data ss:Type="String">Explorer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_40</Data></Cell>
+    <Cell><Data ss:Type="String">Emulator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_41</Data></Cell>
+    <Cell><Data ss:Type="String">Educator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_42</Data></Cell>
+    <Cell><Data ss:Type="String">Recording</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_43</Data></Cell>
+    <Cell><Data ss:Type="String">Controller</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_44</Data></Cell>
+    <Cell><Data ss:Type="String">Assassin</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_45</Data></Cell>
+    <Cell><Data ss:Type="String">Harvester</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_46</Data></Cell>
+    <Cell><Data ss:Type="String">Responsive</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_47</Data></Cell>
+    <Cell><Data ss:Type="String">Extreme</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_48</Data></Cell>
+    <Cell><Data ss:Type="String">Encrypted</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_49</Data></Cell>
+    <Cell><Data ss:Type="String">Scrapper</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME_50</Data></Cell>
+    <Cell><Data ss:Type="String">Dynamic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are names given to units which have mods - improvements, like explosive ammo - applied to them.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

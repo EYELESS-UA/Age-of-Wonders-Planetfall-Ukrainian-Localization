@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Stan Pepels</LastAuthor>
+  <LastSaved>2019-03-08T12:06:58Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12030</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="37" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="333.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="92.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="151.5"/>
+   <Column ss:StyleID="s62" ss:Width="195.75"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="270"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:Index="9" ss:StyleID="s62" ss:Width="87.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">LAUNCHER</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUALITY</Data></Cell>
+    <Cell><Data ss:Type="String">LOW</Data></Cell>
+    <Cell><Data ss:Type="String">Low</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: low quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUALITY</Data></Cell>
+    <Cell><Data ss:Type="String">MEDIUM</Data></Cell>
+    <Cell><Data ss:Type="String">Medium</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: medium quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUALITY</Data></Cell>
+    <Cell><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell><Data ss:Type="String">High</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: high quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUALITY</Data></Cell>
+    <Cell><Data ss:Type="String">ULTRA</Data></Cell>
+    <Cell><Data ss:Type="String">Ultra</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: ultra quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUALITY</Data></Cell>
+    <Cell><Data ss:Type="String">CUSTOM</Data></Cell>
+    <Cell><Data ss:Type="String">Custom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: custom quality. The player set changes to his own intrest </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">DT_WINDOWED</Data></Cell>
+    <Cell><Data ss:Type="String">Windowed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: play the game in windowed mode in stead of fullscreen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">DT_WINDOWED_FULLSCREEN</Data></Cell>
+    <Cell><Data ss:Type="String">Fullscreen</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: the game is played in fullscreen mode. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">DT_FULLSCREEN</Data></Cell>
+    <Cell><Data ss:Type="String">Exclusive Mode Fullscreen</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: the game is played in &quot;exclusive mode&quot; fullscreen mode. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">QUALITYMODE_LBL</Data></Cell>
+    <Cell><Data ss:Type="String">Quality Mode:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">label for the setting of the quality of the game graphics ( low, medium, high, custom)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">TEXTURE_QUALITY_LBL</Data></Cell>
+    <Cell><Data ss:Type="String">Texture Quality:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">label for the texture settings. As in: how detailed should the textures be ( low, medium, high )</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">SHADOW_QUALITY_LBL</Data></Cell>
+    <Cell><Data ss:Type="String">Shadow Quality:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: shadows from the sun. used as label name for the shadow quality. Low, medium or high shadow quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">SSAO_QUALITY_LBL</Data></Cell>
+    <Cell><Data ss:Type="String">SSAO Quality:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">SSAO is a rendering technique. It stands for ( screen space ambient occlusion ). In this case it is used as a label for the SSAO quality settings ( low, medium, hight )</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT_PARTICLES_CB</Data></Cell>
+    <Cell><Data ss:Type="String">Soft Particles</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">used as label if the player wants to use soft particles. This is a rendering technique to remove collision edges between particles and other models. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">BLOOM_CB</Data></Cell>
+    <Cell><Data ss:Type="String">Bloom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">label for the bloom effect of the game ( can be on or off ). Bloom brightens the well lit areas </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_OUTLINES_CB</Data></Cell>
+    <Cell><Data ss:Type="String">Unit outlines</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">REFLECTIONS_CB</Data></Cell>
+    <Cell><Data ss:Type="String">Reflections</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">used as label for the setting if the player wants 'reflections' in the game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">ANTI_ALIASING_CB</Data></Cell>
+    <Cell><Data ss:Type="String">Anti-aliasing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">used for the anti-aliasing checkbox in the video options</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MAIN</Data></Cell>
+    <Cell><Data ss:Type="String">OFF</Data></Cell>
+    <Cell><Data ss:Type="String">Off</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">an option for quality to turn something off. As in: no shadows </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CREATE_ACCOUNT</Data></Cell>
+    <Cell><Data ss:Type="String">EMAIL_ADRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Email address:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">label for the player on where to enter his email adress</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CREATE_ACCOUNT</Data></Cell>
+    <Cell><Data ss:Type="String">PASSWORD</Data></Cell>
+    <Cell><Data ss:Type="String">Password:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">label for the player on where to enter his password</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CREATE_ACCOUNT</Data></Cell>
+    <Cell><Data ss:Type="String">RE_ENTER_PASSWORD</Data></Cell>
+    <Cell><Data ss:Type="String">Re-enter Password:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">label for the player on where to enter his password again. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">QUALITY_MODE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Video quality settings presets. Each step up in graphics quality will have an impact on the game's performance. Set this to 'Custom' if you want to set up your own configuration.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom' here refers to the 'Custom' entry in this XML with the LAUNCHER@QUALITY@CUSTOM tag.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">SSAO_QUALITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sets the quality level of Screen Space Ambient Occlusion. Reduce quality to increase frame rate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a graphics effect.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">SHADOW_QUALITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A quality setting that determines how smooth shadows appear. Disable to increase frame rate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a graphics effect.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">TEXTURE_QUALITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A quality setting that determines texture resolution. Reduce quality to increase frame rate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a graphics effect.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">BLOOM_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A visual effect that brightens well lit areas of the screen and adds a soft glow. Disable to increase frame rate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a graphics effect.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">ANTIALIAS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A visual effect that makes the edges of models smoother. Disable to increase frame rate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a graphics effect.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">SOFTPARTICLES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A visual effect that fades out particles when they intersect with other models so that there is no hard intersection. Disable to increase frame rate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a graphics effect.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">REFLECTIONS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A visual effect that draws reflections of models on the surface of the water. Disable to increase frame rate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a graphics effect.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_OUTLINES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A visual effect that draws outlines around units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MAIN</Data></Cell>
+    <Cell><Data ss:Type="String">RESTART_REQUIRED_HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Restart Required</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">the game needs to be restarted for certain changes to take effect (header text in dialog box)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAIN</Data></Cell>
+    <Cell><Data ss:Type="String">RESTART_REQUIRED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The changes that were made may require the game to be restarted before they take effect.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">the game needs to be restarted for certain changes to take effect (description in dialog box)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INPUT_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">KEYBOARD_MOUSE</Data></Cell>
+    <Cell><Data ss:Type="String">Keyboard &amp; Mouse</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Displayed in an input selection list. Eg: Does the user want to use a keyboard and mouse, or controller as their input method?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INPUT_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">CONTROLLER</Data></Cell>
+    <Cell><Data ss:Type="String">Controller</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VIDEO</Data></Cell>
+    <Cell><Data ss:Type="String">DT_RES_SCALED</Data></Cell>
+    <Cell><Data ss:Type="String">Native</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Displayed when running outside of Exclusive Fullscreen Mode. Implies the resolution is whatever the current window size is (monitor size in case of Borderless/non-exclusive Fullscreen)</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>21</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>36</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

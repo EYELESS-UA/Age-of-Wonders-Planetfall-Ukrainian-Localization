@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-03-13T13:21:06Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17235</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="56" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s63" ss:Width="221.25"/>
+   <Column ss:StyleID="s63" ss:Width="168.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="228"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="358.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell><Data ss:Type="String">HAZARDMARKERS_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Geothermal Instability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector is geothermally unstable, causing fire and heat to leak through to the surface. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="171">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][production/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every {turns} combat turns:[/bullet][bulletList][bullet]All units take {TCdamage} damage with a strength {Burnchance} chance to cause [abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {BurningDuration}[turn/].[/bullet][/bulletList][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Annexing a sector means attaching the sector to your colony sector.All units have 'Regeneration'  on the world map, which is how much life they get every turn. Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turns}[turn/], the battlefield surges with geothermal heat, dealing {Tcdamage} damage to all units, with a strength {Burnchance} chance to cause [abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {BurningDuration}[turn/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Geothermal Instability in this sector, nullifying the [hp/] regeneration received each strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">All units have a resistance against damage and status effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ion Storm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector is under the effect of an Ion Storm, causing Arc bolts to surge through the air.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="152.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every {turns} combat turns:[/bullet][bulletList][bullet]{TargetNumber} random units take {TCdamage} damage with a strength {Electrifiedchance} chance to apply [abilityred]Electrified[/abilityred] to non-Ethereal units for {ElectrifiedDuration}[turn/][/bullet][/bulletList][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Happiness is a value in your colonies, that deals with how happy the population in your colony is. </Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every {turns}[turn/], {TargetNumber} random units are hit by Arc bolts, dealing {BoltDamage}[damagewave/] with a strength {ElectrifiedStrength} chance to cause [abilityred]Electrified[/abilityred] to non-Ethereal units for {ElectrifiedDuration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Ion Storm in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Spore Cloud</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector is affected by a Spore Cloud, a Biochemical hazard dangerous to most conventional lifeforms. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="152.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][food/][/bullet][bullet]Non-Xenoplague units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Non-Xenoplague units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet]Non-Xenoplague Biological and Cyborg units have a strength {PoisonStrength} chance to become [abilityred]Poisoned[/abilityred] for {PoisonDuration}[/bullet][/bulletList][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague is one of the secret technologies of the game. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every turn, all non-Xenoplague Biological and Cyborg units have a strength {Poisonchance} chance to become [abilityred]Poisoned[/abilityred] for {PoisonDuration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Spore Cloud in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuclear Fallout</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector is affected by Nuclear Fallout from a past detonation. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="111.75">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][food/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] to all damage resistances.[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Units suffer [abilityred]{ResistanceReduction}[/abilityred] to all resistances.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Nuclear Fallout in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers {resistances} to all resistances.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abyssal Tear</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector contains a tear into the Abyss through which its malevolent influence seeps into this world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="146.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][production/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Vision and scanning range of Non-Psynumbra units is reduced by {SightRangeReduction}[/bullet][bullet]Non-Mindless and non-Psynumbra units suffer {MoraleDebuff}[/bullet][bullet]Psynumbra Marauders spawn here to raid their surroundings.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psynumbra is one of the secret technologies of the game. Vision and scanning range deal with how far a unit can see or detect units on the world map, respectively. Mindless units are units without a mind, so simple drones and robots etc. Marauders are units on the world map that cannot be engaged in diplomacy, and attack everything they see in sight.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Non-Mindless and non-Psynumbra units suffer {MoraleReduction}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Abyssal Tear in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_02_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abyssal Obfuscation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_02_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Abyssal Tear in this sector, causing its vision and scanning range to be reduced by {SightRangeReduction}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_03_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abyssal Morale Dampen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_03_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Abyssal Tear in this sector, suffering from {MoraleDebuff}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Void Storm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector is Dimensionally Unstable, causing the reality in this section of space to blur. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dimensionally unstable is in refering to alternate dimensions that are interfering with the current dimension (reality) of the sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="123">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet]Non-Voidtech units have a strength {Instabilitychance} chance to receive [abilityred]Dimensional Instability[/abilityred][/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech is one of the secret technologies of the game. Dimensional Instability is a status effect that</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every turn, non-Voidtech units have a strength {DimensionalInstabilityStrength} chance to receive [abilityred]Dimensional Instability[abilityred/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Void Storm in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veil of Tranquility</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector is under the Veil of Tranquility, granting refuge to the faithful and damnation to the accused.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="128.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector grants {Happiness} to the colony.[/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][research/][/bullet][bullet]Non-Mechanical and non-Psynumbra units regain an additional {WorldmapRecoveryBonus} per strategic turn.[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet][abilityblue]Enlightened[/abilityblue] units are healed for {EnlightenedHeal}[/bullet][bullet]Units afflicted with [abilityred]Soulburn[/abilityred] take {SoulblazeDamage} damage.[/bullet]</Data></Cell>
+    <Cell><Data ss:Type="String">Edit: &#45;-&gt; Soulfire to Soulburn</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian is one of the secret technologies of the game. Enlightened is a celestian status effect that speaks to their soul being enlighted with starlight, washing their soul in truth. Soulburn is a debuff applied to enemy units, that sets their soul on fire, dealing damage and debuffing them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every turn, [abilityblue]Enlightened[/abilityblue] units are healed for {EnlightenedHeal}, and [abilityred]Soulblazed[/abilityred] units take {SoulblazeDamage} damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Veil of Tranquility in this sector, receiving an extra {Hpregen} per strategic turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][research/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oil Spill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There is an oil spill contaminating this sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/] and [supply/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]-{OilResistanceReduction}[/abilityred] [DamageThermal/] resistance.[/bullet][bullet]Every Combat Turn:[/bullet][bulletList][bullet]Non-Flying units have a strength {OilSlowChance}[DamagePhysical/] chance to become [abilityred]Slow[/abilityred] for {OilSlowDuration}.[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Every turn, units have {OilSlowChance} strength chance to become [abilityred]Slow[/abilityred] for {OilSlowDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is affected by the Oil Spill in this sector, nullifying the [hp/] regeneration received per strategic turn and have [abilityred]-{OilResistanceReduction}[/abilityred] [DamageThermal/] resistance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>47</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>52</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

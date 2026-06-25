@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-08-20T12:07:26Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="58" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="239.5"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="105.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:Width="237.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.5"/>
+   <Column ss:StyleID="s62" ss:Width="288.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ENTROPY_UNITMODS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic Decomposer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod name&#10;Entropic as in from entropy, the damage channel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic attacks have a {singleSTR} strength chance ({repeatingSTR} for repeating attacks) chance to apply [abilityred]Atrophy[/abilityred] for {duration}, a stacking debuff that reduces damage output by {damageReduction}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod description&#10;Atrophy is a status effect relating to the Entropy damage channel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sedating Decay Component</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic attacks have a {singleSTR} strength chance ({repeatingSTR} for repeating attacks) chance to apply [abilityred]Slow Movement[/abilityred] and reduce accuracy by {accuracyDebuff} for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sedated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title of status effect</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit has [abilityred]Slow Movement[/abilityred] and {accuracyDebuff} reduced accuracy.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Status effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sedate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{strengthChance} strength chance to apply [abilityred]Slow Movement[/abilityred] and {accuracyDebuff} reduced accuracy for {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropic Radiation Emitter</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enemy units adjacent to this unit get {damage} damage and have a {strength} strength chance to get [abilityred]Atrophy[/abilityred] for {turns}[turn/] at the end of each [turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entropy Retaliation Component</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Whenever this unit is damaged by an enemy unit within a {hexrange} hex range, that unit gets {atrophystacks} stack of [abilityred]Entropic Decay[/abilityred] for {turns} and {entropydamage} damage.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod description&#10;Entropic Decay is a status effect relating to the Entropy damage channel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_6</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Maxwell's Puzzle Box</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod name, Maxwell is a male fictional figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_6</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amass Chaos Blast</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_6</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Damage enemies in a {radius} hex radius with a blast of chaos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability name description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Structural Integrity Diminisher</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entropy attacks from this unit reduce the target's defenses by {armorandshieldreduction}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTROPY_MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reduces target's defenses by {armorandshieldreduction}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ability effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME1</Data></Cell>
+    <Cell><Data ss:Type="String">Fatiguing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME2</Data></Cell>
+    <Cell><Data ss:Type="String">Taxing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME3</Data></Cell>
+    <Cell><Data ss:Type="String">Sapping</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME4</Data></Cell>
+    <Cell><Data ss:Type="String">Wearying</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME5</Data></Cell>
+    <Cell><Data ss:Type="String">Depleting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME6</Data></Cell>
+    <Cell><Data ss:Type="String">Enfeebling</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME1</Data></Cell>
+    <Cell><Data ss:Type="String">Unstoppable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME2</Data></Cell>
+    <Cell><Data ss:Type="String">Unsuppressible</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME3</Data></Cell>
+    <Cell><Data ss:Type="String">Unruly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME4</Data></Cell>
+    <Cell><Data ss:Type="String">Uncontrollable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME5</Data></Cell>
+    <Cell><Data ss:Type="String">Uncontainable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME6</Data></Cell>
+    <Cell><Data ss:Type="String">Unrelenting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME1</Data></Cell>
+    <Cell><Data ss:Type="String">Exacting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME2</Data></Cell>
+    <Cell><Data ss:Type="String">Dream Inducer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME3</Data></Cell>
+    <Cell><Data ss:Type="String">The Sedator</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME4</Data></Cell>
+    <Cell><Data ss:Type="String">Knockout</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME5</Data></Cell>
+    <Cell><Data ss:Type="String">Sapper</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME6</Data></Cell>
+    <Cell><Data ss:Type="String">Diminisher</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME1</Data></Cell>
+    <Cell><Data ss:Type="String">The Irradiated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME2</Data></Cell>
+    <Cell><Data ss:Type="String">Emitting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME3</Data></Cell>
+    <Cell><Data ss:Type="String">Emanater</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME4</Data></Cell>
+    <Cell><Data ss:Type="String">Emanating</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME5</Data></Cell>
+    <Cell><Data ss:Type="String">Diffusing</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME6</Data></Cell>
+    <Cell><Data ss:Type="String">Exuding</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME1</Data></Cell>
+    <Cell><Data ss:Type="String">The Recompenser</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME2</Data></Cell>
+    <Cell><Data ss:Type="String">Revenge Fueled</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME3</Data></Cell>
+    <Cell><Data ss:Type="String">Snap Back</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME4</Data></Cell>
+    <Cell><Data ss:Type="String">Repaying</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME5</Data></Cell>
+    <Cell><Data ss:Type="String">Spiting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME6</Data></Cell>
+    <Cell><Data ss:Type="String">Begrudging</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME1</Data></Cell>
+    <Cell><Data ss:Type="String">The Calamitous</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME2</Data></Cell>
+    <Cell><Data ss:Type="String">Ruinous</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME3</Data></Cell>
+    <Cell><Data ss:Type="String">Enveloping</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME4</Data></Cell>
+    <Cell><Data ss:Type="String">Cataclysmic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME5</Data></Cell>
+    <Cell><Data ss:Type="String">Pernicious</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME6</Data></Cell>
+    <Cell><Data ss:Type="String">Treacherous</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mod template name, appears in front of unit names</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>26</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

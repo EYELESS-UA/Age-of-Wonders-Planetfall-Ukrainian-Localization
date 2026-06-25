@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-02-08T15:27:49Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="89" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="203.5"/>
+   <Column ss:StyleID="s62" ss:Width="67"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="427"/>
+   <Column ss:StyleID="s62" ss:Width="148"/>
+   <Column ss:StyleID="s62" ss:Width="221.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">LOADOUT_PERKS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vanguard Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Rifle[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]An [AbilityGreen]Arc Projector[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Thrax Rifle[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage and has a chance to poison.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Heavy Spike Gun[/AbilityGreen] that fires a single, powerful shot that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate Basic Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Repeater[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vanguard Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Sword[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage at close range.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Arc Sword[/AbilityGreen] that deals repeated [DamageWave/] Arc damage at close range.[br/]A [AbilityGreen]Imperial Pistol[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/] [AbilityGreen]Rending Claws[/AbilityGreen] that deal repeated [DamagePhysical/] Kinetic damage at close range.[br/]A [AbilityGreen]Thrax Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Glaive[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage at close range.[br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Rocket Hammer[/AbilityGreen] that deals a single burst of [DamagePhysical/] Kinetic damage at close range.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/] [AbilityGreen]PsiTec Fists[/AbilityGreen] that deal repeated [DamagePsyche/] Psionic damage at close range.[br/] [AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage and attempt to immobilize the target.</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vanguard Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Rifle[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]An [AbilityGreen]Arc Projector[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Thrax Rifle[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - Increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - Increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage and has a chance to poison.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen], that when used causes [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Heavy Spike Gun[/AbilityGreen] that fires a single powerful shot that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Repeater[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vanguard Sharpshooter Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Sniper Rifle[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly Sharpshooter Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Vorpal Sniper[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko Sharpshooter Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Psi-Rifle[/AbilityGreen] that deals [DamagePsyche/] Psionic damage.[br/]A [AbilityGreen]Thrax Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon Sharpshooter Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Sniper[/AbilityGreen] that deals [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar Sharpshooter Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]An [AbilityGreen]Imperial Sniper Rifle[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate Sharpshooter Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Sniper[/AbilityGreen] that deals [DamageWave/] Arc damage.[br/][AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage to a target and has a chance to immobilize them.</Data></Cell>
+   </Row>
+   <Row ss:Index="56" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assault Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vanguard Assault Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You always cherished your [AbilityGreen]Assault Bike[/AbilityGreen], and through some special connections, you were able to bring it with you.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Assault Bike[/AbilityGreen], which possesses powerful [DamageThermal/] Laser capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage to a single target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly Assault Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You were a grand scientist, but they despised you due to your [AbilityGreen]Chopper[/AbilityGreen]. Now is the time to prove to them that your modified combat vehicle is all you need.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Chopper[/AbilityGreen], which possesses powerful [DamagePhysical/] Kinetic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko Assault Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">During a terrible battle, an Emergent saved your life. It later grew into an [AbilityGreen]Abyssian[/AbilityGreen]. You have been together ever since.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Abyssian[/AbilityGreen], which possesses powerful [DamageBio/] Biochemical capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon Assault Mount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have your own personal [AbilityGreen]Lancer[/AbilityGreen]. You still remember when it was just a zygote in the birthing chambers. You have been inseparable ever since.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Lancer[/AbilityGreen], which possesses powerful [DamageThermal/] Thermal capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals [DamageBio/] Biochemical damage.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar Assault Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Built with blood, sweat and tears, your [AbilityGreen]Bulwark[/AbilityGreen] is your greatest creation yet. Now let's see how it fights![br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Bulwark[/AbilityGreen], which possesses powerful [DamagePhysical/] Kinetic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate Assault Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your parents gave you a [AbilityGreen]Hoverbike[/AbilityGreen] for your 16th birthday... they couldn't even get it in the right color, but you persevered and became an expert at riding it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Hoverbike[/AbilityGreen], which possesses powerful [DamagePsyche/] Psionic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/][AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage and has a chance to immobilize the target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Support Vehicle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] hit points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen], that when used causes [DamagePsyche/] Psionic damage in an area.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:Index="78" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Xenoplague Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after the Xenoplague Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/][AbilityGreen]Pestilence[/AbilityGreen], a vicious living gauntlet that infects your foes while dealing [DamageBio/] Biochemical damage at close range.[br/]A [AbilityGreen]Bio Grenade[/AbilityGreen] that deals [DamageBio/] Biochemical damage in an area and has a chance to poison those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtech Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Voidtech Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/] [AbilityGreen]Void Blades[/AbilityGreen], dimension-distorting blades that deal [DamagePhysical/] Kinetic damage at close range.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Close Combat Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Celestian Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/] [AbilityGreen]Inferno Fists[/AbilityGreen], fiery gauntlets that deal [DamageThermal/] Thermal damage at close range.[br/]An [AbilityGreen]Ego Bomb[/AbilityGreen] that deals [DamagePsyche/] and has a chance of applying Broken Mind to those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Promethean Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Promethean Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Purifier Gun[/AbilityGreen] that deals a burst of [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Psynumbra Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Soul Splitter[/AbilityGreen], a gun that targets the mind of its foes, dealing [DamagePsyche/] Psionic damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Synthesis Assault Equipment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The pack you received after Synthesis Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hasher SMG[/AbilityGreen], a powerful submachine gun that deals [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>27</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>38</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

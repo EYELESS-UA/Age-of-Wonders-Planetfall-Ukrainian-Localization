@@ -1,0 +1,2468 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>ThomM</LastAuthor>
+  <LastSaved>2020-03-23T15:54:17Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17985</WindowHeight>
+  <WindowWidth>-13936</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s29" ss:Name="Input">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#7F7F7F"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333399"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s29">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="485" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="256.5"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="204.75"/>
+   <Column ss:StyleID="s62" ss:Width="191.25"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:Index="6" ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DIPLOMACY</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">Friendly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: your ralation with playerX is ….</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">TRUSTING</Data></Cell>
+    <Cell><Data ss:Type="String">Trusting</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: your ralation with playerX is ….</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">RESPECTFUL</Data></Cell>
+    <Cell><Data ss:Type="String">Respectful</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: your ralation with playerX is ….</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">INDIFFERENCE</Data></Cell>
+    <Cell><Data ss:Type="String">Indifferent</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: your ralation with playerX is ….</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARY</Data></Cell>
+    <Cell><Data ss:Type="String">Cautious</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: your ralation with playerX is ….</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">SUSPICIOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Suspicious</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: your ralation with playerX is ….</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">HOSTILE</Data></Cell>
+    <Cell><Data ss:Type="String">Hostile</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">as in: your ralation with playerX is ….</Data></Cell>
+   </Row>
+   <Row ss:Index="12" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORALE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">BEST</Data></Cell>
+    <Cell><Data ss:Type="String">Best</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status, e.g. morale: BEST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORALE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">VERY_HIGH</Data></Cell>
+    <Cell><Data ss:Type="String">Very High</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status, e.g. morale: BEST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORALE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell><Data ss:Type="String">High</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status, e.g. morale: BEST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORALE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status, e.g. morale: BEST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORALE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">LOW</Data></Cell>
+    <Cell><Data ss:Type="String">Low</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status, e.g. morale: BEST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORALE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">VERY_LOW</Data></Cell>
+    <Cell><Data ss:Type="String">Very Low</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status, e.g. morale: BEST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORALE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">WORST</Data></Cell>
+    <Cell><Data ss:Type="String">Worst</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status, e.g. morale: BEST</Data></Cell>
+   </Row>
+   <Row ss:Index="20" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">Virtuous</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Your alignment/reputation standing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">Honorable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Your alignment/reputation standing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">Trustworthy</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Your alignment/reputation standing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Your alignment/reputation standing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">Untrustworthy</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Your alignment/reputation standing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">Dishonorable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Your alignment/reputation standing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">Deplorable</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Your alignment/reputation standing</Data></Cell>
+   </Row>
+   <Row ss:Index="28" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT_SHOP_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@ALIGNMENT_NAME@PEACEKEEPER_L3}: {CostReduction}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shows the name of an alignment and it's effects on the costs in the shop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT_SHOP_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@ALIGNMENT_NAME@PEACEKEEPER_L2}: {CostReduction}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shows the name of an alignment and it's effects on the costs in the shop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT_SHOP_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@ALIGNMENT_NAME@PEACEKEEPER_L1}: {CostReduction}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shows the name of an alignment and it's effects on the costs in the shop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT_SHOP_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@ALIGNMENT_NAME@WARMONGER_L1}: {CostReduction}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shows the name of an alignment and it's effects on the costs in the shop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT_SHOP_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@ALIGNMENT_NAME@WARMONGER_L2}: {CostReduction}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shows the name of an alignment and it's effects on the costs in the shop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT_SHOP_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@ALIGNMENT_NAME@WARMONGER_L3}: {CostReduction}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shows the name of an alignment and it's effects on the costs in the shop</Data></Cell>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_100</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support Morale Increase (+100)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_200</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support Morale Increase (+200)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_300</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support Morale Increase (+300)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESCRIPTION_100</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 100 due to high Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESCRIPTION_200</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 200 due to high Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESCRIPTION_300</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 300 due to high Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_100</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support Morale Decrease (-100)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_200</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support Morale Decrease (-200)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_300</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support Morale Decrease (-300)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESCRIPTION_100</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is reduced by 100 due to low Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESCRIPTION_200</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is reduced by 200 due to low Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESCRIPTION_300</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is reduced by 300 due to low Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:Index="48" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_RACE_RELATION_100</Data></Cell>
+    <Cell><Data ss:Type="String">Race Relation Morale Increase (+100)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_RACE_RELATION_100</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 100 due to your race relations with this unit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_RACE_RELATION_200</Data></Cell>
+    <Cell><Data ss:Type="String">Race Relation Morale Increase (+200)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_RACE_RELATION_200</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 200 due to your race relations with this unit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_RACE_RELATION_200</Data></Cell>
+    <Cell><Data ss:Type="String">Race Relation Morale Decrease (-200)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_RACE_RELATION_200</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is decreased by 200 due to your race relations with this unit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_RACE_RELATION_400</Data></Cell>
+    <Cell><Data ss:Type="String">Race Relation Morale Decrease (-400)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_RACE_RELATION_400</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is decreased by 400 due to your race relations with this unit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_RACE_RELATION_600</Data></Cell>
+    <Cell><Data ss:Type="String">Race Relation Morale Decrease (-600)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_RACE_RELATION_600</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is decreased by 600 due to your race relations with this unit.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:Index="59" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RACE_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_raceName} race relation: {INT_value} ({STR_standing})</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_raceName} is the name of the race which is derived from the Species_NAME.xml files, STR_Standing is one of the below standings, found as RACERELATIONSTANDING. E.G. Vanguard race relation: 100 (Accepted)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RACE_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_STATS</Data></Cell>
+    <Cell><Data ss:Type="String">Colonies owned by you: {INT_numColonies} ({INT_numPopulation}[population/])[br/]Units owned by you: {INT_numUnits}[br/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip breakdown shown as number of colonies owned by the player and the number of of population in those cities, as well as the number of units of that race.</Data></Cell>
+   </Row>
+   <Row ss:Index="62" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">ADORED</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]Racial units gain 200 Morale[br/]Racial colonies gain 6 Happiness[br/]75% Influence and Energy cost reduction for race events[br/]+200 opinion from players of that race[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of effects for the race relation, shown in tooltips and dialogs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]Racial units gain 100 Morale[br/]Racial colonies gain 4 Happiness[br/]50% Influence and Energy cost reduction for race events[br/]+100 opinion from players of that race[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of effects for the race relation, shown in tooltips and dialogs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]Racial colonies gain 2 Happiness[br/]25% Influence and Energy cost reduction for race events[br/]+50 opinion from players of that race[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of effects for the race relation, shown in tooltips and dialogs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">DISTRUSTED</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Racial units lose 200 Morale[br/]Racial colonies lose 3 Happiness[br/]50% Influence and Energy cost increase for race events[br/]1[casusBelli/] from players of that race[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of effects for the race relation, shown in tooltips and dialogs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKED</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Racial units lose 400 Morale[br/]Racial colonies lose 6 Happiness[br/]100% Influence and Energy cost increase for race events[br/]3[casusBelli/] from players of that race[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of effects for the race relation, shown in tooltips and dialogs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESPISED</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Racial units lose 600 Morale[br/]Racial colonies lose 9 Happiness[br/]Race events that cost Influence or Energy are no longer available[br/]5[casusBelli/] from players of that race[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of effects for the race relation, shown in tooltips and dialogs.</Data></Cell>
+   </Row>
+   <Row ss:Index="69" ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECTCHANGED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_raceName} units: {STR_unitNow} (was {STR_unitPrev})[br/]{STR_raceName} colonies: {STR_cityNow} (was {STR_cityPrev})[br/]{STR_raceName} event costs: {STR_eventNow} (was {STR_eventPrev})[br/]{STR_raceName} players opinion: {STR_playerNow} (was {STR_playerPrev})[br/]{STR_raceName} players Casus Belli: {STR_cbNow} [casusBelli/] (was {STR_cbPrev} [casusBelli/])</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shows how the effects of the the previous relation compare to the current effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">EVENTSDISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">Not available</Data></Cell>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACE_RELATION_OUTPOST_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">ADORED</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{XML_DIPLOMACY@RACERELATIONSTANDING@POS_LVL3} - 75% discount</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as relation name - Discount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACE_RELATION_OUTPOST_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@RACERELATIONSTANDING@POS_LVL2} - 50% discount</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as relation name - Discount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACE_RELATION_OUTPOST_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@RACERELATIONSTANDING@POS_LVL1} - 25% discount</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as relation name - Discount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACE_RELATION_OUTPOST_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">DISTRUSTED</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@RACERELATIONSTANDING@NEG_LVL1} - 50% cost Increase</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as relation name - Discount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACE_RELATION_OUTPOST_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKED</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@RACERELATIONSTANDING@NEG_LVL2} - 100% cost Increase</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as relation name - Discount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACE_RELATION_OUTPOST_EFFECTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESPISED</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_DIPLOMACY@RACERELATIONSTANDING@NEG_LVL3} - No Energy/Influence options allowed</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as relation name - Discount</Data></Cell>
+   </Row>
+   <Row ss:Index="79" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISCUSSION_INSULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Insult</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a single button option, to insult another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DISCUSSION_INSULT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Insult the other player. This will grant them 3 [casusBelli/] against you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip for insulting another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISCUSSION_DECLARATIONOFFRIENDSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compliment</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a single button option, to compliment another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISCUSSION_DECLARATIONOFFRIENDSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compliment the other player. This will improve their opinion of you by 100 [opinion6/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip for complimenting another player</Data></Cell>
+   </Row>
+   <Row ss:Index="84" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INSPIRATIONAL</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inspirational - trade income bonus</Data></Cell>
+   </Row>
+   <Row ss:Index="86" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">HISTORY</Data></Cell>
+    <Cell><Data ss:Type="String">Trade History: {STR_leaderName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a header to a panel. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="88" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">CANNOT_AUTO_BALANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Cannot auto-balance the trade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">GIFT_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">This trade is a gift; you receive no items in return.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">ALREADYSENTGIFT</Data></Cell>
+    <Cell><Data ss:Type="String">[grey]You already sent a gift this turn and will not receive a reputation bonus[/grey]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">GIFT_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">The opinion the opposing player has of you increases by 1 [opinion6/] for each 10 points of value in your gift.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">SEND_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Send a trade offer. The opposing player has one turn to respond to your trade, after which it will automatically be declined. You cannot change or retract your trade offer once it has been sent.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Accept the trade offer. All items and treaties will instantly be transferred.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">DEMAND_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Send a demand. You request items, but offer nothing to the other player. The opponent may be less likely to accept your trade if nothing is offered in return. You cannot change or retract your trade offer once it has been sent.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">COUNTER_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Send a counter offer. This will remove the current trade offer and replace it with your counter offer. You cannot change or retract your trade offer once it has been sent. This action does not cause any opinion penalties.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Decline the trade offer. This will remove the trade deal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">ONEWAY_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">This is a one-way demand. This trade will instantly resolve without the opposing player's consent.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip in the trading interface</Data></Cell>
+   </Row>
+   <Row ss:Index="100" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">STATE_SENT</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} proposed a trade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as an item in a list. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">STATE_INVALIDATED</Data></Cell>
+    <Cell><Data ss:Type="String">The trade was invalidated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status of the trade below the above STATE_SENT title. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">STATE_COUNTERED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} sent a counteroffer!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status of the trade below the above STATE_SENT title. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">STATE_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} accepted!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status of the trade below the above STATE_SENT title. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">STATE_DECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} declined!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status of the trade below the above STATE_SENT title. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">HISTORY_UNAVAILABLE</Data></Cell>
+    <Cell><Data ss:Type="String">Trade details unavailable; this trade happened too long ago and its records have been lost.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown in a tooltip when the trade history is unavailable for a specific trade.</Data></Cell>
+   </Row>
+   <Row ss:Index="107" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">VERY_GOOD_DEAL</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{XML_DIPLOMACY@TRADE@ANALYSIS} Very good deal for you</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">GOOD_DEAL</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{XML_DIPLOMACY@TRADE@ANALYSIS} Good deal for you</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">FAIR_DEAL</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{XML_DIPLOMACY@TRADE@ANALYSIS} Fair deal for you</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">BAD_DEAL</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{XML_DIPLOMACY@TRADE@ANALYSIS} Bad deal for you</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">VERY_BAD_DEAL</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{XML_DIPLOMACY@TRADE@ANALYSIS} Very bad deal for you</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">ANALYSIS</Data></Cell>
+    <Cell><Data ss:Type="String">Trade analysis:</Data></Cell>
+   </Row>
+   <Row ss:Index="114" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_DECLAREWAR_NOCB</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war without Casus Belli?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as header for a pop-up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CONFIRM_DECLAREWAR_NOCB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war on {STR_leaderName}. Without any Casus Belli, your reputation and Popular Support will suffer heavily, whereas your enemy's Popular Support will increase.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as caption in a pop-up when declaring war on another player without any Casus Belli Points. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_DECLAREWAR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as header for a pop-up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CONFIRM_DECLAREWAR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war on {STR_leaderName}. This action will reduce your reputation. Due to your Casus Belli on {STR_leaderName}, both your Popular Support and that of the enemy will increase.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as caption in a pop-up when declaring war on another player with Casus Belli Points. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96.75">
+    <Cell><Data ss:Type="String">CONFIRM_DECLAREWAR_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declare war on {STR_factionName}. This action will reduce your reputation. [br/][br/]The {STR_factionName} will send out invasion forces to attack your colonies for the duration of the war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as caption when declaring war on a faction. For example: &quot;Declare war on the Growth…&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_IGNOREDEMAND_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore this demand?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as header for a pop-up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONFIRM_IGNOREDEMAND_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to decline this demand? Ignoring the demand will anger the faction. {STR_factionName} will declare war if you decline their demand.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as caption in a pop-up, {STR_factionName} refers to the name of a faction of non-playable characters</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">THIS TEXT IS SENT OUT FOR RELOCALIZATION (19/06)</Data></Cell>
+   </Row>
+   <Row ss:Index="122" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Increase diplomatic state?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Increasing your diplomatic state with this player means they will be able to call you into war with other players should the need arise:[br/]{STR_playerNames}</Data></Cell>
+   </Row>
+   <Row ss:Index="125" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WAREFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Declaring war now means</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Is always followed by a breakdown of effects, e.g. &quot;Declaring war now means +100 points, -250 points&quot;.</Data></Cell>
+   </Row>
+   <Row ss:Index="127" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_NOEFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">No effect on reputation</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as effect in breakdowns</Data></Cell>
+   </Row>
+   <Row ss:Index="129" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_DENOUNCEPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to denounce this player?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as title to a pop-up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_DENOUNCEPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Denouncing this player will affect them and any other players who know both of you. You can either warn or denounce a player only once for each individual Casus Belli that you currently hold against them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONFIRM_FALSEDENOUNCEPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to falsely denounce this player?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as title to a pop-up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_FALSEDENOUNCEPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Denouncing this player will affect them and any other players who know both of you. You can denounce a player only once for each individual fabricated Casus Belli that you currently hold against them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="134" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DENOUNCE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_TYPEALREADYUSED</Data></Cell>
+    <Cell><Data ss:Type="String">You already warned or denounced using this type of Casus Belli; you can only use each type once. Once a war starts between you and the other player, this type is reset and becomes available for denouncements and warnings again.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DENOUNCE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_NOOTHERPLAYERS</Data></Cell>
+    <Cell><Data ss:Type="String">There are no other commanders on this planet; denouncing is not effective.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to explain that denouncing the player is only effective if there are any other players (alive) in the current game.</Data></Cell>
+   </Row>
+   <Row ss:Index="137" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INSUFFICIENT_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Insufficient influence to execute this action.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a title to a pop-up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INSUFFICIENT_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have insufficient influence to execute this action. You can earn more influence through your HQ Colony and by completing quests.</Data></Cell>
+   </Row>
+   <Row ss:Index="140" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_WARNPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to warn this player?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a title to a pop-up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_WARNPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This warning is private between you and the target player. They will be made aware that their previous action may have consequences. You can either warn or denounce a player only once for each individual Casus Belli that you currently hold against them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="143" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CANTBREAKTREATY</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Resource treaties can only be broken by declaring war or waiting for it to expire over time. Diplomatic treaties are broken by lowering the diplomatic state. When a treaty breaks/expires, any other treaty made in the same trade deal also expires.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a title to a pop-up</Data></Cell>
+   </Row>
+   <Row ss:Index="145" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Call to war</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as name for calling people to war, is also shown on buttons.</Data></Cell>
+   </Row>
+   <Row ss:Index="147" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} can accept your call to war</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} cannot accept your call to war</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_NOTMETEXT</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} has not met {STR_targetPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_NOALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">You do not share a defensive pact or alliance with {STR_requestPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_QUEUEDSTATE</Data></Cell>
+    <Cell><Data ss:Type="String">You have a queued diplomatic state with {STR_requestPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_QUEUEDSTATEEXT</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} has a queued diplomatic state with {STR_targetPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_QUEUEDSTATEREQ</Data></Cell>
+    <Cell><Data ss:Type="String">You have a queued diplomatic state with {STR_targetPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_ALREADYATWAR</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} is already at war with {STR_targetPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_ALREADYCALLED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} already has a call to war against {STR_targetPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_NODEFENSIVEWAR</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_targetPlayer} did not start the war; you can only call players with whom you share a defensive pact into a defensive war. If you forge an alliance with {STR_requestPlayer}, you'll be able to call {STR_requestPlayer} into any type of war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_NOTATWAR</Data></Cell>
+    <Cell><Data ss:Type="String">You are not at war with {STR_targetPlayer}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_RELATIONFIXED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} is in a fixed relation with {STR_targetPlayer} and cannot accept your call</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_INTHEVOID</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} is recuperating and cannot respond to your call</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_DEFEATED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} is defeated and cannot respond to your call</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_AGGRESSIVEVASSAL</Data></Cell>
+    <Cell><Data ss:Type="String">You are fighting an aggressive war against {STR_targetPlayer}. You cannot call your overlord, {STR_requestPlayer}, into this war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_FAIL_VASSAL</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_requestPlayer} is a vassal of {STR_targetPlayer} and cannot declare war</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="164" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to call this ally into war?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">CONFIRM_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_allyName} will be able to either accept or decline your request to join your war with {STR_opponentName}. If they accept, they will declare war on {STR_opponentName}. However, if they decline your call to war, {STR_allyName} will exit your alliance with them and will revert to a non-aggression pact. The called player has up to 3 turns to respond.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text mentions multiple people that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_allyName} must accept your request to join your war with {STR_opponentName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text mentions multiple people that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CONFIRM_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_VASSAL</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_allyName} will be able to either accept or decline your request to join your war with {STR_opponentName}. If they accept, they will declare war on {STR_opponentName}. However, your overlord may freely decline your call to war. The called player has up to 3 turns to respond.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text mentions multiple people that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="169" ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your ally, {STR_allyName}, has called for you to aid them in their war against {STR_enemyName}. Accepting this request will declare war on {STR_enemyName}. Declining this call to war will break your alliance with {STR_allyName}, also yielding considerable opinion penalties.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text mentions multiple people that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">Your vassal, {STR_allyName}, has called for you to aid them in their war against {STR_enemyName}. Accepting this request will declare war on {STR_enemyName}. Since you are the overlord of {STR_allyName}, declining this call to war only yields an opinion penalty.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text mentions multiple people that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_NODECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">Your overlord, {STR_allyName}, has called upon you for aid in their war against {STR_enemyName}. Accepting this request will declare war on {STR_enemyName}. Because you are a vassal of {STR_allyName}, you cannot decline their call to war.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text mentions multiple people that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_ACCEPT_NODECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">Yes, Master</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as button caption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_CANCEL</Data></Cell>
+    <Cell><Data ss:Type="String">Decide later</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as button caption</Data></Cell>
+   </Row>
+   <Row ss:Index="175" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_ACCEPT_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Accepting will declare war on the target player, you receive an additional {INT_cbPoints}[casusBelli/] for aiding your ally.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip. {INT_cbPoints} is a number that will be filled out by the game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_DECLINE_OVERLORD_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Declining will upset the other player, but will not break the relation because you are their overlord.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_DECLINE_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Declining will break the relationship and revert back to a non-aggression pact,  yielding a -100 [opinion0/] opinion penalty as well as reputation penalties for lowering your diplomatic state.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a tooltip</Data></Cell>
+   </Row>
+   <Row ss:Index="179" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to decline this call to war?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a header in a pop-up window</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declining will cause your relationship to revert to a non-aggression pact. Furthermore, the opinion the other player has of you drops by -100 [opinion0/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_OVERLORD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declining causes the opinion the other player has of you to drop by -100 [opinion0/].</Data></Cell>
+   </Row>
+   <Row ss:Index="183" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS</Data></Cell>
+    <Cell><Data ss:Type="String">Answer call to war</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as button caption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_AGAINST</Data></Cell>
+    <Cell><Data ss:Type="String">Call to war against {STR_playerName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a button caption for when responding to a call to war, for example &quot;Call to war against Bob&quot;. This means someone else called you to war against Bob.</Data></Cell>
+   </Row>
+   <Row ss:Index="186" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_INSULT</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to insult this player?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a header in a pop-up window</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_INSULT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Insulting another player costs 10 [influence/] and will grant the other player 3 [casusBelli/] against you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_DECLARATIONOFFRIENDSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to compliment this player?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a header in a pop-up window</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_DECLARATIONOFFRIENDSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Complimenting the other player costs 10 [influence/] and will improve their opinion of you by 100 [opinion6/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ALREADYINFLUENCEDTHISTURN</Data></Cell>
+    <Cell><Data ss:Type="String">You already influenced this player this turn.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a header in a pop-up window</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">INFLUENCECOOLDOWN</Data></Cell>
+    <Cell><Data ss:Type="String">You already influenced this player recently, you can influence them again in {INT_turns}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a header in a pop-up window</Data></Cell>
+   </Row>
+   <Row ss:Index="193" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FABRICATED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">fabricated</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as a status next to casus belli names, for example &quot;Name did something horrible (Fabricated)&quot;</Data></Cell>
+   </Row>
+   <Row ss:Index="195" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">WARNPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Warn or denounce {STR_playerName} about their actions</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">WARNPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can either warn or denounce a player only once for each individual Casus Belli that you currently hold against them. Warning is a private message, whereas denouncing is a public proclamation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DENOUNCE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as button caption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WARN</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as button caption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WARNNOCB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You currently have no Casus Belli against this player to use to warn or denounce them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WARNPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">ALREADYWARNED</Data></Cell>
+    <Cell><Data ss:Type="String">You already warned or denounced this player this turn.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DENOUNCE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATIONEFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Players that know both you and {STR_leaderName} will receive an opinion penalty on {STR_leaderName}:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DENOUNCE</Data></Cell>
+    <Cell><Data ss:Type="String">COST</Data></Cell>
+    <Cell><Data ss:Type="String">Denounce cost:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Is always followed by a number</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DENOUNCE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">Denouncement: </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Is followed by the name of the Casus Belli being used to denounce the other player.</Data></Cell>
+   </Row>
+   <Row ss:Index="205" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">PENDINGTRADE</Data></Cell>
+    <Cell><Data ss:Type="String">There is already a pending trade offer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:Index="207" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">JUSTMET</Data></Cell>
+    <Cell><Data ss:Type="String">You've recently met this player, wait {INT_turns}[turn/] before they will accept a new diplomatic state.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">WONTBREAKUPCOLONY</Data></Cell>
+    <Cell><Data ss:Type="String">The player will not trade away this sector because it will disconnect one or multiple sectors from their colony.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DIPLOMATICCOOLDOWN</Data></Cell>
+    <Cell><Data ss:Type="String">The player has already recently agreed to a new diplomatic state, wait {INT_turns}[turn/] before offering a new diplomatic state.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">TREATYCOOLDOWN</Data></Cell>
+    <Cell><Data ss:Type="String">The player has already recently agreed to a treaty, wait {INT_turns}[turn/] before offering another treaty.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">COLONYTOOVALUABLE</Data></Cell>
+    <Cell><Data ss:Type="String">The player will not trade away this colony unless in a truce negotiation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">SECTORCOOLDOWN</Data></Cell>
+    <Cell><Data ss:Type="String">The player has already recently given you a sector, wait {INT_turns}[turn/] before offering another sector.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">ALREADYHASTREATY</Data></Cell>
+    <Cell><Data ss:Type="String">The player is already giving you resources per turn and will not do so again.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKECOOLDOWN</Data></Cell>
+    <Cell><Data ss:Type="String">This player is not ready to forget their dislikes, wait {INT_turns}[turn/] before trying to overcome the dislikes they have. This duration is reset if either player declares war on the other.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">PLANINCOMPATIBLE</Data></Cell>
+    <Cell><Data ss:Type="String">The player doesn't like you enough to accept a better diplomatic state.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Show in a tooltip to explain why another player will not accept a trade option</Data></Cell>
+   </Row>
+   <Row ss:Index="217" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">LEADERINVOID</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot perform this action while your commander is recuperating.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">OPPONENTINVOID</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot perform this action while the other commander is recuperating.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">FIXEDDIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot perform this action because your diplomatic relationship with the other player is fixed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">OUTSTANDINGTRUCE</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot perform this action while you are negotiating a truce with the other player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">PENDINGSTATECHANGE</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot perform this action while there is a pending diplomatic state change between you and the other player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">NOTWHILEATWAR</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot perform this action while you are at war with the other player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">NOTWHILEVASSAL</Data></Cell>
+    <Cell><Data ss:Type="String">You cannot perform this action while you are a vassal of the other player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as tooltip</Data></Cell>
+   </Row>
+   <Row ss:Index="225" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIGNMENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">Distrusted among the other players.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for the player having a certain reputation. This is shown both to the player but also to other players as third parties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]-50[largeTab/]Opinion of all disreputable players[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of the effects for a specific reputation state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIGNMENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">Widely known for immoral acts. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for the player having a certain reputation. This is shown both to the player but also to other players as third parties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]-50[largeTab/]Opinion of all disreputable players[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of the effects for a specific reputation state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIGNMENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">Universally detested for deplorable behavior.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for the player having a certain reputation. This is shown both to the player but also to other players as third parties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]-50[largeTab/]Opinion of all disreputable players[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of the effects for a specific reputation state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIGNMENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">People tend to have an indifferent opinion. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for the player having a certain reputation. This is shown both to the player but also to other players as third parties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">A neutral reputation has no substantial effect on other players. Once the reputation increases or decreases to a different level, player opinions and Dwelling shop costs will change.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of the effects for a specific reputation state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIGNMENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">Seen by other players as mostly dependable and cooperative. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for the player having a certain reputation. This is shown both to the player but also to other players as third parties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]+50[largeTab/]Opinion from other reputable players[/xpCol][br/][fireCol]-50[largeTab/]Opinion of disreputable players[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of the effects for a specific reputation state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIGNMENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">Widely respected by other players for moral actions. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for the player having a certain reputation. This is shown both to the player but also to other players as third parties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]+50[largeTab/]Opinion from other reputable players[/xpCol][br/][fireCol]-50[largeTab/]Opinion of disreputable players[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of the effects for a specific reputation state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALIGNMENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">Held in the highest esteem among other honorable players. </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for the player having a certain reputation. This is shown both to the player but also to other players as third parties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]+50[largeTab/]Opinion from other reputable players[/xpCol][br/][fireCol]-50[largeTab/]Opinion of disreputable[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of the effects for a specific reputation state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]{INT_value}[casusbelli/][largeTab/]Other commanders receive {INT_value}[casusBelli/] Casus Belli point(s)[/fireCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_SHOP_REDUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]+{INT_value}%[largeTab/]Dwelling shop cost reduction[/xpCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_SHOP_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]+{INT_value}%[largeTab/]Dwelling shop cost increase[/fireCol]</Data></Cell>
+   </Row>
+   <Row ss:Index="243" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">[reputation6/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">[reputation5/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">[reputation4/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">[reputation3/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L1</Data></Cell>
+    <Cell><Data ss:Type="String">[reputation2/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L2</Data></Cell>
+    <Cell><Data ss:Type="String">[reputation1/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">[reputation0/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:Index="252" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">WAR</Data></Cell>
+    <Cell><Data ss:Type="String">War</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">Non-Aggression Pact</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">DEFENSIVEPACT</Data></Cell>
+    <Cell><Data ss:Type="String">Defensive Pact</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Alliance</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">EVASION</Data></Cell>
+    <Cell><Data ss:Type="String">Evasion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:Index="259" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">WAR</Data></Cell>
+    <Cell><Data ss:Type="String">War</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">Peace</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">DEFENSIVEPACT</Data></Cell>
+    <Cell><Data ss:Type="String">Friendship</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Integration</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a diplomatic state, is used as a title, but can also be used in breakdowns inserted into scentences like &quot;Current diplomatic state: WAR&quot;.</Data></Cell>
+   </Row>
+   <Row ss:Index="265" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">WAR</Data></Cell>
+    <Cell><Data ss:Type="String">While at war, players can attack each other, claim sectors and perform operations at will.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">While in a neutral state, the players' relationship can change positively or negatively. The path to war lies open, or more peaceful options can be pursued, such as the Non-Aggression Pact, Defensive Pact, and eventually an Alliance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">Both players agree to avoid aggressive action, and cannot directly attack each other without first breaking this pact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">DEFENSIVEPACT</Data></Cell>
+    <Cell><Data ss:Type="String">Both players agree to a defensive pact in which they can call upon each other for help when fighting a defensive war, becoming allies in battle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">The strongest bond two players can share; while in an alliance, allied victories are enabled, and players can call upon each other for aid in wars.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">UNKNOWN</Data></Cell>
+    <Cell><Data ss:Type="String">The diplomatic state is unknown as the players have not yet met each other.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of a diplomatic state.</Data></Cell>
+   </Row>
+   <Row ss:Index="272" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">PENDINGSTATE</Data></Cell>
+    <Cell><Data ss:Type="String">change pending</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown in a sentence behind the diplomatic state when the diplomatic state is about to change automatically during the next turn. E.g. &quot;Diplomatic state: Alliance (change pending)&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">PENDINGSTATE</Data></Cell>
+    <Cell><Data ss:Type="String">The relation has a pending change which will change the diplomatic state to {STR_state} on the next turn.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Explains to the player that there is a pending diplomatic state change that will change the state of the relation to {STR_state}. STR_State is filled out by one of the DIPLOMATIC_STATE entries, for example Alliance.</Data></Cell>
+   </Row>
+   <Row ss:Index="275" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">L3</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]Adoring[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is shown in the interface as a status, it reflects how your population views you as their leader.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">L2</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]Supportive[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is shown in the interface as a status, it reflects how your population views you as their leader.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">L1</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]Approving[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is shown in the interface as a status, it reflects how your population views you as their leader.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">L0</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is shown in the interface as a status, it reflects how your population views you as their leader.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">L-1</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Disapproving[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is shown in the interface as a status, it reflects how your population views you as their leader.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">L-2</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Discontent[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is shown in the interface as a status, it reflects how your population views you as their leader.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">L-3</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Despising[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is shown in the interface as a status, it reflects how your population views you as their leader.</Data></Cell>
+   </Row>
+   <Row ss:Index="283" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">L3</Data></Cell>
+    <Cell><Data ss:Type="String">[largeIndent][xpCol]-30%[largeTab/]Unit Upkeep[/xpCol][br/][xpCol]-30%[largeTab/]Unit Production[production/] Cost[/xpCol][br/][xpCol]+30%[largeTab/]Colony Happiness Income[/xpCol][/largeIndent]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of having a specific popular support status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">L2</Data></Cell>
+    <Cell><Data ss:Type="String">[largeIndent][xpCol]-20%[largeTab/]Unit Upkeep[/xpCol][br/][xpCol]-20%[largeTab/]Unit Production[production/] Cost[/xpCol][br/][xpCol]+20%[largeTab/]Colony Happiness Income[/xpCol][/largeIndent]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of having a specific popular support status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">L1</Data></Cell>
+    <Cell><Data ss:Type="String">[largeIndent][xpCol]-10%[largeTab/]Unit Upkeep[/xpCol][br/][xpCol]-10%[largeTab/]Unit Production[production/] Cost[/xpCol][br/][xpCol]+10%[largeTab/]Colony Happiness Income[/xpCol][/largeIndent]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of having a specific popular support status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">L0</Data></Cell>
+    <Cell><Data ss:Type="String">[largeIndent]No effects and no penalties. You will start receiving bonuses if you increase your Popular Support level, or penalties if your Popular Support level drops any further.[/largeIndent]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of having a specific popular support status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">L-1</Data></Cell>
+    <Cell><Data ss:Type="String">[largeIndent][fireCol]+10%[largeTab/]Unit Upkeep[/fireCol][br/][fireCol]+10%[largeTab/]Unit Production[production/] Cost[/fireCol][br/][fireCol]-10%[largeTab/]Colony Happiness Income[/fireCol][/largeIndent]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of having a specific popular support status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">L-2</Data></Cell>
+    <Cell><Data ss:Type="String">[largeIndent][fireCol]+20%[largeTab/]Unit Upkeep[/fireCol][br/][fireCol]+20%[largeTab/]Unit Production[production/] Cost[/fireCol][br/][fireCol]-20%[largeTab/]Colony Happiness Income[/fireCol][/largeIndent]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of having a specific popular support status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">L-3</Data></Cell>
+    <Cell><Data ss:Type="String">[largeIndent][fireCol]+30%[largeTab/]Unit Upkeep[/fireCol][br/][fireCol]+30%[largeTab/]Unit Production[production/] Cost[/fireCol][br/][fireCol]-30%[largeTab/]Colony Happiness Income[/fireCol][/largeIndent]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Breakdown of having a specific popular support status</Data></Cell>
+   </Row>
+   <Row ss:Index="291" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">L3</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]3[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">L2</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]2[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">L1</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]1[/xpCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">L0</Data></Cell>
+    <Cell><Data ss:Type="String">[grey]0[/grey]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">L-1</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]-1[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">L-2</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]-2[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_SHORTNAME</Data></Cell>
+    <Cell><Data ss:Type="String">L-3</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]-3[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Do not localize!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PRODUCTION_COST</Data></Cell>
+    <Cell><Data ss:Type="String">{percentageModifier}[production/] cost for all units.</Data></Cell>
+   </Row>
+   <Row ss:Index="300" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_DETAIL</Data></Cell>
+    <Cell><Data ss:Type="String">The popular support of your empire and your people, which affects Unit Upkeep, Unit Production Cost and the Happiness of your colonists.[br/]It is influenced by the wars you enter and how justified they are perceived to be.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip for popular support</Data></Cell>
+   </Row>
+   <Row ss:Index="302" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_AGAINST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">War against high reputation player</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a modifier, shown in breakdowns/lists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_NO_CB</Data></Cell>
+    <Cell><Data ss:Type="String">War without Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a modifier, shown in breakdowns/lists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_MINOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">War with minor Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a modifier, shown in breakdowns/lists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_NORMAL_CB</Data></Cell>
+    <Cell><Data ss:Type="String">War with normal Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a modifier, shown in breakdowns/lists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMBATSTRESS_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_MAJOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">War with major Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a modifier, shown in breakdowns/lists</Data></Cell>
+   </Row>
+   <Row ss:Index="308" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Casus Belli (plural) are causes for war or justification to go to war. This is an in-game mechanic which may be mentioned in other texts by name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_GENERAL</Data></Cell>
+    <Cell><Data ss:Type="String">Casus Belli represent your justifications for starting a war. As other players offend you, your Casus Belli against them will rise. The higher your Casus Belli number, the more popular going to war will be, and the less our reputation will suffer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description for Casus Belli.</Data></Cell>
+   </Row>
+   <Row ss:Index="311" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">CAP_REACHED</Data></Cell>
+    <Cell><Data ss:Type="String">Cap reached</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown at the end of a casus belli name when a player cannot get any more casus belli points for a specific type. For example: &quot;6 x PLAYERNAME trespassed in my domain (Cap reached)&quot;</Data></Cell>
+   </Row>
+   <Row ss:Index="313" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">AGAINST_YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Casus Belli against you</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown in a tooltip as: &quot;Casus Belli against you: Minor (3 points)&quot;</Data></Cell>
+   </Row>
+   <Row ss:Index="315" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_LEVEL_0</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title for having 0 Casus Belli points</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_LEVEL_0</Data></Cell>
+    <Cell><Data ss:Type="String">With no justification, war would be deeply unpopular.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description of a Casus Belli level</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_LEVEL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Minor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title for having some Casus Belli points</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_LEVEL_1</Data></Cell>
+    <Cell><Data ss:Type="String">War is possible, but our reputation would still suffer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description of a Casus Belli level</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_LEVEL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Moderate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title for having more Casus Belli points</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_LEVEL_2</Data></Cell>
+    <Cell><Data ss:Type="String">War would be popular, and we would only lose a moderate amount of reputation.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description of a Casus Belli level</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE_LEVEL_3</Data></Cell>
+    <Cell><Data ss:Type="String">Major</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title for having the maximum amount of Casus Belli points</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_LEVEL_3</Data></Cell>
+    <Cell><Data ss:Type="String">The people demand war, and no one would think badly of us for starting one.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description of a Casus Belli level</Data></Cell>
+   </Row>
+   <Row ss:Index="324" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VASSAL</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Vassal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as an item in lists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96.75">
+    <Cell><Data ss:Type="String">VASSAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This player is your vassal. They have sworn allegiance to your cause and must come to your aid when called to war. Neither you nor the vassal can attack each other unless you decide to break this pact. You will gain an additional {INT_energy}% energy and {INT_research}% research per turn based on the income of your vassal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description for vassal players. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell><Data ss:Type="String">Edit: only the overlord can break the pact</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Overlord</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used as an item in lists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This player is your sworn overlord. Their mercy is your survival. You must come to the aid of your overlord when called to war. Only your overlord can decide to break this pact.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip description for overlord players. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell><Data ss:Type="String">Edit: only the overlord can break the pact</Data></Cell>
+   </Row>
+   <Row ss:Index="329" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">Income from vassals</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description in the resource income breakdowns for resource income gained from vassal players.</Data></Cell>
+   </Row>
+   <Row ss:Index="331" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMBATSTRESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Popular Support</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title for the popular support mechanic. Shown as Popular Support: STATUS</Data></Cell>
+   </Row>
+   <Row ss:Index="333" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISCUSSION_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">INSULTED</Data></Cell>
+    <Cell><Data ss:Type="String">You insulted {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISCUSSION_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">WAS_INSULTED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} insulted you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISCUSSION_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">WAS_INSULTED_EXT</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} insulted {STR_otherName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISCUSSION_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDSHIP</Data></Cell>
+    <Cell><Data ss:Type="String">You publicly complimented {STR_leaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISCUSSION_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">WAS_FRIENDED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} publicly complimented you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISCUSSION_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">WAS_FRIENDED_EXT</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} complimented {STR_otherName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="340" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUILDONCLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to build in this claimed sector?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">BUILDONCLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector has already been [hyperlink,000003A600000329]claimed[/hyperlink]. Building here causes other commanders to gain a Casus Belli (4[casusBelli/] points) against you, making it easier for them to declare war on you. Independent factions will make demands if you ignore their claims.[br/][br/]The following commanders and factions have claimed this sector:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up description for wanting to build on a claimed location. Will be followed by a list of players/factions who have already laid claim on the location.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUILDONCLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION_DESCRIPTION_POST</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to build here?</Data></Cell>
+   </Row>
+   <Row ss:Index="344" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTERCLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to enter this claimed structure?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ENTERCLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This sector has already been [hyperlink,000003A600000329]claimed[/hyperlink]. Capturing it causes other commanders to gain a Casus Belli (4[casusBelli/] points) against you, making it easier for them to declare war on you. Independent factions may demand compensation for ignoring their claims[br/][br/]The following commanders and factions have claimed this sector:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up description for wanting to capture a claimed location. Will be followed by a list of players/factions who have already laid claim on the location. This tooltip is similar to the previous tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTERCLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION_DESCRIPTION_POST</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to enter this structure?</Data></Cell>
+   </Row>
+   <Row ss:Index="348" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACERELATIONSTANDING</Data></Cell>
+    <Cell><Data ss:Type="String">POS_LVL3</Data></Cell>
+    <Cell><Data ss:Type="String">Adored</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a relation standing, may also be inserted into  texts like &quot;StandingName - Effect&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACERELATIONSTANDING</Data></Cell>
+    <Cell><Data ss:Type="String">POS_LVL2</Data></Cell>
+    <Cell><Data ss:Type="String">Friendly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a relation standing, may also be inserted into  texts like &quot;StandingName - Effect&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACERELATIONSTANDING</Data></Cell>
+    <Cell><Data ss:Type="String">POS_LVL1</Data></Cell>
+    <Cell><Data ss:Type="String">Accepted</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a relation standing, may also be inserted into  texts like &quot;StandingName - Effect&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACERELATIONSTANDING</Data></Cell>
+    <Cell><Data ss:Type="String">LVL0</Data></Cell>
+    <Cell><Data ss:Type="String">Neutral</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a relation standing, may also be inserted into  texts like &quot;StandingName - Effect&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACERELATIONSTANDING</Data></Cell>
+    <Cell><Data ss:Type="String">NEG_LVL1</Data></Cell>
+    <Cell><Data ss:Type="String">Distrusted</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a relation standing, may also be inserted into  texts like &quot;StandingName - Effect&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACERELATIONSTANDING</Data></Cell>
+    <Cell><Data ss:Type="String">NEG_LVL2</Data></Cell>
+    <Cell><Data ss:Type="String">Disliked</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a relation standing, may also be inserted into  texts like &quot;StandingName - Effect&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACERELATIONSTANDING</Data></Cell>
+    <Cell><Data ss:Type="String">NEG_LVL3</Data></Cell>
+    <Cell><Data ss:Type="String">Despised</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a relation standing, may also be inserted into  texts like &quot;StandingName - Effect&quot;</Data></Cell>
+   </Row>
+   <Row ss:Index="356" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOSTILEACTION</Data></Cell>
+    <Cell><Data ss:Type="String">FIXED_HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Cannot perform hostile action</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up title</Data></Cell>
+   </Row>
+   <Row ss:Index="358" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to start coordinating this ally?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Requesting to coordinate {STR_allyName} costs {INT_influenceCost}[influence/] and motivates them to focus on targets of your choosing. {STR_allyName} will try to follow your war coordination requests for up to {INT_turns}[turn/], though they may abort or decline before that time runs out. After that time they will abort any current mission and the coordination automatically ends.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONFIRM_ABORTCALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to abort your request?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONFIRM_ABORTCALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to abort this war coordination request? This will immediately abort the action without refunding any spent [influence/] points!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="363" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRONOUNCEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Pronouncements</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PRONOUNCEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Opens the pronouncement sub-options. These enable you to make statements or declarations to affect your relationship with the opposing player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button tooltip</Data></Cell>
+   </Row>
+   <Row ss:Index="366" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">OPENBORDERS</Data></Cell>
+    <Cell><Data ss:Type="String">Opened Borders</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Treaty Title, shown in lists and is inserted into strings like &quot;Player Name - Opened borders&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">OPENBORDERS_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Open borders allow the other player to freely move their units through another player's domain without trespassing.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">tooltip description of the treaty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">SHAREVISION</Data></Cell>
+    <Cell><Data ss:Type="String">Shares Vision</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Treaty Title, shown in lists and is inserted into strings like &quot;Player Name - Opened borders&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">SHAREVISION_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Sharing vision grants vision of all owned units, structures and sectors to the other player.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">tooltip description of the treaty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">SHAREINTEL</Data></Cell>
+    <Cell><Data ss:Type="String">Intelligence Sharing Pact</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Treaty Title, shown in lists and is inserted into strings like &quot;Player Name - Opened borders&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">SHAREINTEL_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">This mutual treaty provides better defense against all operations for both players, whilst lowering each player's defense against operations they deploy on each other. Both players' secret tech will be revealed, as well as those of third parties that have already been revealed.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">tooltip description of the treaty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">TRUCE</Data></Cell>
+    <Cell><Data ss:Type="String">Truce</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Treaty Title, shown in lists and is inserted into strings like &quot;Player Name - Opened borders&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">TRUCE_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">With this mutual treaty, the commanders vow to (temporarily) not attack each other. Commanders can still declare war, but suffer an additional reputation penalty.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">tooltip description of the treaty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">ALLOWCLAIMEDSECTORS</Data></Cell>
+    <Cell><Data ss:Type="String">Good Neighbors Pact</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Treaty Title, shown in lists and is inserted into strings like &quot;Player Name - Opened borders&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">ALLOWCLAIMEDSECTORS_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">This treaty allows the commander to build on sectors claimed by the other without suffering any penalties.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">tooltip description of the treaty</Data></Cell>
+   </Row>
+   <Row ss:Index="377" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">PARTOFTREATY</Data></Cell>
+    <Cell><Data ss:Type="String">Part of treaty:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown in tooltips below the description of the treaty and is followed by a list of treaty names.</Data></Cell>
+   </Row>
+   <Row ss:Index="379" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WARNING_ALLIANCE_UNIFIERVICTORY</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Cannot enter alliance</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pop-up title</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">WARNING_ALLIANCE_UNIFIERVICTORY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You may not enter an alliance with this player while you are running the Planetary Unification Protocol. Either you or the other player must stop the Protocol before you continue.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="382" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_FACTION_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Faction Relations Morale Increase (+400)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_FACTION_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 400 because you integrated the faction this unit originates from.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_FACTION_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Faction Relations Morale Increase (+200)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_FACTION_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 200 because you share a friendship with the faction this unit originates from.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_FACTION_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">Faction Relations Morale Increase (+100)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_FACTION_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is increased by 100 because you are at peace with the faction this unit originates from.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_NAME_FACTION_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Faction War Morale Decrease (-400)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier title shown in breakdown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIT_MORALE_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_DESC_FACTION_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Unit Morale is decreased by 400 because you are at war with the faction this unit originates from.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Modifier description shown in tooltip</Data></Cell>
+   </Row>
+   <Row ss:Index="391" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PLAYEROPINION</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName}'s opinion of {STR_otherName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PLAYEROPINION</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This value reflects the opinion one player has of another, and is affected by their shared diplomatic state, reputations and actions (represented as modifiers). The value ranges between [fireCol]{INT_min}[/fireCol] (lowest opinion) and [xpCol]{INT_max}[/xpCol] (highest opinion).</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PLAYEROPINION</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP_HELP</Data></Cell>
+    <Cell><Data ss:Type="String">Reflects the opinion {STR_leaderName}'s empire has towards our empire. The higher the relation value the more likely they are to trade with us or accept our demands.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYEROPINION</Data></Cell>
+    <Cell><Data ss:Type="String">REPUTATIONOPINION</Data></Cell>
+    <Cell><Data ss:Type="String">Reputation opinion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an opinion modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYEROPINION</Data></Cell>
+    <Cell><Data ss:Type="String">GRUDGE</Data></Cell>
+    <Cell><Data ss:Type="String">Grudge from Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an opinion modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYEROPINION</Data></Cell>
+    <Cell><Data ss:Type="String">GRUDGE_REMAIN</Data></Cell>
+    <Cell><Data ss:Type="String">Grudge from expired Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an opinion modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PLAYEROPINION</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYERISOVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_overlordName} is {STR_vassalName}'s overlord </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="399" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SECTORCLAIMIGNORED</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} has captured your claimed sector</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as title to a message. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECTORCLAIMIGNORED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} has captured {STR_sectorName}. Because of your claims on this sector, you have gained a Casus Belli (4[casusBelli/] points) on {STR_leaderName}, allowing you to declare war on them with Popular Support.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as message caption</Data></Cell>
+   </Row>
+   <Row ss:Index="402" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">USAGEBLOCKED</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Due to ongoing effects, you cannot currently make use of your Casus Belli.[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status effect below the above pop-up caption</Data></Cell>
+   </Row>
+   <Row ss:Index="404" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">POPULARSUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_NOPENALTY_WARNOCB</Data></Cell>
+    <Cell><Data ss:Type="String">Due to ongoing effects, you are currently unaffected by Popular Support penalties for declaring war without Casus Belli.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status effect below the above pop-up caption</Data></Cell>
+   </Row>
+   <Row ss:Index="406" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">War Coordination</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for requesting an ally to attack another player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">War Coordination - target: {STR_leaderName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for requesting an ally to attack a player, {STR_leaderName} is replaced with the name of a player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_NOTARGET</Data></Cell>
+    <Cell><Data ss:Type="String">War Coordination</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_PENDING</Data></Cell>
+    <Cell><Data ss:Type="String">Pending reaction</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status in a tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_RUNNING</Data></Cell>
+    <Cell><Data ss:Type="String">Running, {INT_turns}[turn/] until target</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown as status in a tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_DEFENDING</Data></Cell>
+    <Cell><Data ss:Type="String">Defending location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">VIEW_STATUS</Data></Cell>
+    <Cell><Data ss:Type="String">View status</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_ABORT</Data></Cell>
+    <Cell><Data ss:Type="String">Abort the mission!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for telling your ally to cancel their attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_SHOWTARGET</Data></Cell>
+    <Cell><Data ss:Type="String">Show me the target</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for revealing the target location for the attack on the map.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_BACK</Data></Cell>
+    <Cell><Data ss:Type="String">OK! Keep me informed!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for exiting the window without changing the state of the attack request.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_CHANGETARGET</Data></Cell>
+    <Cell><Data ss:Type="String">Change target</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for changing the target of the call to arms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_CHOOSETARGET_BACK</Data></Cell>
+    <Cell><Data ss:Type="String">Different target</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_DEFEND_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">Defend this location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_ATTACK_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">Attack this location</Data></Cell>
+   </Row>
+   <Row ss:Index="421" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_PENDING</Data></Cell>
+    <Cell><Data ss:Type="String">I need to consider your request. Let me get back to you on that!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player is still considering the request</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_START</Data></Cell>
+    <Cell><Data ss:Type="String">I think I can do this. {INT_turnsUntilTarget} turns until I reach the target!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player starts with the attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_RUNNING_POSITIVE</Data></Cell>
+    <Cell><Data ss:Type="String">I'm on my way. I estimate it will take me {INT_turnsUntilTarget} turns to reach my target!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player is currently traveling to the location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_RUNNING_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">This will take me some time, but I'm on my way. It will take me roughly {INT_turnsUntilTarget} turns to reach the target!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player is still traveling to the location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_RUNNING_NEGATIVE</Data></Cell>
+    <Cell><Data ss:Type="String">This is going to take longer than expected. It will take {INT_turnsUntilTarget} turns before I reach the target!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request.  - The player is still traveling to the location but has been delayed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_RUNNING_NEARTARGET</Data></Cell>
+    <Cell><Data ss:Type="String">Almost there! {INT_turnsUntilTarget} turns to reach the target!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player is about to reach the target</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_RUNNING_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">My attention is needed elsewhere at the moment, but I'll try to get back to our target soon!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player has paused the attack temporarily</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_REACHED_DEFENSIVE_POSITION</Data></Cell>
+    <Cell><Data ss:Type="String">I've reached the target, my army is guarding the location!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player cancels the attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">This is simply too much. I can't do it...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player cancels the attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_FAILED_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">Due to our current standing, I will no longer be able to comply with your requests.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player cancels the attack because their relation  with the requesting player has degraded</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_ABORTED</Data></Cell>
+    <Cell><Data ss:Type="String">Abort! I'm not going to be able to do this for you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player aborts the attack because they cannot reach the target</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_DECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">I can't do this for you, not right now at least.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player declines the request</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_FINISHED</Data></Cell>
+    <Cell><Data ss:Type="String">Threat eliminated, scanning perimeter for more hostiles.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player has performed the attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPDATE_COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">I've fulfilled my duties and trust my services were satisfactory.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Message response from the other player when asking the current status of the attack request. - The player has performed the attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">INFLUENCE_REFUNDED</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_influence} [influence/] was refunded.</Data></Cell>
+   </Row>
+   <Row ss:Index="437" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">PROMPT_SELECTLOCATION</Data></Cell>
+    <Cell><Data ss:Type="String">Where should I assist you?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">PROMPT_SELECTMISSION</Data></Cell>
+    <Cell><Data ss:Type="String">Focus on this location?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">INFO_SELECTSTRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">Select a structure that can be attacked or defended</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">INFO_INVALID_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]Structure cannot be targeted[/fireCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">INFO_VALID_ATTACK_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]This structure can be attacked {STR_buttontag}[/xpCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">INFO_VALID_DEFEND_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]This structure can be defended {STR_buttontag}[/xpCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">INFO_MAX_DURATION</Data></Cell>
+    <Cell><Data ss:Type="String">War Coordination lasts for {INT_turns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALLTOARMS</Data></Cell>
+    <Cell><Data ss:Type="String">INFO_CASTINSTRUCTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Structures you are both at war with can be attacked. Structures belonging to players with whom {STR_leaderName} shares at least a defensive pact with can be defended (including their own structures).</Data></Cell>
+   </Row>
+   <Row ss:Index="446" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRSTMEET</Data></Cell>
+    <Cell><Data ss:Type="String">POSITIVE</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Nice to meet you&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption when sending a positive first meeting message to the other player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRSTMEET</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore and enter diplomacy</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption for not sending any message and ignoring their first contact.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRSTMEET</Data></Cell>
+    <Cell><Data ss:Type="String">NEGATIVE</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Stay out of my way&quot;</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button caption when sending a negative first meet message to the other player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIRSTMEET</Data></Cell>
+    <Cell><Data ss:Type="String">SHOW_LOCATION</Data></Cell>
+    <Cell><Data ss:Type="String">Show where we met</Data></Cell>
+   </Row>
+   <Row ss:Index="451" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_VISIT</Data></Cell>
+    <Cell><Data ss:Type="String">Close diplomacy screen and visit this dwelling</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip for visiting a dwelling.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">NOTDISCOVERED</Data></Cell>
+    <Cell><Data ss:Type="String">You haven't discovered this dwelling yet.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tooltip when a dwelling has not been discovered yet.</Data></Cell>
+   </Row>
+   <Row ss:Index="454" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EFFECT_REMOVECASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_numCasusBelli} [casusBelli/] removed!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Results from an operation, shown in a list breakdown.</Data></Cell>
+   </Row>
+   <Row ss:Index="456" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EFFECT_UNAVAILABLE</Data></Cell>
+    <Cell><Data ss:Type="String">FIXED</Data></Cell>
+    <Cell><Data ss:Type="String">[fireCol]This operation cannot be used in fixed teams[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown in tooltips when operations cannot be used in the fixed teams game mode.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">VETERAN</Data></Cell>
+    <Cell><Data ss:Type="String">Veterans</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLED_DIPLOMAT</Data></Cell>
+    <Cell><Data ss:Type="String">Fast Talkers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A bonus gained from Skilled Diplomat perk. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29.25">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">MARTIAL_TRADITION</Data></Cell>
+    <Cell><Data ss:Type="String">Ruthless Killers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A bonus gained from Martial Tradition perk. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">MERCHANT_SCION</Data></Cell>
+    <Cell><Data ss:Type="String">Merchant Scions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">STAR_UNION_SCHOLAR</Data></Cell>
+    <Cell><Data ss:Type="String">Star Union Scholars</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">COVERT_OPERATIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Covert Operatives</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">CRUEL</Data></Cell>
+    <Cell><Data ss:Type="String">Cruel Commanders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">PARTY_ANIMAL</Data></Cell>
+    <Cell><Data ss:Type="String">Party Animals</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">KLEPTOMANIAC</Data></Cell>
+    <Cell><Data ss:Type="String">Kleptomaniacs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">STUBBORN</Data></Cell>
+    <Cell><Data ss:Type="String">Stubborn Commanders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">DECADENT</Data></Cell>
+    <Cell><Data ss:Type="String">Decadent Commanders</Data></Cell>
+   </Row>
+   <Row ss:Index="470" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">FORESHADOW_POSITIVE</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Negotiate with this commander to improve relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">FORESHADOW_NEGATIVE</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Send a compliment or negotiate a trade to avoid relations getting worse.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">FORESHADOW_WAR</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">This commander may declare war soon, improve the relation to try to avoid war.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">FORESHADOW_END_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Negotiate a truce with this commander to improve relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NEGLECT</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Actively engage in diplomacy to maintain relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">WARNED</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Avoid generating Casus Belli for this commander if you want to maintain positive relations.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">TREATY_FORMED</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">A new treaty was formed. Review treaties in the treaties list to the right.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">WAR</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">You are now at war with this commander! Most diplomatic interactions are disabled until a truce is formed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_FAILED</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The negotiation failed. The same negotiation can be proposed in 3 turns.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">OPINION_CHANGED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{STR_color1Open}This commander’s opinion of you has changed by {INT_value1}.{STR_color1Close}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">OPINION_CHANGED_PERSONALITY</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{STR_color1Open}This commander’s opinion of you has changed by {INT_value1} due to their personality trait.{STR_color1Close}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">INSULT_RECEIVED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{STR_color1Open}This commander’s opinion of you has changed by {INT_value1}.{STR_color1Close}[br/]{STR_color2Open} You have gained {INT_value2} Casus Belli on this commander.{STR_color2Close}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">CASUSBELLI_GAINED</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{STR_color1Open} You have gained {INT_value1} Casus Belli on this commander.{STR_color1Close}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">CASUSBELLI_GAINED_OTHER</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{STR_color1Open}This commander has gained {INT_value1} Casus Belli on you.{STR_color1Close}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_OPINIONS_CHANGED_AGAINST_YOU</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{STR_color1Open}All commanders’ opinions of you have changed by {INT_value1}.{STR_color1Close}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEEDBACK</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_OPINIONS_CHANGED_AGAINST_OTHER</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">{STR_color1Open}All commanders’ opinions of this commander have changed by {INT_value1}.{STR_color1Close}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>280</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>299</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

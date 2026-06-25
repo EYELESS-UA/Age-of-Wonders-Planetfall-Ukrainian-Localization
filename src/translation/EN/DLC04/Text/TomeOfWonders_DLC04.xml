@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Arnout Sas</Author>
+  <LastAuthor>Davey Grotendorst</LastAuthor>
+  <Created>2019-10-14T10:38:41Z</Created>
+  <LastSaved>2020-04-15T08:31:26Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19965</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="162.75"/>
+   <Column ss:StyleID="s62" ss:Width="40.5"/>
+   <Column ss:StyleID="s62" ss:Width="489.75"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="240.75"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:Height="240">
+    <Cell><Data ss:Type="String">TOMEOFWONDERS_DLC04</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">If some concepts in the text are unclear or do not make sense, try looking that concept up in this xml as the text in this xml serves as an encyclopeadia you have a good chance of finding it. Unclear terms can be found in the AoW_Glossary.  Do not change anything that is between [ and ] because it could break the hyperlink and strip it of its function. Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINK_UNITS_THERIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Therian Units</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Therian faction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINK_UNITS_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Shakarn Units</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Shakarn race</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINK_MODS_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Shakarn Weapons and Mods</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Shakarn race</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINK_SKILLS_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Shakarn Hero Skills</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Shakarn race</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINK_RESEARCH_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Shakarn Tech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Shakarn race</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINK_OPERATIONS_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">List of all Shakarn Operations</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Shakarn race</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RACE_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Race: Shakarn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Race name</Data></Cell>
+   </Row>
+   <Row ss:Height="150">
+    <Cell><Data ss:Type="String">RACE_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell ss:HRef="mailto:%7BXML_SPECIES_SHAKARN@RACE@DESCRIPTION%7D[br/%5d%5bbr/%5dORIGIN:%20Not%20much%20is%20known%20about%20the%20Shakarn,%20although%20their%20agents%20seem%20to%20have%20been%20among%20us%20for%20longer%20than%20we%20realized.%20This%20reptilian%20race%20originates%20from%20an%20oceanic%20homeworld%20covered%20in%20atolls%20and%20archipelagos.%20Having%20conquered%20the%20sea,%20they%20took%20to%20the%20skies%20to%20further%20expand%20their%20empire,%20but%20when%20they%20first%20encountered%20the%20size%20and%20power%20of%20the%20Star%20Union,%20any%20invasion%20plans%20they%20had%20were%20postponed.%5bbr/%5d%5bbr/%5dWhile%20the%20majority%20of%20the%20Shakarn%20forces%20bided%20their%20time%20on%20the%20edges%20of%20the%20known%20universe,%20their%20agents%20infiltrated%20key%20locations%20by%20mimicking%20the%20appearance%20of%20its%20inhabitants%20through%20advanced%20holo-tech,%20stealing%20any%20knowledge%20and%20technology%20they%20considered%20interesting.%20After%20the%20Cataclysm%20left%20the%20Star%20Union%20in%20ruins%20and%20chaos,%20the%20Shakarn%20have%20seized%20the%20opportunity%20to%20conquer%20the%20remnants%20of%20the%20human%20empire."><Data
+      ss:Type="String">{XML_SPECIES_SHAKARN@RACE@DESCRIPTION}[br/][br/]ORIGIN: Not much is known about the Shakarn, although their agents seem to have been among us for longer than we realized. This reptilian race originates from an oceanic homeworld covered in atolls and archipelagos. Having conquered the sea, they took to the skies to further expand their empire, but when they first encountered the size and power of the Star Union, any invasion plans they had were postponed.[br/][br/]While the majority of the Shakarn forces bided their time on the edges of the known universe, their agents infiltrated key locations by mimicking the appearance of its inhabitants through advanced holo-tech, stealing any knowledge and technology they considered interesting. After the Cataclysm left the Star Union in ruins and chaos, the Shakarn have seized the opportunity to conquer the remnants of the human empire.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NPC_FACTION_THERIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">NPC Faction: Therians</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Faction name</Data></Cell>
+   </Row>
+   <Row ss:Height="180">
+    <Cell><Data ss:Type="String">NPC_FACTION_THERIAN</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletlist][bullet]Human-animal hybrids looking for a place to live in peace[/bullet][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] and [hyperlink,0000039E0000000F]Kinetic[/hyperlink] Damage Types[/bullet][bullet]Use Primal Pheromones when wounded to turn the tide of battle[/bullet][/bulletlist][br/][br/]ORIGIN: The Therians are a faction of people who originate from test-subjects of a secret Terratech genetics project, mixing both animal and human DNA to cure genetic diseases and create superior beings. The project was shut down after backlash when their first test subject, called Deer, broadcast the horrid truth of the genetic experiments.[br/]Deer fled and took refuge with her newfound people, taking up arms for protection. Since then, the Therians, with their animal modifications and human weaponry, managed to survive on many of the planets they occupied. Belonging to neither one kind nor the other, the Therian refugees are social outcasts, searching for a place they can call home whilst keeping a positive outlook on life.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Therians</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NPC_FACTION_DARKVOID</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringers</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Faction name</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">NPC_FACTION_DARKVOID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletlist][bullet]Extradimensional invaders[/bullet][bullet]Damage Type based on their Form: Arc, Biochemical, Psionic or Thermal[/bullet][bullet]Command armies of Enthralled units to do their bidding. These units perish when their Voidbringer overlords are destroyed.[/bullet][/bulletlist][br/][br/]ORIGIN: The Voidbringers are an invading, extradimensional faction of unknown origin. Their powers include bending dark energy and enthralling units to their will. Only devastation and barren landscapes are left in their wake. [hyperlink,000003E00000012A]The Therians[/hyperlink] have been known to flee various planets to escape the clutches of the Voidbringers.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Archives description of the Voidbringers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOUND_WEAPONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sound Weapons [damagePhysical/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Weapon tech name</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">SOUND_WEAPONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Sound Weapons project waves that are fired so rapidly or at such a frequency that they damage those hit. The Sound Weapons Group uses the Kinetic [DamagePhysical/] [hyperlink,000003AC00000290]Damage Channel[/hyperlink]. Sound Weapon abilities include Disorienting, Impairing, and Stagger.[br/][br/]Ethereal Units are resistant to the Kinetic damage channel.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Weapon tech name description</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INVASION_VICTORY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Defeat the Invasion</Data></Cell>
+   </Row>
+   <Row ss:Height="180">
+    <Cell><Data ss:Type="String">INVASION_VICTORY</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">The Defeat the Invasion Victory is achieved when a [hyperlink,000003AC00000336]Player[/hyperlink] successfully defeats the [hyperlink,000003E5000006E3]Voidbringers[/hyperlink] by destroying enough [hyperlink,000003FB00000012]Voidbringer Spawners[/hyperlink] and then destroying the [hyperlink,000003FB00000011]Voidbringer Beacon[/hyperlink].[br/][br/]The Invasion has a random chance of occurring, which can be set in Advanced World Settings. This Victory Condition will only be active if the invasion has started and the player decides to oppose the Voidbringers. Opposing the Voidbringers disables all other Victory Conditions except [hyperlink,000003A70000000A]Doomsday.[/hyperlink][br/][br/]Alternatively, when the invasion begins, the player can decide to join the Voidbringers, enabling only the Doomsday and [hyperlink,000003AC0000026E]Last Man Standing[/hyperlink] victories.[br/][br/]This Victory Condition can be optionally claimed after the Beacon is destroyed, but players can opt to not claim this Victory Condition and continue the game instead.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WORLD_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">World Events</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">WORLD_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">World Events are a type of global event that can occur randomly over time. Apart from the first few turns, there is a chance on every turn that a World Event activates. Only one World Event can be active at any given time, and they last multiple turns.[br/][br/]World Events change one or more mechanics on the [hyperlink,000003AC000000CC]Strategic[/hyperlink] and [hyperlink,000003AC0000025E]Tactical[/hyperlink] map, including impacting colony income, adding extra condition effects during combat, terraforming sectors and more.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PERSONALITIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Personalities</Data></Cell>
+   </Row>
+   <Row ss:Height="210">
+    <Cell><Data ss:Type="String">PERSONALITIES</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Each AI controlled player possesses two personality traits: a Preference trait and a Strategy trait.[br/][br/]The Preference trait defines what the player will like and what things they will dislike, the likes often being counterbalanced by dislikes. Acting in favor (or against) a player's preference will affect the opinion they have of you. Furthermore, the Preference trait may also slightly alter a player's diplomatic behavior.[br/][br/]The Strategy trait defines how the player will manage their empire and changes how many wars they may have at a time, as well as what kind of research they are more likely to invest into, which units they will want to have and how they specialize their sectors and colonies.[br/][br/]Initially, these traits will be unknown, but they can be revealed by forming an [hyperlink,000003AC000002F2]intelligence sharing treaty[/hyperlink] with the other player or by [hyperlink,00000384000005AD]infiltrating[/hyperlink] them. The Preference trait is also revealed when the opposing player generates an opinion modifier on you because of their preferences. In addition, there is also a chance of discovering the Preference trait of another player by changing your diplomatic state with them, by performing a successful trade with them or by using influence to compliment/insult them.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>12</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

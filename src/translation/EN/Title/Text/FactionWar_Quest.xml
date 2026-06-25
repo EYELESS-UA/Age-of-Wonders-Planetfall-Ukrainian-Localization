@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Ajay Ramautar</Author>
+  <LastAuthor>GeraldR</LastAuthor>
+  <Created>2019-04-23T14:53:13Z</Created>
+  <LastSaved>2019-04-26T07:37:53Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="59" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="292.5"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="90.75"/>
+   <Column ss:StyleID="s62" ss:Width="145.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="655.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="283.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FACTIONWARQUEST</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Faction War:  {STR_FactionName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_FactionName} indicates a name of a minor faction </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">OVERVIEW_HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Faction War(s)</Data></Cell>
+   </Row>
+   <Row ss:Index="7" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psi-Fish Faction War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">War has broken out with the Psi-Fish. They have many enemies on this planet who would reward us for their annihilation, or perhaps we can find something of value amongst their dead.</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We have handed over samples from the defeated Psifish to our research department.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">BLACK_MARKET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The fleshy corpses of the Psi-Fish have been sold to anonymous connoisseurs on the Black Market</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">SPACERS_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The loud ones… constant annoyance… finally… peace. No more raids… no more human barbeques. Will not be missed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">GROWTH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Thorns… vines… poison. We are free of their grasp. They are… returned to the soil. Never… return.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">PARAGON_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The old ones… finally forgotten. Annihilation… deserved destruction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI-FISH</Data></Cell>
+    <Cell><Data ss:Type="String">AUTONOM_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The artificial… hard… emotionless. Their kind… finally no more. Organics retain… order.</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autonom Faction War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">War has broken out with the Autonoms. They have many enemies on this planet who would reward us for their annihilation, or perhaps we can find something of value amongst their dead.</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We have handed over data from the defeated Autonoms to our research department.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">BLACK_MARKET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ancient AI components scavenged from the Autonoms have been sold to hobbyists on the Black Market.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">SPACERS_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Entity known as: Spacers, Insubordinate civilians. Status: Eradicated. Autonom: happy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">GROWTH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Entity known as: Growth, weeds and thorns. Status: Eradicated. Autonom: happy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">PARAGON_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Entity known as: Paragon, elitists of the past. Status: Eradicated. Autonom: happy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOM</Data></Cell>
+    <Cell><Data ss:Type="String">PSIFISH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Entity known as: Psi-Fish, alien and dangerous. Status: Eradicated. Autonom: happy.</Data></Cell>
+   </Row>
+   <Row ss:Index="29" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paragon Faction War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">War has broken out with the Paragon. They have many enemies on this planet who would reward us for their annihilation, or perhaps we can find something of value amongst their dead.</Data></Cell>
+   </Row>
+   <Row ss:Index="32" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We have handed over samples from the defeated Paragon to our research department.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">BLACK_MARKET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paragon heraldry and decommissioned imperial weaponry has been sold to collectors and enthusiasts on the Black Market</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">SPACERS_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Thank the heavens, those plebeians have finally been dealt with. It's about time some order was restored to this world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">GROWTH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">That chaotic mass of vines has finally died and withered away. Order and stability must pave the way of this world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">AUTONOM_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">It's a shame those service bots went rogue, they were useful things but in the end they were nothing but an annoyance. Pitty.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON</Data></Cell>
+    <Cell><Data ss:Type="String">PSIFISH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Disgusting creatures really. They have no place in our world. Nobody will cry to see their kind eradicated.</Data></Cell>
+   </Row>
+   <Row ss:Index="40" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Growth Faction War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">War has broken out with the Growth. They have many enemies on this planet who would reward us for their annihilation, or perhaps we can find something of value amongst their dead.</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We have handed over samples from the defeated Growth to our research department.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">BLACK_MARKET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We have found an unlikely buyer for the material collected from the Growth on the Black Market: Vegetarians.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">SPACERS_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The mad ones are finally defeated. Their gasoline no longer poisons the soil and the air is free from their stench.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">PARAGON_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The aristocratic cyborgs are no more, and their 'holier than thou' rhetoric along with them. Good riddance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">AUTONOM_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Metal, artificial, non-organic. Long have we desired their extinction. Well done, Symbiont.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">PSIFISH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The aliens from the Void, finally their kind are returned to the black abyss.</Data></Cell>
+   </Row>
+   <Row ss:Index="51" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Spacers Faction War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">War has broken out with the Spacers. They have many enemies on this planet who would reward us for their annihilation, or perhaps we can find something of value amongst their dead.</Data></Cell>
+   </Row>
+   <Row ss:Index="54" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">We have handed over samples from the defeated Spacers to our research department.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">BLACK_MARKET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Much of the Spacer's equipment is worthless, but we have managed to recover some choice material for sale on the Black Market.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">GROWTH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">What brand of weedkiller do you use? That's the kind of gardening we like to see.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">PARAGON_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">About time! Those posh cyborgs got what was coming to 'em.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">AUTONOM_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Good riddance. Those bothersome tin cans deserve the scrapyard. Might strip 'em down for parts while you're at it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPACERS</Data></Cell>
+    <Cell><Data ss:Type="String">PSIFISH_DEFEATED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Finally! Those stinkin' jellyfish are dead and it's about bloody time.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>10</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

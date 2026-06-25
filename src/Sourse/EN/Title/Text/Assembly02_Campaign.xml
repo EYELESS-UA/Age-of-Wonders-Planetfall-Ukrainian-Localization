@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <LastSaved>2019-04-30T10:40:53Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="108" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="241.5"
+   ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="233.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ASSEMBLY02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_QUARTZITE_SPAWNER_START</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chuckling Fields</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CELESTIAN_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thousand Ashes Memorial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CRYO_TOMB_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Khansu's Virtue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CRYO_TOMB_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Khansu's Wisdom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CRYO_TOMB_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Khansu's Strength</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CRYO_TOMB_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Khansu's Fortitude</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CRYO_TOMB_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Khansu's Cunning</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLLECT_QUARTZITE_SAMPLES_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Quartzite Units Slain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_LOGEN_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} L0G3N-1 encountered</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">L0G3N-1 - Male Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFEAT_LOGEN_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} L0G3N-1 defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHARED_INTRODUCTION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Warning! Warning! Atmospheric sulfur and phosphor concentrations have reached critical levels.[br/][br/]Several larger bodies of surfaced magma detected. Crossing them may become unavoidable. Chances of success when attempting to do so are … uncertain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SHARED_INTRODUCTION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Those readings are no surprise to me. Misguided as he may be, L0G3N-1’s move to set up our confrontation in this environment was a strategically sound decision. He has been experimenting with Promethean technology for quite some time now and what better place to put his findings to a final test than on a planet that was ignited with PyrX gas?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHARED_INTRODUCTION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">If we want to locate and disable L0G3N-1 before the consequences of his foolish actions become irreversible, we will have to study and adapt to this hostile environment ourselves. I suggest we start by taking samples from the local Theta-8 population.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Theta-8 - planet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHARED_INTRODUCTION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Quartzite always seemed to thrive in extreme volcanic conditions, but the subjects we located on this planet appear to be more resilient than any other specimen of their species we have encountered before. Dissecting them should prove most informative.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CORE_ALLIACNE_INTRODUCTION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">There is an incoming transmission sent from an unidentified location on the planet. The signal is scrambled and locked behind a level 6 Imperial clearance code.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CORE_ALLIACNE_INTRODUCTION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excellent, that must be Claudius Proton and the other First. Reroute the clearance query to my PCM and mirror the signal decryption algorithm to send it back to its source.[br/][br/]There we go. This should be sufficient…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Claudius Proton - Male Assembly character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CORE_ALLIACNE_INTRODUCTION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hello {STR_LeaderFirstName}, it is good to see you again. I trust it your mission on Gardip XX didn’t have the prognosticated success? Unless of course L0G3N-1 is bragging about something he doesn’t possess, in which case however your presence here would have to be purely educational…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Gardip XX - planet name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CORE_ALLIACNE_INTRODUCTION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The display of your well-trained deductive powers, Claudius, is wasted in a situation as obvious as this one, don’t you think? It could not yet be determined how L0G3N-1 was able to acquire the Neural Plexus before we even reached Gardip XX. However, now that you and the other First are here, all of that is going to be irrelevant.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CORE_ALLIACNE_INTRODUCTION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">On the contrary, we both know that whatever happens here is going to be most relevant. It appears our little experiment with the Second has gotten slightly out of hands, just like on PRGN-X5. You must admit, the parallels are alarming.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">PRGN-X5 - Planet name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="137.25">
+    <Cell><Data ss:Type="String">CORE_ALLIACNE_INTRODUCTION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unfortunately, none of the other First could make it in time. Zetrodicus is still occupied processing Sorinus Alpha, and Jule… well, you know how Jule reacts when things get heated. However, I have brought us another guest: Tik Ji’Glux is the foremost expert on Promethean technology in the CORE Alliance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Zetrodicus Stein - a male Assembly character&#10;&#10;Sorinus Alpha - Planet name&#10;&#10;Jule - female Assembly character&#10;&#10;Tik Ji'Glux - female Kir'Ko&#10;&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CORE_ALLIACNE_INTRODUCTION_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">That is correct. The Kir’Ko Te’Naq will take great pleasure in incinerating any human foolish enough to stand in the way of CORE. We just regret we couldn’t be here when Emperor Khansu started his own fireworks.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Kir'Ko Te' Naq - Kir'Ko colony&#10;&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_FIERY_OBSTACLE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Fiery Obstacle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_FIERY_OBSTACLE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Khansu's Pyre is covered in large parts by lava, blocking your way towards L0G3N-1. You need to find a way to get around or traverse this very deadly obstacle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLLECT_QUARTZITE_SAMPLES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Collect Quartzite Samples</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COLLECT_QUARTZITE_SAMPLES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The mineral based speciemen type Theta-8 are well adjusted to extreme temperatures and electricity. Analyzing their molecular structure may give clues on how to withstand the heat of the lava on Khansu's Pyre.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Theta-8 - is a planet name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DEVELOP_HEATSHIELD_BOOT_PROTOTYPE_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Theta-8 specimen have been obtained. They still prove to be incompatible for Reassembly, as it had been established during the Chimera Glacialis  incident. Dissection and analysis will require special attention.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Chimera-Glacialis - Planet name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEVELOP_HEATSHIELD_BOOT_PROTOTYPE_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Make sure to leave the crystalline cardio-vascular complex undamaged. Its embedded thermal distribution system will be vital for developing our own heatshield prototype.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVELOP_HEATSHIELD_BOOT_PROTOTYPE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Develop Heatshield Prototype Quest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEVELOP_HEATSHIELD_BOOT_PROTOTYPE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use the data obtained while analyzing the Quartzite to develop a Heatshield Prototype that your light troops could use to traverse lava.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEVELOP_HEATSHIELD_BOOT_PROTOTYPE_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Portable Theta-8 Heatshield</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEVELOP_HEATSHIELD_BOOT_PROTOTYPE_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An extreme thermal protection shield devised from the Quartzite samples collected on Khansu's Pyre.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SCAN_FOR_TELEPORTERS_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The test results of the new prototype are satisfactory. It will be a useful tool for me or one of my operatives. However, any attempts to synthesize the decisive reagents without the need of additional Theta-8 samples have been unsuccessful to this point. We therefore need a more efficient solution to our logistic problem.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SCAN_FOR_TELEPORTERS_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fortunately, we are not the first ones to be in this situation: After the planet was burned by Khansu and flooded with lava, an extensive teleporter system was installed to reconnect the newly-formed continents. If we scan for the teleporter’s energy signatures, we can identify those key strategical positions and adjust our movements to their spanned transportation network.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCAN_FOR_TELEPORTERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Map Teleportation Network</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SCAN_FOR_TELEPORTERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use the energy signature specifications of the Teleporter Stations on Khansu's Pyre to scan and map the locations of all functional teleporters.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCAN_FOR_TELEPORTERS_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Teleporter Cataloging</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCAN_FOR_TELEPORTERS_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">An implementation of the scanner specifications to map the teleporter system on Khansu's Pyre.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SCAN_FOR_TELEPORTERS_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have registered the coordinates of all operational teleporters on the planet. Though we still need to act with caution when we send troops through those gateways, as enemies may block an immediate return.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_PATH_OF_THE_FIRST_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Path of the First</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_PATH_OF_THE_FIRST_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">L0G3N-1 has betrayed the First and disobeyed the will of CORE. He must be stopped at all cost!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_LOGEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Locate L0G3N-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LOCATE_LOGEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You have come to Khansu's Pyre to stop L0G3N-1. However you haven't been able to find out yet where he has established his Command Center.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFEAT_LOGEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defeat L0G3N-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEFEAT_LOGEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With L0G3N-1 out of the way the rebellion of the Second should come to an end. Therefore it is of the highest priority that you defeat him.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECOVER_NEURAL_PLEXUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover the Neural Plexus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RECOVER_NEURAL_PLEXUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Neural Plexus is required by the Assembly to link themselves to CORE. After it was stolen by L0G3N-1 it is now undoubtedly hidden somewhere within his Command Center.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MISC_ASSEMBLY_MEET_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">What do we have here? Another First? Have you answered the call of L0G3N-1 like the rest of us?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MISC_ASSEMBLY_MEET_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shut up, stupid! Haven’t you heard about this one? L0G3N-1 snuck away with the Neural Plexus and now they are having an argument about it. And when there is a conflict within the Assembly…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MISC_ASSEMBLY_MEET_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">… there is only one way it can be settled. Come, sisters! Let us join in in their dispute! Bring the saws and blasters, grapplers and grafters: The Assembly are going to war![br/][br/]Destruction leads to life. Reassembly to evolution. Chaos brings order and death immortality. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_LOGEN_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Welcome, Doctor {STR_LeaderName}! I am glad to see you could make it in time. I heard this individual, Eva Montinga, was causing you some trouble and was preoccupied our cause may have suffered a setback on Gardip XX.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Eva Montinga - female character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_LOGEN_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As you can see your concern was unjustified, L0G3N-1. I have dealt with Montinga just as I will deal with you. How could you betray CORE and the First in such a shameful way? Seizing the Neural Plexus for your own megalomaniac program!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Neural Plexus - is a device required to make a link with the CORE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_LOGEN_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You are overestimating my ego, Doctor. I did what was required for the betterment of the Assembly future. CORE is not the solution we seek. CORE enacts control, whereas the very nature of the Assembly is to defy all control mechanisms that are limiting the other humanoid species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MEET_LOGEN_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We are the voice of chaos and anarchy, and through Reassembly, we will bring peace to this galaxy. When I activate the Neural Plexus, it will not be to enslave our brothers to the will of a mindless machine, but to stimulate the exchange, destruction and recombination of knowledge and ideas that only the true freedom of the Assembly existence can offer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_LOGEN_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your logic is flawed, L0G3N-1. How can you attempt to compete with the efficiency and knowledge of a super-computer?[br/][br/]It is not too late to surrender the Neural Plexus to me. You know your series has always been my favorite. I would hate to see it destroyed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_LOGEN_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No! My argumentation is valid, and you are aware of that. It is your teachings that brought me to these conclusions, but I see now how the sentimental connections to your pre-Assembly existence are clouding your judgement.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_LOGEN_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As Second, we owe every aspect of our existence to the First. We admire the work and vision of you, our creators, but now it is time the First acknowledged the maturation of their children. Join me, {STR_LeaderFirstName}! Let us finish what you have started!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_PATH_OF_THE_SECOND_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Path of the Second</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_PATH_OF_THE_SECOND_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">L0G3N-1 has asked you to join his reformation of the Assembly. It is your choice whether to answer that call or go through with your original mission.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALLY_WITH_LOGEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ally with L0G3N-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ALLY_WITH_LOGEN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reach an alliance with L0G3N-1 and join him in his cause to reformate the Assembly.[br/][br/][firecol](Warning: Completing this quest will have consequences!)[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALLY_WITH_LOGEN_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Alliance reached with L0G3N-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNINVITED_GUESTS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Uninvited Guests</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNINVITED_GUESTS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">In order to link the Assembly through the Neural Plexus, L0G3N-1 wants you to get rid of the uninvited non-Assembly players.[br/][br/][firecol](Warning: Completing this quest will have consequences!)[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNINVITED_GUESTS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Non-Assembly Players defeated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_GIVORI_ARDELLI_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">So you managed to evade Montinga and her creations - how fortunate! It would have been a shame if I had to pass up this opportunity to give my Malictors some proper exercise!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Malictors - Assembly units</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_GIVORI_ARDELLI_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can start by instructing them to exercise surrender. It has been shown in the past that willing subjects undergoing Reassembly are finding the entire process far less... unpleasant. Give my regards to Montinga when you follow her example and run back to Carminia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Carminia - The Empress of the Star Union</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_FEMITA_ABAZ_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Another awoken Paragon snob ready to be plundered by House Abaz. Please relax and stay back while we disburden you of your valuables... Oh wait, it's just another Assembly, how disappointing! Your patched-up constructions are always so difficult to sell - and visually unpleasant too!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Abaz - name of a house</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_FEMITA_ABAZ_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We do not care about our value for your House or the looting business you perform at the Cryotombs. Stay out of our way and your people will live... for now.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_RAXONEE_ALARA_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Another one of metal and flesh. I heard that your people are not opposed to scientific method. Then you can probably appreciate the presence of another researcher - the Quartzite on this planet are quite an interesting study!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_RAXONEE_ALARA_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The present Theta-8 specimen are fascinating indeed. Maybe we can exchange our findings on them at some point in the future.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CORE_BETAYED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your weakness for L0G3N-1 has always been puzzling. To see that it could cause you to abandon your principles is both worrisome and unfortunate. But rest assured, I will personally reconstruct your neural pathways once your brain is ready for Reassembly.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VICTORY_MESSAGE_PATH_OF_THE_FIRST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We have secured the Neural Plexus. Fortunately, L0G3N-1 did not damage it severely enough during his experiments to render it useless. The rebellion of the Second has come to an end, however we will have to analyze their cerebral cortex to be able to avoid transgressions like this in the future.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_MESSAGE_PATH_OF_THE_SECOND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Reassembly of Khansu’s Pyre is complete. Turning my back on Claudius and the other First wasn’t easy. But in time they will see that it is only the natural continuation of the revolution we started on PRGN-X5.</Data></Cell>
+   </Row>
+   <Row ss:Index="81" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECOVER_NEURAL_PLEXUS_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recover Neural Plexus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECOVER_NEURAL_PLEXUS_STATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Salvage the Neural Plexus from L0G3N-1's operation base.</Data></Cell>
+   </Row>
+   <Row ss:Index="84" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEATSHIELD_BOOTS_PROTOTYPE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Heatshield Boots</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEATSHIELD_BOOTS_PROTOTYPE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infused with Thermal Quartzite Crystals. Grants the unit [abilityblue]Lava Walking[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:Index="87" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_STOP_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: The Path of the First</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_STOP_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Path of the First</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_STOP_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can win this map by stopping L0G3N-1 and retrieving the Neural Plexus.[br/][br/][firecol](Warning: Choosing this victory path will have consequences in later missions!)[/firecol][br/][br/]L0G3N-1 defeated: {INT_0}/{INT_1}[br/]Neural Plexus retrieved: {INT_2}/{INT_3}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_STOP_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">L0G3N-1 defeated: {INT_0}/{INT_1}[br/]Neural Plexus retrieved: {INT_2}/{INT_3}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_JOIN_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: The Path of the Second</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_JOIN_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Path of the Second</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_JOIN_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">You can win this map by allying with L0G3N-1 and defeating all present non-Assembly players.[br/][br/][firecol](Warning: Choosing this victory path will have consequences in later missions!)[/firecol][br/][br/]Allied with L0G3N-1: {INT_0}/{INT_1}[br/]Non-Assembly Players remaining: {INT_2}/{INT_3}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_JOIN_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Allied with L0G3N-1: {INT_0}/{INT_1}[br/]Non-Assembly Players defeated: {INT_2}/{INT_3}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FAIL_CONDITION_LOGEN_MUST_SURVIVE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: L0G3N-1 Must Survive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FAIL_CONDITION_LOGEN_MUST_SURVIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">L0G3N-1 Must Survive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FAIL_CONDITION_LOGEN_MUST_SURVIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">To establish the Assembly link independent from CORE, it is indispensable that L0G3N-1 survives on Khansu's Pyre.[br/][br/]L0G3N-1 alive: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FAIL_CONDITION_LOGEN_MUST_SURVIVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">L0G3N-1 alive: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:Index="101" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_ASSEMBLY_FIRST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CORE_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CORE alliance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_CORE_ALLIANCE_HATES_LOGEN_MAJOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Took Neural Plexus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_REASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conflict resolution through Reassembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_SIDED_WITH_LOGEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Joined L0G3N-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_LOGEN_TOWARDS_FIRST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Respects the Assembly First</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_BETRAYED_CORE_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Betrayed the CORE alliance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_REASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reassembly Protocol</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>85</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>97</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

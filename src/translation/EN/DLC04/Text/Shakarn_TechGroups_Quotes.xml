@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <LastSaved>2020-02-05T10:09:58Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="45" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="268.5"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="119.25"/>
+   <Column ss:StyleID="s62" ss:Width="214.5"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="255.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">SHAKARN_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagator Deployment</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagator is a Shakarn Unit</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“If we only crawled upon our bellies, we would never know the flavor of the birds. Grow your wings and chase them into the air. It’s time to put aside your fears and rule the skies.” –Scincid Boneklaal, Propagator Pilot</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Zardas Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Propagator</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_1_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Propagator</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firebrand Deployment</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Firebrand is a Shakarn Unit</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Why build a machine that requires a team of experts to maintain, fuel and repair, when we have it within our DNA to grow to gargantuan size ourselves?” –Varan Bloodfrill, New Clutch Incubator</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Gama Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Firebrand</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_2_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipment: Omni Claw</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tactician Deployment</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tacticain is a Shakarn Unit</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Are you misunderstood? Do you struggle to fit in? Have you ever wondered if you were meant for a greater cause? It may be hard to believe, but you may have been one of us all along.” – Lacertid Fireskink, Tactician Trainer</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Zardas Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Tactician</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_3_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipment: Sono Fins</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Refractor Deployment</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refractor is a Shakarn Unit</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Make the ground shake. Flatten the trees. Break through their walls. They had their time. It is time the soft inhabitants of this rock soiled their vestments, scampered into their hiding places and surrendered to despair.”—Terrenka Drak, Gunnery Predator</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Domok Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Refractor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_4_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vehicle: Refractor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gama Supremacy</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Fate has decreed that we must dominate all. Feel the ground tremble and the air vibrate in agreement. All will bend their leg-limbs before our inevitable divine right to rule. If it were not so, we could not build so destructive a force.” –Gatoricus Razorsnap, Potentate Conquistador </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Domok Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_FORCES_5_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unit: Sonokarn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sonokarn is a Shakarn Unit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propaganda Propagation</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Tell enough lies and the truth is lost in the fury of the masses. When truth is your enemy, any lie can be your ally.” – Nolt Drampud, Broadcasting Magnate and Sleeper Agent </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Zardas Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cold War Measures</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“If your enemies believe you can obliterate them should they obliterate you, they will forego their attack. This stalemate is merely a battle of a different sort. Disseminate discord in their population. Undermine their unity. And never stop preparing for war.”—Trask Shakraal, Cold War Commander </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Zardas Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Perfected Holotech</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_STRATEGIC_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“The radiant tendrils of sea anemones wave in ocean currents like the alluring seagrass, yet this extraordinary creature’s illusion is full of deadly neurotoxins. Similarly, our Holoreality Broadcasting gives our dwellings an aesthetically idyllic aura, but try to take a bite out of us and taste our poison.” – Skenniss Tumaal, Deep-sea Assimilator </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Gama Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Discerning Systems</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“It is truth that the apex species mimics the natural world and matches the extremes of its environment. If they strike us, we will adapt. If they break us, we will mend. We are the superior species.” – Shakari Otimaal, Clutch Sentinel</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Gama Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Caste Military Applications</Data></Cell>
+   </Row>
+   <Row ss:Height="150">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Some fleshlings entertain delusions that individuals are born equal with inalienable rights. Foolishness! We’re proud to be in castes. Each born to serve our caste, Shakarn never entertain the foolish notion that an individual holds rights that supersede the group. How would that work? A billion individuals all working deciding on their own? Nonsense. Imagine the chaos and wasted energy simply deciding what to eat for dinner. You’d get nothing done.” –Gama Turctoise Brightscale, Caste Enforcer.  </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Gama Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Holotech Applications</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Our ancestors once deceived predators by caudal autotomy, leaving foes with a twitching tail while we escaped to safety. Likewise, with holodisplacement, we can fight while our enemies’ weapons target the air around us.” – Sississ Skekrakaal, Shakarn Hololusion Researcher</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Gama Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Orbit Tactics</Data></Cell>
+   </Row>
+   <Row ss:Height="150">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Prior to invasion it is imperative to experiment upon the population you intend to subjugate. Choose targets of questionable mental stability. This way, if they remember the obligatory probing, no one believes them. Also, all true Shakarn know instinctively to vivisect livestock and leave random geometric depressions in cornfields for decades prior to invasion. There’s no need to explain why this is clearly a good idea. Just do it without question.” – Mah Reg’Lizard, Shakarn Orbital Invasion Instructor</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Gama Shakarn (Mah Reg'Nib in disguise)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Caste Advancements</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Armored plates have long adorned our kind, not merely to attract a mate. Our armor should therefore be the most impressive in the galaxy… and the sexiest.” – Gecko Chamel, Battle Armor Fashionista</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Domok Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gama Omnitech Research</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_TACTICAL_6_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Domok have two mental states: Reason and Instinct. One is tactical and clever; very useful in Gamas and Zardas. The other is instinctual, driven by primal violence. When triggered in Domok, they become so single-minded in their savagery, they may even forget to die.” &#45;- Wiguana Whiptail, Shakarn Battlemaster </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Gama Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Planetfall Procedures</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Flash crimson through your neck frills, make your eyes bleed, and lift your dorsal spines high for tonight we celebrate our watery homeworld by terrorizing the natives of this lesser world.” – Tarako Supreme, Thrall Frontrunner</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Domok Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manipulation Campaigns</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We Shakarn are masters of manipulating our enemies, assuming their forms and infiltrating their cultures. We steer whole societies into ignorant blissful complacency. It should therefore come as no surprise that sometimes these expert skills also come in quite handy when motivating our own workers.” &#45;- Viraska Broodmother, Domestic Tactician</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Female Zardas Shakarn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Expert Council</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_GOVERNANCE_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“We have the best experts, with the best training, inspiring the best workers to make the best products. We also have the best weapons, the best armies, and the best spies. We should rule all because we are the best.”— Trumbor Kraal, Expert Council Leader   </Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Domok Shakarn</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

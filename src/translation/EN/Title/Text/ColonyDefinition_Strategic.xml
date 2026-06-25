@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Ajay Ramautar</LastAuthor>
+  <LastSaved>2019-12-03T15:25:26Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12315</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="52" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="297"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="219.75"/>
+   <Column ss:StyleID="s63" ss:Width="132.75"/>
+   <Column ss:Index="4" ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="198.75"/>
+   <Column ss:StyleID="s63" ss:Width="294"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">COLONYDEFINITION_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_SECTOR_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colony Center</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell><Data ss:Type="String">CITY_SECTOR_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Colony Center location within the sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sector Base</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A structure that claims the sector and expands domain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forward Base</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This structure claims the sector for its owner. It provides healing to your units, and enemies cannot enter it without trespassing. However, it does not gather any income. [br/][br/]Founding a Colony on this structure will give it a free [hyperlink,0000034100000959]Military Infrastructure[/hyperlink] upgrade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Annex Sector for {STR_cityName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">STR_cityName is the name of the city</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">SHARED_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet][abilitygreen]Collect income from the sector[/abilitygreen][/bullet][bullet][abilitygreen]Develop annexed sectors to produce more income[/abilitygreen][/bullet][bullet][abilitygreen]Defended by the colony's garrison[/abilitygreen][/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Link this sector to your colony by building a base.[br/][br/]{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@SHARED_TEXT}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Building a base on this sector. Process will complete in [INT_duration].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">INT_duration is an amount of turns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Annex Naval Base for {STR_cityName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">STR_cityName is the name of the city</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@DESCRIPTION%7D"><Data
+      ss:Type="String">{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@DESCRIPTION}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Building a Naval Base in this sector. Process will complete in [INT_duration]</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Build Forward Base</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Build a forward base to claim this sector for future expansion.[br/][br/][bulletlist][bullet][abilitygreen]Defended by a strong garrison[/abilitygreen][/bullet][bullet][warningred]Does not collect income from locations in the sector[/warningred][/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Building a forward base in this sector. Process will complete in [INT_duration]</Data></Cell>
+   </Row>
+   <Row ss:Index="22" ss:AutoFitHeight="0" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Happiness Event: Food!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Due to the happiness[happiness/] of your population there is a boost in food income!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Colony receives {INT_Reward} [supply/] </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Happiness Event: Production!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Due to the happiness[happiness/] of your population there is a boost in production income!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="59.25" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Colony receives {INT_Reward}[production/]  </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Happiness Event: Energy!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Due to the happiness[happiness/] of your population there is a boost in energy income!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Colony receives {INT_Reward}[energy/]  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Happiness Event: Knowledge!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Due to the happiness[happiness/]of your population there is a boost in knowledge income!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Colony receives {INT_Reward}[research/] </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Happiness Event: Cosmite!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Due to the happiness[happiness/]of your population there is a boost in cosmite income!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Colony receives {INT_Reward}[tricorium/] </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Happiness Event: Influence!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Due to the happiness[happiness/]of your population there is a boost in influence income!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">HAPPINESS_INFLUENCE</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Colony receives {INT_Reward}[influence/] </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNREST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Unrest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNREST</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unhappiness[anger/] in your colony has led to unrest among its population! </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="128.25">
+    <Cell><Data ss:Type="String">UNREST</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_Reward} of the colonists in this colony have become [rioter/] rioters. Rioters cannot be moved from their slot and no longer produce resources.[br/][br/]Increase your [hyperlink,000003AC00000026]Colony Happiness[/hyperlink] to turn rioters back into normal colonists or activate [hyperlink,000003AC000002AB]Martial Law[/hyperlink], which will disable the happiness system at a loss of income, and convert rioters into normal colonists.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">UnrestColonists is a number of colonists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Growing Unhappiness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">The people in the colony are unhappy. If we do not act, they might start rioting![br/]Rioting colonists will occupy resource slots and not provide income!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">We should consider building a upgrades that increase happiness, such as: [hyperlink,0000034100000AD3]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_I@NAME}[/hyperlink], [hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_II@NAME}[/hyperlink], [hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_III@NAME}[/hyperlink]. We could also assign colonists to produce more happiness.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The structure names are: Recreational Dome (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_I, NAME), Botanical Gardens (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_II, NAME), Virtual Entertainment Plaza (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_III, NAME)</Data></Cell>
+    <Cell><Data ss:Type="String">If the names of these upgrades are changed, this line might need to be relocalized because of the gender of the inserted nouns has changed.</Data></Cell>
+   </Row>
+   <Row ss:Index="47" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Remove Hazard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Removes the hazard affecting this sector, also removing its related penalties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Removing a Hazard from this sector. Process will complete in [INT_duration]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">INT_duration is an amount of turns</Data></Cell>
+   </Row>
+   <Row ss:Index="52" ss:AutoFitHeight="0" ss:Height="30"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>26</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

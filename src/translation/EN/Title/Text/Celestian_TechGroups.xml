@@ -1,0 +1,1361 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laszlo Pieper</Author>
+  <LastAuthor>KyleB</LastAuthor>
+  <Created>2018-09-14T10:48:07Z</Created>
+  <LastSaved>2019-03-22T11:15:02Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8880</WindowHeight>
+  <WindowWidth>23565</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#F8CBAD" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="247" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="267"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="358.5"/>
+   <Column ss:StyleID="s64" ss:Width="147.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="252"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="158.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CELESTIAN_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tenets of Tranquility</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is immune to all negative morale effects and gains one level of Stagger Resistance.[br/]This unit is now considered [abilityblue]Enlightened[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shield of Remorse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Each time this unit is damaged by another unit, the attacker has a strength {SoulBurnChance}[strengthpsyche/] chance to become [abilityred]Soulburn[/abilityred]. The attacker also gains [abilityred]Remorse[/abilityred], a stacking debuff that applies {RemorseHappiness} for {RemorseTurns}.[br/]This unit is now considered [abilityblue]Enlightened[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Remorse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is filled with remorse, and suffers from {RemorseMorale}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tenets of Healing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEALING_TOUCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Healing Pulse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEALING_TOUCH</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is now considered [abilityblue]Enlightened[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEALING_TOUCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispel hostile effects from all friendly Biological and Cyborg units in the area of effect, and heal them for {HealingTouchHP}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tenets of Pacifism</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit can no longer trigger Overwatch attacks.[br/]This unit is now considered [abilityblue]Enlightened[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Project Pacifism</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">All units in the area of effect have a strength {PacifiedChance} chance of becoming [abilityred]Pacified[/abilityred], disabling damaging abilities for {PacificationAuraTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pacified</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit cannot bring themselves to use any offensive abilities.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shield of Reckoning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit reflects {ShieldofReckoningChance} of all damage done to them back to their attacker.[br/]This unit is now considered [abilityblue]Enlightened[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:Index="26" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Karmic Amplification</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We accept everyone who we can possibly sway to follow the Celestian way. By aiding others, we reveal to them the one and only truth.[br/][br/]The cooldown for requesting a new quest from a faction is reduced by {durationChange}[turn/].[br/]While active, factions will make demands at a slower rate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Missionary Negotiators</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Convincing others of the justness of your cause makes them more inclined to sell their treasures for less.[br/][br/]Cost of bribing NPC Faction stacks is reduced by {Bribereduction}.[br/]The [influence/] cost of items you can buy from Dwelling Shops is reduced by {LoweredCost}.[br/][br/][firecol]Dwelling Shop discounts can never exceed {MaxDiscountPercentage}[/firecol]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_TOOLDESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Missionary Negotiators: {CostReduction}</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Harmonious Existence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By teaching your population to live in harmony with the world and each other, they will live a happier life.[br/][br/]Each Colony you own that is not of your starting race provides an additional {RaceRelations} to relations with that race.[br/]All your Colonies have {HappinessBonus}[happiness/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestial Judgment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Not everyone can be shown the light through talking and scriptures - some will have to be forced to bend the knee to our teachings.[br/][br/]Your Enlightened units deal {AdditionalDamage} added damage to non-Enlightened units.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Your [abilityblue]Enlightened[/abilityblue] units deal an additional {AdditionalDamage} damage to non-Enlightened units.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{AdditionalDamage} damage to non-Enlightened units</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disincentive Prayers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">By chanting our beliefs every day, we can disincentivize most unwanted visitors from coming near us again.[br/][br/]Marauders no longer attack your Colonies and sector bases, nor do they trespass in your domain.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian Unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This is a Celestian unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENLIGHTENED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enlightened</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENLIGHTENED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is Enlightened according to the Celestian ways. It has {EnlightenedMorale} and deals {EnlightenedDam} extra damage against units with Soulburn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENLIGHTENED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{EnlightenedDam} damage against units with Soulburn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOULBLAZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Soulburn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOULBLAZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Strength {SoulburnChance} chance to apply [abilityRed]Soulburn[/abilityRed] until end of combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SOULBLAZE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit's soul is on fire, exposing its true essence and weakness. [abilityblue]Enlightened[/abilityblue] units deal {EnlightenedDam} damage against this unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LIGHTS_HARMONY</Data></Cell>
+    <Cell><Data ss:Type="String">WEAPON_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lights' Harmony</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RADIANT_FORCE</Data></Cell>
+    <Cell><Data ss:Type="String">WEAPON_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Radiant Force</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_FISTS</Data></Cell>
+    <Cell><Data ss:Type="String">WEAPON_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inferno Fists</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inferno Strike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A melee attack that unleashes the infernal power of a thousand suns.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_RAVAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inferno Claw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_RAVAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A melee attack that unleashes the infernal power of a thousand suns.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">METEOR_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Meteor Dash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">METEOR_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Lightbringer jumps towards target ground hex and lands heavily, dealing damage to adjacent units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assault Dash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ASSAULT_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Lightbringer jumps towards target ground hex and lands heavily, dealing damage to adjacent units and gaining {AssaultDashShields} for {AssaultDashTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BONECRUSHER_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bonecrusher Dash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BURNING_METEOR_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Burning Meteor Dash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">METEOR_SWOOP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Meteor Swoop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">METEOR_SWOOP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Lightbringer's Harrier swoops towards target ground hex, dealing damage to adjacent units. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNWAVERING_WILL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unwavering Will</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNWAVERING_WILL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This unit is immune to Psionic Status Effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LIGHT_BOLT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Light Bolt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LIGHT_BOLT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ranged Psionic attack.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAL_GUIDANCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Celestial Guidance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAL_GUIDANCE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Attacks have {CelestialAccuracy} accuracy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CELESTIAL_GUIDANCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target friendly unit receives [abilityblue]Guidance[/abilityblue], gaining {CelestialGuidanceAccuracy} accuracy and is considered [abilityblue]Enlightened[/abilityblue] until end of combat. If this ability targets an already Enlightened unit, they receive an additional {CelestialGuidanceMorale}.[br/]Does not work on Mindless units.</Data></Cell>
+   </Row>
+   <Row ss:Index="71" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">REGENERATIVE_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Regenerative Light</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">REGENERATIVE_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Target unit gains [abilityblue]Psionic Regeneration[/abilityblue], healing it for {RegenerativeLightHP} at the end of each turn for {RegenerativeLightDuration}. The unit is dispelled of all negative status effects when this ability is used.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BLINDING_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Blinding Light</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BLINDING_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Use starlight to attack in a {hexrad} hex radius.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECEIVING_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Deceiving Light</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECEIVING_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Use starlight to attack in a {hexrad} hex radius.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RADIANT_BLAST</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Radiant Blast </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RADIANT_BLAST</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Ranged Psionic attack.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PATH_OF_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Path of Light</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PATH_OF_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Ascended Teacher guides those who join them in battle along the Path of Light. All friendly units in the army gain [abilityblue]Enlightened[/abilityblue] and [abilityblue]Resurgence[/abilityblue].[br/]Doesn't work on Ascended Teachers and Mindless Units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_PRESENCE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Compelling Presence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_PRESENCE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Target enemy unit has a {strengthmindcontrol} strength chance to be [abilityred]Mind Controlled[/abilityred], increasing to a {strengthmindcontrolimprov} strength chance if the target is affected by [abilityred]Soulburn[/abilityred]. If they survive until end of combat, they are turned into a colonist. The [abilityred]Mind Control[/abilityred] ends when the caster is killed. If this ability fails, the unit takes {PsionicDamage} damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_PRESENCE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">An enemy unit has laid down their arms and joined one of your colonies.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CELESTIAL_RADIANCE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Celestial Radiance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CELESTIAL_RADIANCE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">A surge of pure Celestial light heals all Enlightened units for {RadianceHeal} Hit Points and revives friendly units in a {CelestialRadianceRadius} hex radius area. The healing will be stronger for each friendly Enlightened unit in the battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CELESTIAL_WRATH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Celestial Wrath</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CELESTIAL_WRATH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">A surge of Celestial Wrath courses down from the heavens, damaging all enemy units in a {CelestialWrathRadius} hex radius area. The damage will increase for each friendly Enlightened unit in the battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ENLIGHTENED_DAM_MODIFIER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Enlightened: Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ENLIGHTENED_DAM_MODIFIER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{EnlightenedDamageModifier} for each Enlightened unit in battle. Stacks up to 5 times.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ENLIGHTENED_HEAL_MODIFIER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Enlightened: Healing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ENLIGHTENED_HEAL_MODIFIER</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">{EnlightenedHealModifier} for each Enlightened unit in battle. Stacks up to 5 times.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CLEANSING_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Cleansing Light</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CLEANSING_LIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Target unit heals for {CleansingLightHP} and is dispelled of all negative status effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CLEANSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Cleanse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CLEANSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Target unit is dispelled of negative status effects and is healed for {CleanseHeal}. This heals for an additional {CleanseAddedHeal} for each [abilityblue]Enlightened[/abilityblue] unit in battle up to a maximum of {MaxCountUnit}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RESURGENCE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Resurgence </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RESURGENCE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Target unit gains [abilityblue]Regeneration[/abilityblue] for {Duration}[turn/], making it recover {HpRegen}[hp/] per turn. Additionally, this unit gains [abilityblue]Resurgence[/abilityblue] until the end of battle, returning to life with {ResurrectHp}% of its max [hp/] if it died but the battle was won.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NEGATE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Negate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NEGATE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">For {NegateTurns}, target friendly unit is immune to all damage, but they cannot move or use abilities during this time.  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NEGATE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION_MOD</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Unit is immune to all damage, but they cannot move or use abilities.  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SPIRIT_FLASH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Spirit Flash</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SPIRIT_FLASH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Target non-Mindless enemy's spirit flashes brightly, causing [abilityred]Soulburn[/abilityred] and [abilityred]High Impact Stagger[/abilityred] to itself and all enemy units in a 2 hex radius around it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">REPRIEVE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Area of Reprieve</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">REPRIEVE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Block all Tactical Operations and unit damaging abilities for {ReprieveTurns} combat turn. Enlightened units heal for {ReprieveHP}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BLESSING_OF_STARLIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Blessing of Starlight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BLESSING_OF_STARLIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Target friendly army or garrison heals to {BlessingofStarlightHP}. They also gain Stagger Resistance and {accuracy} accuracy until the end of their next battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BLESSING_OF_STARLIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Your army has been successfully blessed by Starlight. Their accuracy is increased and they have more stagger resistance until the end of their next battle. They have also recovered all their [hp/]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BLESSING_OF_STARLIGHT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_EFFECT</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Your army has been healed and gained a boost in accuracy and Stagger Resistance until the end of their next battle.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Soulfire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Target enemy army takes {SoulfireDam} damage and suffers [abilityred]Soulburn[/abilityred] if they engage in battle for {SoulfireTurn}. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Our Soulfire operation was successful - the enemy units in the targeted army suffered {SoulfireDamage} damage and are afflicted by [abilityRed]Soulburn[/abilityRed] for {SoulfireTurn}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Soulfire was partially resisted by the enemy army. The army's units took {SoulfireFailureDamage} damage, but they are not suffering from [abilityred]Soulburn[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">A Celestian Soulfire attack was launched against one of our armies! The army took {SoulfireDamage} and will be afflicted with [abilityred]Soulburn[/abilityred] whenever they enter battle during the next {SoulfireTurn}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">A Celestian Soulfire attack was launched against one of our armies. Luckily, it was detected before it could take full effect and the damage is minimized. The army took {SoulfireFailureDamage} but is otherwise unaffected.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">EFFECT_DAMAGE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Target army takes damage equal to {Damage} of their [hp/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">EFFECT_SOULBURN</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Target army suffers from [abilityred]Soulburn[/abilityred] for {turns}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SOULFIRE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION_FAIL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">On failure, the target takes {Damage} damage but is not afflicted with [abilityred]Soulburn[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Ward of Righteousness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Spawns a [abilityred]Veil of Tranquility[/abilityred] in the target sector. This hazard affects the economy and units in this sector. It also has a tactical combat effect in the sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">We successfully adjusted the trajectory of the comet and it crashed in the targeted sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our Psionics were incapable of changing the comet's trajectory. As a result of this, all of the Psionic energy used was released in the target sector, healing all units there.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The enemy has crashed a comet into a sector near some of our troops, making them waver in awe of the Celestian cause.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Celestians failed to pull a comet down towards the planetary surface. This resulted in a Psionic explosion that healed all units in the sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILTY_EFFECT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Celestian units healed to full.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VEIL_OF_TRANQUILITY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION_FAIL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">On failure, all units in the sector are fully healed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Futility of War </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Unwavering faith in the face of bloodshed discourages your enemies to engage in war. The targeted player cannot use any Casus Belli for {turns}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_EFFECT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The targeted player is unable to use any Casus Belli.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our missionaries report that our enemies are realizing the futility of fighting the Celestian Order and see no reason to attack us.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our missionaries have managed to discourage our enemies to go to war against us, but they are aware that we are behind this coercion.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our missionaries were unsuccessful in discouraging the populace from wanting to go to war against us. Our involvement remains hidden.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our missionaries were unsuccessful in discouraging the populace from wanting to go to war against us. Unfortunately, our involvement in this tactic has been revealed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our enemies have managed to talk our population out of wanting to go to war. We have sources on who was behind this. Surely this cannot go unanswered…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FUTILITY_OF_WAR</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our enemies tried to talk our population out of wanting to go to war but failed to do so. We have sources on who was behind this. Surely this cannot go unanswered…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sway Ideology </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Lowers the targeted player's standing with his most renowned faction by {FactionRelations} points and adds the same amount to your relation level with that faction.[br/][br/]On failure, both players receive {FailRelations} points.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our diplomats have successfully managed to sway the opinion of one of our enemy's allies, and have solidified their opinion of us at the same time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our diplomats have successfully managed to sway the opinion of one of our enemy's allies, and have solidified their opinion of us at the same time. Unfortunately, our involvement in this matter has been discovered.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Our diplomats were unsuccessful in swaying the opinion of one of our enemy's allies, and the resulting confusion ended up benefiting both sides. Our involvement in this matter was not discovered.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Our diplomats were unsuccessful in swaying the opinion of one of our enemy's allies, and the resulting confusion ended up benefiting both sides. Unfortunately, our involvement in this matter was discovered.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Enemy diplomats have been discovered poisoning the minds of our allies, and our relations with that ally have soured because of this. Our agents have managed to trace this nefarious act back to an enemy state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SWAY_IDEOLOGY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Enemy diplomats have been discovered poisoning the minds of our allies. However, our ties to this ally have proven strong and the enemy's words ended up helping our cause. Our agents have managed to trace this nefarious attempt back to an enemy state.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Sanctuary of the Stars</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Target owned colony cannot be targeted by harmful effects. Friendly armies within this colony's domain cannot be targeted by harmful operations, and enemies cannot use Tactical Operations within the colony's domain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Celestial Light shines upon our colony, spreading happiness and morale throughout its sectors.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SANCTUARY_OF_THE_STARS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_EFFECT</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Colony is now protected from other player ops and they cannot use tactical ops in this territory.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_CAUSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Compelling Cause </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_CAUSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Target an enemy colony and compel them to your cause. Summon two Tier 2 units from the target faction, spawning them adjacent to the enemy colony.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_CAUSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our missionaries have been successful in converting an enemy military unit to the Path of Light. They have fled the colony and are now under our control.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_CAUSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Our missionaries have been unsuccessful in trying to convert an enemy military unit. The attempt has caused civil unrest in the colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_CAUSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Enemy missionaries have converted one of our military units to join their cause. A unit has left the colony, appearing outside its walls as a new enemy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COMPELLING_CAUSE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Enemy missionaries have tried to convert one of our military units to join their cause. They were unsuccessful, but their attempt has caused civil unrest in the colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Light of Truth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Wash the entire planet in the Light of Truth, enlightening them to the Celestian way.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Non-Celestian units gain [abilityred]Soulburn[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Celestian units heal {LightHeal}[hp/] each [turn/] in combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COLONIST_STOLEN</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">A colonist from {STR_cityName} has deserted!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">COLONIST_ACQUIRED</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">An enemy colonist has converted and joined {STR_cityName}!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LIGHT_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Light of Truth rejuvenates this unit. They heal for {LightHeal}[hp/] at the start of each turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECLARATION_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Declaration of Truth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECLARATION_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Wash target non-Celestian enemy colony and its colonists in Psionically-enforced Truth for {INT_duration}. This increases in strength as you build more Beacons of Truth.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECLARATION_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">We succeeded transmitting the truth to their colony using our beacons.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECLARATION_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Something blocked us from enlightening the colonists to the truth.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECLARATION_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Our enemy succeeded in sending Psionic messages to our colonists claiming they know the &quot;truth&quot;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DECLARATION_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Our enemy failed their attempt to Psionically brainwash our colonists.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FINAL_REVELATION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Final Revelation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FINAL_REVELATION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Expose the entire planet to the revelations brought on by the Light of Truth, showing them the Celestian way.[br/][br/]Requires Declaration of Truth level 3.[br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FINAL_REVELATION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Light of Truth bathes the world in its warm embrace. Soon there will no war, no conflict, only peace, for everyone, forever.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BEACON_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Beacon of Truth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BEACON_OF_TRUTH</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The Beacon of Truth unlocks the Declaration of Truth Doomsday Weapon. Each additional Beacon of Truth that you build increases the level of the weapon, making it stronger.[br/][br/]Only one Beacon of Truth may be built per colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PSIONIC_REGENERATION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Psionic Regeneration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PSIONIC_REGENERATION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">This unit regenerates {RegenerativeLightHP} at the end of its turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TRUE_ASCENDENCY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">True Ascendancy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TRUE_ASCENDENCY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">The will of the Star manifests in ethereal form.[br/]Summons an Ascended Teacher under your command.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="177" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_INITIAL_NOTIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Victory Condition: Final Revelation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_CAPTURED</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">YOU</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">One of our Beacons of Truth has been captured!</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">YOU</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">You have lost a Beacon of truth!</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">{STR_Player} has lost a Beacon of Truth!</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">YOU</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">You have lost a Beacon of Truth. Our attempt at a Final Revelation has been foiled!</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">{STR_Player} has lost a Beacon of Truth. Their attempt at Final Revelation has been foiled!</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_INITIAL_TEXT</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">A Player has unleashed their Final Revelation!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_BUILT_01</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">By building a Beacon of Truth, {playerName} now has access to their Doomsday Weapon, the Final Revelation. It is weak now, but will become more powerful as more Beacons of Truth are constructed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_BUILT_02</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">By building a second Beacon of Truth, {playerName} has strengthened their Doomsday Weapon, the Final Revelation. You should plan raids to destroy these structures before they become too powerful.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_BUILT_03</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">By building their final Beacon of Truth, {playerName} has maximized the strength of their Doomsday Weapon, the Final Revelation. They are now close to being able to fully unleash it to win the game. The time to strike is now!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">The Doomsday Timer has been paused! You must reclaim the lost Beacon of Truth, or you will lose your chance at shining a light upon all and revealing the one and only Truth to them.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">The loss of a Beacon of Truth has canceled the Final Revelation, ending the Doomsday Timer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">The loss of a Beacon of Truth has weakened our Final Revelation, and your Doomsday operations have been canceled</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_FINISHER_CAST_TEXT</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Our enemies have activated their Doomsday Weapon! The Final Revelation has spread across the planet, and your own Doomsday Weapon has been wiped out by the cataclysm. You have {numTurns} to destroy one of their Beacons of Truth before they win the game.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">The Final Revelation is active, and you will win in {numTurns} unless you lose one of your Beacons of Truth.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">The Final Revelation is active, and {playerName} will win in {numTurns} unless you can destroy one of their Beacons of Truth.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A Beacon of Truth has been captured. If it is destroyed, our Doomsday timer will be canceled. If you recapture it, you will be able to resume the countdown.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A Beacon of Truth has been captured. If it is destroyed, the Doomsday timer will be canceled. If {playerName} recaptures it, then they will be able to resume the countdown.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CELESTIAN_EVENT_FINISHER_PRIMING</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">{playerName} is priming their Final Revelation Doomsday Weapon! If they are allowed to finish, your own Doomsday Weapon will be wiped out, and {playerName} will be but one step away from total victory.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="197" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CELESTIAN_END_GAME</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Can you feel it? Tangible peace.[br/]Can you hear it? Sweet harmony.[br/]Unified, they bury their weapons[br/]and cherish the differences of their fellows.[br/]Their jubilant dance celebrates a new age of enlightenment.[br/]The stars glimmer approvingly,[br/]beckoning for you to join them.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">VO: Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:Index="199" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Calm</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Serene</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Idyllic</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Balanced</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Peaceful</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_TRANQUILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Untroubled</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Condemning</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Repenting</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sorrow's Shield</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Guilt Cover</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reproaching</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_REMORSE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Shaming</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sparing</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Peacetouch</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Compassionate</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Wholesome</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Tending</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Curing</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Considerate</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Finetouch</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pacifier</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Calmsoul</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Peacemaker</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Alleviator</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Beacon of Serenity</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Soothing</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Icon of Faith</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Heavenshroud</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Saint's Wrath</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nemesis of Light</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Paladin</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Crusader</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Holy Champion</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_OF_RECKONING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Exodus</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s72"><Data ss:Type="String">Review</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>73</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>81</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

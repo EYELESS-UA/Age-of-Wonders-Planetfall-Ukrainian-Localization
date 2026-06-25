@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-12-12T13:08:08Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="21" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="119.25"/>
+   <Column ss:StyleID="s62" ss:Width="107.25"/>
+   <Column ss:StyleID="s62" ss:Width="350.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="293.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN_HERO_SKILLS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting&#10;&#10;EXAMPLE: &quot;Hero gains {PersonaAccDmg} increased damage and accuracy &quot; looks in-game like &quot;Hero gains +5 increased damage and accuracy&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SHAKARN_SKILL_GROUP</Data></Cell>
+    <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Hero Skill</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill tree header.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Domok Instructors</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero gains +{CriticalChance}% critical chance and +{Resistance} Resistance against Status Effects.[br/]Disables the option to gain the [abilityblue]Zardas Instructors[/abilityblue] hero skill.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Zardas Instructors</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This hero gains +{Evasion}% evasion and [abilityblue]Universal Camouflage[/abilityblue].[br/]Disables the option to gain the [abilityblue]Domok Instructors[/abilityblue] hero skill.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_3</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deadly Sight</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hero gains [abilityblue]Deadly Overwatch[/abilityblue], granting +{CriticalChance}% critical chance and +{Accuracy}% accuracy when using Overwatch.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Deadly Overwatch is the same ability found in the UnitProperties for the Shakarn.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_4</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quaking Shields</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_4</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enemies that attack this unit from within {HexRange} hexes have a {ReverbChance}[strengthPhysical/] strength chance of becoming inflicted with [abilityred]Concussion[/abilityred] for {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Call Insider</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use the Zardas channels to call upon a Sleeper Agent, which appears adjacent to you.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">You related to the player, may be male/female&#10;Zardas is a Shakarn caste&#10;Sleeper Agents and Infiltrators are Shakarn units.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_6</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Zardas Army Training</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERO_SKILL_6</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With Zardas training on its background, the hero uses its gama leadership skills to improve all units in its army.[br/]Non-Hero units gain +{Resistance} resistance against Status Effects and [abilityblue]Universal Camouflage[/abilityblue].[br/]Only functions when the hero is the army’s commander.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERO_SKILL_6</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This army's Hero leadership grants this unit +{Resistance} resistance to Status Effects as well as [abilityblue]Universal Camouflage[/abilityblue].</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Domok Army Training</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">With Domok training on its background, the hero uses its gama leadership skills to improve all units in its army.[br/]Non-Hero units gain +{Critical}% critical chance and +{HitPoints} max [HP/].[br/]Only functions when the hero is the army’s commander.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This army's Hero leadership grants this unit +{Critical}% critical chance and {HitPoints}[hp/].</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO_SKILL_8</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Insider's Insight</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
