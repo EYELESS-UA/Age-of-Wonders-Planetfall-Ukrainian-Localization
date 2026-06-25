@@ -66,13 +66,13 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">YOU</Data></Cell>
-    <Cell><Data ss:Type="String">You</Data></Cell>
+    <Cell><Data ss:Type="String">Ви</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">refering to the player. As in: you have won a battle</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">YOUR</Data></Cell>
-    <Cell><Data ss:Type="String">your</Data></Cell>
+    <Cell><Data ss:Type="String">Ви</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">as in: this is your colony</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -376,7 +376,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">COMBAT_RESULTS_EVENT</Data></Cell>
     <Cell><Data ss:Type="String">BATTLE_WON</Data></Cell>
-    <Cell><Data ss:Type="String">You have won a battle</Data></Cell>
+    <Cell><Data ss:Type="String">Ви виграли битву</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Displayed in the combat result screen</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -448,13 +448,13 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">MEET_PLAYER_EVENT</Data></Cell>
     <Cell><Data ss:Type="String">MEET_PLAYER</Data></Cell>
-    <Cell><Data ss:Type="String">You meet {STR_leaderName}</Data></Cell>
+    <Cell><Data ss:Type="String">Ви зустрічаєте {STR_leaderName}</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">as in: you meet player 3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">MEET_PLAYER_EVENT</Data></Cell>
     <Cell><Data ss:Type="String">MEET_NEUTRAL_PLAYER</Data></Cell>
-    <Cell><Data ss:Type="String">You meet</Data></Cell>
+    <Cell><Data ss:Type="String">Ви зустрічаєте</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">as in: you meet player 3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -544,7 +544,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ALL_TODO_EVENTS_HANDLED_EVENT</Data></Cell>
     <Cell><Data ss:Type="String">TODO_MESSAGE</Data></Cell>
-    <Cell><Data ss:Type="String">END TURN</Data></Cell>
+    <Cell><Data ss:Type="String">КІНЕЦЬ ХОДУ</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">notifies the player to end his turn </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -556,7 +556,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">CANCEL</Data></Cell>
-    <Cell><Data ss:Type="String">Cancel</Data></Cell>
+    <Cell><Data ss:Type="String">Скасувати</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">button text</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -574,13 +574,13 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">ACCEPT</Data></Cell>
-    <Cell><Data ss:Type="String">Accept</Data></Cell>
+    <Cell><Data ss:Type="String">Прийняти</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">button text</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">DONE</Data></Cell>
-    <Cell><Data ss:Type="String">Done</Data></Cell>
+    <Cell><Data ss:Type="String">Готово</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">button text</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -604,7 +604,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">FIGHT</Data></Cell>
-    <Cell><Data ss:Type="String">Fight</Data></Cell>
+    <Cell><Data ss:Type="String">Бій</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">button text</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -622,7 +622,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">ALL</Data></Cell>
-    <Cell><Data ss:Type="String">All</Data></Cell>
+    <Cell><Data ss:Type="String">Усі</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">used as filter to display ALL categories </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -634,7 +634,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">CAMPAIGNS</Data></Cell>
-    <Cell><Data ss:Type="String">Campaigns</Data></Cell>
+    <Cell><Data ss:Type="String">Кампанії</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">button text. Used for maps of the main story </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -906,7 +906,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">HUD_COMBAT</Data></Cell>
     <Cell><Data ss:Type="String">AUTO_COMBAT</Data></Cell>
-    <Cell><Data ss:Type="String">Auto Combat</Data></Cell>
+    <Cell><Data ss:Type="String">Авто бій</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">let the AI handle the combat</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -990,7 +990,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">HUD_MAPSETTINGS</Data></Cell>
     <Cell><Data ss:Type="String">TITLE</Data></Cell>
-    <Cell><Data ss:Type="String">MAP SETTINGS</Data></Cell>
+    <Cell><Data ss:Type="String">НАЛАШТУВАННЯ МАПИ</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">header title in a menu. Used for the settings of the map </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1002,7 +1002,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">HUD_MAPSETTINGS</Data></Cell>
     <Cell><Data ss:Type="String">MINIMAP</Data></Cell>
-    <Cell><Data ss:Type="String">Mini Map</Data></Cell>
+    <Cell><Data ss:Type="String">Міні мапи</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">map setting header on how the mini map should be displayed</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1020,7 +1020,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">HUD_MAPSETTINGS</Data></Cell>
     <Cell><Data ss:Type="String">CITIES</Data></Cell>
-    <Cell><Data ss:Type="String">Cities</Data></Cell>
+    <Cell><Data ss:Type="String">Міста</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">map setting header on how colonies should be generated</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1056,7 +1056,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">HUD_OVERVIEWPANEL</Data></Cell>
     <Cell><Data ss:Type="String">LEVEL</Data></Cell>
-    <Cell><Data ss:Type="String">Level</Data></Cell>
+    <Cell><Data ss:Type="String">Рівень</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">as in: level of a unit</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1151,7 +1151,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">END_GAME</Data></Cell>
     <Cell><Data ss:Type="String">CONTINUE</Data></Cell>
-    <Cell><Data ss:Type="String">Continue</Data></Cell>
+    <Cell><Data ss:Type="String">Продовжити</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">button text</Data></Cell>
     <Cell><Data ss:Type="String">TEndGameDefaultHS::Refresh</Data></Cell>
    </Row>
@@ -1236,7 +1236,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">FE_TITLE</Data></Cell>
     <Cell><Data ss:Type="String">TITLE</Data></Cell>
-    <Cell><Data ss:Type="String">Welcome, {STR_playerName}!</Data></Cell>
+    <Cell><Data ss:Type="String">Ласкаво просимо, {STR_playerName}!</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">used to welkom the player, {STR_playerName}! = the name of the okayer who signed in </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1360,7 +1360,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">LEVEL</Data></Cell>
-    <Cell><Data ss:Type="String">Level: {INT_level}</Data></Cell>
+    <Cell><Data ss:Type="String">Рівень: {INT_level}</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">as in: the level of a unit     {INT_level} = numerical value for the level of the unit </Data></Cell>
     <Cell><Data ss:Type="String">RetrieveUnitPopupString</Data></Cell>
    </Row>
@@ -1409,7 +1409,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">END_TURN</Data></Cell>
-    <Cell><Data ss:Type="String">End Turn</Data></Cell>
+    <Cell><Data ss:Type="String">Кінець ходу</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">end game turn </Data></Cell>
     <Cell><Data ss:Type="String"> TMainButtonPanelController_T::UpdateMainCombatPanel</Data></Cell>
    </Row>
@@ -1509,7 +1509,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">GAME_CONCEPTS</Data></Cell>
-    <Cell><Data ss:Type="String">Game Concepts</Data></Cell>
+    <Cell><Data ss:Type="String">Концепції гри</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">as in: the core concepts of the game </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1556,18 +1556,18 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">LOADING</Data></Cell>
-    <Cell><Data ss:Type="String">Loading...</Data></Cell>
+    <Cell><Data ss:Type="String">Завантаження...</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">as in: the game is loading.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">CONTINUE_CAMPAIGN</Data></Cell>
-    <Cell><Data ss:Type="String">Continue Campaign</Data></Cell>
+    <Cell><Data ss:Type="String">Продовжити кампанію</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell><Data ss:Type="String">EXIT_GAME</Data></Cell>
-    <Cell><Data ss:Type="String">Exit Game</Data></Cell>
+    <Cell><Data ss:Type="String">Вихід з гри</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">MOVEMENT</Data></Cell>
@@ -1639,13 +1639,13 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">RESOURCE_ITEM</Data></Cell>
     <Cell><Data ss:Type="String">ENERGY</Data></Cell>
-    <Cell><Data ss:Type="String">[energy/] Energy</Data></Cell>
+    <Cell><Data ss:Type="String">[energy/] Енергія</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">used in trade screen as in:   Icon Energy Energy</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">RESOURCE_ITEM</Data></Cell>
     <Cell><Data ss:Type="String">ENERGY_PER_TURN</Data></Cell>
-    <Cell><Data ss:Type="String">[energy/] Energy per turn</Data></Cell>
+    <Cell><Data ss:Type="String">[energy/] Енергія за хід</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">RESOURCE_ITEM</Data></Cell>
@@ -6529,7 +6529,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">CONTINUE</Data></Cell>
-    <Cell><Data ss:Type="String">Continue</Data></Cell>
+    <Cell><Data ss:Type="String">Продовжити</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Text showed on dialog buttons</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
